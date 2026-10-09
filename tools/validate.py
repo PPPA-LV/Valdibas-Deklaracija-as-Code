@@ -1,6 +1,6 @@
 """Pārbaudītājs: XSD + identifikatoru noteikumi + saites starp datnēm + kārtības ruļļa noteikumi.
 
-  python3 tools/validate.py [mape ar XML datnēm]      (noklusējums: examples/)
+  python3 tools/validate.py [mape ar XML datnēm]      (noklusējums: data/)
 
 Ziņo: E = kļūda (izejas kods 1), W = brīdinājums, I = informācija.
 """
@@ -37,6 +37,7 @@ def load(folder):
         sc = etree.XMLSchema(etree.parse(os.path.join(ROOT, "schemas", SCHEMAS[name])))
         if not sc.validate(t):
             for e in sc.error_log: rep("E", f, f"XSD {e.line}: {e.message}")
+        if name in ("GovernmentDeclaration", "GovernmentActionPlan") and f != root.get("id") + ".xml": rep("E", f, f"datnes nosaukumam jābūt {root.get('id')}.xml (identifikators)")
         docs[name].append((f, root))
     return docs
 
@@ -183,4 +184,4 @@ def main(folder):
 
 
 if __name__ == "__main__":
-    sys.exit(main(sys.argv[1] if len(sys.argv) > 1 else os.path.join(ROOT, "examples")))
+    sys.exit(main(sys.argv[1] if len(sys.argv) > 1 else os.path.join(ROOT, "data")))

@@ -27,36 +27,51 @@ Deklarācijas formātu neviens normatīvais akts nenosaka. Kārtības rullis par
 
 ## Saturs
 
+### Dati (`data/`) — autoritatīvās datnes
+
+Datnes nosaukums ir objekta identifikators.
+
+| Datne | Saturs |
+|---|---|
+| `data/lv-dekl-2026-05-28.xml` | Deklarācija par Andra Kulberga vadītā Ministru kabineta iecerēto darbību (28.05.2026): viss teksts, 11 sadaļas, 52 uzdevumi |
+| `data/lv-mk-2026-05-28.rp.xml` | Valdības rīcības plāns tās īstenošanai (MK rīkojums Nr. 449, 27.07.2026): 185 pasākumi 52 uzdevumiem, teksts burtiski no likumi.lv; atbildīgās institūcijas ar CaC ID |
+| `data/organizacijas.xml` | Valsts institūciju reģistrs (CaC ID): 165 valsts budžeta iestādes un 16 citas institūcijas un grupas; uzturētājs — Valsts kanceleja |
+| `data/valdibas.xml` | Valdību reģistrs: piecas valdības (2016–2026) |
+
+### Shēmas (`schemas/`)
+
+| Datne | Saturs |
+|---|---|
+| `schemas/valdibas-deklaracija-0.2.xsd` | Deklarācija |
+| `schemas/valdibas-deklaracijas-ricibas-plans-0.2.xsd` | Valdības deklarācijas rīcības plāns: pasākumi, rezultāti, atbildīgie, termiņi, izpildes gaita; katrs pasākums norāda deklarācijas uzdevumu |
+| `schemas/organizaciju-registrs-0.2.xsd` | Organizāciju reģistrs: CaC ID (`SS-IIII`; ministrija — `SS-0000`), reģistrācijas numurs, nosaukums, saīsinājumi, augstākā institūcija |
+| `schemas/cac-valdiba-kopejie-0.2.xsd` | Kopīgie tipi (identifikatori, datumi) un valdību reģistrs |
+
+### Rīki, dokumentācija, avoti
+
 | Mape / datne | Saturs |
 |---|---|
-| `schemas/cac-valdiba-kopejie-0.2.xsd` | Kopīgie tipi (identifikatori, organizācijas, termiņi) un valdību reģistrs |
-| `schemas/valdibas-deklaracija-0.2.xsd` | Deklarācijas teksts |
-| `schemas/valdibas-deklaracijas-ricibas-plans-0.2.xsd` | Valdības deklarācijas rīcības plāns: pasākumi, rezultāti, atbildīgie, termiņi, izpildes gaita; katrs pasākums norāda deklarācijas uzdevumu |
 | `docs/IDENTIFIKATORI.md` | Identifikatoru veidošanas noteikumi |
-| `examples/valdibas.xml` | Piecas valdības (2016–2026) |
-| `schemas/organizaciju-registrs-0.2.xsd` | Organizāciju reģistrs: institūcijas identifikators (`SS-IIII`: resors + institūcija, ministrija — `SS-0000`), reģistrācijas numurs, nosaukums, saīsinājumi, resors, augstākā iestāde; uztur Valsts kanceleja |
-| `examples/organizacijas.xml` | 165 valsts budžeta iestādes (VDVC reģistrs, Valsts kases saraksts 01.09.2023) un 16 citas institūcijas un grupas no MK rīkojuma Nr. 449 (resori 00, 90–93) |
-| `tools/organizacijas_no_vdvc.py` | Izveido organizāciju reģistru no VDVC reģistra (`source/organizacijas/`) |
-| `examples/lv-dekl-2026-05-28.xml` | A. Kulberga valdības deklarācija, viss teksts, 11 sadaļas, 52 uzdevumi; identifikatori tikai sadaļām un uzdevumiem |
-| `examples/lv-mk-2026-05-28.rp.xml` | Valdības rīcības plāns (MK rīkojums Nr. 449, 27.07.2026): 185 pasākumi 52 uzdevumiem, teksts burtiski no likumi.lv |
-| `source/ricibas-plans/` | Rīkojuma Nr. 449 avoti: likumi.lv lapa (.mhtml) un PDF |
-| `tools/ricibas_plans_no_likumi.py` | Pārveido rīcības plānu no likumi.lv lapas uz XML un salīdzina plāna ailes 1–3 ar deklarāciju |
-| `editor/Valdibas_deklaracijas_datukopa.html` | Redaktors vienā HTML datnē: valdības deklarācija (lasīšana, rediģēšana), rīcības plāns — pasākumi pie katra uzdevuma ar CaC ID, institūciju reģistrs („Organizācijas”); projekts, shēmas, apraksts („Par”); eksportē XML v0.2 un Word |
-| `source/pdf/` | Avota PDF |
-| `source/v0.1/` | Iepriekšējā (v0.1) shēma un dati, no kuriem veidoti piemēri |
-| `tools/ids.py` | Identifikatoru veidošana |
-| `tools/validate.py` | Pārbaude: XSD, identifikatori, saites starp datnēm, kārtības ruļļa 18. un 20. punkts, termiņi |
+| `tools/validate.py` | Pārbaude: XSD, datņu nosaukumi, identifikatori, saites starp datnēm, kārtības ruļļa 18. un 20. punkts, termiņi |
 | `tools/test_validate.py` | Negatīvie testi pārbaudītājam |
+| `tools/ricibas_plans_no_likumi.py` | Pārveido rīcības plānu no likumi.lv lapas uz XML un salīdzina plāna ailes 1–3 ar deklarāciju |
+| `tools/organizacijas_no_vdvc.py` | Izveido organizāciju reģistru no VDVC reģistra un Valsts kases saraksta |
+| `tools/ids.py` | Identifikatoru veidošana |
+| `editor/Valdibas_deklaracijas_datukopa.html` | Redaktors vienā HTML datnē: valdības deklarācija (lasīšana, rediģēšana), rīcības plāns ar CaC ID, institūciju reģistrs, jaunas deklarācijas projekts, shēmas, apraksts; eksportē XML un Word |
+| `source/pdf/` | Deklarācijas avota PDF |
+| `source/ricibas-plans/` | MK rīkojuma Nr. 449 avoti: likumi.lv lapa (.mhtml) un PDF |
+| `source/organizacijas/` | VDVC reģistrs un Valsts kases „Valsts budžeta iestāžu saraksts” (01.09.2023) |
+| `source/v0.1/` | Iepriekšējā (v0.1) shēma un dati |
 
 ## Pārbaude
 
 ```
 pip install lxml
-python3 tools/validate.py            # examples/
+python3 tools/validate.py            # data/
 python3 tools/test_validate.py
 ```
 
-Pārbaudītājs ziņo `E` (kļūda), `W` (brīdinājums), `I` (informācija). Pašreizējie piemēri: 0 kļūdas, 1 brīdinājums — 10 deklarācijas uzdevumiem rīcības plānā ir vairāk nekā pieci pasākumi (kārtības ruļļa 18. punkts).
+Pārbaudītājs ziņo `E` (kļūda), `W` (brīdinājums), `I` (informācija). Pašreizējie dati: 0 kļūdas, 1 brīdinājums — 10 deklarācijas uzdevumiem rīcības plānā ir vairāk nekā pieci pasākumi (kārtības ruļļa 18. punkts).
 
 ## Ko shēma nodrošina
 

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Valdību reģistrs (datu noliktavas dimensijas). Identifikatori: docs/IDENTIFIKATORI.md -->
+<!-- Valdību reģistrs. Identifikatori: docs/IDENTIFIKATORI.md -->
 <GovernmentRegistry xmlns="urn:pppa:cac:valdiba:0.2" schemaVersion="0.2" dataVersion="1" date="2026-10-09">
   <Government id="lv-mk-2016-02-11">
     <Label>Māra Kučinska vadītais Ministru kabinets</Label>

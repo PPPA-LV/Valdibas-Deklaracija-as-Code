@@ -1,6 +1,6 @@
 """Pārveido Valdības rīcības plānu no likumi.lv lapas (saglabāta kā .mhtml vai .html) uz XML (valdibas-deklaracijas-ricibas-plans-0.2.xsd).
 
-  python3 tools/ricibas_plans_no_likumi.py <lapa.mhtml> <deklaracija.xml> <organizacijas.xml> <izvade.xml>
+  python3 tools/ricibas_plans_no_likumi.py source/ricibas-plans/likumi_lv_369925.mhtml data/lv-dekl-2026-05-28.xml data/organizacijas.xml data/lv-mk-2026-05-28.rp.xml
 
 likumi.lv lapā ir četras tabulas: 0 — viss plāns; 1 — rīkojuma 1. pielikums (finansējums rasts);
 2 — 2. pielikums (nepieciešams papildu finansējums); 3 — prioritārie pasākumi.

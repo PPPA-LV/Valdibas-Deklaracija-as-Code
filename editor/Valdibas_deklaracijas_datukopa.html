@@ -704,7 +704,7 @@ body.m-org .canvas{max-width:980px}
 </xs:schema>
 </script>
 <script type="text/xml" id="registrySrc"><?xml version="1.0" encoding="UTF-8"?>
-<!-- Valdību reģistrs (datu noliktavas dimensijas). Identifikatori: docs/IDENTIFIKATORI.md -->
+<!-- Valdību reģistrs. Identifikatori: docs/IDENTIFIKATORI.md -->
 <GovernmentRegistry xmlns="urn:pppa:cac:valdiba:0.2" schemaVersion="0.2" dataVersion="1" date="2026-10-09">
   <Government id="lv-mk-2016-02-11">
     <Label>Māra Kučinska vadītais Ministru kabinets</Label>
@@ -4393,7 +4393,7 @@ async function schemaZip(){
   const z = new JSZip();
   z.file("schemas/cac-valdiba-kopejie-0.2.xsd", XSD_COMMON); z.file("schemas/valdibas-deklaracija-0.2.xsd", XSD_DECL);
   z.file("schemas/valdibas-deklaracijas-ricibas-plans-0.2.xsd", XSD_PLAN);
-  z.file("docs/IDENTIFIKATORI.md", IDS_MD); z.file("examples/valdibas.xml", REGISTRY); z.file("schemas/organizaciju-registrs-0.2.xsd", XSD_ORG); z.file("examples/organizacijas.xml", ORG_SRC);
+  z.file("docs/IDENTIFIKATORI.md", IDS_MD); z.file("data/valdibas.xml", REGISTRY); z.file("schemas/organizaciju-registrs-0.2.xsd", XSD_ORG); z.file("data/organizacijas.xml", ORG_SRC);
   downloadBlob("valdibas-deklaracija-shemas-0.2.zip", await z.generateAsync({type:"blob"})); toast("Shēmas lejupielādētas");
 }
 

@@ -5,7 +5,7 @@
 import os, re, shutil, subprocess, sys, tempfile
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-EX = os.path.join(ROOT, "examples")
+EX = os.path.join(ROOT, "data")
 
 CASES = [
     ("pasākums neesošam uzdevumam", "lv-mk-2026-05-28.rp.xml", 'id="lv-mk-2026-05-28.rp.u014.p1" number="14.1." task="lv-dekl-2026-05-28.u014"', 'id="lv-mk-2026-05-28.rp.u099.p1" number="99.1." task="lv-dekl-2026-05-28.u099"', "uzdevums 99 deklarācijā nav"),
@@ -27,7 +27,7 @@ def run(folder):
 
 def main():
     base = run(EX)
-    ok = base.returncode == 0; print(("PASS" if ok else "FAIL") + "  piemēri ir derīgi")
+    ok = base.returncode == 0; print(("PASS" if ok else "FAIL") + "  dati ir derīgi")
     for name, fname, old, new, expect in CASES:
         d = tempfile.mkdtemp()
         for f in os.listdir(EX): shutil.copy(os.path.join(EX, f), d)

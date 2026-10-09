@@ -1,6 +1,6 @@
 """Izveido organizāciju reģistru (organizaciju-registrs-0.2.xsd) no VDVC reģistra (vdvc-register.xml).
 
-  python3 tools/organizacijas_no_vdvc.py source/organizacijas/vdvc-register.xml examples/organizacijas.xml
+  python3 tools/organizacijas_no_vdvc.py source/organizacijas/vdvc-register.xml data/organizacijas.xml
 
 Avots — Valsts kases „Valsts budžeta iestāžu saraksts” (01.09.2023; iestades_PAS_VBI_01092023.pdf): iestādes kods (ePlāni un eTāmes),
 nodokļu maksātāja reģistrācijas numurs, nosaukums, ministrijas kods (budžeta resors saskaņā ar gadskārtējo valsts budžeta likumu).
