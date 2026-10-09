@@ -1,0 +1,821 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OrganizationRegistry xmlns="urn:pppa:cac:valdiba:0.2" schemaVersion="0.2">
+  <Metadata>
+    <Title>Valsts institūciju reģistrs</Title>
+    <Keeper>03-0000</Keeper>
+    <Source>
+      <FileName>vdvc-register.xml</FileName>
+      <SHA256>1004bc7c4ff1c2396d0b87d37c1da8a7129825e433a0970b7e96943a72fa07a6</SHA256>
+    </Source>
+    <Source>
+      <FileName>iestades_PAS_VBI_01092023.pdf</FileName>
+      <SHA256>caf4efe3d2a7a92d6a3bfe503d8998243fb3c5708d110e80a7da1ddfb9124dec</SHA256>
+    </Source>
+    <DataVersion number="1" date="2026-10-10">
+      <Change>Izveidots no VDVC reģistra un Valsts kases „Valsts budžeta iestāžu saraksta” (01.09.2023): 165 valsts budžeta iestādes; 10 atgūtas no sapludinātām avota rindām; 2 budžeta maksājumu konti nav iekļauti.</Change>
+      <Change>Identifikatori SS-IIII; resora vadošā institūcija SS-0000; Valsts kases 2023. gada kodi — BudgetCode.</Change>
+      <Change>Pievienotas 16 institūcijas un grupas, kas minētas MK rīkojumā Nr. 449 un nav valsts budžeta iestādes (resori 00, 90–93); reģistrācijas numuri jāpapildina.</Change>
+      <Change>Nosaukumi valsts budžeta iestādēm — kā avotā (lielajiem burtiem).</Change>
+    </DataVersion>
+  </Metadata>
+  <Sector code="00">Amati un institūciju grupas</Sector>
+  <Sector code="01">Valsts prezidenta kanceleja</Sector>
+  <Sector code="02">Saeima</Sector>
+  <Sector code="03">Ministru kabinets</Sector>
+  <Sector code="04">Korupcijas novēršanas un apkarošanas birojs</Sector>
+  <Sector code="05">Tiesībsarga birojs</Sector>
+  <Sector code="08">Sabiedrības integrācijas fonds</Sector>
+  <Sector code="09">Sabiedrisko pakalpojumu regulēšanas komisija</Sector>
+  <Sector code="10">Aizsardzības ministrija</Sector>
+  <Sector code="11">Ārlietu ministrija</Sector>
+  <Sector code="12">Ekonomikas ministrija</Sector>
+  <Sector code="13">Finanšu ministrija</Sector>
+  <Sector code="14">Iekšlietu ministrija</Sector>
+  <Sector code="15">Izglītības un zinātnes ministrija</Sector>
+  <Sector code="16">Zemkopības ministrija</Sector>
+  <Sector code="17">Satiksmes ministrija</Sector>
+  <Sector code="18">Labklājības ministrija</Sector>
+  <Sector code="19">Tieslietu ministrija</Sector>
+  <Sector code="20">Klimata un enerģētikas ministrija</Sector>
+  <Sector code="21">Viedās administrācijas un reģionālās attīstības ministrija</Sector>
+  <Sector code="22">Kultūras ministrija</Sector>
+  <Sector code="24">Valsts kontrole</Sector>
+  <Sector code="28">Augstākā tiesa</Sector>
+  <Sector code="29">Veselības ministrija</Sector>
+  <Sector code="30">Satversmes tiesa</Sector>
+  <Sector code="32">Prokuratūra</Sector>
+  <Sector code="35">Centrālā vēlēšanu komisija</Sector>
+  <Sector code="46">Sabiedrisko elektronisko plašsaziņas līdzekļu padome</Sector>
+  <Sector code="47">Nacionālā elektronisko plašsaziņas līdzekļu padome</Sector>
+  <Sector code="90">Pašvaldības</Sector>
+  <Sector code="91">Valsts kapitālsabiedrības</Sector>
+  <Sector code="92">Atvasinātas publiskas personas</Sector>
+  <Sector code="93">Biedrības un sociālie partneri</Sector>
+  <Organization id="01-0000" regNo="90000038578" kind="independent">
+    <Name>LATVIJAS VALSTS PREZIDENTA KANCELEJA</Name>
+    <BudgetCode year="2023">0001</BudgetCode>
+  </Organization>
+  <Organization id="02-0000" regNo="90000028300" kind="independent">
+    <Name>LATVIJAS REPUBLIKAS SAEIMA</Name>
+    <BudgetCode year="2023">0002</BudgetCode>
+  </Organization>
+  <Organization id="03-0000" regNo="90000055313" kind="pm-institution">
+    <Name>VALSTS KANCELEJA</Name>
+    <Abbreviation>VK</Abbreviation>
+    <BudgetCode year="2023">0004</BudgetCode>
+  </Organization>
+  <Organization id="03-0006" regNo="90000028156" kind="subordinate" parent="03-0000">
+    <Name>VALSTS ADMINISTRĀCIJAS SKOLA</Name>
+    <BudgetCode year="2023">0006</BudgetCode>
+  </Organization>
+  <Organization id="04-0000" regNo="90001427791" kind="independent">
+    <Name>KORUPCIJAS NOVĒRŠANAS UN APKAROŠANAS BIROJS</Name>
+    <Abbreviation>KNAB</Abbreviation>
+    <BudgetCode year="2023">0007</BudgetCode>
+  </Organization>
+  <Organization id="05-0000" regNo="90000055101" kind="independent">
+    <Name>LATVIJAS REPUBLIKAS TIESĪBSARGA BIROJS</Name>
+    <BudgetCode year="2023">0008</BudgetCode>
+  </Organization>
+  <Organization id="08-0000" regNo="90001237779" kind="independent">
+    <Name>SABIEDRĪBAS INTEGRĀCIJAS FONDS</Name>
+    <Abbreviation>SIF</Abbreviation>
+    <BudgetCode year="2023">0622</BudgetCode>
+  </Organization>
+  <Organization id="09-0000" regNo="90001162258" kind="independent">
+    <Name>SABIEDRISKO PAKALPOJUMU REGULĒŠANAS KOMISIJA</Name>
+    <Abbreviation>SPRK</Abbreviation>
+    <BudgetCode year="2023">0640</BudgetCode>
+  </Organization>
+  <Organization id="10-0000" regNo="90000022632" kind="ministry">
+    <Name>AIZSARDZĪBAS MINISTRIJA</Name>
+    <Abbreviation>AizM</Abbreviation>
+    <BudgetCode year="2023">0011</BudgetCode>
+  </Organization>
+  <Organization id="10-0017" regNo="90000020203" kind="subordinate" parent="10-0000">
+    <Name>LATVIJAS KARA MUZEJS</Name>
+    <BudgetCode year="2023">0017</BudgetCode>
+  </Organization>
+  <Organization id="10-0020" regNo="90000084929" kind="subordinate" parent="10-0000">
+    <Name>MILITĀRĀS IZLŪKOŠANAS UN DROŠĪBAS DIENESTS</Name>
+    <BudgetCode year="2023">0020</BudgetCode>
+  </Organization>
+  <Organization id="10-0021" regNo="90000481930" kind="subordinate" parent="10-0000">
+    <Name>NACIONĀLO BRUŅOTO SPĒKU MILITĀRĀ POLICIJA</Name>
+    <BudgetCode year="2023">0021</BudgetCode>
+  </Organization>
+  <Organization id="10-0022" regNo="90001259776" kind="subordinate" parent="10-0000">
+    <Name>LATVIJAS REPUBLIKAS AIZSARDZĪBAS MINISTRIJAS NACIONĀLO BRUŅOTO SPĒKU NODROŠINĀJUMA PAVĒLNIECĪBA</Name>
+    <BudgetCode year="2023">0022</BudgetCode>
+  </Organization>
+  <Organization id="10-0027" regNo="90000068801" kind="subordinate" parent="10-0000">
+    <Name>LR AIZSARDZĪBAS MINISTRIJAS NACIONĀLO BRUŅOTO SPĒKU APVIENOTAIS ŠTĀBS</Name>
+    <BudgetCode year="2023">0027</BudgetCode>
+  </Organization>
+  <Organization id="10-0029" regNo="90002056972" kind="subordinate" parent="10-0000">
+    <Name>NACIONĀLO BRUŅOTO SPĒKU MĀCĪBU VADĪBAS PAVĒLNIECĪBAS ŠTĀBS</Name>
+    <BudgetCode year="2023">0029</BudgetCode>
+  </Organization>
+  <Organization id="10-0031" regNo="90000294774" kind="subordinate" parent="10-0000">
+    <Name>NACIONĀLO BRUŅOTO SPĒKU NODROŠINĀJUMA PAVĒLNIECĪBAS 1. REĢIONĀLAIS NODROŠINĀJUMA CENTRS10 S130120 003290000056893LATVIJAS REPUBLIKAS AIZSARDZĪBAS MINISTRIJAS NACIONĀLO BRUŅOTO SPĒKU NODROŠINĀJUMA PAVĒLNIECĪBAS 3.REĢIONĀLAIS NODROŠINĀJUMA CENTRS</Name>
+    <BudgetCode year="2023">0031</BudgetCode>
+  </Organization>
+  <Organization id="10-0032" regNo="90000056893" kind="subordinate" parent="10-0000">
+    <Name>LATVIJAS REPUBLIKAS AIZSARDZĪBAS MINISTRIJAS NACIONĀLO BRUŅOTO SPĒKU NODROŠINĀJUMA PAVĒLNIECĪBAS 3.REĢIONĀLAIS NODROŠINĀJUMA CENTRS</Name>
+    <BudgetCode year="2023">0032</BudgetCode>
+  </Organization>
+  <Organization id="10-0033" regNo="90002065000" kind="subordinate" parent="10-0000">
+    <Name>LATVIJAS ĢEOTELPISKĀS INFORMĀCIJAS AĢENTŪRA</Name>
+    <BudgetCode year="2023">0033</BudgetCode>
+  </Organization>
+  <Organization id="10-0035" regNo="90000040549" kind="subordinate" parent="10-0000">
+    <Name>ZEMESSARDZES ŠTĀBS</Name>
+    <BudgetCode year="2023">0035</BudgetCode>
+  </Organization>
+  <Organization id="10-0656" regNo="90009225180" kind="subordinate" parent="10-0000">
+    <Name>VALSTS AIZSARDZĪBAS MILITĀRO OBJEKTU UN IEPIRKUMU CENTRS</Name>
+    <BudgetCode year="2023">0656</BudgetCode>
+  </Organization>
+  <Organization id="10-0657" regNo="90009222536" kind="subordinate" parent="10-0000">
+    <Name>JAUNSARDZES CENTRS</Name>
+    <BudgetCode year="2023">0657</BudgetCode>
+  </Organization>
+  <Organization id="10-0659" regNo="90009227961" kind="subordinate" parent="10-0000">
+    <Name>LR AIZSARDZĪBAS MINISTRIJAS NACIONĀLO BRUŅOTO SPĒKU NODROŠINĀJUMA PAVĒLNIECĪBAS 2.REĢIONĀLAIS NODROŠINĀJUMA CENTRS</Name>
+    <BudgetCode year="2023">0659</BudgetCode>
+  </Organization>
+  <Organization id="10-0695" regNo="40900035122" kind="subordinate" parent="10-0000">
+    <Name>VALSTS AIZSARDZĪBAS LOĢISTIKAS UN IEPIRKUMU CENTRS</Name>
+    <BudgetCode year="2023">0695</BudgetCode>
+  </Organization>
+  <Organization id="10-0696" regNo="40900036043" kind="subordinate" parent="10-0000">
+    <Name>PULKVEŽA OSKARA KALPAKA PROFESIONĀLĀ VIDUSSKOLA</Name>
+    <BudgetCode year="2023">0696</BudgetCode>
+  </Organization>
+  <Organization id="11-0000" regNo="90000069065" kind="ministry">
+    <Name>ĀRLIETU MINISTRIJA</Name>
+    <Abbreviation>ĀM</Abbreviation>
+    <BudgetCode year="2023">0036</BudgetCode>
+  </Organization>
+  <Organization id="12-0000" regNo="90000086008" kind="ministry">
+    <Name>EKONOMIKAS MINISTRIJA</Name>
+    <Abbreviation>EM</Abbreviation>
+    <BudgetCode year="2023">0038</BudgetCode>
+  </Organization>
+  <Organization id="12-0039" regNo="90000069830" kind="subordinate" parent="12-0000">
+    <Name>CENTRĀLĀ STATISTIKAS PĀRVALDE</Name>
+    <Abbreviation>CSP</Abbreviation>
+    <BudgetCode year="2023">0039</BudgetCode>
+  </Organization>
+  <Organization id="12-0040" regNo="90000433377" kind="subordinate" parent="12-0000">
+    <Name>KONKURENCES PADOME</Name>
+    <Abbreviation>KP</Abbreviation>
+    <BudgetCode year="2023">0040</BudgetCode>
+  </Organization>
+  <Organization id="12-0042" regNo="90000068854" kind="subordinate" parent="12-0000">
+    <Name>PATĒRĒTĀJU TIESĪBU AIZSARDZĪBAS CENTRS</Name>
+    <Abbreviation>PTAC</Abbreviation>
+    <BudgetCode year="2023">0042</BudgetCode>
+  </Organization>
+  <Organization id="12-0045" regNo="90001739473" kind="subordinate" parent="12-0000">
+    <Name>LATVIJAS INVESTĪCIJU UN ATTĪSTĪBAS AĢENTŪRA</Name>
+    <Abbreviation>LIAA</Abbreviation>
+    <BudgetCode year="2023">0045</BudgetCode>
+  </Organization>
+  <Organization id="12-0686" regNo="90010386959" kind="subordinate" parent="12-0000">
+    <Name>BŪVNIECĪBAS VALSTS KONTROLES BIROJS</Name>
+    <BudgetCode year="2023">0686</BudgetCode>
+  </Organization>
+  <Organization id="13-0000" regNo="90000014724" kind="ministry">
+    <Name>FINANŠU MINISTRIJA</Name>
+    <Abbreviation>FM</Abbreviation>
+    <BudgetCode year="2023">0050</BudgetCode>
+  </Organization>
+  <Organization id="13-0051" regNo="90000597275" kind="subordinate" parent="13-0000">
+    <Name>VALSTS KASE</Name>
+    <BudgetCode year="2023">0051</BudgetCode>
+  </Organization>
+  <Organization id="13-0052" regNo="90000812928" kind="subordinate" parent="13-0000">
+    <Name>CENTRĀLĀ FINANŠU UN LĪGUMU AĢENTŪRA</Name>
+    <Abbreviation>CFLA</Abbreviation>
+    <BudgetCode year="2023">0052</BudgetCode>
+  </Organization>
+  <Organization id="13-0053" regNo="90001263305" kind="subordinate" parent="13-0000">
+    <Name>IEPIRKUMU UZRAUDZĪBAS BIROJS</Name>
+    <Abbreviation>IUB</Abbreviation>
+    <BudgetCode year="2023">0053</BudgetCode>
+  </Organization>
+  <Organization id="13-0054" regNo="90000425793" kind="subordinate" parent="13-0000">
+    <Name>IZLOŽU UN AZARTSPĒĻU UZRAUDZĪBAS INSPEKCIJA</Name>
+    <BudgetCode year="2023">0054</BudgetCode>
+  </Organization>
+  <Organization id="13-0056" regNo="90000069281" kind="subordinate" parent="13-0000">
+    <Name>VALSTS IEŅĒMUMU DIENESTS</Name>
+    <Abbreviation>VID</Abbreviation>
+    <BudgetCode year="2023">0056</BudgetCode>
+  </Organization>
+  <Organization id="13-0684" regNo="90010248231" kind="independent">
+    <Name>FISKĀLĀS DISCIPLĪNAS PADOME</Name>
+    <Abbreviation>FDP</Abbreviation>
+    <BudgetCode year="2023">0684</BudgetCode>
+  </Organization>
+  <Organization id="14-0000" regNo="90000282046" kind="ministry">
+    <Name>LATVIJAS REPUBLIKAS IEKŠLIETU MINISTRIJA</Name>
+    <Abbreviation>IeM</Abbreviation>
+    <BudgetCode year="2023">0087</BudgetCode>
+  </Organization>
+  <Organization id="14-0088" regNo="90000289913" kind="subordinate" parent="14-0000">
+    <Name>IEKŠLIETU MINISTRIJAS INFORMĀCIJAS CENTRS</Name>
+    <BudgetCode year="2023">0088</BudgetCode>
+  </Organization>
+  <Organization id="14-0091" regNo="90000099040" kind="subordinate" parent="14-0000">
+    <Name>VALSTS POLICIJA</Name>
+    <BudgetCode year="2023">0091</BudgetCode>
+  </Organization>
+  <Organization id="14-0092" regNo="90000054712" kind="subordinate" parent="14-0000">
+    <Name>VALSTS DROŠĪBAS DIENESTS</Name>
+    <Abbreviation>VDD</Abbreviation>
+    <BudgetCode year="2023">0092</BudgetCode>
+  </Organization>
+  <Organization id="14-0093" regNo="90000054163" kind="subordinate" parent="14-0000">
+    <Name>PILSONĪBAS UN MIGRĀCIJAS LIETU PĀRVALDE</Name>
+    <Abbreviation>PMLP</Abbreviation>
+    <BudgetCode year="2023">0093</BudgetCode>
+  </Organization>
+  <Organization id="14-0123" regNo="90000048203" kind="subordinate" parent="14-0000">
+    <Name>UGUNSDROŠĪBAS UN CIVILĀS AIZSARDZĪBAS KOLEDŽA</Name>
+    <BudgetCode year="2023">0123</BudgetCode>
+  </Organization>
+  <Organization id="14-0126" regNo="90000086402" kind="subordinate" parent="14-0000">
+    <Name>VALSTS ROBEŽSARDZE</Name>
+    <BudgetCode year="2023">0126</BudgetCode>
+  </Organization>
+  <Organization id="14-0136" regNo="90000014387" kind="subordinate" parent="14-0000">
+    <Name>VALSTS ROBEŽSARDZES KOLEDŽA</Name>
+    <BudgetCode year="2023">0136</BudgetCode>
+  </Organization>
+  <Organization id="14-0139" regNo="90002310861" kind="subordinate" parent="14-0000">
+    <Name>IZMEKLĒŠANAS ATBALSTA PĀRVALDE</Name>
+    <BudgetCode year="2023">0139</BudgetCode>
+  </Organization>
+  <Organization id="14-0140" regNo="90001834903" kind="subordinate" parent="14-0000">
+    <Name>IEKŠLIETU MINISTRIJAS VESELĪBAS UN SPORTA CENTRS</Name>
+    <BudgetCode year="2023">0140</BudgetCode>
+  </Organization>
+  <Organization id="14-0144" regNo="90000049834" kind="subordinate" parent="14-0000">
+    <Name>VALSTS UGUNSDZĒSĪBAS UN GLĀBŠANAS DIENESTS</Name>
+    <Abbreviation>VUGD</Abbreviation>
+    <BudgetCode year="2023">0144</BudgetCode>
+  </Organization>
+  <Organization id="14-0637" regNo="90000072027" kind="subordinate" parent="14-0000">
+    <Name>VALSTS POLICIJAS KOLEDŽA</Name>
+    <BudgetCode year="2023">0637</BudgetCode>
+  </Organization>
+  <Organization id="14-0651" regNo="90009112024" kind="subordinate" parent="14-0000">
+    <Name>NODROŠINĀJUMA VALSTS AĢENTŪRA</Name>
+    <BudgetCode year="2023">0651</BudgetCode>
+  </Organization>
+  <Organization id="14-0688" regNo="90010643967" kind="subordinate" parent="14-0000">
+    <Name>IEKŠĒJĀS DROŠĪBAS BIROJS</Name>
+    <BudgetCode year="2023">0688</BudgetCode>
+  </Organization>
+  <Organization id="14-0693" regNo="40900025406" kind="subordinate" parent="14-0000">
+    <Name>FINANŠU IZLŪKOŠANAS DIENESTS</Name>
+    <Abbreviation>FID</Abbreviation>
+    <BudgetCode year="2023">0693</BudgetCode>
+  </Organization>
+  <Organization id="15-0000" regNo="90000022399" kind="ministry">
+    <Name>IZGLĪTĪBAS UN ZINĀTNES MINISTRIJA</Name>
+    <Abbreviation>IZM</Abbreviation>
+    <BudgetCode year="2023">0170</BudgetCode>
+  </Organization>
+  <Organization id="15-0172" regNo="90000048222" kind="subordinate" parent="15-0000">
+    <Name>LATVIJAS ZINĀTNES PADOME</Name>
+    <Abbreviation>LZP</Abbreviation>
+    <BudgetCode year="2023">0172</BudgetCode>
+  </Organization>
+  <Organization id="15-0173" regNo="90001259032" kind="subordinate" parent="15-0000">
+    <Name>IZGLĪTĪBAS KVALITĀTES VALSTS DIENESTS</Name>
+    <BudgetCode year="2023">0173</BudgetCode>
+  </Organization>
+  <Organization id="15-0190" regNo="90000069084" kind="subordinate" parent="15-0000">
+    <Name>LATVIJAS SPORTA MUZEJS</Name>
+    <BudgetCode year="2023">0190</BudgetCode>
+  </Organization>
+  <Organization id="15-0203" regNo="90001800413" kind="subordinate" parent="15-0000">
+    <Name>VALSTS IZGLĪTĪBAS ATTĪSTĪBAS AĢENTŪRA</Name>
+    <Abbreviation>VIAA</Abbreviation>
+    <BudgetCode year="2023">0203</BudgetCode>
+  </Organization>
+  <Organization id="15-0222" regNo="90001259598" kind="subordinate" parent="15-0000">
+    <Name>RĪGAS TIRDZNIECĪBAS PROFESIONĀLĀ VIDUSSKOLA</Name>
+    <BudgetCode year="2023">0222</BudgetCode>
+  </Organization>
+  <Organization id="15-0223" regNo="90000281996" kind="subordinate" parent="15-0000">
+    <Name>RĪGAS VALSTS TEHNIKUMS</Name>
+    <BudgetCode year="2023">0223</BudgetCode>
+  </Organization>
+  <Organization id="15-0226" regNo="90000032081" kind="subordinate" parent="15-0000">
+    <Name>KANDAVAS LAUKSAIMNIECĪBAS TEHNIKUMS</Name>
+    <BudgetCode year="2023">0226</BudgetCode>
+  </Organization>
+  <Organization id="15-0236" regNo="90000025357" kind="subordinate" parent="15-0000">
+    <Name>RĪGAS CELTNIECĪBAS KOLEDŽA</Name>
+    <BudgetCode year="2023">0236</BudgetCode>
+  </Organization>
+  <Organization id="15-0238" regNo="90000022223" kind="subordinate" parent="15-0000">
+    <Name>RĪGAS TEHNISKĀ KOLEDŽA</Name>
+    <BudgetCode year="2023">0238</BudgetCode>
+  </Organization>
+  <Organization id="15-0251" regNo="90000066069" kind="subordinate" parent="15-0000">
+    <Name>LATGALES INDUSTRIĀLAIS TEHNIKUMS</Name>
+    <BudgetCode year="2023">0251</BudgetCode>
+  </Organization>
+  <Organization id="15-0260" regNo="90000041031" kind="subordinate" parent="15-0000">
+    <Name>JELGAVAS TEHNIKUMS</Name>
+    <BudgetCode year="2023">0260</BudgetCode>
+  </Organization>
+  <Organization id="15-0262" regNo="90000035711" kind="subordinate" parent="15-0000">
+    <Name>KULDĪGAS TEHNOLOĢIJU UN TŪRISMA TEHNIKUMS</Name>
+    <BudgetCode year="2023">0262</BudgetCode>
+  </Organization>
+  <Organization id="15-0280" regNo="90001256958" kind="subordinate" parent="15-0000">
+    <Name>RĪGAS METĀLAPSTRĀDES PROFESIONĀLĀ VIDUSSKOLA</Name>
+    <BudgetCode year="2023">0280</BudgetCode>
+  </Organization>
+  <Organization id="15-0281" regNo="90000039361" kind="subordinate" parent="15-0000">
+    <Name>RĪGAS STILA UN MODES TEHNIKUMS</Name>
+    <BudgetCode year="2023">0281</BudgetCode>
+  </Organization>
+  <Organization id="15-0283" regNo="90001251999" kind="subordinate" parent="15-0000">
+    <Name>RĪGAS MĀKSLAS UN MEDIJU TEHNIKUMS</Name>
+    <BudgetCode year="2023">0283</BudgetCode>
+  </Organization>
+  <Organization id="15-0290" regNo="90000024436" kind="subordinate" parent="15-0000">
+    <Name>SALDUS TEHNIKUMS</Name>
+    <BudgetCode year="2023">0290</BudgetCode>
+  </Organization>
+  <Organization id="15-0300" regNo="90000079824" kind="subordinate" parent="15-0000">
+    <Name>VENTSPILS TEHNIKUMS</Name>
+    <BudgetCode year="2023">0300</BudgetCode>
+  </Organization>
+  <Organization id="15-0306" regNo="90000082152" kind="subordinate" parent="15-0000">
+    <Name>MURJĀŅU SPORTA ĢIMNĀZIJA</Name>
+    <BudgetCode year="2023">0306</BudgetCode>
+  </Organization>
+  <Organization id="15-0619" regNo="90001825883" kind="subordinate" parent="15-0000">
+    <Name>JAUNATNES STARPTAUTISKO PROGRAMMU AĢENTŪRA</Name>
+    <BudgetCode year="2023">0619</BudgetCode>
+  </Organization>
+  <Organization id="15-0652" regNo="90009113250" kind="subordinate" parent="15-0000">
+    <Name>LATVIEŠU VALODAS AĢENTŪRA</Name>
+    <Abbreviation>LVA</Abbreviation>
+    <BudgetCode year="2023">0652</BudgetCode>
+  </Organization>
+  <Organization id="15-0653" regNo="90009115938" kind="subordinate" parent="15-0000">
+    <Name>VALSTS IZGLĪTĪBAS SATURA CENTRS</Name>
+    <BudgetCode year="2023">0653</BudgetCode>
+  </Organization>
+  <Organization id="15-0664" regNo="90009516617" kind="subordinate" parent="15-0000">
+    <Name>LIEPĀJAS VALSTS TEHNIKUMS</Name>
+    <BudgetCode year="2023">0664</BudgetCode>
+  </Organization>
+  <Organization id="15-0665" regNo="90009612809" kind="subordinate" parent="15-0000">
+    <Name>VALMIERAS TEHNIKUMS</Name>
+    <BudgetCode year="2023">0665</BudgetCode>
+  </Organization>
+  <Organization id="15-0666" regNo="90009613611" kind="subordinate" parent="15-0000">
+    <Name>VIDZEMES TEHNOLOĢIJU UN DIZAINA TEHNIKUMS</Name>
+    <BudgetCode year="2023">0666</BudgetCode>
+  </Organization>
+  <Organization id="15-0667" regNo="90009611201" kind="subordinate" parent="15-0000">
+    <Name>SMILTENES TEHNIKUMS</Name>
+    <BudgetCode year="2023">0667</BudgetCode>
+  </Organization>
+  <Organization id="15-0668" regNo="90009617187" kind="subordinate" parent="15-0000">
+    <Name>RĒZEKNES TEHNIKUMS</Name>
+    <BudgetCode year="2023">0668</BudgetCode>
+  </Organization>
+  <Organization id="15-0670" regNo="90009621093" kind="subordinate" parent="15-0000">
+    <Name>OGRES TEHNIKUMS</Name>
+    <BudgetCode year="2023">0670</BudgetCode>
+  </Organization>
+  <Organization id="15-0671" regNo="90009620223" kind="subordinate" parent="15-0000">
+    <Name>AIZKRAUKLES PROFESIONĀLĀ VIDUSSKOLA</Name>
+    <BudgetCode year="2023">0671</BudgetCode>
+  </Organization>
+  <Organization id="15-0691" regNo="90011018726" kind="subordinate" parent="15-0000">
+    <Name>JĒKABPILS AGROBIZNESA KOLEDŽA</Name>
+    <BudgetCode year="2023">0691</BudgetCode>
+  </Organization>
+  <Organization id="15-0698" regNo="40900039340" kind="subordinate" parent="15-0000">
+    <Name>DAUGAVPILS TEHNOLOĢIJU UN TŪRISMA TEHNIKUMS</Name>
+    <BudgetCode year="2023">0698</BudgetCode>
+  </Organization>
+  <Organization id="16-0000" regNo="90000064161" kind="ministry">
+    <Name>ZEMKOPĪBAS MINISTRIJA</Name>
+    <Abbreviation>ZM</Abbreviation>
+    <BudgetCode year="2023">0317</BudgetCode>
+  </Organization>
+  <Organization id="16-0320" regNo="90000042982" kind="subordinate" parent="16-0000">
+    <Name>VALSTS AUGU AIZSARDZĪBAS DIENESTS</Name>
+    <BudgetCode year="2023">0320</BudgetCode>
+  </Organization>
+  <Organization id="16-0323" regNo="90000794228" kind="subordinate" parent="16-0000">
+    <Name>LAUKU ATBALSTA DIENESTS</Name>
+    <BudgetCode year="2023">0323</BudgetCode>
+  </Organization>
+  <Organization id="16-0324" regNo="90000064301" kind="subordinate" parent="16-0000">
+    <Name>PĀRTIKAS UN VETERINĀRAIS DIENESTS</Name>
+    <BudgetCode year="2023">0324</BudgetCode>
+  </Organization>
+  <Organization id="16-0362" regNo="90000057795" kind="subordinate" parent="16-0000">
+    <Name>VALSTS MEŽA DIENESTS</Name>
+    <BudgetCode year="2023">0362</BudgetCode>
+  </Organization>
+  <Organization id="16-0380" regNo="90001840100" kind="subordinate" parent="16-0000">
+    <Name>LAUKSAIMNIECĪBAS DATU CENTRS</Name>
+    <BudgetCode year="2023">0380</BudgetCode>
+  </Organization>
+  <Organization id="16-0387" regNo="90001834941" kind="subordinate" parent="16-0000">
+    <Name>VALSTS TEHNISKĀS UZRAUDZĪBAS AĢENTŪRA</Name>
+    <BudgetCode year="2023">0387</BudgetCode>
+  </Organization>
+  <Organization id="17-0000" regNo="90000088687" kind="ministry">
+    <Name>SATIKSMES MINISTRIJA</Name>
+    <Abbreviation>SM</Abbreviation>
+    <Abbreviation>SAM</Abbreviation>
+    <BudgetCode year="2023">0389</BudgetCode>
+  </Organization>
+  <Organization id="18-0000" regNo="90000022064" kind="ministry">
+    <Name>LABKLĀJĪBAS MINISTRIJA</Name>
+    <Abbreviation>LM</Abbreviation>
+    <BudgetCode year="2023">0396</BudgetCode>
+  </Organization>
+  <Organization id="18-0397" regNo="90000032077" kind="subordinate" parent="18-0000">
+    <Name>VALSTS DARBA INSPEKCIJA</Name>
+    <BudgetCode year="2023">0397</BudgetCode>
+  </Organization>
+  <Organization id="18-0399" regNo="90000151859" kind="subordinate" parent="18-0000">
+    <Name>VESELĪBAS UN DARBSPĒJU EKSPERTĪZES ĀRSTU VALSTS KOMISIJA</Name>
+    <BudgetCode year="2023">0399</BudgetCode>
+  </Organization>
+  <Organization id="18-0430" regNo="90000043329" kind="subordinate" parent="18-0000">
+    <Name>VALSTS SOCIĀLĀS APRŪPES CENTRS LATGALE</Name>
+    <BudgetCode year="2023">0430</BudgetCode>
+  </Organization>
+  <Organization id="18-0437" regNo="90000063880" kind="subordinate" parent="18-0000">
+    <Name>VALSTS SOCIĀLĀS APRŪPES CENTRS KURZEME</Name>
+    <BudgetCode year="2023">0437</BudgetCode>
+  </Organization>
+  <Organization id="18-0451" regNo="90001634668" kind="subordinate" parent="18-0000">
+    <Name>NODARBINĀTĪBAS VALSTS AĢENTŪRA</Name>
+    <Abbreviation>NVA</Abbreviation>
+    <BudgetCode year="2023">0451</BudgetCode>
+  </Organization>
+  <Organization id="18-0453" regNo="90001669496" kind="subordinate" parent="18-0000">
+    <Name>VALSTS SOCIĀLĀS APDROŠINĀŠANAS AĢENTŪRA</Name>
+    <Abbreviation>VSAA</Abbreviation>
+    <BudgetCode year="2023">0453</BudgetCode>
+  </Organization>
+  <Organization id="18-0454" regNo="90001790030" kind="subordinate" parent="18-0000">
+    <Name>SOCIĀLĀS INTEGRĀCIJAS VALSTS AĢENTŪRA</Name>
+    <BudgetCode year="2023">0454</BudgetCode>
+  </Organization>
+  <Organization id="18-0618" regNo="90002056949" kind="subordinate" parent="18-0000">
+    <Name>VALSTS BĒRNU TIESĪBU AIZSARDZĪBAS INSPEKCIJA</Name>
+    <BudgetCode year="2023">0618</BudgetCode>
+  </Organization>
+  <Organization id="18-0658" regNo="90009226487" kind="subordinate" parent="18-0000">
+    <Name>VALSTS SOCIĀLĀS APRŪPES CENTRS RĪGA</Name>
+    <BudgetCode year="2023">0658</BudgetCode>
+  </Organization>
+  <Organization id="18-0694" regNo="40900035103" kind="subordinate" parent="18-0000">
+    <Name>VALSTS SOCIĀLĀS APRŪPES CENTRS ZEMGALE</Name>
+    <BudgetCode year="2023">0694</BudgetCode>
+  </Organization>
+  <Organization id="19-0000" regNo="90000070045" kind="ministry">
+    <Name>TIESLIETU MINISTRIJA</Name>
+    <Abbreviation>TM</Abbreviation>
+    <BudgetCode year="2023">0455</BudgetCode>
+  </Organization>
+  <Organization id="19-0456" regNo="90002069765" kind="subordinate" parent="19-0000">
+    <Name>JURIDISKĀS PALĪDZĪBAS ADMINISTRĀCIJA</Name>
+    <BudgetCode year="2023">0456</BudgetCode>
+  </Organization>
+  <Organization id="19-0458" regNo="90001672316" kind="subordinate" parent="19-0000">
+    <Name>TIESU ADMINISTRĀCIJA</Name>
+    <BudgetCode year="2023">0458</BudgetCode>
+  </Organization>
+  <Organization id="19-0459" regNo="90000355941" kind="subordinate" parent="19-0000">
+    <Name>VALSTS TIESU EKSPERTĪŽU BIROJS</Name>
+    <BudgetCode year="2023">0459</BudgetCode>
+  </Organization>
+  <Organization id="19-0460" regNo="90000463460" kind="subordinate" parent="19-0000">
+    <Name>VALSTS VALODAS CENTRS</Name>
+    <BudgetCode year="2023">0460</BudgetCode>
+  </Organization>
+  <Organization id="19-0463" regNo="90001037264" kind="subordinate" parent="19-0000">
+    <Name>DATU VALSTS INSPEKCIJA</Name>
+    <BudgetCode year="2023">0463</BudgetCode>
+  </Organization>
+  <Organization id="19-0464" regNo="90000270634" kind="subordinate" parent="19-0000">
+    <Name>LATVIJAS REPUBLIKAS UZŅĒMUMU REĢISTRS</Name>
+    <Abbreviation>UR</Abbreviation>
+    <BudgetCode year="2023">0464</BudgetCode>
+  </Organization>
+  <Organization id="19-0467" regNo="90001625082" kind="subordinate" parent="19-0000">
+    <Name>VALSTS PROBĀCIJAS DIENESTS</Name>
+    <BudgetCode year="2023">0467</BudgetCode>
+  </Organization>
+  <Organization id="19-0468" regNo="90000027165" kind="subordinate" parent="19-0000">
+    <Name>IESLODZĪJUMA VIETU PĀRVALDE</Name>
+    <BudgetCode year="2023">0468</BudgetCode>
+  </Organization>
+  <Organization id="19-0485" regNo="90000030432" kind="subordinate" parent="19-0000">
+    <Name>VALSTS ZEMES DIENESTS</Name>
+    <BudgetCode year="2023">0485</BudgetCode>
+  </Organization>
+  <Organization id="19-0486" regNo="90000776612" kind="subordinate" parent="19-0000">
+    <Name>SATVERSMES AIZSARDZĪBAS BIROJS</Name>
+    <BudgetCode year="2023">0486</BudgetCode>
+  </Organization>
+  <Organization id="19-0495" regNo="90001287943" kind="subordinate" parent="19-0000">
+    <Name>MAKSĀTNESPĒJAS KONTROLES DIENESTS</Name>
+    <BudgetCode year="2023">0495</BudgetCode>
+  </Organization>
+  <Organization id="19-0617" regNo="90001870675" kind="subordinate" parent="19-0000">
+    <Name>UZTURLĪDZEKĻU GARANTIJU FONDA ADMINISTRĀCIJA</Name>
+    <BudgetCode year="2023">0617</BudgetCode>
+  </Organization>
+  <Organization id="20-0000" regNo="40900039891" kind="ministry">
+    <Name>KLIMATA UN ENERĢĒTIKAS MINISTRIJA</Name>
+    <Abbreviation>KEM</Abbreviation>
+    <BudgetCode year="2023">0699</BudgetCode>
+  </Organization>
+  <Organization id="21-0000" regNo="90000028508" kind="ministry">
+    <Name>VIEDĀS ADMINISTRĀCIJAS UN REĢIONĀLĀS ATTĪSTĪBAS MINISTRIJA</Name>
+    <Abbreviation>VARAM</Abbreviation>
+    <BudgetCode year="2023">0496</BudgetCode>
+    <FormerName>LR VIDES AIZSARDZĪBAS UN REĢIONĀLĀS ATTĪSTĪBAS MINISTRIJA</FormerName>
+  </Organization>
+  <Organization id="21-0500" regNo="90000027926" kind="subordinate" parent="21-0000">
+    <Name>LATVIJAS NACIONĀLAIS DABAS MUZEJS</Name>
+    <BudgetCode year="2023">0500</BudgetCode>
+  </Organization>
+  <Organization id="21-0502" regNo="90000628077" kind="subordinate" parent="21-0000">
+    <Name>VIDES PĀRRAUDZĪBAS VALSTS BIROJS</Name>
+    <BudgetCode year="2023">0502</BudgetCode>
+  </Organization>
+  <Organization id="21-0507" regNo="90000017078" kind="subordinate" parent="21-0000">
+    <Name>VALSTS VIDES DIENESTS</Name>
+    <BudgetCode year="2023">0507</BudgetCode>
+  </Organization>
+  <Organization id="21-0627" regNo="90001733697" kind="subordinate" parent="21-0000">
+    <Name>VALSTS REĢIONĀLĀS ATTĪSTĪBAS AĢENTŪRA</Name>
+    <Abbreviation>VRAA</Abbreviation>
+    <BudgetCode year="2023">0627</BudgetCode>
+  </Organization>
+  <Organization id="21-0650" regNo="90009099027" kind="subordinate" parent="21-0000">
+    <Name>DABAS AIZSARDZĪBAS PĀRVALDE</Name>
+    <BudgetCode year="2023">0650</BudgetCode>
+  </Organization>
+  <Organization id="22-0000" regNo="90000042963" kind="ministry">
+    <Name>KULTŪRAS MINISTRIJA</Name>
+    <Abbreviation>KM</Abbreviation>
+    <BudgetCode year="2023">0511</BudgetCode>
+  </Organization>
+  <Organization id="22-0517" regNo="90000053454" kind="subordinate" parent="22-0000">
+    <Name>JĀZEPA MEDIŅA RĪGAS MŪZIKAS VIDUSSKOLA</Name>
+    <BudgetCode year="2023">0517</BudgetCode>
+  </Organization>
+  <Organization id="22-0518" regNo="90000039272" kind="subordinate" parent="22-0000">
+    <Name>MIKC RĪGAS DIZAINA UN MĀKSLAS VIDUSSKOLA</Name>
+    <BudgetCode year="2023">0518</BudgetCode>
+  </Organization>
+  <Organization id="22-0520" regNo="90000077378" kind="subordinate" parent="22-0000">
+    <Name>ALFRĒDA KALNIŅA CĒSU MŪZIKAS VIDUSSKOLA</Name>
+    <BudgetCode year="2023">0520</BudgetCode>
+  </Organization>
+  <Organization id="22-0521" regNo="90000066001" kind="subordinate" parent="22-0000">
+    <Name>STAŅISLAVA BROKA DAUGAVPILS MŪZIKAS VIDUSSKOLA</Name>
+    <BudgetCode year="2023">0521</BudgetCode>
+  </Organization>
+  <Organization id="22-0522" regNo="90000073499" kind="subordinate" parent="22-0000">
+    <Name>JELGAVAS MŪZIKAS VIDUSSKOLA</Name>
+    <BudgetCode year="2023">0522</BudgetCode>
+  </Organization>
+  <Organization id="22-0527" regNo="90000035726" kind="subordinate" parent="22-0000">
+    <Name>MIKC VENTSPILS MŪZIKAS VIDUSSKOLA</Name>
+    <BudgetCode year="2023">0527</BudgetCode>
+  </Organization>
+  <Organization id="22-0530" regNo="90000057827" kind="subordinate" parent="22-0000">
+    <Name>LATVIJAS NACIONĀLĀ BIBLIOTĒKA</Name>
+    <BudgetCode year="2023">0530</BudgetCode>
+  </Organization>
+  <Organization id="22-0536" regNo="90001688232" kind="subordinate" parent="22-0000">
+    <Name>VALSTS KULTŪRKAPITĀLA FONDS</Name>
+    <BudgetCode year="2023">0536</BudgetCode>
+  </Organization>
+  <Organization id="22-0537" regNo="90000038351" kind="subordinate" parent="22-0000">
+    <Name>NACIONĀLĀ KULTŪRAS MANTOJUMA PĀRVALDE</Name>
+    <BudgetCode year="2023">0537</BudgetCode>
+  </Organization>
+  <Organization id="22-0544" regNo="90000012776" kind="subordinate" parent="22-0000">
+    <Name>ĪPAŠI AIZSARGĀJAMAIS KULTŪRAS PIEMINEKLIS - TURAIDAS MUZEJREZERVĀTS</Name>
+    <BudgetCode year="2023">0544</BudgetCode>
+  </Organization>
+  <Organization id="22-0547" regNo="90000022100" kind="subordinate" parent="22-0000">
+    <Name>NACIONĀLAIS KINO CENTRS</Name>
+    <BudgetCode year="2023">0547</BudgetCode>
+  </Organization>
+  <Organization id="22-0548" regNo="90000029912" kind="subordinate" parent="22-0000">
+    <Name>RĪGAS VĒSTURES UN KUĢNIECĪBAS MUZEJS</Name>
+    <BudgetCode year="2023">0548</BudgetCode>
+  </Organization>
+  <Organization id="22-0549" regNo="90000076673" kind="subordinate" parent="22-0000">
+    <Name>LATVIJAS NACIONĀLAIS VĒSTURES MUZEJS</Name>
+    <BudgetCode year="2023">0549</BudgetCode>
+  </Organization>
+  <Organization id="22-0552" regNo="90000057460" kind="subordinate" parent="22-0000">
+    <Name>LATVIJAS NEREDZĪGO BIBLIOTĒKA</Name>
+    <BudgetCode year="2023">0552</BudgetCode>
+  </Organization>
+  <Organization id="22-0553" regNo="90000049726" kind="subordinate" parent="22-0000">
+    <Name>LATVIJAS NACIONĀLAIS KULTŪRAS CENTRS</Name>
+    <Abbreviation>LNKC</Abbreviation>
+    <BudgetCode year="2023">0553</BudgetCode>
+  </Organization>
+  <Organization id="22-0556" regNo="90001033633" kind="subordinate" parent="22-0000">
+    <Name>LATVIJAS NACIONĀLAIS MĀKSLAS MUZEJS</Name>
+    <BudgetCode year="2023">0556</BudgetCode>
+  </Organization>
+  <Organization id="22-0557" regNo="90000045601" kind="subordinate" parent="22-0000">
+    <Name>RUNDĀLES PILS MUZEJS</Name>
+    <BudgetCode year="2023">0557</BudgetCode>
+  </Organization>
+  <Organization id="22-0558" regNo="90001708717" kind="subordinate" parent="22-0000">
+    <Name>KULTŪRAS INFORMĀCIJAS SISTĒMU CENTRS</Name>
+    <BudgetCode year="2023">0558</BudgetCode>
+  </Organization>
+  <Organization id="22-0638" regNo="90000053011" kind="subordinate" parent="22-0000">
+    <Name>LATVIJAS ETNOGRĀFISKAIS BRĪVDABAS MUZEJS</Name>
+    <BudgetCode year="2023">0638</BudgetCode>
+  </Organization>
+  <Organization id="22-0654" regNo="90009175091" kind="subordinate" parent="22-0000">
+    <Name>RAKSTNIECĪBAS UN MŪZIKAS MUZEJS</Name>
+    <BudgetCode year="2023">0654</BudgetCode>
+  </Organization>
+  <Organization id="22-0655" regNo="90009175706" kind="subordinate" parent="22-0000">
+    <Name>MEMORIĀLO MUZEJU APVIENĪBA</Name>
+    <BudgetCode year="2023">0655</BudgetCode>
+  </Organization>
+  <Organization id="22-0663" regNo="90009476367" kind="subordinate" parent="22-0000">
+    <Name>LATVIJAS NACIONĀLAIS ARHĪVS</Name>
+    <BudgetCode year="2023">0663</BudgetCode>
+  </Organization>
+  <Organization id="22-0689" regNo="90010937516" kind="subordinate" parent="22-0000">
+    <Name>MIKC NACIONĀLĀ MĀKSLU VIDUSSKOLA</Name>
+    <BudgetCode year="2023">0689</BudgetCode>
+  </Organization>
+  <Organization id="22-0690" regNo="90010944679" kind="subordinate" parent="22-0000">
+    <Name>MIKC LIEPĀJAS MŪZIKAS, MĀKSLAS UN DIZAINA VIDUSSKOLA</Name>
+    <BudgetCode year="2023">0690</BudgetCode>
+  </Organization>
+  <Organization id="22-0700" regNo="40900040227" kind="subordinate" parent="22-0000">
+    <Name>MIKC LATGALES MŪZIKAS UN MĀKSLAS VIDUSSKOLA</Name>
+    <BudgetCode year="2023">0700</BudgetCode>
+  </Organization>
+  <Organization id="24-0000" regNo="90000031917" kind="independent">
+    <Name>LATVIJAS REPUBLIKAS VALSTS KONTROLE</Name>
+    <BudgetCode year="2023">0560</BudgetCode>
+  </Organization>
+  <Organization id="28-0000" regNo="90000068892" kind="independent">
+    <Name>LATVIJAS REPUBLIKAS AUGSTĀKĀ TIESA</Name>
+    <BudgetCode year="2023">0561</BudgetCode>
+  </Organization>
+  <Organization id="29-0000" regNo="90001474921" kind="ministry">
+    <Name>LATVIJAS REPUBLIKAS VESELĪBAS MINISTRIJA</Name>
+    <Abbreviation>VM</Abbreviation>
+    <BudgetCode year="2023">0562</BudgetCode>
+  </Organization>
+  <Organization id="29-0567" regNo="90000013926" kind="subordinate" parent="29-0000">
+    <Name>VALSTS ASINSDONORU CENTRS</Name>
+    <BudgetCode year="2023">0567</BudgetCode>
+  </Organization>
+  <Organization id="29-0570" regNo="90000058752" kind="subordinate" parent="29-0000">
+    <Name>VALSTS TIESU MEDICĪNAS EKSPERTĪZES CENTRS</Name>
+    <BudgetCode year="2023">0570</BudgetCode>
+  </Organization>
+  <Organization id="29-0573" regNo="90000013555" kind="subordinate" parent="29-0000">
+    <Name>PAULA STRADIŅA MEDICĪNAS VĒSTURES MUZEJS</Name>
+    <BudgetCode year="2023">0573</BudgetCode>
+  </Organization>
+  <Organization id="29-0576" regNo="90001833931" kind="subordinate" parent="29-0000">
+    <Name>LATVIJAS ANTIDOPINGA BIROJS</Name>
+    <BudgetCode year="2023">0576</BudgetCode>
+  </Organization>
+  <Organization id="29-0582" regNo="90002448818" kind="subordinate" parent="29-0000">
+    <Name>VESELĪBAS INSPEKCIJA</Name>
+    <BudgetCode year="2023">0582</BudgetCode>
+  </Organization>
+  <Organization id="29-0649" regNo="90009029104" kind="subordinate" parent="29-0000">
+    <Name>NEATLIEKAMĀS MEDICĪNISKĀS PALĪDZĪBAS DIENESTS</Name>
+    <BudgetCode year="2023">0649</BudgetCode>
+  </Organization>
+  <Organization id="29-0674" regNo="90009649337" kind="subordinate" parent="29-0000">
+    <Name>NACIONĀLAIS VESELĪBAS DIENESTS</Name>
+    <Abbreviation>NVD</Abbreviation>
+    <BudgetCode year="2023">0674</BudgetCode>
+  </Organization>
+  <Organization id="29-0677" regNo="90009756700" kind="subordinate" parent="29-0000">
+    <Name>SLIMĪBU PROFILAKSES UN KONTROLES CENTRS</Name>
+    <BudgetCode year="2023">0677</BudgetCode>
+  </Organization>
+  <Organization id="30-0000" regNo="90000268610" kind="independent">
+    <Name>LR SATVERSMES TIESA</Name>
+    <BudgetCode year="2023">0583</BudgetCode>
+  </Organization>
+  <Organization id="32-0000" regNo="90000022859" kind="independent">
+    <Name>LATVIJAS REPUBLIKAS PROKURATŪRA</Name>
+    <BudgetCode year="2023">0584</BudgetCode>
+  </Organization>
+  <Organization id="35-0000" regNo="90000028391" kind="independent">
+    <Name>CENTRĀLĀ VĒLĒŠANU KOMISIJA</Name>
+    <BudgetCode year="2023">0585</BudgetCode>
+  </Organization>
+  <Organization id="46-0000" regNo="40900037388" kind="independent">
+    <Name>SABIEDRISKO ELEKTRONISKO PLAŠSAZIŅAS LĪDZEKĻU PADOME</Name>
+    <BudgetCode year="2023">0697</BudgetCode>
+  </Organization>
+  <Organization id="47-0000" regNo="90000081852" kind="independent">
+    <Name>NACIONĀLĀ ELEKTRONISKO PLAŠSAZIŅAS LĪDZEKĻU PADOME</Name>
+    <Abbreviation>NEPLP</Abbreviation>
+    <BudgetCode year="2023">0623</BudgetCode>
+  </Organization>
+  <Organization id="00-0001" kind="office">
+    <Name>Ministru prezidents</Name>
+    <Abbreviation>MP</Abbreviation>
+  </Organization>
+  <Organization id="00-0002" kind="group">
+    <Name>Visas ministrijas</Name>
+    <Abbreviation>Visas ministrijas</Abbreviation>
+    <Abbreviation>ministrijas</Abbreviation>
+  </Organization>
+  <Organization id="00-0003" kind="group">
+    <Name>Pašvaldības</Name>
+    <Abbreviation>pašvaldības</Abbreviation>
+  </Organization>
+  <Organization id="00-0004" kind="group">
+    <Name>Pašvaldību policijas</Name>
+    <Abbreviation>Pašvaldību policijas</Abbreviation>
+  </Organization>
+  <Organization id="00-0005" kind="group">
+    <Name>Nevalstiskās organizācijas</Name>
+    <Abbreviation>NVO</Abbreviation>
+  </Organization>
+  <Organization id="90-0001" kind="municipality">
+    <Name>Daugavpils valstspilsētas pašvaldība</Name>
+    <Abbreviation>Daugavpils pašvaldība</Abbreviation>
+  </Organization>
+  <Organization id="90-0002" kind="municipality">
+    <Name>Liepājas valstspilsētas pašvaldība</Name>
+    <Abbreviation>Liepājas pašvaldība</Abbreviation>
+  </Organization>
+  <Organization id="90-0003" kind="municipality">
+    <Name>Ventspils valstspilsētas pašvaldība</Name>
+    <Abbreviation>Ventspils pašvaldība</Abbreviation>
+  </Organization>
+  <Organization id="91-0001" kind="company" parent="13-0000">
+    <Name>VAS „Valsts nekustamie īpašumi”</Name>
+    <Abbreviation>VNĪ</Abbreviation>
+  </Organization>
+  <Organization id="91-0002" kind="company" parent="17-0000">
+    <Name>VSIA „Autotransporta direkcija”</Name>
+    <Abbreviation>ATD</Abbreviation>
+  </Organization>
+  <Organization id="91-0003" kind="company" parent="29-0000">
+    <Name>VSIA „Bērnu klīniskā universitātes slimnīca”</Name>
+    <Abbreviation>BKUS</Abbreviation>
+  </Organization>
+  <Organization id="92-0001" kind="public-person">
+    <Name>Latvijas Universitāte</Name>
+    <Abbreviation>LU</Abbreviation>
+  </Organization>
+  <Organization id="92-0002" kind="public-person">
+    <Name>Rīgas Tehniskā universitāte</Name>
+    <Abbreviation>RTU</Abbreviation>
+  </Organization>
+  <Organization id="93-0001" kind="association">
+    <Name>Latvijas Tirdzniecības un rūpniecības kamera</Name>
+    <Abbreviation>LTRK</Abbreviation>
+  </Organization>
+  <Organization id="93-0002" kind="association">
+    <Name>Latvijas Darba devēju konfederācija</Name>
+    <Abbreviation>LDDK</Abbreviation>
+  </Organization>
+  <Organization id="93-0003" kind="association">
+    <Name>Latvijas Pašvaldību savienība</Name>
+    <Abbreviation>LPS</Abbreviation>
+  </Organization>
+</OrganizationRegistry>

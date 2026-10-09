@@ -1,0 +1,1562 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GovernmentActionPlan xmlns="urn:pppa:cac:valdiba:0.2" id="lv-mk-2026-05-28.rp" government="lv-mk-2026-05-28" declaration="lv-dekl-2026-05-28" schemaVersion="0.2">
+  <Metadata>
+    <Title>Valdības rīcības plāns Deklarācijas par Andra Kulberga vadītā Ministru kabineta iecerēto darbību īstenošanai</Title>
+    <Approval id="lv-mk-2026-05-28.rp.v1" kind="approval">
+      <Act>Ministru kabineta rīkojums Nr. 449</Act>
+      <Date>2026-07-27</Date>
+      <Protocol>prot. Nr. 39 39. §</Protocol>
+      <Publication>Latvijas Vēstnesis, 143, 29.07.2026., OP numurs: 2026/143.33</Publication>
+      <URL>https://likumi.lv/ta/id/369925</URL>
+    </Approval>
+    <Source>
+      <FileName>likumi_lv_369925.mhtml</FileName>
+      <SHA256>c9fd1647cd20aa5105fdd83024d30ab815d335b8068c22a6c24d8e9dd0f3cc49</SHA256>
+      <URL>https://m.likumi.lv/doc.php?id=369925</URL>
+    </Source>
+    <DataVersion number="1" date="2026-10-09"/>
+  </Metadata>
+  <Measure id="lv-mk-2026-05-28.rp.u001.p1" number="1.1." task="lv-dekl-2026-05-28.u001" funding="additional">
+    <Text>1) Apstiprināt divlīmeņu paplašināto autonomo sistēmu kompetences modeli, kas iesniegts izskatīšanai Ministru kabinetā (sēdes protokollēmuma projekts 26-TA-803).
+2) Uzsākt vienotas IP (ierobežotas pieejamības) klasifikācijas līmeņa valstiska tvēruma pret bezpilota komandvadības sistēmas ieviešanu, kura apvieno visu valsts iestāžu un kritiskās infrastruktūras detekcijas un pretdarbības iespējas.</Text>
+    <Result>1) Izveidots autonomo sistēmu kompetences modelis, kas ar savām funkcijām aptver visas valsts nozares, t.sk. uztur standartizēto bezpilota un pret bezpilota sistēmu atvērtos iepirkumu līgumus, organizē bezpilota un pret bezpilota sistēmu apmācību, kā arī sniedz atbalstu sistēmu uzturēšanā. Piešķirti nepieciešamie finanšu un personāla resursi Autonomo sistēmu kompetences centra darbībai nacionālā līmenī.
+2) Apstiprināta vienota komandvadības sistēma, izstrādāta tās arhitektūra un noteiktas atbildības jomas.</Result>
+    <Responsible orgs="10-0000 14-0000">AizM, IeM</Responsible>
+    <CoResponsible orgs="21-0000">VARAM</CoResponsible>
+    <Deadline values="2026-10-01">01.10.2026.</Deadline>
+  </Measure>
+  <Measure id="lv-mk-2026-05-28.rp.u001.p2" number="1.2." task="lv-dekl-2026-05-28.u001" funding="allocated" priority="PP(AizM)">
+    <Text>Pārņemt Ukrainas pieredzi un to integrēt aizsardzības nozarē.</Text>
+    <Result>Noslēgts sadarbības līgums "Drone Deal" – piesaistīti Ukrainas speciālisti veikt spēju analīzi, apmācību un mācības. Noslēgts līgums par nepieciešamo Ukrainas sistēmu iegādi, lai nodrošinātu NBS komandierim vajadzīgās spējas un to integrāciju NBS struktūrā, integrējot tajā arī Latvijas militāro industriju.</Result>
+    <Responsible orgs="10-0000">AizM</Responsible>
+    <Deadline values="2026-09-01">01.09.2026.</Deadline>
+  </Measure>
+  <Measure id="lv-mk-2026-05-28.rp.u001.p3" number="1.3." task="lv-dekl-2026-05-28.u001" funding="allocated" priority="PP(AizM)">
+    <Text>Integrēt militāro industriju NBS.</Text>
+    <Result>Militārās industrijas eksperti nodrošina savu klātbūtni vienību apmācību un mācību laikā. Industrija sniedz atbalstu ekosistēmas izveidē ar padomiem un speciālistiem. NBS nodrošina savlaicīgu atgriezenisko saikni sistēmu izvērtēšanā, priekšlikumu sagatavošanā par nepieciešamajiem uzlabojumiem/ risinājumiem.</Result>
+    <Responsible orgs="10-0000">AizM</Responsible>
+    <Deadline values="2026-07-15">15.07.2026.</Deadline>
+  </Measure>
+  <Measure id="lv-mk-2026-05-28.rp.u001.p4" number="1.4." task="lv-dekl-2026-05-28.u001" funding="allocated" priority="PP(AizM)">
+    <Text>Transformēt NBS, pārorientējot spēju attīstību mūsdienu karadarbības vajadzībām.</Text>
+    <Result>Sagatavots plāns NBS transformācijai, atbilstoši apdraudējumam, drošības izaicinājumiem un plānotajam budžetam. Uzsākta NBS Spēju attīstības plāna 2025.-2036. gadam pārskatīšana.</Result>
+    <Responsible orgs="10-0000">AizM</Responsible>
+    <Deadline values="2026-09-01">01.09.2026.</Deadline>
+  </Measure>
+  <Measure id="lv-mk-2026-05-28.rp.u001.p5" number="1.5." task="lv-dekl-2026-05-28.u001" funding="allocated" priority="PP(IeM)">
+    <Text>Stiprināt iekšlietu dienestu kapacitāti.</Text>
+    <Result>1) Paaugstinātas iekšlietu dienestu bezpilota lidaparātu detekcijas un pretdarbības spējas, tai skaitā vienojoties ar aizsardzības nozares dienestiem par vienotu resursu nodrošinājumu kinētiskai un radioelektroniskai pretdarbībai, tostarp attīstot bezpilota tehnoloģiju izmantošanu drošības stiprināšanai, valsts robežas aizsardzības uzlabošanai, paaugstinot operatīvās reaģēšanas spējas un efektīvāku draudu identificēšanu.
+2) Apzinātas vajadzības un iesniegtas iniciatīvas valsts budžetam un pieejamiem Eiropas Savienības finanšu avotiem jaunu robežkontroles tehnisko līdzekļu iegādei un esošo pilnveidei, kā arī gatavotas projektu idejas (pieteikumi) par šīs jomas attīstību un realizēti projekti.
+3) Panākta vienošanās Ministru kabinetā par iespēju jauniešiem izvēlēties valsts aizsardzības dienestu pildīt Valsts robežsardzē.</Result>
+    <Responsible orgs="14-0000">IeM</Responsible>
+    <CoResponsible orgs="10-0000">AizM</CoResponsible>
+    <Deadline values="2026-10-01">01.10.2026.</Deadline>
+  </Measure>
+  <Measure id="lv-mk-2026-05-28.rp.u001.p6" number="1.6." task="lv-dekl-2026-05-28.u001" funding="allocated">
+    <Text>Turpināt valsts ārējās sauszemes robežas aprīkošanu ar klātbūtnes uztveršanas sistēmām un novērošanas iekārtām un ar tām saistīto infrastruktūru (tehnoloģisko infrastruktūru).</Text>
+    <Result>Pabeigta Latvijas – Baltkrievijas ārējās sauszemes robežas aprīkošana ar tehnoloģisko infrastruktūru I kārtas astoņās darba daļās 81 km garumā.
+Pabeigta Latvijas – Krievijas ārējās sauszemes robežas aprīkošana ar tehnoloģisko infrastruktūru III un IV izbūves kārtās 82 km garumā.</Result>
+    <Responsible orgs="14-0000">IeM</Responsible>
+    <CoResponsible orgs="17-0000">SAM</CoResponsible>
+    <Deadline values="2026-10-01">01.10.2026.</Deadline>
+  </Measure>
+  <Measure id="lv-mk-2026-05-28.rp.u001.p7" number="1.7." task="lv-dekl-2026-05-28.u001" funding="allocated">
+    <Text>Turpināt Nacionālās drošības koncepcijā noteikto uzdevumu izpildi, stiprinot iekšlietu dienestu noturību un attīstot katastrofu pārvaldības infrastruktūru Austrumu pierobežā.</Text>
+    <Result>Ministru kabinetā pieņemti lēmumi katastrofu pārvaldības centru būvniecībai Austrumu pierobežā – Balvos, Krāslavā un Rēzeknē.</Result>
+    <Responsible orgs="14-0000">IeM</Responsible>
+    <Deadline values="2026-10-01">01.10.2026.</Deadline>
+  </Measure>
+  <Measure id="lv-mk-2026-05-28.rp.u001.p8" number="1.8." task="lv-dekl-2026-05-28.u001" funding="allocated">
+    <Text>Izvērtēt iespēju uzsākt iekšlietu dienestu speciālo uzdevumu vienību mobilitātes stiprināšanu.</Text>
+    <Result>Izstrādāts un izskatīšanai Ministru kabinetā iesniegts informatīvais ziņojums par gaisa atbalsta punktu izveidi un stiprināšanu, kā arī speciālajām vienībām nepieciešamās infrastruktūras attīstību un pilnveidi Rīgā un reģionos.</Result>
+    <Responsible orgs="14-0000">IeM</Responsible>
+    <CoResponsible orgs="13-0000 91-0001">FM (VNĪ)</CoResponsible>
+    <Deadline values="2026-10-01">01.10.2026.</Deadline>
+  </Measure>
+  <Measure id="lv-mk-2026-05-28.rp.u001.p9" number="1.9." task="lv-dekl-2026-05-28.u001" funding="additional">
+    <Text>Izveidot tīmekļa vietnē 112.lv sadaļu "Apdraudējums Latvijas gaisa telpā", ievietojot informāciju arī par citu iestāžu izstrādātajām vadlīnijām un rīcības algoritmiem, nodrošinot informācijas izplatīšanu valsts iestādēm un pašvaldībām un sabiedrībai, tostarp sociālajos tīklos, lai veicinātu iedzīvotāju informētību un zināšanas, kā arī nodrošināt vietnes tehnisko veiktspēju ērtai un stabilai darbībai arī paaugstinātas lietotāju aktivitātes apstākļos.</Text>
+    <Result>1)Izveidota un publiski pieejama tīmekļvietnes 112.lv sadaļa "Apdraudējums Latvijas gaisa telpā", kurā apkopotas VUGD izstrādātās vispārējās vadlīnijas iedzīvotājiem gaisa telpas apdraudējuma laikā, kā arī apkopotās vadlīnijas par patveršanās vietām gaisa telpas apdraudējuma laikā un citu iestāžu izstrādātajām vadlīnijām un rīcības algoritmiem. Valsts iestādes, pašvaldības informētas par pieejamo informāciju.
+VUGD sociālajos tīklos ievietota informācija par ieteikumiem gaisa telpas apdraudējuma laikā, lai veicinātu iedzīvotāju informētību un zināšanas.
+2) Sadarbībā ar AizM un NBS uzsāktas aktivitātes, lai rastu risinājumu nodrošināt iedzīvotājiem reāllaika informāciju par gaisa apdraudējumu.</Result>
+    <Responsible orgs="14-0000">IeM</Responsible>
+    <CoResponsible orgs="10-0000">2) AizM</CoResponsible>
+    <Deadline values="2026-10-01">01.10.2026.</Deadline>
+  </Measure>
+  <Measure id="lv-mk-2026-05-28.rp.u002.p1" number="2.1." task="lv-dekl-2026-05-28.u002" funding="allocated">
+    <Text>1) Izveidot (atjaunota) koalīcijas darba grupu Eiropas Savienības fondu un citu ārvalstu finanšu palīdzības jomā.
+2) Līdz 2026.gada 2.oktobrim sadarbībā ar nozaru ministrijām sagatavot ES kohēzijas politikas programmas 2021.-2027.gadam grozījumi ar priekšlikumu finansējuma pārdalēm prioritāri civilās aizsardzības infrastruktūrai.</Text>
+    <Result>1) Līdz 2026.gada 2.oktobrim sagatavoti priekšlikumi Programmas grozījumiem par ES fondu pārdalēm.
+2) Uzsākta 2028.-2034.gada plānošanas perioda investīciju plānošana un ieviešanas sistēmas izstrāde, t.sk. vērtējot optimālāko pārvaldības modeli.</Result>
+    <Responsible orgs="13-0000">FM</Responsible>
+    <CoResponsible orgs="14-0000">IeM</CoResponsible>
+    <Deadline values="2026-10-01">01.10.2026.</Deadline>
+  </Measure>
+  <Measure id="lv-mk-2026-05-28.rp.u002.p2" number="2.2." task="lv-dekl-2026-05-28.u002" funding="allocated">
+    <Text>Pilnveidot patvertņu tīklu – papildus jau esošajam ERAF atbalstam sāksim īstenot finansējuma programmu 32 milj. EUR apmērā no EEZ un Norvēģijas finanšu instrumenta par patvertņu pielāgošanu, novirzot finansējumu arī sirēnu tīkla attīstībai un iedzīvotāju gatavības stiprināšanai.</Text>
+    <Result>VARAM sagatavojusi un iesniegusi donoriem informāciju, kas nepieciešama līguma slēgšanai par EEZ finanšu instrumenta programmu "Vietējā attīstība un noturība", paredzot atbalstu patvertņu pielāgošanai (piekļuve civilās aizsardzības infrastruktūrai 107 630 iedzīvotājiem) un ģeneratoru iegādei sociālās un veselības aprūpes iestādēm, sirēnu tīkla attīstībai un iedzīvotāju gatavības krīzes situācijām stiprināšanai.</Result>
+    <Responsible orgs="21-0000">VARAM</Responsible>
+    <CoResponsible orgs="14-0000 29-0000">IeM, VM</CoResponsible>
+    <Deadline values="2026-10-01">01.10.2026.</Deadline>
+  </Measure>
+  <Measure id="lv-mk-2026-05-28.rp.u002.p3" number="2.3." task="lv-dekl-2026-05-28.u002" funding="allocated" priority="PP(IeM)">
+    <Text>Pilnveidot patvertņu tīklu – papildus jau esošajam ERAF atbalstam īstenot finansējuma programmu 32 milj. EUR apmērā no EEZ un Norvēģijas finanšu instrumenta par 350 patvertņu pielāgošanu. Sadarbībā ar pašvaldībām apsekot privātpersonām piederošās daudzstāvu daudzdzīvokļu dzīvojamās mājas, publiskas ēkas un ražošanas ēkas, kurās ir pagrabi vai pazemes stāvi, lai apzinātu šo telpu atbilstības pakāpi III kategorijas patvertņu izveidei.</Text>
+    <Result>1) Sadarbībā ar pašvaldībām apsekotas privātpersonām piederošās daudzstāvu daudzdzīvokļu dzīvojamās mājas, publiskas ēkas un ražošanas ēkas, kurās ir pagrabi vai pazemes stāvi, lai apzinātu šo telpu atbilstības pakāpi III kategorijas patvertņu izveidei.
+2) Panākta starpnozaru vienošanos par tipveida projekta izstrādes uzsākšanu jaunu patvertņu izbūvei.</Result>
+    <Responsible orgs="14-0000">IeM</Responsible>
+    <CoResponsible orgs="12-0000">2) EM</CoResponsible>
+    <Deadline values="2026-10-01">01.10.2026.</Deadline>
+  </Measure>
+  <Measure id="lv-mk-2026-05-28.rp.u002.p4" number="2.4." task="lv-dekl-2026-05-28.u002" funding="additional">
+    <Text>Pilnveidot civilās aizsardzības sistēmu un infrastruktūru, novirzot finansējumu arī sirēnu tīkla attīstībai un iedzīvotāju gatavības stiprināšanai</Text>
+    <Result>1)Veikts valsts agrīnās brīdināšanas sistēmas pārklājuma izvērtējums un noteikta nepieciešamība papildu 193 trauksmes sirēnu izvietošanai Latvijas teritorijā, kas balstīts iedzīvotāju apdzīvotības blīvuma, skaņas pārklājuma un apdzīvoto vietu analīzi.
+2)Uzsākta trauksmes sirēnu tīkla attīstība, identificējot vairākas prioritāri attīstāmās teritorijas, kurās pašlaik trauksmes sirēnas nav uzstādītas. Šajās teritorijās nepieciešams uzstādīt 16 jaunas trauksmes sirēnas.
+3) Sagatavots un iesniegts izskatīšanai Ministru kabinetā rīkojuma projekts "Par Eiropas Ekonomikas zonas finanšu instrumenta 2021.–2028. gadam programmas "Vietējā attīstība un noturība" civilās aizsardzības mērķiem atbalstāmās infrastruktūras objektu, finansējuma, sasniedzamo rādītāju un projekta iesniedzēju – finansējuma saņēmēju sarakstu", lai Austrumu pierobežas teritorijā nodrošinātu 31 esošās trauksmes sirēnu modernizāciju un 15 jaunu trauksmes sirēnu iegādi un uzstādīšanu.
+4) Pilnveidoti algoritmi operatīvai informācijas nodošanai no NBS VUGD par gaisa apdraudējumu.</Result>
+    <Responsible orgs="14-0000">IeM</Responsible>
+    <CoResponsible orgs="10-0000">4) AizM</CoResponsible>
+    <Deadline values="2026-10-01">01.10.2026.</Deadline>
+  </Measure>
+  <Measure id="lv-mk-2026-05-28.rp.u003.p1" number="3.1." task="lv-dekl-2026-05-28.u003" funding="allocated">
+    <Text>Apzināt nepieciešamos resursus civilā sektora stacionāro ārstniecības iestāžu un personāla medicīniskās kapacitātes stiprināšanai, lai nodrošinātu atbalstu Nacionālajiem bruņotajiem spēkiem.</Text>
+    <Result>Sagatavots un Valsts kancelejā iesniegts informatīvais ziņojums izskatīšanai MK.
+Ilgtermiņa ietekme: Nodrošināta stacionāro ārstniecības iestāžu noturība dažādiem apdraudējumiem, kā arī atbalsta sniegšana Nacionālajiem bruņotajiem spēkiem valsts apdraudējuma gadījumā.</Result>
+    <Responsible orgs="10-0000 29-0000">AizM, VM</Responsible>
+    <CoResponsible orgs="00-0002">Visas ministrijas</CoResponsible>
+    <Deadline values="2026-09-01">01.09.2026.</Deadline>
+  </Measure>
+  <Measure id="lv-mk-2026-05-28.rp.u003.p2" number="3.2." task="lv-dekl-2026-05-28.u003" funding="allocated">
+    <Text>Uzsākt kritisko ģimenes ārstu tīkla izveidi.</Text>
+    <Result>Apzināta ģimenes ārstu prakšu gatavība nodrošināt veselības aprūpes pakalpojumu nepārtrauktību valsts apdraudējuma situācijās.
+Izstrādāti kritēriji kritiskām ģimenes ārstu prakšu noteikšanai.
+Izvērtēta nepieciešamība pēc normatīvā regulējuma pilnveides un papildu organizatoriskajiem risinājumiem.
+Ilgtermiņa ietekme:
+Stiprināta primārās veselības aprūpes sistēmas noturība un darbības nepārtrauktība krīzes situācijās;
+Uzlabota iedzīvotāju piekļuve primārās veselības aprūpes pakalpojumiem valsts apdraudējuma gadījumā.</Result>
+    <Responsible orgs="29-0000">VM</Responsible>
+    <Deadline values="2026-10-01">01.10.2026.</Deadline>
+  </Measure>
+  <Measure id="lv-mk-2026-05-28.rp.u003.p3" number="3.3." task="lv-dekl-2026-05-28.u003" funding="additional">
+    <Text>Risināt jautājumu par finansējumu militāro medicīnas zināšanu un prasmju apguvei un atjaunināšanai civilo ārstniecības personu un medicīnas studentu, rezidentu vidū.</Text>
+    <Result>Paredzēts finansējums un uzsākta ilgtspējīga apmācību finansēšanas mehānisma izveide, lai nodrošinātu civilo ārstniecības personu militārās medicīnas zināšanu apmācībām, kā arī, lai īstenotu militārās medicīnas apmācības kursu medicīnas studentiem un rezidentiem.
+Ilgtermiņa ietekme: Uzlabota sabiedrības drošība un valsts aizsardzības kapacitāte medicīnas jomā.</Result>
+    <Responsible orgs="29-0000">VM</Responsible>
+    <CoResponsible orgs="15-0000 13-0000 10-0000">IZM, FM, AizM</CoResponsible>
+    <Deadline values="2026-10-01">01.10.2026.</Deadline>
+  </Measure>
+  <Measure id="lv-mk-2026-05-28.rp.u003.p4" number="3.4." task="lv-dekl-2026-05-28.u003" funding="allocated">
+    <Text>Nodrošināt CSP rīcībā esošo datu pieejamību lēmumu pieņēmējiem (valdība, pašvaldība) atbilstoši apdraudētās teritorijas areālam.</Text>
+    <Result>Identificēts nepieciešamais informācijas apjoms un datu veids par apdraudētās teritorijas areālu, lai CSP nodrošinātu, ka, saņemot koordinātes par apdraudēto teritoriju, automatizēti sagatavotu informāciju par šajā teritorijā esošo iedzīvotāju skaitu, iedzīvotāju vecumstruktūru, skolēnu skaitu, izglītības iestāžu skaitu, veselības aprūpes iestādēm, uzņēmumiem, t.sk. lielākajiem eksportētājiem, u.c. Izstrādāts risinājums, kas nodrošina automatizētu CSP sagatavotās informācijas nosūtīšanu lēmumu pieņēmējiem (valdība, pašvaldība).</Result>
+    <Responsible orgs="12-0000 12-0039">EM (CSP)</Responsible>
+    <CoResponsible orgs="12-0000 14-0000">EM, IeM</CoResponsible>
+    <Deadline values="2026-10-01">01.10.2026.</Deadline>
+  </Measure>
+  <Measure id="lv-mk-2026-05-28.rp.u003.p5" number="3.5." task="lv-dekl-2026-05-28.u003" funding="allocated" priority="PP(KEM)">
+    <Text>Nodrošināt kritiskās enerģētikas infrastruktūras noturības paaugstināšanu pret bezpilota gaisa kuģu radītiem apdraudējumiem, izstrādājot un ieviešot koordinētu pretdronu aizsardzības risinājumu.</Text>
+    <Result>Pieņemts Ministru kabineta lēmums par kritiskās enerģētikas infrastruktūras pretdronu aizsardzības sistēmu ieviešanu un uzsākta iepirkuma procedūra prioritāro enerģētikas infrastruktūras objektu aprīkošanai ar pretdronu aizsardzības risinājumiem.</Result>
+    <Responsible orgs="20-0000">KEM</Responsible>
+    <CoResponsible orgs="10-0000 14-0000">AizM, IeM</CoResponsible>
+    <Deadline values="2026-10-01">01.10.2026.</Deadline>
+  </Measure>
+  <Measure id="lv-mk-2026-05-28.rp.u003.p6" number="3.6." task="lv-dekl-2026-05-28.u003" funding="allocated">
+    <Text>Valsts elektronisko sakaru pakalpojumu centra un valsts datu apstrādes mākoņa pakalpojumu attīstības plānošanas ietvaros izstrādāt plānu ārpus valsts teritorijas izvietotu skaitļošanas resursu izmantošanai atsevišķu valsts pārvaldes informācijas sistēmu darbināšanai.</Text>
+    <Result>1) Sadarbībā ar LVRTC izstrādāts un iesniegts izskatīšanai Ministru kabinetā Datu vēstniecības ziņojums.
+2) Uzsākta ERAF 1.3.1.3. (3.2.1.1.) kiberdrošības pasākuma projektu realizācija.</Result>
+    <Responsible orgs="21-0000">VARAM</Responsible>
+    <CoResponsible orgs="10-0000 17-0000">AizM, SM</CoResponsible>
+    <Deadline values="2026-10-01">01.10.2026.</Deadline>
+  </Measure>
+  <Measure id="lv-mk-2026-05-28.rp.u003.p7" number="3.7." task="lv-dekl-2026-05-28.u003" funding="allocated">
+    <Text>Stiprināt iedzīvotāju un dienestu gatavību dažādām krīzēm – īstenot plaša mēroga civilās aizsardzības mācības – gan pašvaldībās, gan uzņēmumos, gan nozarēs. Organizēsim civilā sektora mācības visaptverošas valsts aizsardzības mācību ietvaros.</Text>
+    <Result>1) Uzsākta kritiskās infrastruktūras un paaugstinātas bīstamības objektu civilās aizsardzības mācību īstenošana, stiprinot uzņēmumu izpratni par civilās aizsardzības sistēmas darbību, bet arī nodrošinot pārnozaru iestāžu mācības.
+2) Nodrošināta Civilā sektora mācību koordinēšana NAMEJS 2026 ietvaros (mācību aktīvā fāze plānota 2026. 6-8.oktobrī, mācību secinājumus un priekšlikumus VVA darba grupā plānots izskatīt 2026.decembrī)
+3) Saplānotas nacionāla līmeņa aktivitātes un iesniegti priekšlikumi ES komisijas organizētajās krīzes vadības mācībās. Mācību ietvaros nodrošināta Latvijas institūciju iesaistes koordinēšana, sadarbība ar starptautiskajiem partneriem (mācību aktīvā fāze plānota 2026. 16.-20.novembrī)
+4) Koordinēta Latvijas dalība NATO organizētajās krīzes vadības mācībās CMX27 (t.sk. scenārija izstrāde, plānošana un skaņošana ar iesaistītajām institūcijām; civilo institūciju iesaistes koordinēšana u.c.) (mācību aktīvā fāze plānota 2027.martā)</Result>
+    <Responsible orgs="14-0000 03-0000">1) IeM,
+2-4) VK (KVC)</Responsible>
+    <CoResponsible orgs="14-0000 11-0000 10-0000">IeM
+4) ĀM; AizM</CoResponsible>
+    <Deadline values="2026-10-01">01.10.2026.</Deadline>
+  </Measure>
+  <Measure id="lv-mk-2026-05-28.rp.u003.p8" number="3.8." task="lv-dekl-2026-05-28.u003" funding="allocated">
+    <Text>Uzsākt darbu pie vienota Latvijas lidostu pārvaldības un attīstības modeļa, kurā Rīgas un reģionālās lidostas tiek attīstītas kā savstarpēji papildinošs valsts drošības, civilās aizsardzības, militārās mobilitātes un reģionālās sasniedzamības infrastruktūras tīkls</Text>
+    <Result>Izveidota starpinstitucionāla darba grupa un uzsākts darbs pie izvērtējuma par vienota Latvijas lidostu pārvaldības un attīstības modeļa izstrādes</Result>
+    <Responsible orgs="17-0000">SM</Responsible>
+    <CoResponsible orgs="10-0000 12-0000 21-0000 90-0002 90-0003 90-0001">AizM, EM, VARAM, Liepājas pašvaldība, Ventspils pašvaldība un Daugavpils pašvaldība</CoResponsible>
+    <Deadline values="2026-09-22">22.09.2026.</Deadline>
+  </Measure>
+  <Measure id="lv-mk-2026-05-28.rp.u004.p1" number="4.1." task="lv-dekl-2026-05-28.u004" funding="allocated">
+    <Text>Izstrādāt un saskaņot grozījumus Militārā dienesta likumā (spēka pielietošana) un grozījumus likumā "Ārvalstu bruņoto spēku statuss Latvijas Republikā".</Text>
+    <Result>Ministru kabinetā izskatīti un apstiprināti minētie likumprojekti.</Result>
+    <Responsible orgs="10-0000">AizM</Responsible>
+    <CoResponsible orgs="14-0000">IeM</CoResponsible>
+    <Deadline values="2026-09-15">15.09.2026.</Deadline>
+  </Measure>
+  <Measure id="lv-mk-2026-05-28.rp.u004.p2" number="4.2." task="lv-dekl-2026-05-28.u004" funding="additional">
+    <Text>1) Paplašināt iekšlietu dienestu tiesības pielietot konvenciālos ieročus un elektroniskās karadarbības ieročus, lai novērstu apdraudējumu, kuru rada bezpilota sistēmas.
+2) Iekšlietu dienestiem nodrošināt pietiekamu ieroču un munīcijas daudzums, lai nodrošinātu dienestu funkciju izpildi.</Text>
+    <Result>1) Sagatavoti un Ministru kabinetā iesniegti grozījumi atbilstošajos normatīvajos aktos.
+2) Sagatavots budžeta pieprasījums par iekšlietu dienestiem nepieciešamo ieroču un munīcijas iegādi, lai nodrošinātu dienestu funkciju izpildi.</Result>
+    <Responsible orgs="14-0000">IeM</Responsible>
+    <CoResponsible orgs="10-0000">1) AizM</CoResponsible>
+    <Deadline values="2026-10-01">01.10.2026.</Deadline>
+  </Measure>
+  <Measure id="lv-mk-2026-05-28.rp.u005.p1" number="5.1." task="lv-dekl-2026-05-28.u005" funding="allocated">
+    <Text>Īstenot informatīvajā ziņojumā "Par trešo valstu pilsoņu uzturēšanās Latvijā tiesiskā regulējuma pilnveidošanu" ietvertā "Trešo valstu pilsoņu uzturēšanās Latvijā kontroles un tiesiskā regulējuma pilnveidošanas plāna" pasākumus.</Text>
+    <Result>1) Izstrādāts un Ministru kabinetā iesniegts informatīvais ziņojums par plāna pasākumu izpildes gaitu.
+2) Paplašināti imigrantu kontroles pasākumi pierobežas zonā un valstspilsētās.</Result>
+    <Responsible orgs="14-0000">IeM</Responsible>
+    <CoResponsible orgs="15-0000 11-0000 18-0000 22-0000 00-0004 08-0000">1) IZM, ĀM, LM, KM (SIF)
+2) Pašvaldību policijas</CoResponsible>
+    <Deadline values="2026-10-01">01.10.2026.</Deadline>
+  </Measure>
+  <Measure id="lv-mk-2026-05-28.rp.u006.p1" number="6.1." task="lv-dekl-2026-05-28.u006" funding="allocated" priority="PP(IZM)">
+    <Text>Novērst augstākās izglītības eksporta izmantošanu negodprātīgai ekonomiskai imigrācijai</Text>
+    <Result>1) Sagatavoti un iesniegti priekšlikumi likumprojektam par grozījumiem Imigrācijas likumā, nosakot latviešu valodas prasmes (vismaz A2 līmenī) prasību studējošajiem ārvalstniekiem, kas Latvijā studē vismaz divus gadus.
+2) Saeimā iesniegts likumprojekts par grozījumiem Augstskolu likumā, pastiprinot augstskolu atbildību par uzaicinātajiem studentiem.
+3) Veikti grozījumi Ministru kabineta 2006. gada 10. oktobra noteikumos Nr. 846 "Noteikumi par prasībām, kritērijiem un kārtību uzņemšanai studiju programmās un valsts atbalstu pilsoņiem, kas brīvprātīgi pieteikušies valsts aizsardzības dienestā un pabeiguši to", nosakot SAT iestājpārbaudījuma vai līdzvērtīga iestājpārbaudījuma prasības pamatstudijām ārvalstniekiem.</Result>
+    <Responsible orgs="15-0000">IZM</Responsible>
+    <CoResponsible orgs="11-0000 14-0000">ĀM, IeM</CoResponsible>
+    <Deadline values="2026-10-01 2026-10-01 2026-10-01">1) 01.10.2026.
+2) 01.10.2026.
+3) 01.10.2026.</Deadline>
+  </Measure>
+  <Measure id="lv-mk-2026-05-28.rp.u006.p2" number="6.2." task="lv-dekl-2026-05-28.u006" funding="allocated" priority="PP(IeM)">
+    <Text>Īstenot pasākumus migrācijas ierobežošanai.</Text>
+    <Result>Izstrādāts informatīvais ziņojums par migrācijas politikas attīstību Latvijā, tai skaitā ietverot pasākumu plānu Latvijas Republikas Saeimas "Parlamentārās izmeklēšanas komisijas par problēmām nacionālā un Eiropas Savienības līmeņa imigrācijas regulējumā un izpildinstitūciju darbā, kas izraisa trešo valstu pilsoņu masveida ieceļošanu un uzturēšanos Latvijas Republikā" ziņojumā iekļauto ieteikumu īstenošanai.</Result>
+    <Responsible orgs="14-0000">IeM</Responsible>
+    <Deadline values="2026-09-01">01.09.2026.</Deadline>
+  </Measure>
+  <Measure id="lv-mk-2026-05-28.rp.u007.p1" number="7.1." task="lv-dekl-2026-05-28.u007" funding="allocated" priority="PP(ĀM)">
+    <Text>Visaptveroša atbalsta sniegšana Ukrainai cīņā pret Krievijas agresiju, tai skaitā politiskā, diplomātiskā, militārā, ekonomiskā, finansiālā, attīstības sadarbības un humānā palīdzības formātā.
+Sniegts atbalsts Ukrainai Krievijas un tās amatpersonu atbildības nodrošināšanai, izmantojot Starptautisko Krimināltiesu un veidojot īpašo tribunālu agresijas noziegumam pret Ukrainu.
+Turpmākā iesaistīšanās Ukrainas uzsāktajās lietās Starptautiskajā tiesā par ANO Konvencijas par genocīda nepieļaujamību un sodīšanu piemērošanu un Eiropas Cilvēktiesību tiesā.
+Konsekventi īstenota sankciju politika pret Krieviju un Baltkrieviju, kā arī veicināta Krievijas starptautiskā izolācija.</Text>
+    <Result>Uzturēts aktīvs dialogs Ukrainas atbalstam divpusējos un daudzpusējos formātos, tai skaitā ES, NATO, ANO un citās starptautiskajās organizācijās. Konsekventa visaptveroša atbalsta Ukrainai turpināšana, tālāka Krievijas starptautiskā izolācija, sankciju politikas stiprināšana un ierobežojumu nemīkstināšana pret pašlaik jau sankcionētajām personām. Atbalsts Ukrainai un Krievijas ierobežošana uzturēts kā centrālais jautājums nozīmīgākajos ES sadarbības formātos – Eiropadomē, ES Ārlietu padomē un Vispārējo lietu padomē. Nodrošināta dalība 15.06.2026. un 13.07.2026. ES ārlietu padomes sanāksmēs, kur apstiprinātas tālākas sankcijas pret Krieviju, tostarp individuālās sankcijas pret juridiskām personām, kas darbojas Krievijas militāri-industriālajā jomā, kā arī Krievijas "ēnu flotes" ekosistēmā, un 21.sankciju kārta. Līdz 31.07.2026. nodrošināta sektorālo sankciju režīma pagarināšana (Regula Nr.833). Līdz 15.09.2026. nodrošināta individuālo sankciju režīma pagarināšana (Regula Nr.269).
+Nodrošināta Latvijas aktīva iesaiste ANO Drošības padomē Ukrainas atbalstam. Ņemot vērā, ka 2026. gada novembrī Latvija būs ANO Drošības padomes prezidējošā valsts, līdz oktobrim turpināta sagatavošanās Latvijas prezidentūrai, kur Ukraina plānota kā centrālais jautājums.
+Uzturēta augsta līmeņa politiskā iesaiste Ukrainas atbalstam, tai skaitā sagatavojot un īstenojot vizīšu apmaiņu (Valsts prezidenta E. Rinkēviča vizīte Kijivā).
+Latvija kļuvusi par Ukrainas civilās aizsardzības patvertņu koalīcijas dalībvalsti un turpina dalību Starptautiskajā koalīcijā deportēto Ukrainas bērnu atgriešanai. Nodrošināta Latvijas dalība 28.–29.09.2026. Kanādā plānotajā Starptautiskās koalīcijas Ukrainas bērnu atgriešanai augsta līmeņa sanāksmē.
+Sniegts atbalsts Ukrainai Krievijas starptautiskās atbildības, kā arī Krievijas amatpersonu individuālās atbildības nodrošināšanā.
+Atbalstīti Ukrainas centieni īpašā tribunāla agresijas noziegumam izveidē.
+Stiprinātas, paplašinātas un pagarinātas esošās sankcijas pret Krieviju un Baltkrieviju. Regulāri iesniegti Latvijas priekšlikumi jaunām sankcijām pret Krieviju un Baltkrieviju.
+Regulāri pausta Latvijas nostāja un īstenotas iniciatīvas starptautiskajos formātos, vēršoties pret Krievijas agresiju Ukrainā un aizstāvot tiesiskumā balstītu starptautisko kārtību.</Result>
+    <Responsible orgs="11-0000">ĀM</Responsible>
+    <CoResponsible orgs="12-0000 13-0000">EM, FM</CoResponsible>
+    <Deadline>Pastāvīgi</Deadline>
+  </Measure>
+  <Measure id="lv-mk-2026-05-28.rp.u007.p2" number="7.2." task="lv-dekl-2026-05-28.u007" funding="additional">
+    <Text>Sagatavot un iesniegt Ministru kabinetā izskatīšanai informatīvo ziņojumu par priekšlikumiem Latvijas iesaistei Ukrainas atjaunošanā un šim mērķim nepieciešamā finansējuma piešķiršanu 2027.gadā.</Text>
+    <Result>Apstiprinātas prioritātes Latvijas iesaistei Ukrainas atjaunošanā 2027. gadā.</Result>
+    <Responsible orgs="11-0000">ĀM</Responsible>
+    <CoResponsible orgs="12-0000 13-0000">EM, FM</CoResponsible>
+    <Deadline values="2026-10-01">01.10.2026.</Deadline>
+  </Measure>
+  <Measure id="lv-mk-2026-05-28.rp.u007.p3" number="7.3." task="lv-dekl-2026-05-28.u007" funding="allocated">
+    <Text>Nodrošināt AS "Latvenergo" TEC-2 nokalpojušā bloka ziedojuma īstenošanu Ukrainai.</Text>
+    <Result>Ministru kabinetā pieņemts rīkojums par atļauju veikt ziedojumu un ar to saistīto tālāko lēmumu pieņemšanu un īstenošanu.</Result>
+    <Responsible orgs="20-0000">KEM</Responsible>
+    <CoResponsible orgs="12-0000 13-0000 11-0000">EM, FM, ĀM</CoResponsible>
+    <Deadline values="2026-10-01">01.10.2026.</Deadline>
+  </Measure>
+  <Measure id="lv-mk-2026-05-28.rp.u007.p4" number="7.4." task="lv-dekl-2026-05-28.u007" funding="allocated">
+    <Text>Psiholoģiskā atbalsta kursa nodrošināšana Ukrainas Valsts robežsardzes dienesta un Ukrainas Valsts ārkārtējo situāciju dienesta amatpersonām.</Text>
+    <Result>Nodrošināts psiholoģiskā atbalsta kurss 40 Ukrainas Valsts robežsardzes dienesta un Ukrainas Valsts ārkārtējo situāciju dienesta amatpersonām.</Result>
+    <Responsible orgs="14-0000">IeM</Responsible>
+    <Deadline values="2026-10-01">01.10.2026.</Deadline>
+  </Measure>
+  <Measure id="lv-mk-2026-05-28.rp.u007.p5" number="7.5." task="lv-dekl-2026-05-28.u007" funding="allocated" priority="PP(ĀM)">
+    <Text>Nodrošināt sagatavošanos NATO samitam Ankarā 2026. gada 7.-8. jūlijā</Text>
+    <Result>Noticis NATO samits Ankarā, kurā NATO dalībvalstu līderu apstiprinātā samita deklarācija un dokumenti iekļauj Latvijai būtiskās prioritātes drošībā un aizsardzībā.</Result>
+    <Responsible orgs="11-0000 10-0000">ĀM, AizM</Responsible>
+    <Deadline values="2026-07-31">31.07.2026.</Deadline>
+  </Measure>
+  <Measure id="lv-mk-2026-05-28.rp.u008.p1" number="8.1." task="lv-dekl-2026-05-28.u008" funding="allocated" priority="PP(TM)">
+    <Text>Nodrošināt tiesisko noteiktību Ukrainas civiliedzīvotājiem, kuri ilgstoši uzturas Latvijas Republikā, noteiktos gadījumos pretendēt uz nacionālo pastāvīgās uzturēšanās atļauju.</Text>
+    <Result>Izskatīts Ministru kabinetā likumprojekts "Grozījumi Ukrainas civiliedzīvotāju atbalsta likumā , kas paredz Ukrainas civiliedzīvotājam tiesības pieprasīt pastāvīgās uzturēšanās atļauju, ja vienlaikus izpildās attiecīgie nosacījumi, tostarp ievērota valsts valodas apguves prasība.</Result>
+    <Responsible orgs="14-0000 19-0000">IeM, TM</Responsible>
+    <Deadline values="2026-10-01">01.10.2026.</Deadline>
+  </Measure>
+  <Measure id="lv-mk-2026-05-28.rp.u008.p2" number="8.2." task="lv-dekl-2026-05-28.u008" funding="additional">
+    <Text>Nodrošināt konceptuālu risinājumu valsts valodas apguves pieaugušajiem institucionālai un finanšu pārvaldībai, nosakot Latviešu valodas aģentūras vadošo lomu šī procesa virzībā un veidojot vienotu efektīvu un datos balstītu pārvaldību valsts valodas apguvei pieaugušajiem.</Text>
+    <Result>1) Sagatavoti un MK iesniegti priekšlikumi institucionālās un kompetenču sadrumstalotības novēršanai valsts valodas politikas jomā.
+2) Uzsākta projekta "Moduļa valsts valodas apguves pakalpojuma saņemšanai un pārvaldībai izveide" īstenošana.</Result>
+    <Responsible orgs="15-0000 15-0652 15-0203">IZM (LVA, VIAA)</Responsible>
+    <CoResponsible orgs="22-0000 08-0000 18-0000 18-0451">1) KM, SIF, LM (NVA)</CoResponsible>
+    <Deadline values="2026-08-30 2026-10-01">1) 30.08.2026.
+2) 01.10.2026.</Deadline>
+  </Measure>
+  <Measure id="lv-mk-2026-05-28.rp.u009.p1" number="9.1." task="lv-dekl-2026-05-28.u009" funding="allocated" priority="PP(TM)">
+    <Text>Noteikt tiesisku, skaidru mehānismu bezpilota lidaparātu un citu ieroču veidu un hibrīduzbrukumu izraisīto zaudējumu kompensēšanai.</Text>
+    <Result>Izstrādāts un Saeimā pieņemts tiesiskais regulējums.
+Stiprināta ekonomiskā un sabiedrības noturība.
+Veicināta drošības sajūta un sabiedrības uzticēšanās valstij.
+Ātrs kompensācijas mehānisms.
+Aizsargāti uzņēmumu un iedzīvotāju aktīvi pret ārējiem faktoriem.</Result>
+    <Responsible orgs="19-0000">TM</Responsible>
+    <CoResponsible orgs="13-0000 10-0000">FM, AizM</CoResponsible>
+    <Deadline values="2026-07-30">30.07.2026.</Deadline>
+  </Measure>
+  <Measure id="lv-mk-2026-05-28.rp.u010.p1" number="10.1." task="lv-dekl-2026-05-28.u010" funding="allocated" priority="PP(KEM)">
+    <Text>Veicināt Latvijas enerģētisko pašpietiekamību un vietējo energoresursu izmantošanu, pilnveidojot regulējumu elektroenerģijas ražošanas jaudu attīstībai un sabalansējot enerģētikas projektu attīstību ar sabiedrības un pašvaldību interesēm.</Text>
+    <Result>1) Saeimā pieņemti grozījumi Elektroenerģijas tirgus likumā, nosakot deleģējumu Ministru kabinetam izstrādāt vēja elektrostaciju ekspluatācijas un demontāžas regulējumu;
+2) Pabeigta Ministru kabineta noteikumu projektu par vēja elektrostaciju ekspluatāciju un elektroenerģijas ražošanas iekārtu un uzkrātuvju demontāžu sabiedriskā apspriešana un veikti vismaz divi starpinstitūciju saskaņošanas cikli;
+3) Organizētas konsultācijas ar iedzīvotājiem un pašvaldībām, lai veicinātu sabiedrības iesaisti un ņemtu vērā vietējo kopienu intereses enerģētikas projektu attīstībā.
+4) Saeimā pieņemti grozījumi likumā "Par ietekmes uz vidi novērtējumu", stiprinot pašvaldību lomu enerģētikas projektu attīstībā un nosakot, ka ietekmes uz vidi novērtējuma process vēja elektrostaciju projektiem uzsākams tikai atbilstoši pašvaldības teritorijas plānojumam.
+5) Saeimā pieņemts likums par Enerģētiskās drošības un neatkarības veicināšanai nepieciešamās atvieglotās energoapgādes būvju būvniecības kārtības likuma atzīšanu par spēku zaudējušu.
+6) Izstrādāta un Ministru kabinetā apstiprināta sākotnējā Latvijas pozīcija par Eiropas Savienības enerģētikas politikas ietvaru pēc 2030. gada.</Result>
+    <Responsible orgs="20-0000">KEM</Responsible>
+    <CoResponsible orgs="12-0000 21-0000">EM, VARAM</CoResponsible>
+    <Deadline values="2026-06-18 2026-10-01 2026-08-31 2026-06-18 2026-06-18 2026-06-30">1) 18.06.2026.
+2) 01.10.2026.
+3) 31.08.2026.
+4) 18.06.2026.
+5) 18.06.2026.
+6) 30.06.2026.</Deadline>
+  </Measure>
+  <Measure id="lv-mk-2026-05-28.rp.u010.p2" number="10.2." task="lv-dekl-2026-05-28.u010" funding="allocated" priority="PP(KEM)">
+    <Text>Pilnveidot valsts gatavību energoapgādes krīzēm un kritiskās infrastruktūras aizsardzībai.</Text>
+    <Result>1) Organizētas vismaz divas katastrofu pārvaldības mācības sadarbības teritoriju civilās aizsardzības komisijām par energoapgādes traucējumu pārvaldību.
+2) Ministru kabinetā apstiprināts aktualizētais Valsts enerģētiskās krīzes centra nolikums.
+3)Baltijas enerģētikas ministru kopīga apņemšanās par kopīgu energosistēmas rezervju veidošanu (parakstīta Baltijas valstu par enerģētiku atbildīgo ministriju vienošanās).</Result>
+    <Responsible orgs="20-0000">KEM</Responsible>
+    <Deadline values="2026-10-01 2026-10-01 2026-10-01">1) 01.10.2026.
+2) 01.10.2026.
+3) 01.10.2026.</Deadline>
+  </Measure>
+  <Measure id="lv-mk-2026-05-28.rp.u010.p3" number="10.3." task="lv-dekl-2026-05-28.u010" funding="allocated">
+    <Text>Veicināt enerģētikas infrastruktūras attīstībai piemērotu teritoriju savlaicīgu plānošanu un pieejamību.</Text>
+    <Result>Pabeigts iepirkums un uzsākts stratēģiskais ietekmes uz vidi novērtējums valsts tematiskā plānojuma projektam industriālās attīstības piemērotāko teritoriju noteikšanai.</Result>
+    <Responsible orgs="20-0000">KEM</Responsible>
+    <CoResponsible orgs="21-0000">VARAM</CoResponsible>
+    <Deadline values="2026-10-01">01.10.2026.</Deadline>
+  </Measure>
+  <Measure id="lv-mk-2026-05-28.rp.u010.p4" number="10.4." task="lv-dekl-2026-05-28.u010" funding="allocated" priority="PP(KEM)">
+    <Text>Pilnveidot elektroenerģijas tirgus darbību un veicināt patērētāju iespējas aktīvāk iesaistīties enerģijas tirgū, vienlaikus nodrošinot nepieciešamos mājsaimniecību atbalsta pasākumus ārkārtēji augstu energoresursu cenu gadījumā</Text>
+    <Result>1) Saeimā iesniegti grozījumi Elektroenerģijas tirgus likumā, pārņemot ES elektroenerģijas tirgus direktīvas prasības;
+2) Ministru kabinetā iesniegti grozījumi precizējumiem noteikumos par energokopienām;
+3) Veikts Energoresursu izmaksu kompensācijas informācijas sistēmas (EIKIS) tests, lai pārbaudītu tā darbību pašvaldībās;
+4) Nodrošināta energoresursu tirgus un cenu ikdienas monitorēšana, ārkārtēju enerģijas cenu gadījumā sagatavojot lēmuma projektu Ministru kabinetam par EIKIS atbalstu aktivizēšanu.</Result>
+    <Responsible orgs="20-0000">KEM</Responsible>
+    <Deadline values="2026-10-01 2026-07-31 2026-08-31 2026-10-01">1) 01.10.2026.
+2) 31.07.2026.
+3) 31.08.2026.
+4) 01.10.2026.</Deadline>
+  </Measure>
+  <Measure id="lv-mk-2026-05-28.rp.u010.p5" number="10.5." task="lv-dekl-2026-05-28.u010" funding="allocated" priority="PP(KEM)">
+    <Text>Pilnveidot siltumapgādes tirgu.</Text>
+    <Result>Izvērtētas siltumapgādes parlamentārās izmeklēšanas komisijas rekomendācijas un, kur atbilstoši, uzsākts īstenot regulatīvās vides pilnveidi (Informatīvais ziņojums)</Result>
+    <Responsible orgs="20-0000">KEM</Responsible>
+    <CoResponsible orgs="12-0000">EM</CoResponsible>
+    <Deadline values="2026-10-01">01.10.2026.</Deadline>
+  </Measure>
+  <Measure id="lv-mk-2026-05-28.rp.u010.p6" number="10.6." task="lv-dekl-2026-05-28.u010" funding="allocated" priority="PP(EM)">
+    <Text>Daudzdzīvokļu māju energoefektivitātes turpināšana – izstrādāts jauns ieviešanas modelis plašāku privāto investīciju piesaistei.</Text>
+    <Result>MK iesniegti MK noteikumi.</Result>
+    <Responsible orgs="12-0000">EM</Responsible>
+    <Deadline values="2026-09-01">01.09.2026.</Deadline>
+  </Measure>
+  <Measure id="lv-mk-2026-05-28.rp.u010.p7" number="10.7." task="lv-dekl-2026-05-28.u010" funding="additional">
+    <Text>Atbalstīt energo intensīvos uzņēmumus – ilgtermiņā (PPA) līguma piedāvājums konkurētspējīgākai cenai.</Text>
+    <Result>MK iesniegts informatīvais ziņojums, kurā paredzēts risinājums nodrošināt ilgtermiņa līgumus ar 30% izdevīgāku tarifu kā īstermiņa tirgus cena.</Result>
+    <Responsible orgs="12-0000">EM</Responsible>
+    <CoResponsible orgs="20-0000">KEM</CoResponsible>
+    <Deadline values="2026-09-01">01.09.2026.</Deadline>
+  </Measure>
+  <Measure id="lv-mk-2026-05-28.rp.u011.p1" number="11.1." task="lv-dekl-2026-05-28.u011" funding="allocated">
+    <Text>Turpināt politisku un ekspertu līmeņa atbalstu Ukrainas un Moldovas ES integrācijas procesam, iestājoties par sasniegumos balstītu ES paplašināšanās procesu, visu sarunu klasteru formālu atvēršanu, turpmāku Ukrainas un Moldovas reformu un ES kritēriju izpildes progresu.</Text>
+    <Result>Uzturēts aktīvs dialogs ar ES dalībvalstīm, Ukrainu un Moldovu par Ukrainas un Moldovas ES integrācijas procesa virzību un reformu īstenošanu. Latvija ES Padomju formātos, starptautiskos pasākumos un divpusējās sarunās konsekventi iestājusies par sasniegumos balstītu ES paplašināšanās procesu un Ukrainas un Moldovas turpmāku virzību ES integrācijas ceļā. Uzturēta Latvijas gatavība dalīties ar Ukrainu un Moldovu reformu īstenošanas pieredzē, īpaši jautājumos, kas saistīti ar ES integrāciju, institucionālo noturību un pievienošanās sarunu sagatavošanu. Veicināts progress Ukrainas un Moldovas integrācijas procesā ES, uzturot politisku atbalstu pievienošanās sarunu procesa virzībai un turpinot Latvijas ekspertīzes nodošanu. Nodrošināta dalība š.g. 15. jūnijā plānotajās Starpvaldību konferencēs ar Moldovu un Ukrainu par 1. ES iestāšanās sarunu klastera atvēršanu ar abām valstīm. Parakstīts sadarbības memorands starp Ukrainas un Latvijas tieslietu ministriem.</Result>
+    <Responsible orgs="11-0000">ĀM</Responsible>
+    <CoResponsible orgs="19-0000">TM</CoResponsible>
+    <Deadline values="2026-10-01">01.10.2026.</Deadline>
+  </Measure>
+  <Measure id="lv-mk-2026-05-28.rp.u012.p1" number="12.1." task="lv-dekl-2026-05-28.u012" funding="allocated" priority="PP(ĀM)">
+    <Text>Veicināt diasporas organizāciju un ārzemēs dzīvojošo Latvijas pilsoņu informētību par balsošanas iespējām klātienē un pa pastu, t.sk. par nepieciešamību pieteikties jaunu personas apliecinošo dokumentu saņemšanai, ja tas ir nepieciešams.</Text>
+    <Result>Latvijas pilsoņi ārzemēs iespējami plaši informēti par iespējām piedalīties vēlēšanās klātienē un pa pastu.</Result>
+    <Responsible orgs="11-0000">ĀM</Responsible>
+    <CoResponsible orgs="21-0000 14-0000">VARAM, IeM</CoResponsible>
+    <Deadline values="2026-10-01">01.10.2026.</Deadline>
+  </Measure>
+  <Measure id="lv-mk-2026-05-28.rp.u012.p2" number="12.2." task="lv-dekl-2026-05-28.u012" funding="allocated" priority="PP(VARAM)">
+    <Text>Nodrošināt Latvijas Republikas 15. Saeimas vēlēšanu norisei nepieciešamo digitālo risinājumu sagatavošanu, pārbaudi un ieviešanu tādā apjomā, lai vēlēšanu process būtu tehniski drošs, pārskatāms un sabiedrībai uzticams.</Text>
+    <Result>1)Nodrošināta kandidātu sarakstu iesniegšana elektroniskā formā – ne vēlāk kā līdz 20.06.2026.;
+2) Nodrošināta elektroniskā tiešsaistes vēlētāju reģistra gatavība – ne vēlāk kā līdz 30.06.2026.;
+3) Nodrošināta vēlēšanu elektroniskā sistēma ar vēlēšanu gaitas žurnālu un balsu skaitīšanas protokoliem – ne vēlāk kā līdz 30.06.2026.;
+4) Veikti vēlēšanu platformas drošības un veiktspējas testi – ne vēlāk kā līdz 23.08.2026.
+5) Nodrošināta regulāra Vēlēšanu platformas ieviešanas procesa uzraudzība un risku analīze, Ministru Prezidenta un MK informēšana ne retāk kā reizi 2 nedēļās.</Result>
+    <Responsible orgs="21-0000">VARAM</Responsible>
+    <CoResponsible orgs="19-0000 14-0000 11-0000">TM, IeM, ĀM</CoResponsible>
+    <Deadline values="2026-09-21">21.09.2026.</Deadline>
+  </Measure>
+  <Measure id="lv-mk-2026-05-28.rp.u012.p3" number="12.3." task="lv-dekl-2026-05-28.u012" funding="allocated">
+    <Text>Veikt Valsts IKT investīciju un projektu pārvaldības izvērtēšanu un pārvaldības procesu pilnveidošanu, t.sk. centralizētās IKT pārvaldības tvēruma paplašināšanu, balstoties uz esošo auditu, iepirkumu prakses un ieviešanas problēmu secinājumiem.</Text>
+    <Result>1) Informatīvais ziņojums "Priekšlikumi Valsts IKT investīciju un projektu pārvaldības pilnveidei" iesniegts VSS (30.06.2026.), kas ietvers sekojošus priekšlikumus: Valsts IKT sagādē, t.sk. EIS katalogu izmantošanā, Valsts IKT profesionalizācijā un kompetenču konsolidācijai, kā arī Valsts IKT investīciju portfeļa pārvaldībā.
+2) Iesniegts MK "Valsts digitālās pārvaldes resursu attīstības kārtība" noteikumi, kas ietvers pilnveidojumus Valsts IKT aktivitāšu centralizētai saskaņošanai un lietderības aspektu izvērtēšanai (30.09.2026.)
+3) Ieviesta caurspīdība valsts IKT investīciju projektu portfelim (VARAM pārraudzības)- projektu sarakstam, ieviešanas statusam (31.08.2026.); piemērs: https://anm-ikt-varam.lovable.app/.</Result>
+    <Responsible orgs="21-0000">VARAM</Responsible>
+    <CoResponsible orgs="00-0002">Visas ministrijas</CoResponsible>
+    <Deadline values="2026-09-21">21.09.2026.</Deadline>
+  </Measure>
+  <Measure id="lv-mk-2026-05-28.rp.u013.p1" number="13.1." task="lv-dekl-2026-05-28.u013" funding="allocated">
+    <Text>Noteikt atbildību tirgus dalībnieku amatpersonām par iesaistīšanos karteļa vienošanās (aizliegtās vienošanās).</Text>
+    <Result>Nodrošināta Grozījumu Konkurences likumā (Nr.1063/Lp14) virzība Saeimā – sagatavoti priekšlikumi Saeimas Juridiskajai komisijai un nodrošināta aktīva līdzdalība jautājumu izskatīšanā.</Result>
+    <Responsible orgs="12-0000">EM</Responsible>
+    <CoResponsible orgs="19-0000 12-0040">TM, KP</CoResponsible>
+    <Deadline values="2026-10-01">01.10.2026.</Deadline>
+  </Measure>
+  <Measure id="lv-mk-2026-05-28.rp.u013.p2" number="13.2." task="lv-dekl-2026-05-28.u013" funding="allocated">
+    <Text>Nodrošināt tirgus izpētes sabiedrībai nozīmīgos tirgos (pārtikas preču mazumtirdzniecība, degvielas tirdzniecība, sadzīves atkritumu apsaimniekošana, IT jomas publiskie iepirkumi).</Text>
+    <Result>Sagatavoti priekšlikumi konkurences ierobežojumu novēršanai un konkurētspējīgākas uzņēmējdarbības vides veicināšanai padziļināti pētītajās jomās, īstenoti preventīvi pasākumi.</Result>
+    <Responsible orgs="12-0040">KP</Responsible>
+    <Deadline values="2026-10-01">01.10.2026.</Deadline>
+  </Measure>
+  <Measure id="lv-mk-2026-05-28.rp.u013.p3" number="13.3." task="lv-dekl-2026-05-28.u013" funding="allocated">
+    <Text>Izstrādāt specializētu skrīninga rīku efektīvākai karteļu un koruptīvu nodarījumu atklāšanai publisko iepirkumu jomā.</Text>
+    <Result>Īstenota rīka testēšana un papildināšana ar funkcionalitāti, lai atlases kritērijus un rezultātus pielāgotu izmeklēšanas iestāžu praktiskām vajadzībām iespējamu konkurences pārkāpumu un koruptīvu nodarījumu identificēšanai.</Result>
+    <Responsible orgs="12-0040">KP</Responsible>
+    <CoResponsible orgs="04-0000 92-0001 92-0002">KNAB, LU, RTU</CoResponsible>
+    <Deadline values="2026-10-01">01.10.2026.</Deadline>
+  </Measure>
+  <Measure id="lv-mk-2026-05-28.rp.u013.p4" number="13.4." task="lv-dekl-2026-05-28.u013" funding="allocated">
+    <Text>Pieņemt Kriminālsodu izpildes likumu – starptautiskajiem cilvēktiesību standartiem atbilstoša kriminālsodu izpilde.</Text>
+    <Result>14.Saeimā pieņemts likums.
+Mūsdienīga tiesiskā bāze ar uzsvaru uz sabiedrības drošības stiprināšanu, resocializācijas attīstību un soda izpildes procesu vienkāršošanu.
+Moderns kriminālsoda izpildes saturs, kas mazina ieslodzīto neformālās hierarhijas izpausmju iespējas.
+Jaudīga resocializācija cietumā un probācijā mazina atkārtotu noziegumu skaitu, padarot mūsu ielas drošākas visai sabiedrībai.</Result>
+    <Responsible orgs="19-0000">TM</Responsible>
+    <Deadline values="1026-10-01">01.10.1026.</Deadline>
+  </Measure>
+  <Measure id="lv-mk-2026-05-28.rp.u013.p5" number="13.5." task="lv-dekl-2026-05-28.u013" funding="allocated">
+    <Text>Sagatavot grozījumus Administratīvā procesa likumā – kompleksi uzlabojumi tiesvedības procesā administratīvajās tiesās, paātrinot lietu izskatīšanu, ierobežojot procesuālo huligānismu un nostiprinot valsts valodas pozīcijas.
+E-lietas ieviešanas administratīvajā procesā tiesā atlikšana līdz diviem gadiem (likums "Grozījums Administratīvā procesa likumā" stājās spēkā 01.06.2026.).</Text>
+    <Result>Izstrādāti un iesniegti izskatīšanai MK grozījumi Administratīvā procesa likumā.
+Paātrināsies lietu izskatīšana, ierobežojot procesuālo huligānismu un nostiprinot valsts valodas pozīcijas.</Result>
+    <Responsible orgs="19-0000">TM</Responsible>
+    <Deadline values="2026-10-01">01.10.2026.</Deadline>
+  </Measure>
+  <Measure id="lv-mk-2026-05-28.rp.u013.p6" number="13.6." task="lv-dekl-2026-05-28.u013" funding="allocated">
+    <Text>Nodrošināt Satversmes tiesas sprieduma izpildi – atteikšanās no valsts regulētas zemes lietošanas maksas piespiedu dalītā īpašuma gadījumā.</Text>
+    <Result>Izstrādāti un izskatīšanai MK iesniegti grozījumi likumā "Par atjaunotā Latvijas Republikas 1937.gada Civillikuma ievada, mantojuma tiesību un lietu tiesību daļas spēkā stāšanās laiku un piemērošanas kārtību".
+Valsts vairs neregulē maksu piespiedu dalītā īpašuma attiecībās. Tiek piemērots brīva tirgus ekonomikas princips attiecībās starp zemes un ēkas īpašniekiem.
+Tiek ietaupīts Likumdevēja resurss attiecībā uz šī jautājuma turpmāku regulēšanu.
+Katram konkrētam gadījumam zemes īpašniekam un būvju īpašniekam iespējams panākt individualizētu risinājumu attiecībā uz zemes likumiskās maksas apmēra noteikšanu.</Result>
+    <Responsible orgs="19-0000">TM</Responsible>
+    <Deadline values="2026-08-01">01.08.2026.</Deadline>
+  </Measure>
+  <Measure id="lv-mk-2026-05-28.rp.u013.p7" number="13.7." task="lv-dekl-2026-05-28.u013" funding="allocated" priority="PP(TM)">
+    <Text>Sagatavot grozījumus likumā "Par tiesu varu" – tiesu varas neatkarības stiprināšana, pārejot uz tiesas jurista modeli, un tiesnešu skaita optimizēšana, likvidējot 40 vakantas vietas.
+Paredzēts atteikties no tieslietu ministra formālās iesaistes tiesnešu karjeras jautājumos – pilnvaras nodot Tieslietu padomei, kā arī noteikt Tiesu administrācijas funkcionālo pakļautību Tieslietu padomei tiesu personāla, tiesu budžeta un tiesu darba organizācijas jautājumos. (pieņemts MK 26.05.2026., iesniegts Saeimā 28.05.2026.).</Text>
+    <Result>Nodrošināta likumprojekta "Grozījumi likumā "Par tiesu varu"" (11378/Lp14) virzība Saeimā.
+Ātrāki un kvalitatīvāki spriedumi: profesionāls juristu atbalsts atslogo tiesnešus.
+Veidoti pamati nākamajai tiesnešu paaudzei laikā, kad 28% tiesnešu tuvojas izdienas pensijai.
+Stiprināta tiesu pašpārvalde un tiesu neatkarība.</Result>
+    <Responsible orgs="19-0000">TM</Responsible>
+    <Deadline values="2026-10-01">01.10.2026.</Deadline>
+  </Measure>
+  <Measure id="lv-mk-2026-05-28.rp.u013.p8" number="13.8." task="lv-dekl-2026-05-28.u013" funding="allocated">
+    <Text>Ieviest Aktīvu atgūšanas un konfiskācijas direktīvu – arestēto kapitāldaļu (akciju) pārvaldīšana kriminālprocesā.</Text>
+    <Result>Izstrādāts un iesniegts izskatīšanai MK likumprojekts "Grozījumi Kriminālprocesa likumā".
+Arestētās un konfiscētas mantas pārvaldība nodrošinās tās vērtības saglabāšanu (nemainību) līdz mantisko jautājumu gala noregulējumam – aktīva un ekonomiski pamatota pārvaldnieka iesaiste.
+Tādējādi tiks veicināta gan mantas aresta mērķu sasniegšana (kompensācija cietušajam), gan noziedzīgi iegūtas mantas konfiskācija.</Result>
+    <Responsible orgs="19-0000">TM</Responsible>
+    <Deadline values="2026-07-01">01.07.2026.</Deadline>
+  </Measure>
+  <Measure id="lv-mk-2026-05-28.rp.u013.p9" number="13.9." task="lv-dekl-2026-05-28.u013" funding="allocated">
+    <Text>Ieviest E-pierādījumu regulu – efektīva un ātra pārrobežu noziegumu (terorisms, telefonkrāpniecība, cilvēktirdzniecība, korupcija) izmeklēšana.</Text>
+    <Result>Nodrošināta regulas ieviešanai izstrādāto likumprojektu ("Grozījumi Kriminālprocesa likumā", "Grozījumi Elektronisko sakaru likumā", "Grozījumi Informācijas sabiedrības pakalpojumu likumā" virzība Saeimā.
+Ātrāka elektronisko pierādījumu iegūšana kriminālprocesā.
+Ātrāka un vienkāršāka sadarbība starp ES dalībvalstīm pārrobežu lietās.
+Lielāka sabiedrības drošība un efektīvāka noziedzīgu nodarījumu izmeklēšana.</Result>
+    <Responsible orgs="19-0000">TM</Responsible>
+    <CoResponsible orgs="14-0000">IeM</CoResponsible>
+    <Deadline values="2026-08-18">18.08.2026.</Deadline>
+  </Measure>
+  <Measure id="lv-mk-2026-05-28.rp.u013.p10" number="13.10." task="lv-dekl-2026-05-28.u013" funding="allocated">
+    <Text>Pabeigt Ministru kabineta ētikas kodeksa projektu, veicinot augstāko amatpersonu atbildīgu un godprātīgu rīcību un sabiedrības uzticēšanos valdībai.</Text>
+    <Result>Apstiprināšanai MK iesniegts Ministru kabineta ētikas kodekss.</Result>
+    <Responsible orgs="03-0000">VK</Responsible>
+    <CoResponsible orgs="00-0002">Visas ministrijas</CoResponsible>
+    <Deadline values="2026-09-01">01.09.2026.</Deadline>
+  </Measure>
+  <Measure id="lv-mk-2026-05-28.rp.u013.p11" number="13.11." task="lv-dekl-2026-05-28.u013" funding="additional">
+    <Text>Stiprināt iekšlietu dienestus un iestādes, lai novērstu sankciju pārkāpumus un darbu ar sakcionētajām precēm.</Text>
+    <Result>Lai sekmīgi nodrošinātu sankciju kontroli un sankcionēto preču uzraudzību un kontroli, piešķirti papildu finanšu līdzekļi iekšlietu dienestiem (Valsts policija, Finanšu izlūkošanas dienests, Valsts drošības dienests, Iekšējās drošības birojs, Nodokļu muitas policija, Nodrošinājuma valsts aģentūra), tai skaitā paredzot, ka 20% no realizētās sancionēto preču pārdošanas vērtības tiek novirzīti iekšlietu dienestiem minētās funkcijas īstenošanai</Result>
+    <Responsible orgs="14-0000">IeM</Responsible>
+    <Deadline values="2026-10-01">01.10.2026.</Deadline>
+  </Measure>
+  <Measure id="lv-mk-2026-05-28.rp.u013.p12" number="13.12." task="lv-dekl-2026-05-28.u013" funding="additional">
+    <Text>Izveidot modernu, caurskatāmu un starptautiskajai praksei atbilstošu sporta nozares tiesisko regulējumu un finansēšanas modeli, pieņemot jaunu Sporta likumu un Valsts sporta fonda likumu.</Text>
+    <Result>Likumā nostiprināts moderns, caurskatāms un starptautiskajai praksei atbilstošs sporta tiesiskais regulējums, Saeimā apstiprinot Sporta likumu un Valsts sporta fonda likumu.</Result>
+    <Responsible orgs="15-0000">IZM</Responsible>
+    <Deadline values="2026-10-01">01.10.2026.</Deadline>
+  </Measure>
+  <Measure id="lv-mk-2026-05-28.rp.u014.p1" number="14.1." task="lv-dekl-2026-05-28.u014" funding="allocated" priority="PP(FM)">
+    <Text>Sagatavot makroekonomisko rādītāju, ieņēmumu un vispārējās valdības budžeta bilances prognozes līdz 2026. gada 30. jūnijam. Saskaņā ar izstrādātajām prognozēm un spēkā esošajiem fiskālajiem noteikumiem līdz 2026. gada 30. jūnijam aprēķināt fiskālo telpu. Atbilstoši tam, kā tiek veiktas piegādes aizsardzībai, kas tiek finansētas no aizsardzības nacionālās izņēmuma klauzulas, samazināt vispārējās valdības budžeta strukturālo deficītu un 2030.gadā izbeidzot nacionālās izņēmuma klauzulas darbību.</Text>
+    <Result>1) Līdz 2026. gada 30. jūnijam sagatavotas makroekonomiskās un fiskālās prognozes un fiskālajiem noteikumiem atbilstošs fiskālās telpas aprēķins.
+2) Organizētas izdevumu pārskatīšanas darba grupas sanāksmes ar nozaru ministrijām. Sagatavots informatīvais ziņojums par izdevumu pārskatīšanas rezultātiem.</Result>
+    <Responsible orgs="13-0000">FM</Responsible>
+    <CoResponsible orgs="00-0002">Visas ministrijas</CoResponsible>
+    <Deadline values="2026-06-30 2026-10-01">1) 30.06.2026
+2) 01.10.2026.</Deadline>
+  </Measure>
+  <Measure id="lv-mk-2026-05-28.rp.u015.p1" number="15.1." task="lv-dekl-2026-05-28.u015" funding="allocated" priority="PP(FM)">
+    <Text>Paredzēt informācijas publiskošanu par noslēgtajiem iepirkumu līgumiem, sākot no pirmā eiro, un to faktisko izpildi.</Text>
+    <Result>1) Nodrošināta Elektronisko iepirkumu sistēmas E-katalogu darījumu datu pieejamība Iepirkumu uzraudzības biroja tīmekļa vietnē;
+2) Nodrošināti komunikācijas pasākumi, lai popularizētu pieejamo informāciju par noslēgtajiem iepirkuma līgumiem, to grozījumiem un izpildi;
+3) Izstrādāti un Valsts kancelejā iesniegti grozījumi Ministru kabineta 2020.gada 14.jūlija noteikumos Nr.445 "Kārtība, kādā iestādes ievieto informāciju internetā", lai nodrošinātu informācijas par noslēgtajiem iepirkuma līgumiem, to grozījumiem un izpildi publisku pieejamību līdz 2028.gada 1.janvārim, kad spēkā stāsies attiecīgi grozījumi Publisko iepirkumu likumā.</Result>
+    <Responsible orgs="13-0000">FM</Responsible>
+    <CoResponsible orgs="00-0002">Visas ministrijas</CoResponsible>
+    <Deadline values="2026-06-30 2026-06-30 2026-08-31">1) 30.06.2026.
+2) 30.06.2026.
+3) 31.08.2026.</Deadline>
+  </Measure>
+  <Measure id="lv-mk-2026-05-28.rp.u015.p2" number="15.2." task="lv-dekl-2026-05-28.u015" funding="allocated">
+    <Text>Izvērtēt uzsāktos iepirkumus, kā arī nodrošināt, ka valsts kapitālsabiedrības izvērtē to uzsāktos iepirkumus, novēršot potenciālā preču vai pakalpojumu sadārdzinājuma un konkurences ierobežošanas riskus.</Text>
+    <Result>1) Sagatavots un iesniegts izskatīšanai Ministru kabineta sēdē tiesību akts, kurā uzdots izvērtēt uzsāktos iepirkumus.
+2) Izvērtēti uzsāktie iepirkumi, mazinot publisko līdzekļu izšķērdēšanas riskus.</Result>
+    <Responsible orgs="13-0000 00-0002">1) FM
+2) Visas ministrijas</Responsible>
+    <Deadline values="2026-06-27 2026-09-01">1) 27.06.2026.
+2) 01.09.2026.</Deadline>
+  </Measure>
+  <Measure id="lv-mk-2026-05-28.rp.u015.p3" number="15.3." task="lv-dekl-2026-05-28.u015" funding="allocated">
+    <Text>Ierobežot iepirkumu darījumu veikšanu Elektronisko iepirkumu sistēmas Programmatūras, programmatūras pilnveidošanas un atbalsta pakalpojumu katalogā (CI126P Programmatūras pakalpojumi).</Text>
+    <Result>Izstrādāti un Valsts kancelejā iesniegti grozījumi Ministru kabineta 2022.gada 20.decembra noteikumos Nr.816 "Publisko elektronisko iepirkumu noteikumi".</Result>
+    <Responsible orgs="13-0000">FM</Responsible>
+    <CoResponsible orgs="13-0053">IUB</CoResponsible>
+    <Deadline values="2026-07-31">31.07.2026.</Deadline>
+  </Measure>
+  <Measure id="lv-mk-2026-05-28.rp.u016.p1" number="16.1." task="lv-dekl-2026-05-28.u016" funding="allocated">
+    <Text>Sagatavot priekšlikumus turpmākajai rīcībai motivējošai atlīdzībai valsts un pašvaldību institūcijās nodarbinātajiem, sasniedzot ļoti labus un izcilus darba rezultātus.</Text>
+    <Result>Iesniegts Tiesību aktu portālā starpinstitūciju skaņošanai pirms izskatīšanas Ministru kabinetā informatīvais ziņojums par turpmāku rīcību, nosakot prēmijas un naudas balvas valsts un pašvaldību institūcijās nodarbinātajiem.</Result>
+    <Responsible orgs="03-0000">VK</Responsible>
+    <CoResponsible orgs="00-0002">Visas ministrijas</CoResponsible>
+    <Deadline values="2026-10-01">01.10.2026.</Deadline>
+  </Measure>
+  <Measure id="lv-mk-2026-05-28.rp.u017.p1" number="17.1." task="lv-dekl-2026-05-28.u017" funding="allocated">
+    <Text>1)Izstrādāt un ieviest interaktīvu datu vizualizācijas risinājumu valsts budžeta analīzei, nodrošinot kārtējā gada valsts budžeta tāmju datu sistemātisku salīdzinājumu ar iepriekšējā gada budžeta izpildes rādītājiem.
+2) 2027.gada budžeta plānošanu veikt jaunajā Budžeta plānošanas informācijas sistēmā.</Text>
+    <Result>1) Nodrošināta publiski pieejama vizualizācija Valsts kases tīmekļvietnē par gadskārtējā valsts budžeta tāmju salīdzinājumu ar iepriekšējā gada budžeta izpildes datiem, ietverot izmaiņas euro un procentos, kā arī identificējot būtiskās novirzes un attīstības tendences.
+2) 2027.gada budžeta plānošanai tiek izmantota vienota budžeta plānošanas sistēma, sagatavojot valsts pamatbudžeta un valsts speciālā budžeta bāzes.</Result>
+    <Responsible orgs="13-0000">FM</Responsible>
+    <CoResponsible orgs="00-0002 13-0000 13-0051">Visas ministrijas, FM (Valsts kase)</CoResponsible>
+    <Deadline values="2026-08-31 2026-10-01">1) 31.08.2026.
+2) 01.10.2026.</Deadline>
+  </Measure>
+  <Measure id="lv-mk-2026-05-28.rp.u018.p1" number="18.1." task="lv-dekl-2026-05-28.u018" funding="allocated">
+    <Text>Sagatavot priekšlikumus fiskālās telpas sabalansēšanai atbilstoši valdības apstiprinātajiem rīcības virzieniem un atbalstītiem pasākumiem.</Text>
+    <Result>Sagatavoti priekšlikumi fiskālās telpas sabalansēšanai atbilstoši valdības apstiprinātajiem rīcības virzieniem un atbalstītiem pasākumiem.</Result>
+    <Responsible orgs="13-0000">FM</Responsible>
+    <CoResponsible orgs="10-0000 15-0000 29-0000">AizM, IZM, VM,</CoResponsible>
+    <Deadline values="2026-10-01">01.10.2026.</Deadline>
+  </Measure>
+  <Measure id="lv-mk-2026-05-28.rp.u019.p1" number="19.1." task="lv-dekl-2026-05-28.u019" funding="allocated" priority="PP(FM)">
+    <Text>Izstrādāt priekšlikumus izmaiņām pašvaldību finanšu izlīdzināšanas sistēmā, lai radītu pašvaldībām līdzvērtīgas iespējas pašvaldību funkciju veikšanai</Text>
+    <Result>Izstrādāts un iesniegts Ministru kabinetā likumprojekts "Pašvaldību finanšu izlīdzināšanas likums"</Result>
+    <Responsible orgs="13-0000">FM</Responsible>
+    <CoResponsible orgs="21-0000">VARAM</CoResponsible>
+    <Deadline values="2026-10-01">01.10.2026.</Deadline>
+  </Measure>
+  <Measure id="lv-mk-2026-05-28.rp.u020.p1" number="20.1." task="lv-dekl-2026-05-28.u020" funding="allocated">
+    <Text>Stiprināt NVA kā centrālās nodarbinātības atbalsta institūcijas lomu, nodrošinot vienotu, koordinētu un proaktīvu pieeju darbam ar visām darba tirgus mērķa grupām un darba devējiem, tai skaitā, veicinot individuālus risinājumus nepieciešamā darbaspēka piesaistei Latvijas tautsaimniecībai stratēģiski nozīmīgos un eksportspējīgākajos uzņēmumos to izaugsmes veicināšanai.</Text>
+    <Result>1) Uzsākti pilotprojekti vismaz divās NVA filiālēs, kurās ieviesta uz datiem balstīta darba devēju vajadzību apzināšana sadarbībā ar EM un vienota iedzīvotāju uzrunāšanas un novirzīšanas pieeja, nodrošinot ciešu sasaisti starp darba tirgus pieprasījumu, mācību piedāvājumu un nodarbinātības iespējām, tai skaitā, balstoties uz stratēģiski nozīmīgu un eksportspējīgāko uzņēmumu attīstības plāniem un vajadzībām, nodrošinot darba meklētāju profilēšanu un atlasi, organizējot darbinieku pārkvalifikācijas iespējas u.c.
+2) EM nodrošina uz datiem balstītu darba devēju vajadzību apzināšanu un monitorē rezultātus un par pilotprojektu progresu regulāri ziņo Cilvēkkapitāla attīstības padomei.</Result>
+    <Responsible orgs="18-0000 12-0000">1) LM
+2) EM</Responsible>
+    <CoResponsible orgs="18-0451 12-0000 15-0000 12-0039 18-0000">1) NVA, EM, IZM, CSP
+2) LM, IZM</CoResponsible>
+    <Deadline values="2026-09-01 2026-10-01">1) 01.09.2026.
+2) 01.10.2026.</Deadline>
+  </Measure>
+  <Measure id="lv-mk-2026-05-28.rp.u020.p2" number="20.2." task="lv-dekl-2026-05-28.u020" funding="allocated">
+    <Text>Vērtēt iespējas paplašināt esošo Speciālo ekonomisko zonu (SEZ) iespējas jaunu investīciju projektu piesaistē, paredzot stratēģiski nozīmīgiem investīciju projektiem elastīgu pieeju teritorijas vietas noteikšanā.</Text>
+    <Result>MK iesniegti likumprojekti: "Grozījumi likumā "Rīgas brīvostas likums"", "Grozījumi likumā "Latgales speciālās ekonomiskās zonas likums"" un "Grozījumi likumā "Par nodokļu piemērošanu brīvostās un speciālajās ekonomiskajās zonās"".
+Plānots, ka likumprojektu ieviešanas rezultātā varētu nodrošināt papildu 100 milj. euro piesaistītās investīcijas gadā.</Result>
+    <Responsible orgs="12-0000">EM</Responsible>
+    <Deadline values="2026-09-01">01.09.2026.</Deadline>
+  </Measure>
+  <Measure id="lv-mk-2026-05-28.rp.u020.p3" number="20.3." task="lv-dekl-2026-05-28.u020" funding="allocated" priority="PP(KEM)">
+    <Text>Uzlabot militārās industrijas konkurētspējas un attīstības ātrumu.</Text>
+    <Result>Atvieglotas vides prasības militārās industrijas uzņēmumiem, apstiprinot IVN likuma grozījumus.</Result>
+    <Responsible orgs="20-0000">KEM</Responsible>
+    <CoResponsible orgs="10-0000 12-0000">AizM, EM</CoResponsible>
+    <Deadline values="2026-10-01">01.10.2026</Deadline>
+  </Measure>
+  <Measure id="lv-mk-2026-05-28.rp.u020.p4" number="20.4." task="lv-dekl-2026-05-28.u020" funding="allocated" priority="PP(ĀM)">
+    <Text>Gatavojoties 2028. gada prezidentūrai ES Padomē, iesniegt MK apstiprināšanai priekšlikumu par Latvijas ES prezidentūras 2028. gadā personālsastāvu un finansējumu.</Text>
+    <Result>1) MK apstiprināts Latvijas prezidentūras Eiropas Savienības Padomē nodrošināšanai nepieciešamais personāls ārvalstīs;
+2) MK iesniegti priekšlikumi Latvijas prezidentūras Eiropas Savienības Padomē finansējuma pārdalei 2027. gadā.</Result>
+    <Responsible orgs="11-0000">ĀM</Responsible>
+    <CoResponsible orgs="00-0002 03-0000">Visas ministrijas, VK</CoResponsible>
+    <Deadline values="2026-07-31 2026-10-01">1) 31.07.2026.
+2) 01.10.2026.</Deadline>
+  </Measure>
+  <Measure id="lv-mk-2026-05-28.rp.u020.p5" number="20.5." task="lv-dekl-2026-05-28.u020" funding="allocated">
+    <Text>1) Izstrādāt konceptuālu priekšlikumu nepieciešamajiem grozījumiem normatīvajos aktos, lai nodrošinātu žetonizācijas iespējas aktīviem, kas ir nekustamie īpašumi un to darījumi un citi aktīvi, kas būtu noderīgi digitālā maka ieviešanā.
+2) Uzsākt diskusiju par ārzemnieku fiksētā nodokļu maksājuma tiesisko regulējumu.
+3) Atbilstoši Finanšu sektora attīstības padomes lēmumam virzīt precizētu priekšlikumu grozījumiem Komerclikumā aizdevuma vai līzinga līgumā noteikto saistību pirmstermiņa izpildei vai refinansēšanai ar komersantiem noslēgtiem aizdevuma un līzinga līgumiem vai nodrošināsim komisijas maksu uzraudzības mehānismu.
+4) Izstrādāt terminētu tiesisko regulējumu kriptoaktīvu realizācijai, ievērojot Eiropas Savienības MiCA regulējumu un noziedzīgi iegūtu līdzekļu legalizācijas novēršanas prasības.</Text>
+    <Result>1) Sagatavots izvērtējums.
+2) Ministru kabinetā iesniegts informatīvais ziņojums, kurā apzināta ārvalstu pieredze par ārzemnieku fiksētā nodokļu maksājuma tiesisko regulējumu, kā arī izvērtēts potenciālais ieguvums un iespējamie riski.
+3.1) Pieņemts konceptuāls lēmums Finanšu sektora attīstības padomes sēdē.
+3.2) Iesniegti normatīvie aktu grozījumi izskatīšanai Ministru kabineta sēdē vai nodrošināta alternatīva mehānisma ieviešana.
+4) Izstrādāts informatīvais ziņojums, kurā izvērtēts nodokļu tiesiskais regulējums kriptoaktīvu realizācijai un apzināti terminēti risinājumi, ievērojot Eiropas Savienības MiCA regulējumu un pienākumu pierādīt kriptoaktīvu legālu izcelsmi.</Result>
+    <Responsible orgs="12-0000 13-0000">1) EM
+2) FM
+3) FM
+4) FM</Responsible>
+    <CoResponsible orgs="19-0000 13-0000 21-0000 11-0000 14-0693">1) TM, FM, LBAA, FLA, VARAM
+2) ĀM
+3) ĀM, FID EM
+4) ĀM, FID</CoResponsible>
+    <Deadline values="2026-10-01 2026-10-01 2026-09-01 2026-10-01 2026-10-01">1) 01.10.2026. 2) 01.10.2026.
+3.1) 01.09.2026.
+3.2) 01.10.2026.
+4) 01.10.2026.</Deadline>
+  </Measure>
+  <Measure id="lv-mk-2026-05-28.rp.u020.p6" number="20.6." task="lv-dekl-2026-05-28.u020" funding="allocated">
+    <Text>Izveidot mūsdienīgu kadastrālās vērtēšanas sistēmu, nodrošinot objektīvu, tirgus datos balstītu nekustamā īpašuma kadastrālo vērtību, lai veicinātu tautsaimniecības attīstību un investīciju piesaisti.</Text>
+    <Result>Izstrādāti grozījumi nepieciešamajos normatīvajos aktos.
+Nekustamā īpašuma darījumu tirgus kļūst caurredzamāks, veicinot patiesas darījumu vērtības atspoguļošanu, kas:
+- mazina ēnu ekonomiku;
+- veicina investīciju piesaisti;
+- nodrošina tautsaimniecības attīstību kopumā.</Result>
+    <Responsible orgs="19-0000">TM</Responsible>
+    <CoResponsible orgs="13-0000">FM</CoResponsible>
+    <Deadline values="2026-10-01">01.10.2026.</Deadline>
+  </Measure>
+  <Measure id="lv-mk-2026-05-28.rp.u020.p7" number="20.7." task="lv-dekl-2026-05-28.u020" funding="allocated" priority="PP(SM)">
+    <Text>Izstrādāt rīcības plānu reģionālā sabiedriskā transporta nodrošināšanai</Text>
+    <Result>Izstrādāts rīcības plāns reģionālā sabiedriskā transporta nodrošināšanai, kas vērsts uz sabalansētas, pieejamas un finansiāli ilgtspējīgas sabiedriskā transporta sistēmas nodrošināšanu visā Latvijas teritorijā.</Result>
+    <Responsible orgs="17-0000">SM</Responsible>
+    <CoResponsible orgs="91-0002">ATD</CoResponsible>
+    <Deadline values="2026-10-01">01.10.2026.</Deadline>
+  </Measure>
+  <Measure id="lv-mk-2026-05-28.rp.u021.p1" number="21.1." task="lv-dekl-2026-05-28.u021" funding="allocated">
+    <Text>Noteikt valdības kopējo sasniedzamo mērķi birokrātiskā sloga mazināšanai.</Text>
+    <Result>Ar Ministru kabineta lēmumu noteikts sasniedzamais rezultatīvais rādītājs birokrātiskā sloga mazināšanā.</Result>
+    <Responsible orgs="03-0000">VK (Rīcības grupa birokrātijas mazināšanai)</Responsible>
+    <Deadline values="2026-09-01">01.09.2026.</Deadline>
+  </Measure>
+  <Measure id="lv-mk-2026-05-28.rp.u021.p2" number="21.2." task="lv-dekl-2026-05-28.u021" funding="allocated">
+    <Text>Iesniegt apstiprināšanai Ministru kabinetā rīcības grupas piedāvātos pasākumus birokrātiskā sloga mazināšanai un Valsts kancelejai nodrošināt to izpildes uzraudzību.</Text>
+    <Result>Apstiprināšanai MK iesniegti 50 rīcības grupas piedāvātie pasākumi birokrātiskā sloga mazināšanai.</Result>
+    <Responsible orgs="03-0000">VK (Rīcības grupa birokrātijas mazināšanai)</Responsible>
+    <Deadline values="2026-10-01">01.10.2026.</Deadline>
+  </Measure>
+  <Measure id="lv-mk-2026-05-28.rp.u021.p3" number="21.3." task="lv-dekl-2026-05-28.u021" funding="allocated">
+    <Text>Paredzēt ministriju ikgadējos darba plānos un iestāžu darbības stratēģijās birokrātiskā sloga mazināšanas pasākumus un sasniedzamos rādītājus kvantitatīvā izteiksmē. Valsts kancelejai sniegt nepieciešamo metodisko atbalstu ministrijām.</Text>
+    <Result>Visu ministriju iestāžu darbības stratēģijās un ikgadējos darba plānos ietverti birokrātiskā sloga mazināšanas pasākumi un noteikts sasniedzamais rādītājs (plānotais sloga samazinājums naudas izteiksmē).</Result>
+    <Responsible orgs="03-0000 00-0002">VK, Visas ministrijas</Responsible>
+    <Deadline values="2026-09-01">01.09.2026.</Deadline>
+  </Measure>
+  <Measure id="lv-mk-2026-05-28.rp.u021.p4" number="21.4." task="lv-dekl-2026-05-28.u021" funding="allocated">
+    <Text>Sagatavot grozījumus tiesību aktos, lai samazinātu Ministru kabineta līmenī izlemjamo jautājumu loku.</Text>
+    <Result>Sagatavoti un Ministru kabinetā iesniegti tiesību aktu grozījumi, kas paredz aizstāt Ministru kabineta lēmumus ar lēmumiem ministriju līmenī.</Result>
+    <Responsible orgs="00-0002">Visas ministrijas</Responsible>
+    <Deadline values="2026-10-01">01.10.2026.</Deadline>
+  </Measure>
+  <Measure id="lv-mk-2026-05-28.rp.u021.p5" number="21.5." task="lv-dekl-2026-05-28.u021" funding="allocated">
+    <Text>Vienotas patērētāju kreditēšanas uzraudzības ieviešana atbilstoši Saeimas lēmumiem.</Text>
+    <Result>Saeimā 1.lasījumā pieņemta patērētāju kreditēšanas uzraudzības likumprojektu pakotne.</Result>
+    <Responsible orgs="13-0000">FM</Responsible>
+    <CoResponsible orgs="00-0002">Visas ministrijas</CoResponsible>
+    <Deadline values="2026-10-01">01.10.2026.</Deadline>
+  </Measure>
+  <Measure id="lv-mk-2026-05-28.rp.u021.p6" number="21.6." task="lv-dekl-2026-05-28.u021" funding="allocated">
+    <Text>1) Lai mazinātu administratīvo un birokrātisko slogu, turpināt darbu pie nodokļu administrēšanas regulējuma pilnveidošanas.
+2) Izstrādāt jaunu preču un pakalpojumu loteriju organizēšanas un uzraudzības kārtību, kas paredz aizstāt līdzšinējo preču un pakalpojumu loterijas atļaujas izsniegšanas modeli ar paziņošanas modeli, vienlaikus saglabājot sabiedrības interešu aizsardzību un uz risku izvērtējumu balstītu uzraudzību.
+BAG priekšlikums.
+3) Izstrādāt likumprojektu "Grozījumi Sabiedriskā labuma organizāciju likumā", kas paredz samazināt birokrātisko slogu Sabiedriskā labuma komisijas personālsastāva apstiprināšanas procesā un vienkāršot Valsts ieņēmumu dienesta administratīvo aktu un citu dokumentu paziņošanas mehānismu.
+4) Nodrošināt administratīvā sloga mazināšanu ilgtspējas ziņošanas jomā, izstrādājot normatīvos aktus Eiropas Parlamenta un Padomes Direktīvas (ES) 2026/470 (Omnibus I) prasību pārņemšanai, vienlaikus vienkāršojot ilgtspējas ziņošanas un tās apliecināšanas prasības uzņēmumiem.</Text>
+    <Result>1) Veikti grozījumi likumā "Par nodokļiem un nodevām", lai efektivizētu nodokļu administrācijas uzdevumu īstenošanu nodokļu iekasēšanas jomā.
+2) Izstrādāts un iesniegts Ministru kabinetā likumprojekts "Preču un pakalpojumu loteriju likums".
+3) Izstrādāts un iesniegts Ministru kabinetā likumprojekts "Grozījumi Sabiedriskā labuma organizāciju likumā".
+4) Izstrādāts un iesniegts Ministru kabinetā likumprojekts "Grozījumi Ilgtspējas informācijas atklāšanas likumā" un likumprojekts "Grozījumi Revīzijas pakalpojumu likumā"</Result>
+    <Responsible orgs="13-0000">FM</Responsible>
+    <CoResponsible orgs="00-0002">Visas ministrijas</CoResponsible>
+    <Deadline values="2026-10-01">01.10.2026.</Deadline>
+  </Measure>
+  <Measure id="lv-mk-2026-05-28.rp.u021.p7" number="21.7." task="lv-dekl-2026-05-28.u021" funding="allocated" priority="PP(EM)">
+    <Text>Būtiski paātrināt būvniecības ieceres īstenošanas termiņus un ieviest elastīgu būvniecības ieceres īstenošanas procesa organizāciju, pieļaujot būvprojekta detalizāciju un būvdarbu uzsākšanu pa posmiem, paredzot tiesības uzsākt būvdarbus pirms pilna būvprojekta izstrādes.</Text>
+    <Result>1) Nodrošināta Grozījumu Būvniecības likumā (1301/Lp14) virzība Saeimā – regulējums būvniecības "0" cikla ieviešanai (būvniecības ieceres realizācija posmos, kas ļauj uzsākt pirmā posma būvdarbus, kamēr turpinās nākamo posmu detalizācija).
+2) MK iesniegti:
+Grozījumi Ministru kabineta 2014.gada 19.augusta noteikumos Nr. 500 "Vispārīgie būvnoteikumi",
+Grozījumi Ministru kabineta 2014.gada 2.septembra noteikumos Nr. 529 "Ēku būvnoteikumi".</Result>
+    <Responsible orgs="12-0000">EM</Responsible>
+    <Deadline values="2026-07-01 2026-09-01">1) 01.07.2026.
+2) 01.09.2026.</Deadline>
+  </Measure>
+  <Measure id="lv-mk-2026-05-28.rp.u021.p8" number="21.8." task="lv-dekl-2026-05-28.u021" funding="allocated" priority="PP(EM)">
+    <Text>Mazināt administratīvo slogu tirdzniecības nozarē.</Text>
+    <Result>1) MK iesniegts un apstiprināts Rīcības plāns tirdzniecības nozares atbalstam (25-TA-3074).
+2) Uzsākta plāna ieviešana ar mērķi samazināt izmaksas komersantiem par 15 milj.euro (atbilstības izmaksu un administratīvā sloga mazināšanas un prasību pārskatīšanas rezultātā).</Result>
+    <Responsible orgs="12-0000">EM</Responsible>
+    <CoResponsible orgs="13-0000 16-0000 21-0000 19-0000 18-0000 17-0000 12-0040 93-0001 93-0002 13-0056">FM (VID), ZM, VARAM, TM, LM, SM, KP, LTRK, LDDK</CoResponsible>
+    <Deadline values="2026-07-01 2026-10-01">1) 01.07.2026.
+2) 01.10.2026.</Deadline>
+  </Measure>
+  <Measure id="lv-mk-2026-05-28.rp.u021.p9" number="21.9." task="lv-dekl-2026-05-28.u021" funding="allocated">
+    <Text>Efektivizēt valsts pārvaldi, apvienojot mazās kapitālsabiedrības ar līdzīgiem pakalpojumiem.</Text>
+    <Result>MK iesniegts Konceptuālais ziņojums "Par mazo valsts kapitālsabiedrību apvienošanu un optimizāciju vienota tehnoloģiju attīstības centra izveidei" (25-TA-1284).</Result>
+    <Responsible orgs="12-0000">EM</Responsible>
+    <Deadline values="2026-07-15">15.07.2026.</Deadline>
+  </Measure>
+  <Measure id="lv-mk-2026-05-28.rp.u021.p10" number="21.10." task="lv-dekl-2026-05-28.u021" funding="allocated" priority="PP(KEM)">
+    <Text>Vienkāršot administratīvos procesus klimata, vides un enerģētikas jomā, mazinot birokrātisko slogu un nodrošinot uzņēmējiem vienkāršāku piekļuvi pakalpojumiem.</Text>
+    <Result>1) Vienkāršots un optimizēts pašvaldību teritoriālo plānojumu izvērtēšanas process (Ministra vadlīnijas)
+2) Uzlabota zaļā koridora darbība un vides prasību piemērošana uzņēmumiem (Ministra vadlīnijas, MKN grozījumi)
+3) Stiprināta pašvaldību loma jaunu ieceru attīstībā, apstiprinot IVN likuma grozījumus.</Result>
+    <Responsible orgs="20-0000">KEM</Responsible>
+    <CoResponsible orgs="21-0000 12-0000">1) VARAM
+2) EM</CoResponsible>
+    <Deadline values="2026-07-15 2026-10-01 2026-10-01">1) 15.07.2026.
+2) 01.10.2026.
+3) 01.10.2026.</Deadline>
+  </Measure>
+  <Measure id="lv-mk-2026-05-28.rp.u021.p11" number="21.11." task="lv-dekl-2026-05-28.u021" funding="allocated">
+    <Text>Ieviest fizisko personu norēķinu kontu reģistrāciju proaktīvai publisko pakalpojumu saņemšanai (bez iesnieguma).</Text>
+    <Result>1) MK iesniegti grozījumi Ministru kabineta 2017. gada 4. jūlija noteikumos Nr. 400 "Valsts pārvaldes pakalpojumu portāla noteikumi", lai nodrošinātu iespēju iedzīvotājiem pašrocīgi norādīt norēķinu kontu un iestādēm norādīto kontu izmantot proaktīvai pakalpojumu sniegšanai.
+2) MK iesniegti Grozījumi likumā "Par maternitātes un slimības apdrošināšanu", likumā "Par obligāto sociālo apdrošināšanu pret nelaimes gadījumiem darbā un arodslimībām" un Ministru kabineta 2021.gada 16. novembra noteikumos Nr. 753 "Valsts sociālās apdrošināšanas pabalstu noteikumi" un grozījumi Ministru kabineta 1999.gada 16.februāra noteikumos Nr.50 "Obligātās sociālās apdrošināšanas pret nelaimes gadījumiem darbā un arodslimībām apdrošināšanas atlīdzības piešķiršanas un aprēķināšanas kārtība".</Result>
+    <Responsible orgs="21-0000 18-0000">1) VARAM
+2) LM</Responsible>
+    <CoResponsible orgs="18-0453 13-0000 13-0056">1) VDAA, VSAA, FM, FM (VID)</CoResponsible>
+    <Deadline values="2026-09-21 2026-10-01">1) 21.09.2026.
+2) 01.10.2026.</Deadline>
+  </Measure>
+  <Measure id="lv-mk-2026-05-28.rp.u021.p12" number="21.12." task="lv-dekl-2026-05-28.u021" funding="allocated">
+    <Text>Ieviest automātisku E-adreses aktivizēšanu juridiskajām personām.</Text>
+    <Result>Grozījumi Oficiālās elektroniskās adreses likumā un Ministru kabineta 2017.gada 12.septembra noteikumos Nr.546 "Oficiālo elektronisko adrešu informācijas sistēmas noteikumi" sagatavoti atkārtotai starpinstitūciju saskaņošanai, tiks izsūtīti iestādēm jūnijā. Jaunajām juridiskajām personām stāsies spēkā 01.01.2027., esošajām 01.07.2027.</Result>
+    <Responsible orgs="21-0000 19-0000 19-0464">VARAM (VDAA), TM (UR)</Responsible>
+    <CoResponsible>Latvijas Zvērinātu notāru padome</CoResponsible>
+    <Deadline values="2026-07-31">31.07.2026.</Deadline>
+  </Measure>
+  <Measure id="lv-mk-2026-05-28.rp.u021.p13" number="21.13." task="lv-dekl-2026-05-28.u021" funding="allocated">
+    <Text>Izvēršot DAGR platformu, ieviest Datu vienas pieturas aģentūru (Datu pakalpojumu portāls komersantiem un iedzīvotājiem), nodrošinot centralizētu piekļuvi informācijai par valsts pārvaldes rīcībā esošajiem datiem</Text>
+    <Result>MK apstiprināts ERAF projekts "Eiropas Savienības kohēzijas politikas programmas 2021.–2027. gadam 1.3.1. specifiskā atbalsta mērķa "Izmantot digitalizācijas priekšrocības iedzīvotājiem, uzņēmumiem, pētniecības organizācijām un publiskajām iestādēm" 1.3.1.1. pasākuma "IKT risinājumu un pakalpojumu attīstība un iespēju radīšana privātajam sektoram" projekts "Datu platformu, portālu un standartu attīstība"".</Result>
+    <Responsible orgs="21-0000">VARAM</Responsible>
+    <CoResponsible>VDAA</CoResponsible>
+    <Deadline values="2026-08-27">27.08.2026.</Deadline>
+  </Measure>
+  <Measure id="lv-mk-2026-05-28.rp.u021.p14" number="21.14." task="lv-dekl-2026-05-28.u021" funding="allocated">
+    <Text>Ieviest pārrobežu datu apmaiņu publisko pakalpojumu sniegšanas procesā, ievērojot informācijas vienreizes principu ES mērogā.</Text>
+    <Result>1) Ieviesta Vienreizes tehniskā platforma pārrobežu datu apmaiņai pakalpojumu pārrobežu pieejamības nodrošināšanai.
+2) MK apstiprināti "Vienotās digitālās vārtejas vienreizes principa tehniskās platformas un apliecinājumu pārrobežu pieejamības nodrošināšanas noteikumi", kas nosaka platformas darbības kārtību, iestāžu pienākumus un tiesības.
+3) Veikta pirmo 20 iestāžu pakalpojumu pieslēgšana vienreizes tehniskais platformai.</Result>
+    <Responsible orgs="21-0000">VARAM (VDAA)</Responsible>
+    <Deadline values="2026-05-28 2026-06-02 2026-09-21">1) 28.05.2026.
+2) 02.06.2026.
+3) 21.09.2026.</Deadline>
+  </Measure>
+  <Measure id="lv-mk-2026-05-28.rp.u021.p15" number="21.15." task="lv-dekl-2026-05-28.u021" funding="allocated">
+    <Text>Apstiprināt valsts datu stratēģiju, nosakot vienotu pieeju datu pārvaldībai, koplietošanai un atkalizmantošanai</Text>
+    <Result>MK apstiprināta "Datu pārvaldības un koplietošanas stratēģija 2026. – 2030. gadam".</Result>
+    <Responsible orgs="21-0000">VARAM</Responsible>
+    <Deadline values="2026-08-27">27.08.2026.</Deadline>
+  </Measure>
+  <Measure id="lv-mk-2026-05-28.rp.u021.p16" number="21.16." task="lv-dekl-2026-05-28.u021" funding="allocated" priority="PP(VARAM)">
+    <Text>Sagatavot tiesisko regulējumu, kas stiprina vietējo demokrātiju, nodrošinot pašvaldību tiesības lemt par savas teritorijas attīstību.</Text>
+    <Result>Sagatavoti normatīvo aktu grozījumi, kas nostiprina pašvaldību autonomiju teritorijas plānošanā t.sk. teritorijas izmantošanas ierobežojumu noteikšanā. Atbildīgai ministrijai pašvaldības tos nosūta zināšanai. Normatīvo aktu grozījumu sagatavošana – ne vēlāk kā līdz 30.09.2026.</Result>
+    <Responsible orgs="21-0000">VARAM</Responsible>
+    <CoResponsible orgs="20-0000">KEM</CoResponsible>
+    <Deadline values="2026-09-21">21.09.2026.</Deadline>
+  </Measure>
+  <Measure id="lv-mk-2026-05-28.rp.u021.p17" number="21.17." task="lv-dekl-2026-05-28.u021" funding="allocated">
+    <Text>Sagatavot grozījumus Saeimas kārtības rullī – "Omnibus likumprojekti", kas mazinās birokrātiju Ministru kabineta un Saeimas darbā.</Text>
+    <Result>Ņemot vērā, ka Saeimas Juridiskajā komisijā notiek diskusijas par šo jautājumu, sekot līdzi tā virzībai Saeimā.</Result>
+    <Responsible orgs="19-0000">TM</Responsible>
+    <Deadline values="2026-10-01">01.10.2026.</Deadline>
+  </Measure>
+  <Measure id="lv-mk-2026-05-28.rp.u021.p18" number="21.18." task="lv-dekl-2026-05-28.u021" funding="allocated">
+    <Text>Sagatavot grozījumus Administratīvās atbildības likumā – principa "maksā ātrāk, maksā mazāk" ieviešana, lai persona, kura ātri (noteiktā laikā) samaksā administratīvo sodu, maksā mazāku naudas sodu.</Text>
+    <Result>Saeimā pieņemti grozījumi Administratīvās atbildības likumā.
+Palielina naudas sodu brīvprātīgu samaksu.
+Ātrāka soda izpilde, ātrāki budžeta ieņēmumi.
+Modernāka un efektīvāka tiesiskā sistēma.
+Samazina administratīvo slogu iestādēm un tiesu noslodzi.</Result>
+    <Responsible orgs="19-0000">TM</Responsible>
+    <CoResponsible orgs="14-0000">IeM</CoResponsible>
+    <Deadline values="2026-10-01">01.10.2026.</Deadline>
+  </Measure>
+  <Measure id="lv-mk-2026-05-28.rp.u021.p19" number="21.19." task="lv-dekl-2026-05-28.u021" funding="allocated">
+    <Text>Attiecināt vienoto būves reģistrācijas pakalpojumu uz visiem būvniecības gadījumiem.</Text>
+    <Result>Saeimā pieņemti nepieciešamie grozījumi normatīvajos aktos Valdības rīcības plāna pasākuma ieviešanai (grozījumi Zemesgrāmatu likumā, grozījumi likumā "Par nekustamā īpašuma ierakstīšanu zemesgrāmatās", grozījumi Būvniecības likumā).
+Mazāk dokumentu: vienots iesniegums BIS, Kadastram un Zemesgrāmatai un vienots maksājums Kadastram un Zemesgrāmatai.
+Mazāk procedūru: personas pie valsts vēršas vienu reizi; datus un dokumentus iestādes nodod viena otrai.
+Lētāk: nav veicama būves kadastrālā uzmērīšana; reģistrācijas izmaksas Kadastrā atsevišķiem būvju veidiem samazinās pat par 90%.
+Ātrāk: reģistrācija Kadastrā saīsinās no 15-32 darba dienām uz 10-15 darba dienām.
+Uzņēmējdarbības stimuls: būtiski paātrināts un vienkāršots dzīvojamo māju, ražotņu, noliktavu u.c. projektu attīstība.</Result>
+    <Responsible orgs="19-0000 12-0000">TM, EM</Responsible>
+    <Deadline values="2026-10-01">01.10.2026.</Deadline>
+  </Measure>
+  <Measure id="lv-mk-2026-05-28.rp.u021.p20" number="21.20." task="lv-dekl-2026-05-28.u021" funding="allocated">
+    <Text>Sagatavot grozījumus Civilprocesa likumā – kopīpašuma dalīšanas procesa vienkāršošana.</Text>
+    <Result>Nodrošināta likumprojekta "Grozījumi Civilprocesa likumā" (1233/Lp14) virzība Saeimā.
+Kopīpašums ir apgrūtinājums, kas apgrūtina rīcību ar to pašiem kopīpašniekiem un var nodarīt kaitējumu arī pašai lietai (piemēram, nespējot vienoties pienācīgi uzturēt to kārtībā), tādējādi ieraujot kopīpašniekus ilgās tiesvedībās. Jaunais process novērsīs sprieduma neizpildes riskus un atvieglos citu kopīpašnieku vietā samaksāto līdzekļu atgūšanu.</Result>
+    <Responsible orgs="19-0000">TM</Responsible>
+    <Deadline values="2026-10-01">01.10.2026.</Deadline>
+  </Measure>
+  <Measure id="lv-mk-2026-05-28.rp.u021.p21" number="21.21." task="lv-dekl-2026-05-28.u021" funding="allocated">
+    <Text>Pilnveidot sabiedrības vajadzībām nepieciešamā nekustamā īpašuma atsavināšanas regulējumu.</Text>
+    <Result>MK iesniegti grozījumi Sabiedrības vajadzībām nepieciešamā nekustamā īpašuma atsavināšanas likumā.
+Birokrātijas mazināšana.
+Nekustamā īpašuma īpašnieki saņem kompensāciju, negaidot ilgstošus MK saskaņojumus.
+Novērš kritisku administratīvo slogu un kavēšanos Rail Baltica un Austrumu robežas izbūves projektos.
+Valsts resursu ietaupījums: izslēdz dubultu TM, FM un MK aparāta darbu.</Result>
+    <Responsible orgs="19-0000">TM</Responsible>
+    <Deadline values="2026-09-15">15.09.2026.</Deadline>
+  </Measure>
+  <Measure id="lv-mk-2026-05-28.rp.u022.p1" number="22.1." task="lv-dekl-2026-05-28.u022" funding="allocated">
+    <Text>Līdz 2026. gada jūlija NATO samitam sagatavot un iesniegt MK Aizsardzības, drošības un noturības bankas statūtus, statūtu ratifikācijas likumu un pilnvarojumu Latvijas pārstāvim NATO samitā parakstīt bankas dibināšanas dokumentu.</Text>
+    <Result>Bankas dibināšanas dokuments parakstīts, bankas statūtu ratifikācijas likums iesniegts Saeimā.</Result>
+    <Responsible orgs="13-0000">FM</Responsible>
+    <Deadline values="2026-07-31">31.07.2026</Deadline>
+  </Measure>
+  <Measure id="lv-mk-2026-05-28.rp.u023.p1" number="23.1." task="lv-dekl-2026-05-28.u023" funding="allocated" priority="PP(ĀM)">
+    <Text>Aizstāvēt Latvijas intereses saskaņā ar apstiprināto Latvijas nacionālo pozīciju par ES daudzgadu budžetu 2028.-2034. gadam dažādajos sarunu formātos – Eiropadomes, ES Padomes un tās sagatavošanas formātos, kuros Latviju pārstāv Ārlietu ministrijas pārstāvji un kuros tiek skatīti jautājumi par ES daudzgadu budžetu 2028.-2034. gadam; divpusējās un daudzpusējās konsultācijās ar ES dalībvalstīm un ES institūcijām. Informēt Latvijas nevalstisko sektoru un ieinteresētās puses par sarunu gaitu par ES daudzgadu budžetu 2028.-2034. gadam un ņemt vērā to intereses, kas saskanīgas ar apstiprinātajām Latvijas nacionālajām pozīcijām par ES daudzgadu budžetu 2028.-2034. gadam.</Text>
+    <Result>Latvijas interešu pārstāvība iepretim ES dalībvalstīm un institūcijām sarunās par ES daudzgadu budžetu 2028.-2034. gadam. Latvijas nevalstiskā sektora un ieinteresēto pušu informētība un iesaiste sarunu procesā par ES daudzgadu budžetu 2028.-2034. gadam.</Result>
+    <Responsible orgs="11-0000 00-0001">ĀM, MP</Responsible>
+    <CoResponsible orgs="00-0002">Visas ministrijas</CoResponsible>
+    <Deadline>Izpildes termiņš ir atkarīgs no sarunu procesa norises</Deadline>
+  </Measure>
+  <Measure id="lv-mk-2026-05-28.rp.u024.p1" number="24.1." task="lv-dekl-2026-05-28.u024" funding="allocated" priority="PP(ZM)">
+    <Text>Aizstāvēt Latvijas lauksaimniecības un zivsaimniecības nozares intereses ES daudzgadu finanšu ietvara 2028.–2034. gadam veidošanā un darbā pie nākamā plānošanas perioda KLP un KZP regulējuma.</Text>
+    <Result>Atkarībā no sarunu procesa gaitas, panākts Kopējās lauksaimniecības politikas un Kopējās zivsaimniecības politikas īstenošanai iezīmētā ES finansējuma palielinājums, un pārstāvētas Latvijas intereses ES lēmumu pieņemšanas procesā, lai nākamā KLP un KZP plānošanas perioda regulējumā tiktu nodrošināti iespējami labvēlīgi nosacījumi Latvijas lauksaimniecības un zivsaimniecības attīstībai.</Result>
+    <Responsible orgs="16-0000 00-0001">ZM, MP</Responsible>
+    <CoResponsible orgs="11-0000 13-0000">ĀM, FM</CoResponsible>
+    <Deadline>Izpildes termiņš ir atkarīgs no sarunu procesa norises.</Deadline>
+  </Measure>
+  <Measure id="lv-mk-2026-05-28.rp.u024.p2" number="24.2." task="lv-dekl-2026-05-28.u024" funding="allocated" priority="PP(ZM)">
+    <Text>Nodrošināt Lauksaimniecības izaugsmes plāna saskaņošanu ar nozaru ministrijām un virzību izskatīšanai Ministru kabinetā.</Text>
+    <Result>Lauksaimniecības izaugsmes plāns ir saskaņots ar ministrijām un izskatīšanas procesā MK</Result>
+    <Responsible orgs="16-0000">ZM</Responsible>
+    <Deadline values="2026-08-31">31.08.2026.</Deadline>
+  </Measure>
+  <Measure id="lv-mk-2026-05-28.rp.u025.p1" number="25.1." task="lv-dekl-2026-05-28.u025" funding="allocated">
+    <Text>Aizstāvēt Latvijas intereses saskaņā ar apstiprināto Latvijas nacionālo pozīciju par ES daudzgadu budžetu 2028.-2034. gadam dažādajos sarunu formātos – Eiropadomes, ES Padomes un tās sagatavošanas formātos, kuros Latviju pārstāv Ārlietu ministrijas pārstāvji un kuros tiek skatīti jautājumi par ES daudzgadu budžetu 2028.-2034. gadam; divpusējās un daudzpusējās konsultācijās ar ES dalībvalstīm un ES institūcijām. Informēt Latvijas nevalstisko sektoru un ieinteresētās puses par sarunu gaitu par ES daudzgadu budžetu 2028.-2034. gadam un ņemt vērā to intereses, kas saskanīgas ar apstiprinātajām Latvijas nacionālajām pozīcijām par ES daudzgadu budžetu 2028.-2034. gadam.</Text>
+    <Result>Latvijas interešu pārstāvība iepretim ES dalībvalstīm un institūcijām sarunās par ES daudzgadu budžetu 2028.-2034. gadam. Latvijas nevalstiskā sektora un ieinteresēto pušu informētība un iesaiste sarunu procesā par ES daudzgadu budžetu 2028.-2034. gadam. Ārlietu ministrija ir nodrošināta ar fiskālās ietekmes aprēķiniem. Nodrošināta dalība ES Padomē un citos ES Padomes formātos, lai aizstāvētu Latvijas intereses papildu Kohēzijas politikas finansējuma saņemšanai kā austrumu pierobežas valstij.</Result>
+    <Responsible orgs="11-0000 13-0000 00-0001">ĀM, FM, MP</Responsible>
+    <CoResponsible orgs="00-0002 03-0000">Visas ministrijas, VK</CoResponsible>
+    <Deadline>Izpildes termiņš ir atkarīgs no sarunu procesa norises</Deadline>
+  </Measure>
+  <Measure id="lv-mk-2026-05-28.rp.u025.p2" number="25.2." task="lv-dekl-2026-05-28.u025" funding="allocated" priority="PP(VARAM)">
+    <Text>1) Nodrošināt Rīcības plāna Latvijas Austrumu pierobežas ekonomiskajai izaugsmei un drošības stiprināšanai 2025.–2027. gadam izpildi un tā īstenošanas uzraudzību
+2) Nodrošināsim Latvijas austrumu pierobežas sociālekonomiskās attīstības un drošības stiprināšanas tematiskā komitejas darbību – ne retāk kā reizi gadā iesniegsim Ministru kabinetā informāciju par komitejas paveikto mērķu sasniegšanā un turpmāk iecerēto darbību
+3) Nodrošināsim dalību starptautiskajās iniciatīvās:
+– EK projekts sadarbībā ar Pasaules Banku "Baltijas valstu attīstības izlīdzināšanās reģionu iniciatīva Igaunijā, Latvijā un Lietuvā: robežreģionu stiprināšana noturībai un izaugsmei" (Baltic States Catching-up Regions Initiative Estonia, Latvia &amp; Lithuania: Strengthening Border Regions for Resilience and Growth)
+4) Organizēsim diskusijas par Eiropas Savienības daudzgadu budžetā pēc 2027. gada atbalsta teritoriālo tvērumu un atbalsta sniegšanas mehānismu ES Austrumu pierobežas valstīm un reģioniem, kas robežojas ar Krieviju un Baltkrieviju, ar īpašu uzsvaru uz ES Austrumu robežas sociālekonomiskās situācijas uzlabošanu gan pierobežā, gan Latvijā kopumā, kas stiprinās ES kopējo drošību</Text>
+    <Result>1) Sagatavots īpašs Latgales un austrumu pierobežas atbalsta regulējuma konceptuālais ietvars, nosakot tā mērķi, piemērošanas teritoriju, atbalsta virzienus un atbildīgās institūcijas;
+2) Ņemot vērā reālus gaisa telpas apdraudējumus, nodrošināsim jaunus atbalsta pasākumus tūrisma jomas atbalstam un tādu zaudējumu kompensācijai, kas radies novēršot militāro apdraudējumu;
+3) Sadarbībā ar Finanšu ministriju izstrādāts praktisks finansējuma un ieviešanas modelis, lai regulējums nebūtu deklaratīvs, bet radītu izmērāmu ietekmi uz vietējo kopienu ikdienu;
+4) Apkopoti pašvaldību, uzņēmēju un vietējo kopienu priekšlikumi iestrādāti īpašā atbalsta regulējuma piedāvājumā un iesniegti turpmākai virzībai Ministru kabinetā vai starpinstitūciju saskaņošanā.</Result>
+    <Responsible orgs="21-0000">VARAM</Responsible>
+    <CoResponsible orgs="11-0000 13-0000">ĀM, FM</CoResponsible>
+    <Deadline values="2026-09-21 2026-10-01">21.09.2026.
+2-3) 01.10.2026.</Deadline>
+  </Measure>
+  <Measure id="lv-mk-2026-05-28.rp.u026.p1" number="26.1." task="lv-dekl-2026-05-28.u026" funding="allocated">
+    <Text>Aizstāvēt Latvijas intereses saskaņā ar apstiprināto Latvijas nacionālo pozīciju par ES daudzgadu budžetu 2028.-2034. gadam dažādajos sarunu formātos – Eiropadomes, ES Padomes un tās sagatavošanas formātos, kuros Latviju pārstāv Ārlietu ministrijas pārstāvji un kuros tiek skatīti jautājumi par ES daudzgadu budžetu 2028.-2034. gadam; divpusējās un daudzpusējās konsultācijās ar ES dalībvalstīm un ES institūcijām. Informēt Latvijas nevalstisko sektoru un ieinteresētās puses par sarunu gaitu par ES daudzgadu budžetu 2028.-2034. gadam un ņemt vērā to intereses, kas saskanīgas ar apstiprinātajām Latvijas nacionālajām pozīcijām par ES daudzgadu budžetu 2028.-2034. gadam.</Text>
+    <Result>Latvijas interešu pārstāvība iepretim ES dalībvalstīm un institūcijām sarunās par ES daudzgadu budžetu 2028.-2034. gadam. Latvijas nevalstiskā sektora un ieinteresēto pušu informētība un iesaiste sarunu procesā par ES daudzgadu budžetu 2028.-2034. gadam.</Result>
+    <Responsible orgs="17-0000 00-0001">SM, MP</Responsible>
+    <CoResponsible orgs="11-0000 13-0000 20-0000">ĀM, FM, KEM</CoResponsible>
+    <Deadline>Izpildes termiņš ir atkarīgs no sarunu procesa norises</Deadline>
+  </Measure>
+  <Measure id="lv-mk-2026-05-28.rp.u026.p2" number="26.2." task="lv-dekl-2026-05-28.u026" funding="allocated">
+    <Text>Aizstāvēt Latvijas intereses (caur ĀM MFF darba grupu, kas apstiprināta ar Ministru prezidenta 2025. gada 22. oktobra rīkojumu Nr. 2025/1.2.1.-336 "Par darba grupas izveidi Latvijas nostājas formulēšanai par Eiropas Savienības daudzgadu budžetu 2028.-2034. gadam") sarunās par Eiropas Savienības (ES) daudzgadu budžetu 2028.–2034. gadam, īpaši aktualizēt: Nepieciešamību nodrošināt pietiekamu ES finansējumu Eiropas infrastruktūras savienojamības instrumentam (EISI), lai tiktu īstenots "Rail Baltica" projekts.</Text>
+    <Result>Nodrošināts maksimāli iespējamais EISI finansējums Rail Baltica projekta īstenošanai.</Result>
+    <Responsible orgs="17-0000 11-0000 00-0001">SM, ĀM, MP</Responsible>
+    <CoResponsible orgs="13-0000">FM</CoResponsible>
+    <Deadline values="2026-10-01">01.10.2026.</Deadline>
+  </Measure>
+  <Measure id="lv-mk-2026-05-28.rp.u027.p1" number="27.1." task="lv-dekl-2026-05-28.u027" funding="allocated">
+    <Text>Izstrādāt Reģionālo politikas pamatnostādņu 2021 – 2027. gadam (apstiprinātas ar Ministru kabineta rīkojums Nr. 587, Rīgā 2019. gada 26. novembrī) starpposma izvērtējumu.</Text>
+    <Result>Sagatavots un Ministru kabinetā iesniegts pamatnostādņu īstenošanas starpposma novērtējums.</Result>
+    <Responsible orgs="21-0000">VARAM</Responsible>
+    <Deadline values="2026-09-21">21.09.2026.</Deadline>
+  </Measure>
+  <Measure id="lv-mk-2026-05-28.rp.u028.p1" number="28.1." task="lv-dekl-2026-05-28.u028" funding="allocated">
+    <Text>Nodrošināt, ka Latvijas Nacionālais dabas atjaunošanas plāns, kas izstrādāts saskaņā ar Dabas atjaunošanas regulu, tiek integrēts nākamā ES fondu plānošanas perioda (2028.–2034. gadam) investīciju plānošanas dokumentos, tai skaitā Valsts un reģionu partnerības plānā, nodrošinot to savstarpēju atbilstību, dabas atjaunošanas mērķu ievērošanu publisko investīciju plānošanā un īstenošanā, vienlaikus nodrošinot dabas resursu ilgtspējīgu izmantošanu.</Text>
+    <Result>MK apstiprināts Nacionālais dabas atjaunošanas plāns.</Result>
+    <Responsible orgs="21-0000">VARAM</Responsible>
+    <CoResponsible orgs="16-0000 20-0000 13-0000 12-0000">ZM, KEM, FM, EM</CoResponsible>
+    <Deadline values="2026-09-01">01.09.2026.</Deadline>
+  </Measure>
+  <Measure id="lv-mk-2026-05-28.rp.u028.p2" number="28.2." task="lv-dekl-2026-05-28.u028" funding="additional">
+    <Text>1) Nodrošināt valsts atbalstu lauksaimniecības nozarē.
+2) Nodrošināt pilnvērtīgu līdzfinansējumu ES fondu apguvei.</Text>
+    <Result>1) Sagatavoti un iesniegti fiskāli neitrāli priekšlikumi izvērtēšanai kārtējā gada valsts budžeta likumprojekta un vidēja termiņa budžeta ietvara likumprojekta sagatavošanas procesā par lauksaimniecībai nepieciešamā papildu valsts atbalsta finansējuma nodrošināšanu (ik gadu lauksaimniekiem nodrošinot valsts atbalstu prioritāru pasākumu veidā ne mazāk kā 50 milj.euro apmērā, lai stiprinātu augkopību, lopkopību, saimniecību konkurētspēju, risku pārvaldību, zinātni un pētniecību, kā arī veicinātu produkcijas tirgu).
+2) Sagatavoti un iesniegti izvērtēšanai priekšlikumi par pilnvērtīga līdzfinansējuma nodrošināšanu, tajā skaitā par papildu valsts finansējumu, ES fondu apguvei, kārtējā gada valsts budžeta likumprojekta un vidēja termiņa budžeta ietvara likumprojekta sagatavošanas procesā.</Result>
+    <Responsible orgs="16-0000">ZM</Responsible>
+    <Deadline values="2026-10-01 2026-10-01">1) 01.10.2026.
+2) 01.10.2026.</Deadline>
+  </Measure>
+  <Measure id="lv-mk-2026-05-28.rp.u029.p1" number="29.1." task="lv-dekl-2026-05-28.u029" funding="allocated" priority="PP(SM)">
+    <Text>Izstrādāt reālistisku Rail Baltica projekta turpmākās īstenošanas modeli</Text>
+    <Result>Izstrādāts reālistisks Rail Baltica projekta turpmākās īstenošanas modelis, kas balstīts uz faktiskajām finanšu iespējām, attiecīgi nosakot minimālo projekta funkcionālo apjomu, izmaksas, projekta ieviešanas posmus un laika grafiku.</Result>
+    <Responsible orgs="17-0000 00-0001">SM, MP</Responsible>
+    <CoResponsible orgs="12-0000 21-0000 13-0000">EM, VARAM, FM</CoResponsible>
+    <Deadline values="2026-10-01">01.10.2026.</Deadline>
+  </Measure>
+  <Measure id="lv-mk-2026-05-28.rp.u030.p1" number="30.1." task="lv-dekl-2026-05-28.u030" funding="allocated" priority="PP(SM)">
+    <Text>Aktuālai situācijai atbilstošas stratēģijas un biznesa plāna izstrāde, lai nodrošinātu skaidru AirBaltic turpmākās attīstības un finanšu stabilizācijas virzienu.</Text>
+    <Result>Izstrādāta aktuālai situācijai atbilstoša stratēģija un biznesa plāns, lai nodrošinātu skaidru AirBaltic turpmākās attīstības un finanšu stabilizācijas virzienu.</Result>
+    <Responsible orgs="17-0000 00-0001">SM, MP</Responsible>
+    <CoResponsible orgs="13-0000 12-0000">FM, EM</CoResponsible>
+    <Deadline values="2026-08-30">30.08.2026.</Deadline>
+  </Measure>
+  <Measure id="lv-mk-2026-05-28.rp.u031.p1" number="31.1." task="lv-dekl-2026-05-28.u031" funding="allocated">
+    <Text>Sagatavot Latvijas ilgtspējīgas attīstības stratēģijas līdz 2050.gadam sākotnējo ietvaru un Nacionālā attīstības plāna 2028.-2034.gadam sākotnējo ietvaru.</Text>
+    <Result>Izstrādāts Latvijas ilgtspējīgas attīstības stratēģijas līdz 2050. gadam sākotnējais ietvars un Nacionālā attīstības plāna 2028.–2034. gadam sākotnējais ietvars, un organizētas konsultācijas ar nozaru ministriju, sociālo partneru, pašvaldību, akadēmiskās vides un nevalstisko organizāciju ekspertiem.</Result>
+    <Responsible orgs="03-0000">VK</Responsible>
+    <CoResponsible orgs="00-0002">Visas ministrijas</CoResponsible>
+    <Deadline values="2026-10-01">01.10.2026.</Deadline>
+  </Measure>
+  <Measure id="lv-mk-2026-05-28.rp.u032.p1" number="32.1." task="lv-dekl-2026-05-28.u032" funding="additional">
+    <Text>Ieviest jaunus un paplašināt pieejamību esošajiem valsts apmaksātiem ambulatoriem veselības aprūpes pakalpojumiem bērniem un jauniešiem.</Text>
+    <Result>1) Iedzīvotājiem pieejami jauni vai paplašināti valsts apmaksāti veselības aprūpes pakalpojumi bērniem un jauniešiem:
+Uztura speciālista pakalpojumi
+Briļļu izrakstīšana reģionos bērniem
+Jauni izmeklējumi grūtniecēm
+Jauni izmeklējumi medicīniskajā apaugļošanā
+2) Pārrobežu e-recepšu risinājums paplašināts ar jaunām dalībvalstīm (Kipru, Grieķiju un Austriju, pie nosacījuma, ka minētās valstis iztur visus drošības akcepttestus), lai stiprinātu pacientu piekļuvi recepšu zālēm ārpus Latvijas un attīstu Latvijas E-veselības starptautisko savietojamību.
+Ilgtermiņa ietekme: Mazināti pacientu tiešmaksājumi par veselības aprūpi.</Result>
+    <Responsible orgs="29-0000">VM</Responsible>
+    <CoResponsible orgs="29-0674">NVD</CoResponsible>
+    <Deadline values="2026-10-01 2026-10-01">1) 01.10.2026
+2) 01.10.2026</Deadline>
+  </Measure>
+  <Measure id="lv-mk-2026-05-28.rp.u032.p2" number="32.2." task="lv-dekl-2026-05-28.u032" funding="additional">
+    <Text>Nodrošināt aizdevumus pašvaldībām jaunu pirmsskolas izglītības iestāžu būvniecībai vai esošu pirmsskolas izglītības iestāžu paplašināšanai, pirmsskolas izglītības iestāžu infrastruktūras attīstībai.</Text>
+    <Result>Sniegti atzinumi pašvaldībām par investīciju projektu pieteikumiem atbilstoši Ministru kabineta 2024. gada 17. decembra noteikumiem Nr. 879 "Noteikumi par kritērijiem un kārtību, kādā tiek izvērtēti pašvaldību investīciju projektu pieteikumi aizdevuma saņemšanai""</Result>
+    <Responsible orgs="21-0000">VARAM</Responsible>
+    <CoResponsible orgs="15-0000 13-0000">IZM, FM</CoResponsible>
+    <Deadline values="2026-09-21">21.09.2026.</Deadline>
+  </Measure>
+  <Measure id="lv-mk-2026-05-28.rp.u032.p3" number="32.3." task="lv-dekl-2026-05-28.u032" funding="allocated">
+    <Text>Izveidot Dzimumšūnu reģistru.</Text>
+    <Result>Uzsākta vienotā dzimumšūnu reģistra funkcionalitātes izstrāde (darbību sāks 2027.gada janvārī).
+Veikti grozījumi MK 01.10.2024. Nr. 630 "Ārstniecības personu un ārstniecības atbalsta personu reģistra noteikumi" attiecībā uz embriologa iekļaušanu ārstniecības atbalsta personu sarakstā, lai dotu tiesības embriologam apstrādāt datus vienotajā dzimumšūnu reģistrā.
+Ilgtermiņa ietekme: Nodrošināta donoru, dzimumšūnu izsekojamība, tādējādi garantējot pacientu un bērnu drošību, kā arī samazinot ģenētiskās radniecības riskus sabiedrībā. Vienlaikus reģistrs ļaus uzlabot asistētās reprodukcijas pakalpojumu kvalitāti un nodrošināt datos balstītu veselības politikas plānošanu.</Result>
+    <Responsible orgs="29-0000">VM (LDVC)</Responsible>
+    <CoResponsible>LCRB</CoResponsible>
+    <Deadline values="2026-10-01">01.10.2026.</Deadline>
+  </Measure>
+  <Measure id="lv-mk-2026-05-28.rp.u032.p4" number="32.4." task="lv-dekl-2026-05-28.u032" funding="allocated">
+    <Text>Uzsākt pilotprojekta "Vecmātes mājas vizītes" īstenošanu.</Text>
+    <Result>Pilotprojekta ietvaros nodrošinātas vismaz 2 vecmātes mājas vizītes katrai iesaistītajai māmiņai, kurās novērtēta mātes un bērna veselība, sniegts zīdīšanas, aprūpes un psihoemocionālais atbalsts.
+Ilgtermiņa ietekme: Uzlabota pēcdzemdību aprūpes kvalitāte un mātes/bērna veselības un emocionālās labbūtības rādītāji, veidojot pamatu šāda modeļa ieviešanai visā valstī.</Result>
+    <Responsible orgs="29-0000 29-0674">VM (NVD)</Responsible>
+    <Deadline values="2026-10-01">01.10.2026.</Deadline>
+  </Measure>
+  <Measure id="lv-mk-2026-05-28.rp.u032.p5" number="32.5." task="lv-dekl-2026-05-28.u032" funding="allocated">
+    <Text>Izveidot metodiskās vadības institūciju dzemdniecībā un ginekoloģijā</Text>
+    <Result>Izveidota metodiskās vadības institūcija dzemdniecībā un ginekoloģijā.
+Ilgtermiņa ietekme: nodrošināta vienota klīnisko vadlīniju izstrāde un ieviešana, sekmējot pierādījumos balstītu un kvalitatīvu aprūpi visā valstī, tādējādi veicināta mātes un bērna veselības rādītāju uzlabošanās, nevienlīdzības mazināšanās starp ārstniecības iestādēm, kā arī efektīvāka veselības aprūpes resursu izmantošana un stiprināta nozares profesionālā attīstība, kvalitātes uzraudzība un datu izmantošana politikas plānošanā.</Result>
+    <Responsible orgs="29-0000">VM</Responsible>
+    <Deadline values="2026-10-01">01.10.2026.</Deadline>
+  </Measure>
+  <Measure id="lv-mk-2026-05-28.rp.u032.p6" number="32.6." task="lv-dekl-2026-05-28.u032" funding="allocated" priority="PP(LM)">
+    <Text>Valsts un pašvaldību koordinētas ģimenes politikas attīstība, palielinot atbalstu dzimstības veicināšanai, uzlabojot pakalpojumu pieejamību un paplašinot atbalsta instrumentus daudzbērnu un citām ģimenēm:
+1) no 01.01.2027. mainīt pieeju Goda ģimenes statusa noteikšanā;
+2) uzlabot finansiālo atbalstu ģimenēm ar bērniem, vienkāršojot un palielinot finansiālo atbalstu vecākiem.</Text>
+    <Result>1) Mainīta pieeja Goda ģimenes statusa noteikšanā, paredzot, ka turpmāk tiesības saņemt apliecību un atbalstu būs ikvienai ģimenei, kurā ir trīs vai vairāk bērni un kurā vismaz viens bērns atbilst apliecības saņemšanas noteiktajiem kritērijiem.
+Grozījumi MK 10.09.2024. noteikumos Nr.598 ""Latvijas Goda ģimenes apliecības programmas īstenošanas kārtība"".
+2) Vecāku pabalsta un bērna kopšanas pabalsta sistēmas izmaiņas, apvienojot vecāku un bērna kopšanas pabalstus – ar 01.01.2028. ieviešot vienu pabalstu, kuram ir viens periods – 548 dienas (šobrīd 13 vai 19 mēneši), palielināts atvietojums uz 70% no personas vidējās apdrošināšanas iemaksu algas (šobrīd 43,75% vai 60% no vidējās apdrošināšanas iemaksu algas atkarībā no izvēlētā perioda), paredzot pabalsta minimālo apmēru (piesaiste pie ienākumu mediānas) un paredzot, ka, ja pabalsta saņemšanas laikā vecāks strādā, tad var saņemt 75% no pabalsta apmēra. Tādējādi tiktu izveidota vienkāršāka, saprotamāka, elastīgāka un finansiāli ilgtspējīgāka atbalsta sistēma vecākiem (būtiska reforma, kas ietekmē arī budžeta procesu).
+Primāri grozījumi: likumā ""Par maternitātes un slimības apdrošināšanu""; Valsts sociālo pabalstu likums; grozījumi likumā ""Par valsts sociālo apdrošināšanu"".
+Vēlākā periodā grozījumi: MK 16.11.2021. noteikumos Nr.753. ""Valsts sociālās apdrošināšanas pabalstu noteikumi""; MK 05.06.2001. noteikumos Nr.230 ""Noteikumi par valsts sociālās apdrošināšanas obligātajām iemaksām no valsts pamatbudžeta un valsts sociālās apdrošināšanas speciālajiem budžetiem""; MK 22.12.2009. noteikumos Nr.1609 ""Noteikumi par bērna kopšanas pabalsta un piemaksas pie bērna kopšanas pabalsta un vecāku pabalsta par dvīņiem vai vairākiem vienās dzemdībās dzimušiem bērniem apmēru, tā pārskatīšanas kārtību un pabalsta un piemaksas piešķiršanas un izmaksas kārtību"".</Result>
+    <Responsible orgs="18-0000">LM</Responsible>
+    <CoResponsible orgs="17-0000 15-0000 19-0000 22-0000 12-0000 20-0000 08-0000 18-0453">1) SM, IZM, TM, KM, EM, KEM, SIF
+2) VSAA</CoResponsible>
+    <Deadline values="2026-06-30 2026-10-01">1) 30.06.2026. (lēmuma pieņemšana)
+2) 01.10.2026.</Deadline>
+  </Measure>
+  <Measure id="lv-mk-2026-05-28.rp.u032.p7" number="32.7." task="lv-dekl-2026-05-28.u032" funding="allocated" priority="PP(EM)">
+    <Text>Nodrošināt PVN 12% samazinājumu pārtikas precēm pilnīga pārnese gala patērētājam.</Text>
+    <Result>MK iesniegts informatīvais ziņojums par pārtikas cenu dinamikas uzraudzības mehānismu un PVN samazinājuma ietekmi pirmajos darbības mēnešos.</Result>
+    <Responsible orgs="12-0000">EM</Responsible>
+    <CoResponsible orgs="12-0042 12-0040">PTAC, KP</CoResponsible>
+    <Deadline values="2026-10-01">01.10.2026.</Deadline>
+  </Measure>
+  <Measure id="lv-mk-2026-05-28.rp.u032.p8" number="32.8." task="lv-dekl-2026-05-28.u032" funding="additional">
+    <Text>Valsts un pašvaldību koordinētas ģimenes politikas attīstība, pilnveidojot pakalpojumu klāstu ārpusģimenes aprūpes sniedzējiem, kā arī personām vai ģimenēm, kuru spējas sociāli funkcionēt un iekļauties sabiedrībā dažādu sociālu, garīgu, fizisku traucējumu dēļ ir apgrūtinātas:
+1) paplašināt atbalstu ārpusģimenes aprūpes sniedzējiem;
+2) ieviest audžuģimeņu specializāciju bērniem ar uzvedības traucējumiem un atkarībām;
+3) atbalstīt ģimenes asistenta pakalpojuma attīstību pašvaldībās.</Text>
+    <Result>1) Paplašināts atbalsts vismaz 650 ārpusģimenes aprūpes sniedzējiem. (Grozījumi MK 26.06.2018. noteikumos Nr.354 ""Audžuģimenes noteikumi"")
+2) Ieviesta audžuģimeņu specializācija 20 bērniem ar uzvedības traucējumiem un atkarībām. (Grozījumi MK 26.06.2018. noteikumos Nr.354 ""Audžuģimenes noteikumi"".)
+3) Iesniegts priekšlikums valsts mērķdotācijai ģimenes asistenta pakalpojuma attīstībai pašvaldībās.
+Atbalsta gadījumā jaunu MK noteikumu izstrāde.</Result>
+    <Responsible orgs="18-0000">LM</Responsible>
+    <CoResponsible orgs="00-0005 00-0003">1) BAC, NVO
+2) BAC, NVO, pašvaldības
+3) Pašvaldības, NVO</CoResponsible>
+    <Deadline values="2026-10-01 2026-10-01 2026-10-01">1) 01.10.2026.
+2) 01.10.2026.
+3) 01.10.2026.</Deadline>
+  </Measure>
+  <Measure id="lv-mk-2026-05-28.rp.u032.p9" number="32.9." task="lv-dekl-2026-05-28.u032" funding="additional">
+    <Text>Vienoties par Tuvo Austrumu konflikta radīto cenu pieauguma enerģētikas sektorā ietekmi mazinošiem pasākumiem saistībā ar nākamo apkures sezonu.</Text>
+    <Result>Nākamajai apkures sezonai no 01.10.2026.– 30.04.2027. palielināti mājokļa pabalsta koeficienti šādām mērķa grupām – atsevišķi dzīvojošai pensijas vecuma personai vai atsevišķi dzīvojošai personai ar invaliditāti; mājsaimniecībai, kurā ir tikai pensijas vecuma personas vai personas ar invaliditāti; mājsaimniecībai, kurā ir bērni līdz 18 gadu vecumam vai pilngadīgas personas, kuras nav sasniegušas 24 gadu vecumu, ja tās iegūst vispārējo, profesionālo vai augstāko izglītību un pārējām mājsaimniecībām.
+Grozījumi Sociālo pakalpojumu un sociālās palīdzības likumā. Pasākums īstenojams, ja tiek piešķirts papildu finansējums.</Result>
+    <Responsible orgs="18-0000">LM</Responsible>
+    <CoResponsible orgs="13-0000 20-0000 93-0003">FM, KEM, LPS</CoResponsible>
+    <Deadline values="2026-10-01">01.10.2026.</Deadline>
+  </Measure>
+  <Measure id="lv-mk-2026-05-28.rp.u032.p10" number="32.10." task="lv-dekl-2026-05-28.u032" funding="allocated">
+    <Text>Stiprināt bērniem drošu tiesiskumu, atsakoties no bāriņtiesām netipiskām notariālām funkcijām.</Text>
+    <Result>Dalība likumprojekta "Grozījumi Bāriņtiesu likumā" (Nr. 170/Lp14) un saistīto likumprojektu apspriešanā un virzībā Saeimā.
+Bāriņtiesām vairāk resursu bērnu tiesību aizsardzībai un darbam ar riska ģimenēm.</Result>
+    <Responsible orgs="19-0000">TM</Responsible>
+    <Deadline values="2026-10-01">01.10.2026.</Deadline>
+  </Measure>
+  <Measure id="lv-mk-2026-05-28.rp.u032.p11" number="32.11." task="lv-dekl-2026-05-28.u032" funding="allocated">
+    <Text>Uzsākt bērnu (no 1 līdz 6 gadiem) agrīnās attīstības skrīninga instrumentu komplekta (BAASIK – strukturēts izvērtēšanas instruments, kas palīdz pārbaudīt, vai bērna attīstība atbilst viņa vecumam ) ieviešanu, pieņemot saistošo normatīvo regulējumu.</Text>
+    <Result>1) Izstrādāts datu apmaiņas risinājums starp Fizisko personu reģistru un Vienoto risku analīzes un vadības informācijas sistēmu bērnu attīstības vajadzību atbalstam.
+2) Veikti nepieciešamie grozījumi normatīvajos aktos.
+Apstiprināti MK noteikumi par izmēģinājumprojekta veikšanu un agrīnās attīstības izvērtēšanas metodiku.
+Apstiprināti Vienoto risku analīzes un vadības informācijas sistēmu bērnu attīstības vajadzību atbalstam regulējošie MK noteikumi
+3) Uzsākts pilotprojekts 5 pašvaldībās: Rīgas valstspilsētas, Liepājas valstspilsētas, Daugavpils valstspilsētas, Cēsu novada, Jēkabpils novada pašvaldībās.</Result>
+    <Responsible orgs="03-0000">VK</Responsible>
+    <CoResponsible orgs="14-0093 29-0000 15-0000 92-0001 00-0003">1) VDAA, PMLP
+2) VM, IZM, VDAA
+3) VM, IZM, VDAA, BKUS MVI, LU, pašvaldības</CoResponsible>
+    <Deadline values="2026-10-01">01.10.2026.</Deadline>
+  </Measure>
+  <Measure id="lv-mk-2026-05-28.rp.u032.p12" number="32.12." task="lv-dekl-2026-05-28.u032" funding="additional">
+    <Text>Piešķirto valsts un pašvaldību budžeta bāzes finansējumu pamatā saglabāt konkrētajam mērķim, tai skaitā valsts apmaksātām pusdienām 50 % apmērā piektās klases skolēniem no jaunā mācību gada.</Text>
+    <Result>Nodrošināts nepieciešamais finansējums 5.klases skolēnu ēdināšanai pie nosacījuma, ja tiks piešķirti papildu finanšu resursi, t.sk. veikti grozījums MK 2019.gada 10.decembra noteikumos Nr.614 "Kārtība, kādā aprēķina, piešķir un izlieto valsts budžetā paredzētos līdzekļus izglītojamo ēdināšanai"</Result>
+    <Responsible orgs="15-0000 13-0000">IZM, FM</Responsible>
+    <CoResponsible orgs="21-0000">VARAM</CoResponsible>
+    <Deadline values="2026-08-31">31.08.2026.</Deadline>
+  </Measure>
+  <Measure id="lv-mk-2026-05-28.rp.u032.p13" number="32.13." task="lv-dekl-2026-05-28.u032" funding="allocated">
+    <Text>Stiprināt un nodrošināt Valsts aizsardzības mācības apguvi vispārējā vidējā izglītībā tālmācības un nepilna laika klātienes formā.</Text>
+    <Result>Vispārējas vidējās izglītības programmās tālmācības vai nepilna laika klātienes formā nodrošināta mācību priekšmeta kursa "Valsts aizsardzības mācība" apguve kā obligāta sākot ar 2026. gada 1. septembri.</Result>
+    <Responsible orgs="15-0000 10-0000">IZM, AizM</Responsible>
+    <Deadline values="2026-08-31">31.08.2026.</Deadline>
+  </Measure>
+  <Measure id="lv-mk-2026-05-28.rp.u033.p1" number="33.1." task="lv-dekl-2026-05-28.u033" funding="additional">
+    <Text>Turpināt darbu, lai nodrošinātu bērnu veselības aprūpes pakalpojumu pieejamību bez rindām.</Text>
+    <Result>Sagatavoti priekšlikumi par nepieciešamo papildus finansējumu, pasākumiem un ieviešanas termiņiem, lai nodrošinātu rindu mazināšanu bērnu veselības aprūpē 2027.-2029.gadā
+Ilgtermiņa ietekme: Uzlabota veselības aprūpes pakalpojumu pieejamība bērniem un mazināti pacientu tiešmaksājumi par veselības aprūpi.</Result>
+    <Responsible orgs="29-0000">VM</Responsible>
+    <CoResponsible orgs="29-0674">NVD</CoResponsible>
+    <Deadline values="2026-09-30">30.09.2026</Deadline>
+  </Measure>
+  <Measure id="lv-mk-2026-05-28.rp.u033.p2" number="33.2." task="lv-dekl-2026-05-28.u033" funding="allocated">
+    <Text>Izstrādāt tehnisko ietvaru veselības datu pieejamībai agrīnajā preventīvā atbalsta sistēmā bērniem, jaunu profilaktiskās apskates moduli ar integrētu izvērtējumu (BAASIK).</Text>
+    <Result>1) Pieņemti grozījumi MK 11.03.2014. noteikumos Nr. 134 "Noteikumi par vienoto veselības nozares elektronisko informācijas sistēmu", kas nosaka tiesisko ietvaru, lai no E-veselības portāla nodrošinātu iespēju ārstam "tehniski" pārslēgties uz BAASIK portālu "bērnsaug.gov.lv"
+2) Izstrādāts tehniskais risinājums, lai ģimenes ārstiem no E-veselības portāla nodrošinātu iespēju "tehniski" pārslēgties uz BAASIK portālu "bērnsaug.gov.lv"
+Ilgtermiņa ietekme: Nodrošināta integrēta un lietotājam draudzīgāka digitālās veselības ekosistēma, uzlabojot ģimenes ārstu darba efektivitāti un mazinot administratīvo slogu.</Result>
+    <Responsible orgs="03-0000 29-0000">VK, VM (LDVC)</Responsible>
+    <CoResponsible orgs="91-0003">BKUS</CoResponsible>
+    <Deadline values="2026-10-01">01.10.2026.</Deadline>
+  </Measure>
+  <Measure id="lv-mk-2026-05-28.rp.u033.p3" number="33.3." task="lv-dekl-2026-05-28.u033" funding="allocated">
+    <Text>Izstrādāt pakalpojuma modeli pārejai no bērnu uz pieaugušo veselības aprūpi</Text>
+    <Result>Izstrādāts veselības aprūpes pakalpojumu modelis pārejai no bērna uz pieaugušo veselības aprūpi, kurš būtu piemērots pēctecīgai ieviešanai praksē dažādās pacientu slimību grupās.
+Ilgtermiņa ietekme: nodrošināta nepārtraukta, koordinēta un pacientcentrēta ārstēšana, uzlaboti veselības iznākumi, veicināta efektīvāka resursu izmantošana, vienlīdzību starp pacientu grupām.</Result>
+    <Responsible orgs="29-0000">VM</Responsible>
+    <CoResponsible orgs="91-0003">BKUS</CoResponsible>
+    <Deadline values="2026-10-01">01.10.2026.</Deadline>
+  </Measure>
+  <Measure id="lv-mk-2026-05-28.rp.u034.p1" number="34.1." task="lv-dekl-2026-05-28.u034" funding="allocated" priority="PP(EM)">
+    <Text>Sagatavot pamatojumu sadarbības partneru darba grupai Eiropas Savienības fondu un citu ārvalstu finanšu palīdzības jomā par ES fondu pārdali zemas īres maksas mājokļu būvniecības reģionos programmas turpināšanai.</Text>
+    <Result>Iesniegts priekšlikums sadarbības partneru darba grupai Eiropas Savienības fondu un citu ārvalstu finanšu palīdzības jomā par ES fondu pārdali zemas īres maksas mājokļu būvniecības reģionos programmas turpināšanai.</Result>
+    <Responsible orgs="12-0000">EM</Responsible>
+    <CoResponsible orgs="13-0000">FM</CoResponsible>
+    <Deadline values="2026-10-01">01.10.2026.</Deadline>
+  </Measure>
+  <Measure id="lv-mk-2026-05-28.rp.u034.p2" number="34.2." task="lv-dekl-2026-05-28.u034" funding="additional">
+    <Text>Sagatavot priekšlikumus ALTUM mājokļu garantiju programmas pilnveidei, ietverot valsts garantijas seguma palielināšanu, kas nodrošina iespēju atbrīvot kredītņēmēju no paša līdzdalības mājokļa kredīta saņemšanai.</Text>
+    <Result>Iesniegts pieprasījums ar attiecīgo pamatojumu likumprojektam "Par valsts budžetu 2027. gadam un budžeta ietvaru 2027., 2028., 2029. un 2030. gadam", paredzot līdzekļus ALTUM mājokļa garantijas seguma palielināšanai.</Result>
+    <Responsible orgs="12-0000">EM</Responsible>
+    <Deadline values="2026-10-01">01.10.2026.</Deadline>
+  </Measure>
+  <Measure id="lv-mk-2026-05-28.rp.u034.p3" number="34.3." task="lv-dekl-2026-05-28.u034" funding="additional">
+    <Text>Sagatavot priekšlikumus ALTUM mājokļu garantiju programmas pilnveidei, paredzot, ka arī Valsts robežsardzes amatpersonas ir tiesīgas saņemt mājokļa atbalstu ALTUM programmas ietvaros.</Text>
+    <Result>Noslēgta vienošanās ar ALTUM par garantiju izsniegšanu Valsts robežsardzes amatpersonām banku aizdevumiem pirmās iemaksas veikšanai mājokļa iegādei vai tā būvniecībai.</Result>
+    <Responsible orgs="14-0000">IeM</Responsible>
+    <Deadline values="2026-10-01">01.10.2026.</Deadline>
+  </Measure>
+  <Measure id="lv-mk-2026-05-28.rp.u035.p1" number="35.1." task="lv-dekl-2026-05-28.u035" funding="allocated" priority="PP(LM)">
+    <Text>Ģimenes valsts pabalsta apmēru regulāra pārskatīšana.</Text>
+    <Result>Regulāri pārskatīts ģimenes valsts pabalsts apmēram 340 tūkst. bērnu, nodrošinot pabalsta apmēra palielināšanu.
+Grozījumi Valsts sociālo pabalstu likumā un MK 21.12.2021. noteikumos Nr.864 "Kārtība, kādā piešķir un izmaksā ģimenes valsts pabalstu un piemaksu pie ģimenes valsts pabalsta par bērnu ar invaliditāti".</Result>
+    <Responsible orgs="18-0000">LM</Responsible>
+    <Deadline values="2026-10-01">01.10.2026. (lēmuma pieņemšana)</Deadline>
+  </Measure>
+  <Measure id="lv-mk-2026-05-28.rp.u036.p1" number="36.1." task="lv-dekl-2026-05-28.u036" funding="allocated" priority="PP(LM)">
+    <Text>Uzsākt "bāzes" pensijas ieviešanu – no 01.01.2027. pakāpeniski piešķirot piemaksu par stāžu no 1996.gada un no 01.01.2027. (vai no 01.10.2026.) paaugstinot piemaksas viena stāža gada vērtību par stāžu līdz 1995.gada 31.decembrim.</Text>
+    <Result>Uzsākta "bāzes" pensijas ieviešana no 2027.gada.
+MK ir jāizskata un jāapstiprina LM iesniegtais informatīvais ziņojums "Par bāzes pensijas attīstības iecerēm" (26-TA-918), kā arī nepieciešami grozījumi vairākos normatīvajos aktos.
+Primāri grozījumi likumā "Par valsts pensijām" (ja piemaksas paaugstināšanu veic ar 01.10.2026., tad ir iespējams sniegt priekšlikumus likumprojekta "Grozījumi likumā "Par valsts pensijām" (369/Lp14) otrajam lasījumam).
+Vēlākā periodā grozījumi:
+&gt; likumā "Par obligāto sociālo apdrošināšanu pret nelaimes gadījumiem darbā un arodslimībām";
+&gt; Militārpersonu izdienas pensiju likumā;
+&gt; likumā "Par izdienas pensijām Iekšlietu ministrijas sistēmas darbiniekiem ar speciālajām dienesta pakāpēm";
+&gt; Valsts un pašvaldību profesionālo orķestru, koru, koncertorganizāciju, teātru un cirka mākslinieku izdienas pensiju un baleta mākslinieku pabalsta par radošo darbu likumā;
+&gt; Diplomātu izdienas pensiju likumā;
+&gt; Korupcijas novēršanas un apkarošanas biroja amatpersonu izdienas pensiju likumā;
+&gt; Valsts drošības iestāžu amatpersonu izdienas pensiju likumā;
+&gt; Neatliekamās medicīniskās palīdzības dienesta neatliekamās medicīniskās palīdzības nodrošināšanā iesaistīto darbinieku izdienas pensiju likumā;
+&gt; Tiesnešu un prokuroru speciālās pensijas likumā.</Result>
+    <Responsible orgs="18-0000">LM</Responsible>
+    <Deadline values="2026-10-01">01.10.2026.</Deadline>
+  </Measure>
+  <Measure id="lv-mk-2026-05-28.rp.u036.p2" number="36.2." task="lv-dekl-2026-05-28.u036" funding="allocated" priority="PP(LM)">
+    <Text>Pilnveidot sociālo nodrošinājumu par bērna kopšanas periodā pavadīto laiku – no 1991. līdz 1995.gadam un no 1996. līdz 2022.gadam.</Text>
+    <Result>Sociālā nodrošinājuma pilnveide par bērna kopšanas periodā pavadīto laiku.
+Nepieciešami grozījumi vairākos normatīvajos aktos:
+1) grozījumi likumā "Par valsts pensijām" (vai likumā "Par valsts sociālo apdrošināšanu");
+2) grozījumi MK 12.10.2010. noteikumos Nr.976 "Noteikumi par brīvprātīgu pievienošanos valsts sociālajai apdrošināšanai";
+3) grozījumi MK 05.06.2001. noteikumos Nr.230 "Noteikumi par valsts sociālās apdrošināšanas obligātajām iemaksām no valsts pamatbudžeta un valsts sociālās apdrošināšanas speciālajiem budžetiem";
+4) grozījumi Valsts sociālo pabalstu likumā.
+Pasākums īstenojams, ja tiek piešķirts papildu finansējums. Tiesību aktu grozījumi tiks izstrādāti budžeta izstrādes procesā. VSAA programmatūras izstrādei nepieciešami 8 mēneši no likuma pieņemšanas.</Result>
+    <Responsible orgs="18-0000">LM</Responsible>
+    <Deadline values="2026-10-01">01.10.2026.</Deadline>
+  </Measure>
+  <Measure id="lv-mk-2026-05-28.rp.u037.p1" number="37.1." task="lv-dekl-2026-05-28.u037" funding="additional">
+    <Text>Nozaru budžeta bāzes izdevumu pārskatīšanas rezultātā (Deklarācijas 14. uzdevums) iegūto finansējumu novirzīt veselības nozarei, lai nodrošinātu, ka finansējums veselības aprūpei sasniedz 12% no valdības izdevumiem (pēc aktuālās FM prognozes par vispārējiem valdības izdevumiem un vispārējiem valdības izdevumiem veselībai iztrūkums veselības nozares budžetā ir 266mEUR).</Text>
+    <Result>Paredzēts finansējums:
+Veselības aprūpes pakalpojumu onkoloģijas jomā uzlabošanas plāna 2025.–2027. gadam,
+Mātes un bērna veselības uzlabošanas plāna 2025.–2027. gadam,
+Sirds un asinsvadu veselības uzlabošanas rīcības plāna 2026.-2027.gadam,
+Reto slimību jomas plāna projekta 2026. – 2027. gadam, diabēta pacientu atbalstam, medikamentu pieejamībai kā mērķētiem pasākumiem pacientu līdzmaksājumu par veselības aprūpi mazināšanai,
+kā arī citām nozares prioritātēm (piemēram, primārās veselības aprūpes stiprināšanai, t.sk. digitalizācijas izdevumu segšanai, ārstniecības personu atalgojumam, tarifu aktualizēšanai).</Result>
+    <Responsible orgs="29-0000">VM</Responsible>
+    <Deadline values="2026-10-01">01.10.2026.</Deadline>
+  </Measure>
+  <Measure id="lv-mk-2026-05-28.rp.u037.p2" number="37.2." task="lv-dekl-2026-05-28.u037" funding="allocated" priority="PP(VM)">
+    <Text>Pabeigt zāļu cenu samazināšanas pasākumu ieviešanu, samazinot izdevumus par recepšu zālēm visiem pacientiem (t.sk., personām ar 1.grupas invaliditāti).</Text>
+    <Result>Pilnībā no valsts budžeta līdzekļiem nosegta maksa par farmaceita pakalpojumu:
+1) nekompensējamām un 75% apmērā kompensējamām recepšu zālēm, kuru aptiekas cena ir līdz 10 euro par iepakojumu;
+2) grūtniecēm un sievietēm līdz 70 pēcdzemdību perioda dienai, iegādājoties minētām diagnozēm paredzētās Kompensējamo zāļu M saraksta zāles un kuru iepakojuma aptiekas cena ir līdz 10 euro;
+3) personām ar I grupas invaliditāti, iegādājoties jebkuras recepšu zāles.
+Pieņemti grozījumi Ministru kabineta 2005. gada 25. oktobra noteikumos Nr. 803 "Noteikumi par zāļu cenu veidošanas principiem".
+Ilgtermiņa ietekme: Pacientiem pieejamākas recepšu zāles, samazināti izdevumi par recepšu zāļu iegādi.</Result>
+    <Responsible orgs="29-0000">VM</Responsible>
+    <Deadline values="2026-10-01">01.10.2026.</Deadline>
+  </Measure>
+  <Measure id="lv-mk-2026-05-28.rp.u037.p3" number="37.3." task="lv-dekl-2026-05-28.u037" funding="allocated" priority="PP(VM)">
+    <Text>Pabeigt pirmo posmu "viens nosūtījums – viens pieraksts" digitālajam risinājumam, tādējādi sakārtojot un samazinot rindas, atvieglojot ambulatoro konsultāciju un pakalpojumu pieejamību.</Text>
+    <Result>1) E-veselības sistēmā ir nodrošināta centralizēta vide pieraksta kalendāra iesūtīšanai no ārstniecības iestādēm uz 100 biežākajiem ambulatorajiem pakalpojumiem;
+2) Nodrošināts e-pieraksts iedzīvotājiem E-veselības portālā tajās ārstniecības iestādēs, kas ir publicējušas savus pieraksta kalendārus;
+3) Pakāpeniski, atbilstoši integrācijas iespējām, palielināts ārstniecības iestāžu skaits, kuras izmanto E-veselības centralizēto pierakstu kalendāru.
+4) Demonstrācija MK par e-nosūtījuma funkcionēšanu reālajā dzīvē
+Ilgtermiņa ietekme:
+Prognozējamais rindu samazinājums līdz ~15%, pateicoties neierašanās un dubulto pierakstu mazināšanai.
+Caurspīdīgs un vienots pieraksta process, kas nodrošina ārstniecības iestāžu kalendāru pārskatāmību un izslēdz dubultos pierakstus.
+Mazāk neierašanās gadījumu un efektīvāka jaudas izmantošana, samazinot "mākslīgi radītas" rindas un uzlabojot pieejamību citiem pacientiem.
+Ērtāka piekļuve pakalpojumiem iedzīvotājiem, nodrošinot 24/7 e-pieraksta iespēju un principu "viens nosūtījums – viens pieraksts".</Result>
+    <Responsible orgs="29-0000">VM (LDVC)</Responsible>
+    <Deadline values="2026-10-01">01.10.2026.</Deadline>
+  </Measure>
+  <Measure id="lv-mk-2026-05-28.rp.u037.p4" number="37.4." task="lv-dekl-2026-05-28.u037" funding="additional">
+    <Text>Pieņemt lēmumu par publiskās un privātās partnerības (PPP) projektu uzsākšanu veselības inovāciju un veselības aprūpes nozares stiprināšanai.</Text>
+    <Result>MK iesniegts informatīvais ziņojums par sektorālās investīciju platformas izveidi Latvijas veselības aizsardzības un ilgtspējas attīstībai, t.sk., paredzot atļauju slēgt LU/EIB līgumu par šīs platformas attīstības projektu padziļinātās izpētes veikšanu, t.sk., iespējamā biznesa modeļa strukturēšanu un finansēšanas risinājumiem, veikšanu, un izveidota operatīvā rīcības grupa, lai nodrošinātu projekta uzraudzību un turpmāku uzdevumu starpinstitucionālu koordināciju SIP Latvijas veselības aizsardzības un ilgtspējas padziļinātās izpētes veikšanu, t.sk., iespējamā biznesa modeļa strukturēšanu un finansēšanas risinājumiem.</Result>
+    <Responsible orgs="12-0000">EM</Responsible>
+    <CoResponsible orgs="29-0000 15-0000">VM, IZM</CoResponsible>
+    <Deadline values="2026-09-01">01.09.2026.</Deadline>
+  </Measure>
+  <Measure id="lv-mk-2026-05-28.rp.u038.p1" number="38.1." task="lv-dekl-2026-05-28.u038" funding="allocated" priority="PP(VM)">
+    <Text>Pieņemt lēmumu par slimnīcu tīkla reorganizāciju.</Text>
+    <Result>Pieņemti Ministru kabineta noteikumi "Grozījumi Ministru kabineta 2018. gada 28. augusta noteikumos Nr. 555 "Veselības aprūpes pakalpojumu organizēšanas un samaksas kārtība"" (26-TA-1067), kuros:
+1) Noteikts stacionāro ārstniecības iestāžu dalījums trīs līmeņos, ar definētiem katrā līmenī nodrošināmajiem pakalpojumu profiliem un programmām.
+2) Pārskatītas prasības neatliekamās medicīnas un pacientu uzņemšanas nodaļu darbības organizācijai un personāla nodrošinājumam, nodrošinot atbilstošāku kapacitātes un kompetenču sadalījumu.
+Ilgtermiņa ietekme:
+Kvalitatīvāka pacientu aprūpe un lielāka veselības aprūpes uzticamība, koncentrējot sarežģīto palīdzību centros ar pieredzējušām speciālistu komandām un nodrošinot vienotus ārstēšanas standartus.
+Speciālistu efektīvāka izmantošana un augstāka sistēmas produktivitāte, veicinot labāku specializāciju un konsekventāku ārstēšanas kvalitāti visā valstī.
+Skaidrāks līdzsvars starp pieejamību un kvalitāti, kā arī lielāka pacientu uzticība, jo, lai gan pacienti bieži vēlas slimnīcu tuvāk mājām, sarežģītos gadījumos viņi paši dabiski izvēlas vai tiek nogādāti augstāka līmeņa slimnīcās (bieži Rīgā), kur iespējams nodrošināt kvalitatīvāku rezultātu.</Result>
+    <Responsible orgs="29-0000">VM</Responsible>
+    <Deadline values="2026-10-01">01.10.2026.</Deadline>
+  </Measure>
+  <Measure id="lv-mk-2026-05-28.rp.u039.p1" number="39.1." task="lv-dekl-2026-05-28.u039" funding="additional">
+    <Text>Izveidot Eiropā pievilcīgāko tiesisko un administratīvo regulējumu mākslīgā intelekta, datu apmaiņas, medicīnas pētījumu un militāro tehnoloģiju jomā, nodrošinot starptautisku konkurētspēju un veicinot augstas pievienotās vērtības investīciju piesaisti Latvijai, kā arī sekmēsim mākslīgā intelekta regulatīvajā smilškastē apstiprināto projektu sekmīgu īstenošanu, piemēram, MI Process-as-Code platformu.</Text>
+    <Result>1) Izstrādāts un MK iesniegts Mākslīgā intelekta plāns.
+2) Nodrošināt publisko finansējumu Mākslīgā intelekta centra darbībai un speciālās regulatīvās vides uzturēšanai, veidojot to par pieejamu testēšanas platformu inovatīviem MI produktiem, Latvijas un ES uzņēmumiem.
+3) Uzsākt īstenot Mākslīgā intelekta akselerācijas programmu inovatīvu MI risinājumu ieviešanai publiskajā sektorā.</Result>
+    <Responsible orgs="21-0000">VARAM</Responsible>
+    <CoResponsible orgs="00-0002">Visas ministrijas</CoResponsible>
+    <Deadline values="2026-09-21">21.09.2026.</Deadline>
+  </Measure>
+  <Measure id="lv-mk-2026-05-28.rp.u039.p2" number="39.2." task="lv-dekl-2026-05-28.u039" funding="allocated">
+    <Text>Pieņemt lēmumu par Latvijas dalību HPC AI Gigafactory projektā.</Text>
+    <Result>MK iesniegts informatīvais ziņojums, kas paredz finansējumu 15 milj. euro apmērā 5 gadu periodā MI skaitļošanas jaudu rezervācijai publiskajam sektoram.</Result>
+    <Responsible orgs="12-0000">EM</Responsible>
+    <Deadline values="2026-07-01">01.07.2026.</Deadline>
+  </Measure>
+  <Measure id="lv-mk-2026-05-28.rp.u040.p1" number="40.1." task="lv-dekl-2026-05-28.u040" funding="allocated" priority="PP(EM)">
+    <Text>Izstrādāt Altum pašu kapitāla fonda modeli, lai nodrošinātu aktīvāku finanšu tirgus dalībnieku investīcijas Latvijas uzņēmumos.</Text>
+    <Result>MK iesniegts informatīvais ziņojums, kas paredz izveidot sākotnējo investīciju portfeli 100 milj. euro apmērā.</Result>
+    <Responsible orgs="12-0000">EM</Responsible>
+    <CoResponsible orgs="13-0000">FM</CoResponsible>
+    <Deadline values="2026-09-01">01.09.2026.</Deadline>
+  </Measure>
+  <Measure id="lv-mk-2026-05-28.rp.u041.p1" number="41.1." task="lv-dekl-2026-05-28.u041" funding="additional">
+    <Text>1) Nodrošināt finansējuma turpinājumu aizsardzības industrijas projektiem Ekonomikas ministrijas atbalsta programmās, piesaistot aizsardzības mērķiem pieejamo finansējumu.
+2) Stiprināt militārās un duālā pielietojuma rūpniecības spēju attīstību.</Text>
+    <Result>1) MK iesniegts informatīvais ziņojums, kas paredz finansējuma turpinājumu aizsardzības industrijas projektiem, kuru rezultātā plānots sasniegt šādus rezultātus
+- 150 milj. euro piesaistītās investīcijas (3.gadā pēc projekta pabeigšanas);
+- 100 milj. euro ikgadējs eksports (3.gadā pēc projekta pabeigšanas).
+2) Apstiprināti vismaz 2 liela mēroga projekti REARM EU iniciatīvas ietvaros, piesaistot privātās investīcijas vismaz 60 milj EUR apmērā.</Result>
+    <Responsible orgs="12-0000">EM</Responsible>
+    <CoResponsible orgs="10-0000 13-0000">AizM, FM</CoResponsible>
+    <Deadline values="2026-09-01">01.09.2026.</Deadline>
+  </Measure>
+  <Measure id="lv-mk-2026-05-28.rp.u041.p2" number="41.2." task="lv-dekl-2026-05-28.u041" funding="allocated">
+    <Text>Motivēt valsts kapitālsabiedrības darbībai eksportā.</Text>
+    <Result>Ievērots princips, ka nozares atbalstu drīkst sniegt caurskatāmā un pamatotā veidā valsts kapitālsabiedrību komerclīgumos.
+Publiskas personas kapitālsabiedrības un publisku personu kontrolētas kapitālsabiedrības aicinātas un motivētas aktīvākai darbībai eksportā, ja tas ir ekonomiski pamatoti.</Result>
+    <Responsible orgs="03-0000 00-0002">VK, ministrijas (kapitāldaļu turētāji)</Responsible>
+    <Deadline values="2026-10-01">01.10.2026.</Deadline>
+  </Measure>
+  <Measure id="lv-mk-2026-05-28.rp.u041.p3" number="41.3." task="lv-dekl-2026-05-28.u041" funding="allocated" priority="PP(ĀM)">
+    <Text>1) Turpināt darbu, atbalstot sarunas par jaunu ES brīvās tirdzniecības nolīgumu noslēgšanu (Malaizija, Filipīnas, AAE).
+2) Strādāt pie ES tirdzniecības nolīgumu, par kuriem sarunas ir noslēgtas (Meksika, Indija, Indonēzija, Austrālija), spēkā stāšanās / piemērošanas.
+3) Organizēt piemērota formāta uzņēmēju informēšanas pasākumu/us par ES BTL sniegto iespēju izmantošanu.</Text>
+    <Result>1) Pozitīva virzība konkrēto sarunu procesos;
+2) Nacionālo pozīciju izstrāde par BTL, kuriem sarunas ir noslēgušās (Austrālija, Indija, Indonēzija), ņemot vērā to, kad Eiropas Komisija publicē attiecīgos priekšlikumus;
+3) Noticis pasākums/i uzņēmējiem par ES BTL sniegto iespēju izmantošanu.</Result>
+    <Responsible orgs="11-0000">ĀM</Responsible>
+    <Deadline values="2026-10-01 2026-10-01">1) pastāvīgi
+2) 01.10.2026.
+3) 01.10.2026.</Deadline>
+  </Measure>
+  <Measure id="lv-mk-2026-05-28.rp.u041.p4" number="41.4." task="lv-dekl-2026-05-28.u041" funding="allocated">
+    <Text>Īstenot vismaz 30 ārlietu dienesta aktivitātes Latvijas uzņēmumu eksporta veicināšanai gan konkrētu uzņēmumu atbalsta veidā, gan strādājot pie Latvijas atpazīstamības veicināšanas: biznesa pasākumu organizēšana, informatīvais atbalstu par iespējām ārējos tirgos (vēstniecību, LIAA pārstāvju, kā arī Latvijas goda konsulu kontaktbiržas ar Latvijas uzņēmējiem), informatīvie pasākumi par iepirkumiem starptautiskajās organizācijās, jaunu kontaktu identificēšana, sertifikācijas un atzīšanas jautājumu risināšana.</Text>
+    <Result>Sekmēta starptautiskā atpazīstamība par Latvijas uzņēmējdarbības vides priekšrocībām un Latvijas uzņēmumu risinājumiem, izveidoti jauni biznesa kontakti, Latvijas uzņēmumiem nodrošināta informācija par iespējām ārvalstu tirgos, mazināt šķēršļus uzņēmumiem ārvalstu tirgos.</Result>
+    <Responsible orgs="11-0000 12-0000">ĀM, EM</Responsible>
+    <CoResponsible orgs="12-0045">LIAA</CoResponsible>
+    <Deadline values="2026-10-01">01.10.2026.</Deadline>
+  </Measure>
+  <Measure id="lv-mk-2026-05-28.rp.u041.p5" number="41.5." task="lv-dekl-2026-05-28.u041" funding="allocated" priority="PP(VARAM)">
+    <Text>Praktiski apzināt pašvaldību vajadzības uz vietām, lai ministrijas turpmākie lēmumi par reģionālo attīstību, pašvaldību jautājumiem un valsts atbalsta instrumentiem balstītos nevis pieņēmumos, bet konkrētās vietējās vajadzībās.</Text>
+    <Result>1) Sagatavots visu Latvijas pašvaldību apmeklējumu grafiks un vienota vajadzību apzināšanas metodika;
+2) Uzsāktas klātienes vizītes pašvaldībās, īpašu uzmanību pievēršot valsts perifērijas teritorijām, kurās visizteiktāk jūtami pakalpojumu pieejamības, infrastruktūras, mobilitātes, drošības, mājokļu un iedzīvotāju skaita samazināšanās izaicinājumi;
+3) Katrā apmeklētajā pašvaldībā sagatavots praktisko vajadzību un risināmo problēmu kopsavilkums, nošķirot jautājumus, kas risināmi pašvaldības līmenī, ministrijas kompetencē un starpnozaru sadarbībā;
+4) Izveidots vienots pašvaldību vajadzību pārskats, kas izmantojams ministrijas turpmāko normatīvo aktu grozījumu, budžeta pieprasījumu un reģionālās attīstības atbalsta pasākumu sagatavošanā.</Result>
+    <Responsible orgs="21-0000">VARAM</Responsible>
+    <Deadline values="2026-10-01">01.10.2026.</Deadline>
+  </Measure>
+  <Measure id="lv-mk-2026-05-28.rp.u041.p6" number="41.6." task="lv-dekl-2026-05-28.u041" funding="allocated">
+    <Text>1) Attīstīt Latvijas zivsaimniecības nozares eksporta potenciālu un konkurētspējīgu pozicionēšanos starptautiskajos tirgos.
+2) Ilgtspējas principu stiprināšana publiskajos pārtikas un ēdināšanas jomas iepirkumos.</Text>
+    <Result>1) Nodrošināts atbalsts zivsaimniecības uzņēmumu dalībai starptautiskās izstādēs Programmas zivsaimniecības attīstībai 2021-2027 ietvaros.
+2) Steidzamības kārtā izstrādāti un virzīti grozījumi Pārtikas aprites uzraudzības likumā vai Lauksaimniecības un lauku attīstības likumā.</Result>
+    <Responsible orgs="16-0000">ZM</Responsible>
+    <Deadline values="2026-10-01 2026-10-01">1) 01.10.2026.
+2) 01.10.2026.</Deadline>
+  </Measure>
+  <Measure id="lv-mk-2026-05-28.rp.u041.p7" number="41.7." task="lv-dekl-2026-05-28.u041" funding="additional">
+    <Text>Izstrādāt Latvijas kosmosa nozares pārvaldības modeli un pieņemt lēmumu par Eiropas Kosmosa aģentūras asociētās dalībvalsts līguma pagarināšanu.</Text>
+    <Result>1) Veikts kosmosa nozares attīstības kopš 2020.gada izvērtējums, izstrādāts un MK iesniegts jauns Latvijas kosmosa pārvaldības modelis.
+2) Uzsākta procedūra Eiropas Kosmosa aģentūrā asociētās dalībvalsts statusa pagarināšanai.</Result>
+    <Responsible orgs="15-0000">IZM</Responsible>
+    <CoResponsible orgs="12-0000">EM</CoResponsible>
+    <Deadline values="2026-08-30 2026-10-01">1) 30.08.2026.
+2) 01.10.2026.</Deadline>
+  </Measure>
+  <Measure id="lv-mk-2026-05-28.rp.u041.p8" number="41.8." task="lv-dekl-2026-05-28.u041" funding="additional">
+    <Text>Uzsākt Latvijas dalību CERN pēdējo piecu gadu izvērtējumam un uzsākt procedūru, lai Latvija kļūtu par pilntiesīgu CERN dalībvalsti.</Text>
+    <Result>1) MK iesniegts informatīvais ziņojums par Latvijas dalības CERN izvērtējuma grupas izveidi iesniegšanai CERN padomē.
+2) Nodrošināts CERN padomes lēmums par darba grupas izveidi Latvijas kā dalībvalsts kandidatūras izvērtējuma veikšanai.</Result>
+    <Responsible orgs="15-0000">IZM</Responsible>
+    <CoResponsible orgs="11-0000 12-0000">ĀM, EM</CoResponsible>
+    <Deadline values="2026-08-30 2026-10-01">1) 30.08.2026.
+2) 01.10.2026.</Deadline>
+  </Measure>
+  <Measure id="lv-mk-2026-05-28.rp.u042.p1" number="42.1." task="lv-dekl-2026-05-28.u042" funding="allocated">
+    <Text>Mazināt toleranci pret komerciju ar Krievijas Federāciju un Baltkrievijas Republiku.</Text>
+    <Result>Publiskots uzņēmēju saraksts, kas turpina ekonomisko sadarbību ar Krievijas Federāciju un/vai Baltkrievijas Republiku.</Result>
+    <Responsible orgs="12-0000 12-0039">EM (CSP)</Responsible>
+    <CoResponsible orgs="13-0000 13-0056">FM (VID)</CoResponsible>
+    <Deadline values="2026-10-01">01.10.2026.</Deadline>
+  </Measure>
+  <Measure id="lv-mk-2026-05-28.rp.u042.p2" number="42.2." task="lv-dekl-2026-05-28.u042" funding="allocated">
+    <Text>Īstenot pasākumus sabiedrības informēšanai, nodrošinot pārskatāmu un skaidru Krievijas un Baltkrievijas preču identifikāciju mazumtirdzniecībā to aprites mazināšanai.</Text>
+    <Result>1) MK iesniegti MK noteikumi, kas paredz Krievijas un Baltkrievijas ražojuma rūpniecības preču identifikāciju mazumtirdzniecībā.
+2) Uzsākta šī pienākuma uzraudzība.</Result>
+    <Responsible orgs="12-0000 12-0042">1) EM
+2) EM (PTAC)</Responsible>
+    <Deadline values="2026-08-31 2026-10-01">1) 31.08.2026.
+2) 01.10.2026.</Deadline>
+  </Measure>
+  <Measure id="lv-mk-2026-05-28.rp.u042.p3" number="42.3." task="lv-dekl-2026-05-28.u042" funding="allocated" priority="PP(ĀM)">
+    <Text>1) Nacionālās pozīcijas izstrāde par turpmāko darbu saistībā ar priekšlikumiem ES tarifu paaugstināšanai un sankciju paplašināšanai attiecībā uz Krieviju un Baltkrieviju;
+2) Izstrādāt priekšlikumus par nacionālā importa aizlieguma noteikšanu grāmatām, laikrakstiem, videospēlēm, sporta precēm, rotaļlietām, apaviem un apģērbiem, kuru izcelsmes valsts ir Krievija vai Baltkrievija;
+3) Aktīva šo jautājumu koordinācija ar Baltijas un citām reģiona valstīm.</Text>
+    <Result>1) Nacionālā pozīcija iesniegta MK līdz 01.08.2026.
+2) Priekšlikumi iesniegti MK līdz 15.07.2026.
+3) Koordinēta Baltijas un citu reģiona valstu nostāja.</Result>
+    <Responsible orgs="11-0000">ĀM</Responsible>
+    <CoResponsible orgs="16-0000 13-0000 12-0000">1) ZM, FM, EM</CoResponsible>
+    <Deadline values="2026-08-01 2026-07-15">1) 01.08.2026.
+2) 15.07.2026.
+3) Pastāvīgi</Deadline>
+  </Measure>
+  <Measure id="lv-mk-2026-05-28.rp.u042.p4" number="42.4." task="lv-dekl-2026-05-28.u042" funding="allocated">
+    <Text>Izvērtēt iespēju ieviest t. s. ekonomiskās drošības nodokli, mazinot Latvijas ekonomisko atkarību no augsta riska valstīm.</Text>
+    <Result>Ministru kabinetā iesniegts izvērtējums.</Result>
+    <Responsible orgs="13-0000">FM</Responsible>
+    <CoResponsible orgs="11-0000 12-0000">ĀM, EM</CoResponsible>
+    <Deadline values="2026-10-01">01.10.2026.</Deadline>
+  </Measure>
+  <Measure id="lv-mk-2026-05-28.rp.u042.p5" number="42.5." task="lv-dekl-2026-05-28.u042" funding="additional">
+    <Text>Sagatavot un noteiktajā kārtībā iesniegt Ministru kabinetā grozījumus Lauksaimniecības un lauku attīstības likumā par nacionālā importa aizlieguma noteikšanu pārtikas un zivsaimniecības produktiem, kuru izcelsmes valsts ir Krievija vai Baltkrievija.</Text>
+    <Result>1) Iesniegti grozījumi Ministru kabineta 2024. gada 5. marta noteikumos Nr. 158 "Noteikumi par ievešanai jeb importēšanai Latvijā aizliegtiem lauksaimniecības un lopbarības produktiem". Statuss: 15.06. beidzās sabiedriskā apspriešana. Projekts atrodas saskaņošanā ar ministrijām (termiņš 3.07.).
+2) Sagatavoti grozījumi "Lauksaimniecības un lauku attīstības likumā", lai paplašinātu deleģējumu arī uz pārtiku. Projekts ievietots sabiedriskajā apspriešanā (termiņš 05.07.).</Result>
+    <Responsible orgs="16-0000">ZM</Responsible>
+    <Deadline values="2026-07-31 2026-08-31">1) 31.07.2026.
+2) 31.08.2026.</Deadline>
+  </Measure>
+  <Measure id="lv-mk-2026-05-28.rp.u043.p1" number="43.1." task="lv-dekl-2026-05-28.u043" funding="allocated">
+    <Text>Sagatavot valsts kā īpašnieka pieprasījumu lielākajām kapitālsabiedrībām un nostiprināt principu, ka nozares atbalstu drīkst sniegt caurskatāmā un pamatotā veidā valsts kapitālsabiedrību komerclīgumos.</Text>
+    <Result>Izstrādāts normatīvais regulējums, lai ieviestu nozares atbalstu caurskatāmā un pamatotā veidā.</Result>
+    <Responsible orgs="03-0000 00-0002">VK, ministrijas (kapitāldaļu turētāji)</Responsible>
+    <Deadline values="2026-10-01">01.10.2026.</Deadline>
+  </Measure>
+  <Measure id="lv-mk-2026-05-28.rp.u043.p2" number="43.2." task="lv-dekl-2026-05-28.u043" funding="allocated">
+    <Text>Nodrošināt valsts kapitālsabiedrību centralizētas pārvaldības profesionālu īstenošanu.</Text>
+    <Result>Sagatavots valsts kapitālsabiedrību pārvaldības modeļa koncepta projekts, paredzot Latvijas Attīstības fonda izveidi valsts ilgtermiņa finanšu stabilitātes veicināšanai un valsts kapitālsabiedrību centralizētas pārvaldības profesionālai īstenošanai.</Result>
+    <Responsible orgs="03-0000">VK</Responsible>
+    <Deadline values="2026-10-01">01.10.2026.</Deadline>
+  </Measure>
+  <Measure id="lv-mk-2026-05-28.rp.u044.p1" number="44.1." task="lv-dekl-2026-05-28.u044" funding="allocated" priority="PP(EM)">
+    <Text>Turpināt atbalstu lieliem investīciju projektiem, kā fiskāli neitrāls atbalsta instruments 2027., 2028., 2029. un 2030. gadam, nodrošinot mērķtiecīgu atbalstu mērogojamām investīcijām.</Text>
+    <Result>MK iesniegts informatīvais ziņojums, kas paredz finansējuma modeli kā fiskāli neitrālu instrumentu mērogojamu investīciju projektu attīstībai, kā rezultātā varētu sasniegt šādus rādītājus:
+1) 200 milj. euro ikgadēju eksportu (3.gadā pēc projekta pabeigšanas);
+2) 300 milj. euro piesaistītās investīcijas (3.gadā pēc projekta pabeigšanas).</Result>
+    <Responsible orgs="12-0000">EM</Responsible>
+    <Deadline values="2026-09-01">01.09.2026.</Deadline>
+  </Measure>
+  <Measure id="lv-mk-2026-05-28.rp.u044.p2" number="44.2." task="lv-dekl-2026-05-28.u044" funding="allocated">
+    <Text>Veikt lielo investīciju fonda projekta ietekmes uz vispārējās valdības budžeta bilanci izvērtējumu, lai pārliecinātos, ka projektam ir neitrāla fiskālā ietekme uz vispārējās valdības budžeta bilanci un tas atbilst ES neto izdevumu pieauguma nosacījumam.</Text>
+    <Result>Sagatavots izvērtējums par projekta fiskālo ietekmi.</Result>
+    <Responsible orgs="13-0000">FM</Responsible>
+    <Deadline values="2026-10-01">01.10.2026.</Deadline>
+  </Measure>
+  <Measure id="lv-mk-2026-05-28.rp.u045.p1" number="45.1." task="lv-dekl-2026-05-28.u045" funding="allocated" priority="PP(ZM)">
+    <Text>Nodrošināt stratēģiskās ietekmes uz vidi novērtējumā (atbilstoši Ministru kabineta noteikumiem Nr. 157) paredzēto Vides pārskata sabiedrisko apspriešanu un sagatavot apspriežu rezultātu apkopojumu.</Text>
+    <Result>Pamatnostādņu izstrādes procesā veikts vides pārskata sabiedrisko apspriežu rezultātu apkopojums.</Result>
+    <Responsible orgs="16-0000">ZM</Responsible>
+    <Deadline values="2026-10-01">01.10.2026.</Deadline>
+  </Measure>
+  <Measure id="lv-mk-2026-05-28.rp.u045.p2" number="45.2." task="lv-dekl-2026-05-28.u045" funding="allocated" priority="PP(ZM)">
+    <Text>Aktualizēt AS "Latvijas valsts meži" vidēja termiņa darbības stratēģiju, ieviešot Valsts kontroles sagatavotos ieteikumus akciju sabiedrības "Latvijas valsts meži" darbībai.</Text>
+    <Result>AS "Latvijas valsts meži" iesniegusi ZM savu aktualizēto vidējā termiņa darbības stratēģiju.</Result>
+    <Responsible orgs="16-0000">ZM</Responsible>
+    <Deadline values="2026-10-01">01.10.2026.</Deadline>
+  </Measure>
+  <Measure id="lv-mk-2026-05-28.rp.u045.p3" number="45.3." task="lv-dekl-2026-05-28.u045" funding="allocated">
+    <Text>1) Īstenot pasākumus administratīvā sloga mazināšanai mežsaimniecībā, kā arī iestāties pret Zaļā kursa nesamērīgajām prasībām Eiropas Savienības regulējumā, kuras bremzē Latvijas mežsaimniecības attīstību un samazina uzņēmumu konkurētspēju pasaules tirgos.
+2) Veicināt datos balstītas telpiskās stratifikācijas ieviešanu, nosakot meža galvenā apsaimniekošanas mērķa proporcionālo sadalījumu 70 %; – 20 %; – 10 %.</Text>
+    <Result>Iesniegti Valsts kancelejā MK noteikumu projekti: "Grozījumi Ministru kabineta 2012. gada 18. decembra noteikumos Nr. 935 "Noteikumi par koku ciršanu mežā"; "Grozījumi Ministru kabineta 2016. gada 21. jūnija noteikumos Nr. 384 "Meža inventarizācijas un Meža valsts reģistra informācijas aprites noteikumi"; Grozījumi Ministru kabineta 2012. gada 18. decembra noteikumos Nr. 940 "Noteikumi par mikroliegumu izveidošanas un apsaimniekošanas kārtību, to aizsardzību, kā arī mikroliegumu un to buferzonu noteikšanu".</Result>
+    <Responsible orgs="16-0000">ZM</Responsible>
+    <Deadline values="2026-10-01">01.10.2026.</Deadline>
+  </Measure>
+  <Measure id="lv-mk-2026-05-28.rp.u045.p4" number="45.4." task="lv-dekl-2026-05-28.u045" funding="additional">
+    <Text>Veicināt Latvijas ciešāku integrāciju ar meža pārvaldību un ilgtspējīgu apsaimniekošanu saistītajos starptautiskajos procesos un organizācijās, tai skaitā Ekonomiskās sadarbības un attīstības organizācijā (ESAO).</Text>
+    <Result>Iesniegts Valsts kancelejā informatīvais ziņojums "Par Latvijas iesaistes stiprināšanu starptautiskos meža politikas un zinātnes sadarbības formātos un Forest Europe procesa vadību" (26-TA-663).</Result>
+    <Responsible orgs="16-0000">ZM</Responsible>
+    <Deadline values="2026-10-01">01.10.2026.</Deadline>
+  </Measure>
+  <Measure id="lv-mk-2026-05-28.rp.u046.p1" number="46.1." task="lv-dekl-2026-05-28.u046" funding="allocated">
+    <Text>1) Veicināt ārvalstu tiešās investīcijas Latvijā un eksporta apjoma pieaugumu.
+2) Investīciju projektu veicināšanai Latvijā, uzņēmējiem sniegt koordinētu starpinstitūciju atbalstu Lielo un stratēģiski nozīmīgo investīciju projektu koordinācijas padomes (LIP) formātā.
+3) Uzņēmējdarbības vides pilnveidošanai un uzņēmēju norādīto problēmjautājumu atrisināšanai īstenot starpinstitūciju sadarbību LIP Operatīvās darba grupas līmenī.</Text>
+    <Result>1) Ārvalstu tiešās investīcijas Latvijā piesaistītas vismaz 1000 milj. EUR apmērā (rezultāts sasniedzams līdz 2026.gada 30.decembrim) . Eksporta apjoma pieaugums LIAA klientiem pret iepriekšējo gadu +300 milj.eur gadā (rezultāts sasniedzams līdz 2026.gada 30.decembrim).
+2) Notikušas 2 LIP sēdes, pieņemot lēmumus stratēģisko projektu atbalstam par investīcijām vismaz 2 miljardu EUR kopējā vērtībā.
+3) Veikts jautājumu izpētes darbs un notikušas LIP Operatīvās darba grupas sēdes par vismaz 10 problēmjautājumiem un uzņēmējdarbības vides pilnveides priekšlikumiem (LIAA, EM un uzņēmumu identificētie jautājumi).</Result>
+    <Responsible orgs="12-0000">EM</Responsible>
+    <CoResponsible orgs="12-0045">LIAA</CoResponsible>
+    <Deadline values="2026-10-01 2026-10-01 2026-10-01">1) 01.10.2026.
+2) 01.10.2026.
+3) 01.10.2026.</Deadline>
+  </Measure>
+  <Measure id="lv-mk-2026-05-28.rp.u047.p1" number="47.1." task="lv-dekl-2026-05-28.u047" funding="additional">
+    <Text>Ieviest jaunu finansēšanas modeli "Programma skolā" pilnā apjomā.</Text>
+    <Result>Nodrošināts finansējums pedagogu darba samaksai atbilstoši jaunā pedagogu darba samaksas modeļa "Programma skolā" aprēķiniem.</Result>
+    <Responsible orgs="15-0000">IZM</Responsible>
+    <CoResponsible orgs="13-0000">FM</CoResponsible>
+    <Deadline values="2026-10-01">01.10.2026.</Deadline>
+  </Measure>
+  <Measure id="lv-mk-2026-05-28.rp.u047.p2" number="47.2." task="lv-dekl-2026-05-28.u047" funding="allocated">
+    <Text>Turpināt attīstīt izglītības kvalitātes monitoringa sistēmu, stiprinot pierādījumos balstītu izglītības politiku visos izglītības līmeņos.</Text>
+    <Result>Turpināta izglītības kvalitātes monitoringa sistēmas attīstība, t.sk. izstrādājot un aprobējot skolēna snieguma analīzes metodiku un izveidojot vai pielāgojot atbilstošu risinājumu skolēnu sasniegumu uzlabošanai. Sagatavots jauns nacionālais vērtēšanas ietvars.</Result>
+    <Responsible orgs="15-0000 15-0203">IZM (VIAA)</Responsible>
+    <Deadline values="2026-10-01">01.10.2026.</Deadline>
+  </Measure>
+  <Measure id="lv-mk-2026-05-28.rp.u047.p3" number="47.3." task="lv-dekl-2026-05-28.u047" funding="additional">
+    <Text>Turpināt nacionāla līmeņa mākslīgā intelekta (MI) iniciatīvu vispārējā un profesionālajā izglītībā.</Text>
+    <Result>Izglītības iestādēs izveidots MI līderu skolu un ekspertu tīkls, uzsākta MI atbalsta materiālu sagatavošana un skolotāju profesionālās pilnveides mācību izstrāde.</Result>
+    <Responsible orgs="15-0000 15-0203">IZM (VIAA)</Responsible>
+    <Deadline values="2026-10-01">01.10.2026.</Deadline>
+  </Measure>
+  <Measure id="lv-mk-2026-05-28.rp.u047.p4" number="47.4." task="lv-dekl-2026-05-28.u047" funding="allocated" priority="PP(IZM)">
+    <Text>Uzsākt vispārējās izglītības satura Skola2030 pārskatīšanu.</Text>
+    <Result>1) Sakārtota mācību sasniegumu vērtēšanas kārtība.
+2) Izstrādāta mācību priekšmeta "Ģimenes veselības mācība" ieviešanas ceļa karte.</Result>
+    <Responsible orgs="15-0000 15-0203">IZM (VIAA)</Responsible>
+    <CoResponsible orgs="29-0000">2)VM</CoResponsible>
+    <Deadline values="2026-10-01 2026-10-01">1) 01.10.2026.
+2) 01.10.2026.</Deadline>
+  </Measure>
+  <Measure id="lv-mk-2026-05-28.rp.u047.p5" number="47.5." task="lv-dekl-2026-05-28.u047" funding="allocated" priority="PP(IZM)">
+    <Text>Saglabāt izglītības pieejamību atbilstoši bērnu labākajām interesēm un drošības izaicinājumiem.</Text>
+    <Result>1) Apstiprināta skaidra un efektīva kārtība izglītības īstenošanai ģimenē un tālmācībā 1.- 6.klasei.
+2) Apstiprināta jauna kombinēto mācību īstenošanas kārtība visās izglītības pakāpēs.
+3) Izstrādāti Ministru kabineta noteikumi, nosakot skaidras prasības izglītības kvalitātes nodrošināšanai visos izglītības veidos un pakāpēs.</Result>
+    <Responsible orgs="15-0000">IZM</Responsible>
+    <Deadline values="2026-10-01 2026-08-31 2026-10-01">1) 01.10.2026.
+2) 31.08.2026.
+3) 01.10.2026.</Deadline>
+  </Measure>
+  <Measure id="lv-mk-2026-05-28.rp.u048.p1" number="48.1." task="lv-dekl-2026-05-28.u048" funding="additional">
+    <Text>Turpināt darbu pie pedagogu atalgojuma grafika ieviešanas.</Text>
+    <Result>Likumprojekta "Par valsts budžetu 2027. gadam un budžeta ietvaru 2027., 2028., 2029.un 2030. gadam" sagatavošanas procesā veikta publiskā sektora izdevumu samazināšana, funkciju pārskatīšana un procesu efektivizācija, prioritizējot izglītības sektoru, ņemot vērā skolu tīkla optimizāciju, izglītojamo un pedagogu skaita izmaiņu finansiālo ietekmi.</Result>
+    <Responsible orgs="15-0000">IZM</Responsible>
+    <CoResponsible orgs="13-0000 10-0000 16-0000 18-0000 22-0000 29-0000">FM, AizM, ZM, LM, KM, VM</CoResponsible>
+    <Deadline values="2026-10-01">01.10.2026.</Deadline>
+  </Measure>
+  <Measure id="lv-mk-2026-05-28.rp.u049.p1" number="49.1." task="lv-dekl-2026-05-28.u049" funding="allocated">
+    <Text>Turpināt pāreju uz institucionālo finansējuma modeli valsts dibinātajās augstskolās, valsts dibināto augstskolu koledžās un valsts dibinātajās koledžās.
+Turpināt darbu, lai cikliska institucionālā akreditācija Latvijas augstskolās un koledžās tiktu ieviesta sākot ar 2028.gadu 1.janvāri.
+Uzsākt jaunu akadēmiskās karjeras ietvara augstskolās, koledžās un zinātniskos institūtos ieviešanu.</Text>
+    <Result>Noteikta studiju bāzes finansējuma kā bloka dotācijas piešķiršanas kārtība, kā arī valsts pasūtījuma augstākajā izglītībā veidošanas kārtība.</Result>
+    <Responsible orgs="15-0000">IZM</Responsible>
+    <Deadline values="2026-10-01">01.10.2026.</Deadline>
+  </Measure>
+  <Measure id="lv-mk-2026-05-28.rp.u050.p1" number="50.1." task="lv-dekl-2026-05-28.u050" funding="additional">
+    <Text>Izstrādāt Likumprojektu par Latvijas pievienošanos UNESCO Konvencijas par kultūras vērtību aizsardzību bruņota konflikta gadījumos Otrajam protokolam. (Iesniegts TAP sistēmā (26-TA-1187)</Text>
+    <Result>Pieņemts likums par pievienošanos UNESCO Konvencijas par kultūras vērtību aizsardzību bruņota konflikta gadījumos Otrajam protokolam.</Result>
+    <Responsible orgs="22-0000">KM</Responsible>
+    <CoResponsible orgs="11-0000">ĀM</CoResponsible>
+    <Deadline values="2026-10-01">01.10.2026.</Deadline>
+  </Measure>
+  <Measure id="lv-mk-2026-05-28.rp.u051.p1" number="51.1." task="lv-dekl-2026-05-28.u051" funding="allocated" priority="PP(KM)">
+    <Text>Nodrošināt grozījumu Sabiedrisko elektronisko plašsaziņas līdzekļu un to darbības nodrošināšanas likumā", lai izpildītu Satversmes tiesas sprieduma lietā Nr. 2024-30-01 pieņemšanu Saeimā.</Text>
+    <Result>Atbalsts likumdevējam grozījumu izstrādē. Rezultāts -"Grozījumi Sabiedrisko elektronisko plašsaziņas līdzekļu un to darbības nodrošināšanas likumā" pieņemti 3.lasījumā Saeimā.</Result>
+    <Responsible orgs="22-0000">KM</Responsible>
+    <Deadline values="2026-10-01">01.10.2026.</Deadline>
+  </Measure>
+  <Measure id="lv-mk-2026-05-28.rp.u051.p2" number="51.2." task="lv-dekl-2026-05-28.u051" funding="allocated">
+    <Text>Sagatavot un apstiprināt Valsts pētījumu programmu "Sabiedrības noturība: saliedētības un informatīvās telpas mijiedarbība" 2026.-2028. gadam.</Text>
+    <Result>Apstiprināta valsts pētījumu programma "Sabiedrības noturība: saliedētības un informatīvās telpas mijiedarbība" 2026.–2028. gadam, kura trīs gadu laiku attīstīs starpdisciplināru pētniecību par noturīgas sabiedrības veidošanu un informatīvās telpas segmentāciju.</Result>
+    <Responsible orgs="22-0000">KM</Responsible>
+    <CoResponsible orgs="15-0000 15-0172">IZM, LZP</CoResponsible>
+    <Deadline values="2026-10-01">01.10.2026.</Deadline>
+  </Measure>
+  <Measure id="lv-mk-2026-05-28.rp.u051.p3" number="51.3." task="lv-dekl-2026-05-28.u051" funding="additional">
+    <Text>Stiprināt kino industriju, radot jaunu investīciju piesaistes avotus. Pārņemt Latvijā Audiovizuālo mediju pakalpojumu direktīvas 13. panta 2. punktu, nosakot elektroniskajiem plašsaziņas līdzekļiem, kas Latvijas teritorijā sniedz audiovizuālos pakalpojumus pēc pieprasījuma, vai elektroniskajiem plašsaziņas līdzekļiem, kuru audiovizuālo pakalpojumu pēc pieprasījuma mērķauditorija ir Latvijā, bet kuri uzņēmējdarbību veic citā Eiropas Savienības dalībvalstī, pienākumu veikt finansiālu ieguldījumu Eiropas audiovizuālo darbu veidošanā. Likumprojekts ir iesniegts Valsts kancelejā izskatīšanai izskatīšanai un apstiprināšanai Ministru kabineta sēdē.</Text>
+    <Result>Ministru kabinetā izskatīts un Saeimā iesniegts likumprojekts "Grozījumi Elektronisko plašsaziņas līdzekļu likumā" un "Grozījumi Filmu likumā", sadarbībā ar Ekonomikas ministriju izstrādāts risinājums Filmu paviljona attīstībai.</Result>
+    <Responsible orgs="22-0000">KM</Responsible>
+    <CoResponsible orgs="47-0000">NEPLP</CoResponsible>
+    <Deadline values="2026-10-01">01.10.2026.</Deadline>
+  </Measure>
+  <Measure id="lv-mk-2026-05-28.rp.u051.p4" number="51.4." task="lv-dekl-2026-05-28.u051" funding="allocated" priority="PP(KM)">
+    <Text>Pēc publiskās apspriedes likumprojekta "Grozījumi Elektronisko plašsaziņas līdzekļu likumā" sagatavošana starpministriju saskaņošanai TAP portālā.</Text>
+    <Result>Ministru kabinetā izskatīts likumprojekts "Grozījumi Elektronisko plašsaziņas līdzekļu likumā", kas paredz noteikt pakāpenisku minimālo Latvijā radītas mūzikas īpatsvaru radio programmās: 10% no 2028. gada, 20% no 2029. gada un 30% no 2030. gada, tādējādi sekmējot elektronisko mediju tirgus nepilnību mazināšanu, vietējo autoru atbalstu un latviešu valodas klātbūtnes stiprināšanu mediju telpā.</Result>
+    <Responsible orgs="22-0000">KM</Responsible>
+    <CoResponsible orgs="03-0000">VK</CoResponsible>
+    <Deadline values="2026-10-01">01.10.2026.</Deadline>
+  </Measure>
+  <Measure id="lv-mk-2026-05-28.rp.u051.p5" number="51.5." task="lv-dekl-2026-05-28.u051" funding="allocated" priority="PP(KM)">
+    <Text>Veikt Sabiedrības integrācijas fonda funkciju, administrēto atbalsta programmu un izdevumu efektivitātes auditu un piedāvāt nākotnes risinājumus.</Text>
+    <Result>Veikts audits un kultūras ministrs piedāvājis nākotnes risinājumus.</Result>
+    <Responsible orgs="22-0000">KM</Responsible>
+    <Deadline values="2026-10-01">01.10.2026.</Deadline>
+  </Measure>
+  <Measure id="lv-mk-2026-05-28.rp.u051.p6" number="51.6." task="lv-dekl-2026-05-28.u051" funding="allocated" priority="PP(KM)">
+    <Text>Elektronisko plašsaziņas līdzekļu nozares un latviešu valodas lomas stiprināšana.</Text>
+    <Result>1) Atbalsts likumdevējam grozījumu "Elektronisko plašsaziņas līdzekļu likuma" izstrādē un pieņemšanā, kas paredz stiprināt latviešu valodas lietojumu radio programmu darbībā, pārejot uz apraidi latviešu valodā.
+2) Atbalsts likumdevējam grozījumu "Elektronisko plašsaziņas līdzekļu likuma" izstrādē un pieņemšanā, kas paredz Latvijā aizliegt Eiropas Savienības sankcijām pakļautu personu mūzikas atskaņošanu radio programmās.</Result>
+    <Responsible orgs="22-0000">KM</Responsible>
+    <Deadline values="2026-10-01">01.10.2026.</Deadline>
+  </Measure>
+  <Measure id="lv-mk-2026-05-28.rp.u051.p7" number="51.7." task="lv-dekl-2026-05-28.u051" funding="allocated">
+    <Text>1) Diasporas nevalstisko organizāciju līdzdalība tiesību aktu izstrādē un nozīmīgu lēmumu pieņemšanā attiecībā uz diasporu.
+2) Starptautiskajās organizācijās (ES, NATO, OECD u.c.) strādājošo iesaiste Latvijas interešu pārstāvībai un zināšanu pārnesei modernas valsts pārvaldes veidošanai Latvijā.
+3) Diasporas atbalsta projektu īstenošana ar mērķi stiprināt diasporas latvisko identitāti, kultūru un piederību Latvijai.</Text>
+    <Result>1) Noorganizētas divas Diasporas konsultatīvās padomes (DKP) sēdes ar mērķi informēt par 15.Saeimas vēlēšanām un diasporas prioritātēm 2027.-2029. gadam
+2) Noorganizēts piektais "Starptautiskajās organizācijās strādājošo Latvijas profesionāļu forums" 7. augustā
+3) Diasporas atbalsta projektu konkursa 2. kārtā atbalstīti vismaz 20 projekti diasporas darbībai ārvalstīs (īstenošana līdz gada beigām). Īstenoti vismaz 3 pasākumi: Latvijas diasporas organizāciju un skolu vadītāju tikšanās Lielbritānijas un Ziemeļīrijas Apvienotajā Karalistē, Latvijas diasporas un skolu vadītāju tikšanās Norvēģijā, Baltu vienības diena Frankfurtē.</Result>
+    <Responsible orgs="11-0000">ĀM</Responsible>
+    <CoResponsible orgs="22-0000">KM</CoResponsible>
+    <Deadline values="2026-07-13 2026-09-18 2026-08-07 2026-09-20">1) 13.07.2026. un 18.09.2026. (DKP)
+2) 07.08.2026.
+3) 20.09.2026.</Deadline>
+  </Measure>
+  <Measure id="lv-mk-2026-05-28.rp.u051.p8" number="51.8." task="lv-dekl-2026-05-28.u051" funding="allocated">
+    <Text>Nodrošināt Nevalstisko organizāciju un Ministru kabineta sadarbības memoranda īstenošanu</Text>
+    <Result>Veikta valsts pārvaldes uzdevuma – Memoranda padomes sekretariāta funkciju īstenošana – izvērtēšana. Atbilstoši izvērtējumam un pieejamajiem valsts budžeta līdzekļiem pieņemts lēmums par uzdevuma deleģēšanu 2027.-2029.gadā.</Result>
+    <Responsible orgs="03-0000">VK</Responsible>
+    <Deadline values="2026-10-01">01.10.2026.</Deadline>
+  </Measure>
+  <Measure id="lv-mk-2026-05-28.rp.u051.p9" number="51.9." task="lv-dekl-2026-05-28.u051" funding="allocated">
+    <Text>Stiprināt Latvijas iedzīvotāju piederību Latvijai, saliedētību sabiedrībā, pilsoniskās prasmes, interesi un iesaistīšanos sabiedriski nozīmīgos procesos Latvijas kā valsts pastāvēšanai, veidojot sarunāšanās un sadarbošanās kultūru sabiedrībā</Text>
+    <Result>Sagatavota Latvijas dialogu cikla 2026.gada 26.oktobrī-10.novembrī norise par sabiedrībā aktuālu tēmu (izvēlēta Valsts kancelejas organizētā kodolgrupā). Noorganizēts vismaz viens dialoga aplis katrā no 42 Latvijas pašvaldībām.</Result>
+    <Responsible orgs="03-0000">VK</Responsible>
+    <Deadline values="2026-10-01">01.10.2026.</Deadline>
+  </Measure>
+  <Measure id="lv-mk-2026-05-28.rp.u051.p10" number="51.10." task="lv-dekl-2026-05-28.u051" funding="additional">
+    <Text>Rast risinājumu virszemes televīzijas apraides nodrošināšanai samazinoties maksas virszemes televīzijas pakalpojuma lietotāju skaitam.</Text>
+    <Result>Nodrošināts finansējums virszemes televīzijas apraidei.</Result>
+    <Responsible orgs="22-0000 17-0000">KM, SM</Responsible>
+    <CoResponsible orgs="47-0000">NEPLP</CoResponsible>
+    <Deadline values="2026-10-01">01.10.2026.</Deadline>
+  </Measure>
+  <Measure id="lv-mk-2026-05-28.rp.u051.p11" number="51.11." task="lv-dekl-2026-05-28.u051" funding="additional">
+    <Text>Turpināt nacionālo jaunatnes dialogu, nodrošinot jauniešu iesaisti nacionāla līmeņa konsultatīvā procesā ar lēmumu pieņēmējiem.</Text>
+    <Result>1) MK iesniegti apstiprināšanai "Nacionālā jaunatnes dialoga īstenošanas, koordinēšanas un finansēšanas noteikumi", kas noteiks jaunā jaunatnes politikas līdzdalības mehānisma īstenošanas kārtību.
+2) Īstenots Nacionālā Jaunatnes dialoga otrā cikla atklāšanas forums.</Result>
+    <Responsible orgs="15-0000">IZM</Responsible>
+    <Deadline values="2026-07-31 2026-10-01">1) 31.07.2026.
+2) 01.10.2026.</Deadline>
+  </Measure>
+  <Measure id="lv-mk-2026-05-28.rp.u052.p1" number="52.1." task="lv-dekl-2026-05-28.u052" funding="allocated">
+    <Text>Izstrādāt tiesisko regulējumu, kas ļauj atvērt ieguldījumu kontu bērnam no viena gada vecuma, lai veicinātu bērnu nākotnes finanšu kapitāla radīšanu.</Text>
+    <Result>Radītas tiesiskās iespējas atvērt ieguldījumu kontu bērnam no viena gada vecuma.</Result>
+    <Responsible orgs="13-0000">FM</Responsible>
+    <CoResponsible orgs="19-0000">TM</CoResponsible>
+    <Deadline values="2026-10-01">01.10.2026.</Deadline>
+  </Measure>
+  <Measure id="lv-mk-2026-05-28.rp.u052.p2" number="52.2." task="lv-dekl-2026-05-28.u052" funding="allocated">
+    <Text>Noteikt bargākus sodus par valsts valodas lietošanas noteikumu pārkāpumiem.</Text>
+    <Result>Nodrošināta likumprojekta "Grozījumi Administratīvo sodu likumā par pārkāpumiem pārvaldes, sabiedriskās kārtības un valsts valodas lietošanas jomā" (Nr. 1134/Lp14) virzība Saeimā.
+Bargāki sodi dos skaidru signālu sabiedrībai, ka valstiskuma pamati tiek aizsargāti un stiprināti.</Result>
+    <Responsible orgs="19-0000">TM</Responsible>
+    <Deadline values="2026-10-01">01.10.2026.</Deadline>
+  </Measure>
+  <Measure id="lv-mk-2026-05-28.rp.u052.p3" number="52.3." task="lv-dekl-2026-05-28.u052" funding="allocated" priority="PP(KM)">
+    <Text>Izstrādāt un virzīt grozījumus Dziesmu un deju svētku likumā, MK 2009. gada 30. jūnija noteikumos Nr. 682 "Valsts izglītības satura centra nolikums" un 2012. gada 18. decembra MK noteikumos Nr. 931 "Latvijas Nacionālā kultūras centra nolikums", lai nodrošinātu vienota Dziesmu svētku biroja izveidi un Dziesmu un deju svētku procesa pārvaldību.</Text>
+    <Result>Pieņemti grozījumi normatīvajos aktos un izveidots vienots Dziesmu svētku birojs, Dziesmu un deju svētku tradīcijas saglabāšanas un attīstības 2026.-2027.gadam plāns un risināti māksliniecisko vadītāju atlīdzības jautājumi, nodrošinot dziesmusvētku tradīcijas nepārtrauktību.</Result>
+    <Responsible orgs="22-0000">KM</Responsible>
+    <CoResponsible orgs="15-0000 22-0553">IZM, LNKC</CoResponsible>
+    <Deadline values="2026-10-01">01.10.2026.</Deadline>
+  </Measure>
+  <Measure id="lv-mk-2026-05-28.rp.u052.p4" number="52.4." task="lv-dekl-2026-05-28.u052" funding="allocated" priority="PP(KM)">
+    <Text>Turpināt darbu pie Arhitektūras likuma pieņemšanas (24-TA-977) Likumprojekts ir iesniegts izskatīšanai Ministru kabinetā un apstiprināts Ministru kabinetā. Likumprojekts ir iesniegts izskatīšanai Saeimā.</Text>
+    <Result>Arhitektūras likumprojekts izskatīts Ministru kabinetā un iesniegts izskatīšanai Saeimā.</Result>
+    <Responsible orgs="22-0000">KM</Responsible>
+    <CoResponsible>LAS, LAAA</CoResponsible>
+    <Deadline values="2026-10-01">01.10.2026.</Deadline>
+  </Measure>
+  <Measure id="lv-mk-2026-05-28.rp.u052.p5" number="52.5." task="lv-dekl-2026-05-28.u052" funding="allocated">
+    <Text>Kultūras ministrijas Valsts pētījumu programmas "Latvijas kultūra – resurss valsts attīstībai" 2027.–2030. gadam sagatavošana un iesniegšana MK.</Text>
+    <Result>Sagatavots MK rīkojums par Kultūras ministrijas valsts pētījumu programmu "Latvijas kultūra – resurss valsts attīstībai" 2027.–2030. gadam.</Result>
+    <Responsible orgs="22-0000">KM</Responsible>
+    <CoResponsible orgs="15-0000 15-0172">IZM, LZP</CoResponsible>
+    <Deadline values="2026-10-01">01.10.2026.</Deadline>
+  </Measure>
+  <Measure id="lv-mk-2026-05-28.rp.u052.p6" number="52.6." task="lv-dekl-2026-05-28.u052" funding="allocated" priority="PP(KM)">
+    <Text>Turpināt darbu pie likuma par valsts iesaisti Latgales vēstniecības GORS pārvaldībā pieņemšanas. (Likumprojekts 26-TA-480 ir apstiprināts Ministru kabinetā un iesniegts izskatīšanai Saeimā.)</Text>
+    <Result>Pieņemts likums par valsts iesaisti Latgales vēstniecības GORS pārvaldībā.</Result>
+    <Responsible orgs="22-0000">KM</Responsible>
+    <Deadline values="2026-10-01">01.10.2026.</Deadline>
+  </Measure>
+  <Measure id="lv-mk-2026-05-28.rp.u052.p7" number="52.7." task="lv-dekl-2026-05-28.u052" funding="additional">
+    <Text>Izvērtēt publiski pieejamos datus par darba samaksu un nodarbinātajiem valsts pārvaldē kultūras resorā, ņemt vērā starptautiskās prakses un izstrādāt ziņojumu par iespējamajiem risinājumiem taisnīga un vienlīdzīga atalgojuma noteikšanai kultūras un radošajā sektorā.</Text>
+    <Result>Izvērtēti kultūras un radošā sektora nodarbinātības un atalgojuma dati un izstrādāti priekšlikumi taisnīgas un konkurētspējīgas atlīdzības sistēmas pilnveidei.</Result>
+    <Responsible orgs="22-0000">KM</Responsible>
+    <Deadline values="2026-10-01">01.10.2026.</Deadline>
+  </Measure>
+</GovernmentActionPlan>

@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GovernmentDeclaration xmlns="urn:pppa:cac:valdibas-deklaracija:0.1" schemaVersion="0.1">
+  <Metadata>
+    <Identifier>lv-mk-deklaracija-2026-05-28</Identifier>
+    <Title>Deklarācija par Andra Kulberga vadītā Ministru kabineta iecerēto darbību</Title>
+    <DateLine>Rīgā, 2026. gada 28. maijā</DateLine>
+    <Date>2026-05-28</Date>
+    <Place>Rīga</Place>
+    <Language>lv</Language>
+    <LegalBasis>Ministru kabineta iekārtas likums, 14. un 15. pants</LegalBasis>
+    <Source>
+      <FileName>deklaracija_par_andra_kulberga_vadita_ministru_kabineta_iecereto_darbibu_0_1.pdf</FileName>
+      <SHA256>9970b4028308a7ba55a8d9a348dd93afb3b2f252b33dfe6787515dce91ffb59d</SHA256>
+      <Pages>7</Pages>
+    </Source>
+  </Metadata>
+  <Body>
+    <Section id="S1" kind="principles">
+      <Heading>Valdību veidojošo partneru sadarbības principi</Heading>
+      <Paragraph>Valdību veidojošās partijas apņemas:</Paragraph>
+      <List style="bullet">
+        <Item>Koncentrēties uz darbiem, ko var paveikt 14. Saeimas laikā, partneriem vienojoties par konkrētu prioritāri darāmo darbu sarakstu.</Item>
+        <Item>Atbildīgi izturēties pret valsts budžeta iespējām un neatbalstīt Saeimā vai Ministru kabinetā tādus valsts budžetu ietekmējošus priekšlikumus, par kuriem nav panākta visu partneru vienprātība.</Item>
+        <Item>Vienoties par jautājumiem, kuri bez visu koalīcijas partneru vienprātības netiek virzīti tālākai izskatīšanai.</Item>
+        <Item>Nepieļaut atkāpšanos no jau sasniegtajiem standartiem cilvēktiesību jomā, vardarbības apkarošanā, dzimumu līdztiesības nodrošināšanā un ģimeņu tiesiskajā aizsardzībā.</Item>
+      </List>
+    </Section>
+    <Section id="S2" kind="priorities">
+      <Heading>Ministru kabineta iecerētās darbības prioritātes</Heading>
+      <Section id="S2-1" kind="chapter">
+        <Heading>Drošības situācijas stabilizēšana un ārlietas</Heading>
+        <Paragraph>Rūpējoties par sabiedrības drošību un noturību, nodrošināsim pilnu atbalstu aizsardzības un iekšlietu dienestiem robežas nostiprināšanai, pretgaisa aizsardzībai, valsts iekšējās un ārējās drošības stiprināšanai. Aizsardzībai novirzīsim 5 % no IKP, mērķtiecīgi audzēsim pašmāju militāro industriju un tehnoloģijas kopā ar tuvākajiem sabiedrotajiem. Turpināsim strādāt, lai paplašinātu NATO sabiedroto klātbūtni Latvijā. Izvērtēsim papildu ES finansējuma novirzīšanu aizsardzībai.</Paragraph>
+        <Task id="U001" number="1">
+          <Text>Veicināsim moderno tehnoloģiju ieviešanu aizsardzības un iekšlietu dienestos, apgādājot ar papildu bezpilota sistēmām un organizējot kopīgas dienestu apmācības moderno tehnoloģiju un bezpilota sistēmu izmantošanā. Veidosim efektīvu bezpilota lidaparātu detekcijas sistēmu un pilnveidosim pretgaisa aizsardzības un elektroniskās karadarbības sistēmas, īpašu uzmanību veltot pierobežas pašvaldībām.</Text>
+        </Task>
+        <Task id="U002" number="2">
+          <Text>Atbilstoši Eiropas Savienības aizsardzības regulas sniegtajai iespējai pārdalīsim esošā ES plānošanas perioda programmas līdzekļus civilās aizsardzības infrastruktūrai.</Text>
+        </Task>
+        <Task id="U003" number="3">
+          <Text>Uzsāksim darbus, lai sagatavotu kritiskās infrastruktūras aizsardzību teroraktu un militārā konflikta gadījumam.</Text>
+        </Task>
+        <Task id="U004" number="4">
+          <Text>Partneriem vienojoties, paplašināsim tiesības un pilnvaras dienestiem izmantot ieročus un pilnveidosim elektroniskās karadarbības sistēmas jebkāda apdraudējuma novēršanai.</Text>
+        </Task>
+        <Task id="U005" number="5">
+          <Text>Pilnveidosim valsts iestāžu darbu, pastiprinot imigrantu kontroli, lai novērstu imigrācijas sistēmas izmantošanu ekonomisko imigrantu legalizēšanai un nekontrolējamu imigrācijas pieaugumu.</Text>
+        </Task>
+        <Task id="U006" number="6">
+          <Text>Ierobežosim jaunu ilgtermiņa vīzu un uzturēšanās atļauju izsniegšanu ārzemniekiem. Ņemot vērā kompetento iestāžu kapacitāti, noteiksim pieļaujamo trešo valstu pilsoņu skaitu. Nodrošināsim stingru kontroli attiecībā uz izsniegtajām uzturēšanās atļaujām un uzturēšanās nosacījumu izpildi. Noteiksim aizliegumu negodprātīgiem uzaicinātājiem uzaicināt ārzemniekus.</Text>
+        </Task>
+        <Task id="U007" number="7">
+          <Text>Turpināsim visaptverošu atbalstu Ukrainai, īstenosim pasākumus Krievijas vājināšanai un izolācijai, stiprināsim Eiropas Savienības un nacionālās sankcijas, tai skaitā nemīkstinot ierobežojumus pašlaik jau sankcionētajām personām.</Text>
+        </Task>
+        <Task id="U008" number="8">
+          <Text>Latvijā dzīvojošajiem ukraiņiem sniegsim skaidrību par viņu tiesisko statusu un iespējām turpināt dzīvi Latvijā – pieņemsim lēmumu par iespēju tiem Ukrainas civiliedzīvotājiem, kas apguvuši latviešu valodu noteiktajā līmenī, pieteikties uz pastāvīgās uzturēšanās atļaujām no 2027. gada.</Text>
+        </Task>
+        <Task id="U009" number="9">
+          <Text>Izstrādāsim kompensācijas mehānismu bezpilota lidaparātu izraisīto zaudējumu segšanai.</Text>
+        </Task>
+        <Task id="U010" number="10">
+          <Text>Stiprināsim enerģētisko neatkarību.</Text>
+        </Task>
+        <Task id="U011" number="11">
+          <Text>Atbalstīsim sarunu par iestāšanās ES sākšanu ar Ukrainu un Moldovu, sasniegumos balstītu ES paplašināšanās procesu, dalīsimies ar kandidātvalstīm reformu īstenošanas pieredzē.</Text>
+        </Task>
+      </Section>
+      <Section id="S2-2" kind="chapter">
+        <Heading>Drošas vēlēšanu norises nodrošināšana, cīņa pret korupciju un karteļiem</Heading>
+        <Task id="U012" number="12">
+          <Text>Īstenosim tiešu premjera uzraudzību par vēlēšanu sagatavošanas procesu, nodrošinot drošu un tiesisku Saeimas vēlēšanu norisi.</Text>
+        </Task>
+        <Task id="U013" number="13">
+          <Text>Sargājot tiesiskas un demokrātiskas valsts principus un tiesu varas neatkarību, turpināsim ar vislielāko likuma bardzību vērsties pret ekonomiskajiem noziegumiem, korupciju, karteļiem un sankciju pārkāpējiem.</Text>
+        </Task>
+      </Section>
+      <Section id="S2-3" kind="chapter">
+        <Heading>Budžeta stabilizācija un izdevumu efektivitāte</Heading>
+        <Task id="U014" number="14">
+          <Text>Lai nodrošinātu virzību uz sabalansētu Eiropas ekonomiskās pārvaldības noteikumiem un Fiskālās disciplīnas noteikumiem atbilstošu budžetu 2030. gadā, līdz 2026. gada 30. jūnijam sagatavosim makroekonomisko rādītāju, ieņēmumu un vispārējās valdības budžeta bilances prognozes 2027., 2028., 2029. un 2030. gadam. Secīgi veiksim budžeta bāzes izdevumu izvērtēšanu visās ministrijās.</Text>
+        </Task>
+        <Task id="U015" number="15">
+          <Text>Lai mazinātu publisko līdzekļu izšķērdēšanas riskus, uzsāksim prioritāro valsts iepirkumu un lielāko kapitālsabiedrību iepirkumu pārskatīšanu, īpašu uzmanību pievēršot sadārdzinājumiem, līgumu grozījumiem un konkurences ierobežošanas riskiem. Uzsāksim datu publiskošanu par noslēgtajiem iepirkumu līgumiem, veiktajiem grozījumiem, līgumu summu izmaiņām, lai valdībai un sabiedrībai būtu pieejama informācija par aktuālo līgumu summām.</Text>
+        </Task>
+        <Task id="U016" number="16">
+          <Text>Pilnībā pārskatīsim prēmiju un naudas balvu izmaksu principus, integrējot tos motivējošā un uz rezultātu vērstā atalgojuma sistēmā.</Text>
+        </Task>
+        <Task id="U017" number="17">
+          <Text>Ieviesīsim atklātību un tiešsaistes pieejamību valsts budžeta datiem.</Text>
+        </Task>
+        <Task id="U018" number="18">
+          <Text>Apņemamies garantēt valsts aizsardzībai nepieciešamo finansējumu un pabeigt uzsākto reformu "Programma skolā", nesamazinot tai paredzētos līdzekļus. Izvērtējot budžeta iespējas, prioritāri palielināsim finansējumu veselības aprūpei.</Text>
+        </Task>
+        <Task id="U019" number="19">
+          <Text>Uzsāksim izstrādāt jaunu Pašvaldību finanšu izlīdzināšanas likumu, kas saskaņots ar pašvaldībām.</Text>
+        </Task>
+        <Task id="U020" number="20">
+          <Text>Radīsim jaunas iniciatīvas, lai palielinātu budžeta ieņēmumus, un sekmēsim Latvijas ekonomisko attīstību.</Text>
+        </Task>
+        <Task id="U021" number="21">
+          <Text>Īstenosim Rīcības grupas birokrātijas mazināšanai izstrādātos pasākumus, efektivizējot valsts pārvaldi, mazinot administratīvo slogu un paātrinot lēmumu pieņemšanu.</Text>
+        </Task>
+        <Task id="U022" number="22">
+          <Text>Turpināsim darbu pie Aizsardzības, drošības un noturības bankas izveides.</Text>
+        </Task>
+      </Section>
+      <Section id="S2-4" kind="chapter">
+        <Heading>Latvijas intereses Eiropas Savienības daudzgadu budžetā 2028.–2034. gadam</Heading>
+        <Paragraph>Aizstāvēsim Latvijas intereses sarunās par Eiropas Savienības (ES) daudzgadu budžetu 2028.–2034. gadam, īpaši aktualizēsim:</Paragraph>
+        <Task id="U023" number="23">
+          <Text>Ģeopolitiskajai situācijai atbilstošu ES finansējumu drošībai un aizsardzībai.</Text>
+        </Task>
+        <Task id="U024" number="24">
+          <Text>Nepieciešamību Latvijai saņemt papildu finansējumu Kopējās lauksaimniecības politikas aploksnē un iestāties par tādu piešķīrumu sadalījumu, kas nodrošina tiešo maksājumu izlīdzināšanu un atbalstu Kopējās lauksaimniecības politikas pasākumiem lauku attīstībai nākamajā Eiropas Savienības daudzgadu budžeta finanšu aploksnē vismaz 2021.–2027. gada periodā. Valdībā apstiprināsim Lauksaimniecības nozaru izaugsmes plānu nozaru attīstībai.</Text>
+        </Task>
+        <Task id="U025" number="25">
+          <Text>Nepieciešamību Latvijai saņemt papildu finansējumu Kohēzijas politikas ietvaros saistībā ar Krievijas agresijas pret Ukrainu ietekmi un sociāli ekonomiskajiem izaicinājumiem kā austrumu pierobežas valstij.</Text>
+        </Task>
+        <Task id="U026" number="26">
+          <Text>Nepieciešamību nodrošināt pietiekamu ES finansējumu Eiropas infrastruktūras savienojamības instrumentam (EISI), lai tiktu īstenots "Rail Baltica" projekts.</Text>
+        </Task>
+        <Task id="U027" number="27">
+          <Text>Reģionu sabalansētas attīstības prioritāti Eiropas Savienības daudzgadu budžetā 2028.–2034. gadam.</Text>
+        </Task>
+        <Task id="U028" number="28">
+          <Text>Nepieciešamību saglabāt nacionālā budžeta subsīdiju atbalstu lauksaimniekiem un nodrošināt pilnvērtīgu līdzfinansējumu ES fondu apguvei, lai stiprinātu Latvijas pārtikas drošību, lauku teritoriju dzīvotspēju un nozares konkurētspēju vienotā ES tirgū, ietverot risku vadības programmu stiprināšanu un atbalstu zināšanu radīšanas un pārneses programmām.</Text>
+        </Task>
+      </Section>
+      <Section id="S2-5" kind="chapter">
+        <Heading>Lielo projektu vadības kontrole</Heading>
+        <Task id="U029" number="29">
+          <Text>"Rail Baltica" projekta īstenošanai tiešā premjera vadībā izstrādāsim projekta tālākās virzības modeli.</Text>
+        </Task>
+        <Task id="U030" number="30">
+          <Text>"airBaltic" kā Latvijas ekonomikai nozīmīga uzņēmuma stabilizācijai līdz 2026. gada augustam izvērtēsim sagatavoto biznesa plānu un pieņemsim lēmumu par turpmākajiem rīcības scenārijiem.</Text>
+        </Task>
+        <Task id="U031" number="31">
+          <Text>Turpināsim Latvijas ilgtspējīgas attīstības stratēģijas līdz 2050. gadam un Latvijas Nacionālā attīstības plāna 2028-2034. gadam izstrādi.</Text>
+        </Task>
+      </Section>
+      <Section id="S2-6" kind="chapter">
+        <Heading>Veselība, labklājība, demogrāfija, sociālā drošība un ģimeņu politika</Heading>
+        <Task id="U032" number="32">
+          <Text>Stiprināsim ģimenes un bērnus kā valsts pamatvērtību. Tāpēc attīstīsim ģimenēm draudzīgu vidi un pakalpojumus, paredzot tam valsts un pašvaldību finanšu resursus. Palielināsim finansiālu atbalstu dzimstības veicināšanai, ģimenēm ar bērniem un attīstīsim vajadzībām atbilstošus pakalpojumus. Paplašināsim Goda ģimenes statusu.</Text>
+        </Task>
+        <Task id="U033" number="33">
+          <Text>Sagatavosim bērnu veselības aprūpes sistēmu pārejai uz integrētās aprūpes modeli un kvotu atcelšanai veselības aprūpes pakalpojumiem bērniem.</Text>
+        </Task>
+        <Task id="U034" number="34">
+          <Text>Ieliksim pamatus plašai ilgtermiņa valsts mājokļu pieejamības programmai jaunajām ģimenēm un ģimenēm ar bērniem, īpaši reģionos, ar pirmo soli atceļot obligāto pirmo iemaksu mājokļa iegādei, kuru aizstās ALTUM valsts garantija.</Text>
+        </Task>
+        <Task id="U035" number="35">
+          <Text>Noteiksim stabilu atbalsta pieauguma sistēmu ģimenēm ar bērniem turpmākajiem gadiem.</Text>
+        </Task>
+        <Task id="U036" number="36">
+          <Text>Ieviesīsim "bāzes pensiju", paaugstinot piemaksas apmēru par darba stāžu līdz 1996. gadam un nosakot to arī par darba stāžu pēc 1996. gada. Vispirms sāksim šīs piemaksas piešķirt senioriem vecuma grupā 85+. Izvērtēsim iespējas darba stāžā sievietēm ieskaitīt visu periodu par bērna kopšanu līdz bērna trīs gadu vecumam.</Text>
+        </Task>
+        <Task id="U037" number="37">
+          <Text>Veselība ir valdības kopīga prioritāte. Izvērtējot budžeta iespējas, prioritāri palielināsim finansējumu veselības aprūpei, tiecoties uz 12 % no kopīgiem valdības izdevumiem.</Text>
+        </Task>
+        <Task id="U038" number="38">
+          <Text>Apņemamies pieņemt lēmumu par slimnīcu tīkla reformu.</Text>
+        </Task>
+      </Section>
+      <Section id="S2-7" kind="chapter">
+        <Heading>Ekonomika un tautsaimniecība</Heading>
+        <Task id="U039" number="39">
+          <Text>Izstrādāsim Nacionālo mākslīgā intelekta plānu – valdība 100 dienās apstiprinās Latvijas Nacionālo MI stratēģiju ar konkrētiem mērķiem – MI izmantošana valsts pārvaldē, izglītībā un aizsardzībā.</Text>
+        </Task>
+        <Task id="U040" number="40">
+          <Text>Izveidosim ALTUM pārvaldītu kapitāla fondu, kurā ieplūst Latvijas pensiju 2. līmeņa kapitāls.</Text>
+        </Task>
+        <Task id="U041" number="41">
+          <Text>Stiprinot Latvijas ekonomisko drošību un konkurētspēju pasaulē, atbalstīsim Latvijas uzņēmēju mērķtiecīgu ieiešanu ārvalstu tirgos, ES brīvās tirdzniecības līgumu iespēju izmantošanu, jaunu līgumu slēgšanu.</Text>
+        </Task>
+        <Task id="U042" number="42">
+          <Text>Pārtrauksim tirdzniecību (eksportu un importu) ar Krieviju un Baltkrieviju. Uzņemsimies vadošo lomu šī jautājuma virzībai arī ES formāta ietvarā. Koordinēsim savu rīcību ar Baltijas valstīm un citām reģiona valstīm.</Text>
+        </Task>
+        <Task id="U043" number="43">
+          <Text>Uzsāksim valsts kapitālsabiedrību pārvaldības modeļa koncepta izstrādi. Izstrādāsim Latvijas Attīstības fonda likumprojektu valsts ilgtermiņa finanšu stabilitātes veicināšanai. Latvijas Attīstības fonds nodrošinās valsts kapitālsabiedrību centralizētas pārvaldības profesionālu īstenošanu.</Text>
+        </Task>
+        <Task id="U044" number="44">
+          <Text>Sagatavosim lielo investīciju fondu kā fiskāli neitrālu atbalsta instrumentu un apstiprināsim to līdz likumprojekta "Par valsts budžetu 2027. gadam un budžeta ietvaru 2027., 2028., 2029. un 2030. gadam" pieņemšanai Ministru kabinetā.</Text>
+        </Task>
+        <Task id="U045" number="45">
+          <Text>Sagatavosim Meža nozares attīstības pamatnostādnes ilgtspējīgai mežu apsaimniekošanai un uzsāksim atbilstošu normatīvo aktu izstrādi, lai palielinātu meža nozares un kokapstrādes ražošanas efektivitāti un pievienotās vērtības radīšanu.</Text>
+        </Task>
+        <Task id="U046" number="46">
+          <Text>Izstrādāsim Latvijas stratēģisko ekonomiskās sadarbības piedāvājumu sadarbībai ar pasaules lielajām ekonomikām, izmantojot Eiropas Savienības noslēgtos brīvās tirdzniecības līgumus.</Text>
+        </Task>
+      </Section>
+      <Section id="S2-8" kind="chapter">
+        <Heading>Izglītība, sports un jaunatne</Heading>
+        <Task id="U047" number="47">
+          <Text>Ar Ministru kabineta noteikumiem noteiksim skaidras prasības izglītības kvalitātes nodrošināšanai visos izglītības veidos un pakāpēs, turpināsim Izglītības kvalitātes monitoringa un jaunā finansēšanas modeļa "Programma skolā" ieviešanu iecerētajā apjomā.</Text>
+        </Task>
+        <Task id="U048" number="48">
+          <Text>Turpināsim darbu pie pedagogu atalgojuma grafika ieviešanas.</Text>
+        </Task>
+        <Task id="U049" number="49">
+          <Text>Noslēgsim augstākās izglītības reformu, pieņemot regulējumu jaunai augstskolu finansēšanas kārtībai, institucionālajai akreditācijai un akadēmiskās karjeras modelim.</Text>
+        </Task>
+      </Section>
+      <Section id="S2-9" kind="chapter">
+        <Heading>Kultūra, mediji, pilsoniskā sabiedrība</Heading>
+        <Task id="U050" number="50">
+          <Text>Nodrošināsim Latvijas pievienošanos UNESCO Konvencijas par kultūras vērtību aizsardzību bruņota konflikta gadījumos Otrajam protokolam.</Text>
+        </Task>
+        <Task id="U051" number="51">
+          <Text>Stiprināsim demokrātijas vērtību un pilsoniskās sabiedrības atbalstu, kā arī atbalstīsim kvalitatīvu un daudzveidīgu mediju satura veidošanu latviešu valodā.</Text>
+        </Task>
+        <Task id="U052" number="52">
+          <Text>Stiprināsim latvisku kultūrvidi un nacionālo identitāti, nodrošinot valsts un pašvaldību kultūras iestāžu tīkla noturību un sniedzot mērķtiecīgu atbalstu Dziesmu un deju svētku tradīcijas nepārtrauktībai un attīstībai. Nodrošināsim kultūrvides un vēsturiskā mantojuma saglabāšanu kā pamatu nacionālās drošības un sabiedrības saliedētības stiprināšanai.</Text>
+        </Task>
+      </Section>
+    </Section>
+  </Body>
+  <Composition>
+    <PrimeMinisterCandidate>
+      <Office>Ministru prezidenta amata kandidāts</Office>
+      <Name>Andris Kulbergs</Name>
+    </PrimeMinisterCandidate>
+    <InvitedMinisters heading="Aicinātie ministri:">
+      <Minister>
+        <Office>aizsardzības ministrs</Office>
+        <Name>Raivis Melnis</Name>
+      </Minister>
+      <Minister>
+        <Office>ārlietu ministre</Office>
+        <Name>Baiba Braže</Name>
+      </Minister>
+      <Minister>
+        <Office>ekonomikas ministrs</Office>
+        <Name>Viktors Valainis</Name>
+      </Minister>
+      <Minister>
+        <Office>finanšu ministrs</Office>
+        <Name>Māris Kučinskis</Name>
+      </Minister>
+      <Minister>
+        <Office>iekšlietu ministrs</Office>
+        <Name>Jānis Dombrava</Name>
+      </Minister>
+      <Minister>
+        <Office>izglītības un zinātnes ministre</Office>
+        <Name>Ilze Indriksone</Name>
+      </Minister>
+      <Minister>
+        <Office>klimata un enerģētikas ministrs</Office>
+        <Name>Jānis Vitenbergs</Name>
+      </Minister>
+      <Minister>
+        <Office>kultūras ministrs</Office>
+        <Name>Nauris Puntulis</Name>
+      </Minister>
+      <Minister>
+        <Office>labklājības ministrs</Office>
+        <Name>Reinis Uzulnieks</Name>
+      </Minister>
+      <Minister>
+        <Office>satiksmes ministrs</Office>
+        <Name>Rihards Kozlovskis</Name>
+      </Minister>
+      <Minister>
+        <Office>tieslietu ministrs</Office>
+        <Name>Edvards Smiltēns</Name>
+      </Minister>
+      <Minister>
+        <Office>veselības ministrs</Office>
+        <Name>Hosams Abu Meri</Name>
+      </Minister>
+      <Minister>
+        <Office>viedās administrācijas un reģionālās attīstības ministrs</Office>
+        <Name>Edgars Tavars</Name>
+      </Minister>
+      <Minister>
+        <Office>zemkopības ministrs</Office>
+        <Name>Uldis Augulis</Name>
+      </Minister>
+    </InvitedMinisters>
+  </Composition>
+</GovernmentDeclaration>

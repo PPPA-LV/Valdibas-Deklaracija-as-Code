@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           xmlns="urn:pppa:cac:valdibas-deklaracija:0.1"
+           xmlns:d="urn:pppa:cac:valdibas-deklaracija:0.1"
+           targetNamespace="urn:pppa:cac:valdibas-deklaracija:0.1"
+           elementFormDefault="qualified" attributeFormDefault="unqualified" version="0.1" xml:lang="lv">
+
+  <xs:annotation>
+    <xs:documentation xml:lang="lv">
+      Valdības deklarācija kā kods, shēma v0.1 (melnraksts, PPP Asociācija).
+      Apraksta Deklarāciju par Ministru kabineta iecerēto darbību TĀDU, KĀDA TĀ IR (AS IS): teksts tiek pārnests burtiski,
+      bez interpretācijas un bez papildu laukiem. Shēma ir universāla: tā aptver gan 2026. gada deklarāciju
+      (sadarbības principi, prioritāšu sadaļas, numurēti uzdevumi), gan iepriekšējo valdību deklarācijas (ievads,
+      ar romiešu cipariem numurētas nodaļas, nenumurētas apakšnodaļas, ievadrindkopas, aizzīmju saraksti, pielikumi).
+      Tiesiskais pamats: Ministru kabineta iekārtas likuma 14. un 15. pants. Likums nosaka deklarācijas būtību un saturu
+      (darbības prioritātes, sasniedzamie mērķi un rezultāti), bet nenosaka tās formātu.
+      Uzdevuma numurs ir tas pats, ko izmanto rīcības plāns ("Deklarācijā dotā uzdevuma numurs"), tāpēc deklarāciju
+      un rīcības plānu var sasaistīt, un dažādu valdību deklarācijas var salīdzināt pēc vienas struktūras.
+    </xs:documentation>
+    <xs:documentation xml:lang="en">
+      Government Declaration as Code, schema v0.1 (draft, PPP Asociācija). Describes the Declaration of the Intended
+      Activities of the Cabinet of Ministers AS IS: text is carried over verbatim, with no interpretation or added fields.
+      The schema is universal across governments. Task numbers are the ones used by the action plan.
+    </xs:documentation>
+  </xs:annotation>
+
+  <!-- ===================================================================== root -->
+  <xs:element name="GovernmentDeclaration">
+    <xs:annotation><xs:documentation xml:lang="lv">Valdības deklarācija (sakne).</xs:documentation></xs:annotation>
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Metadata" type="MetadataType"/>
+        <xs:element name="Body" type="BodyType"/>
+        <xs:element name="Composition" type="CompositionType"/>
+        <xs:element name="Annex" type="AnnexType" minOccurs="0" maxOccurs="unbounded"/>
+      </xs:sequence>
+      <xs:attribute name="schemaVersion" type="xs:string" use="required" fixed="0.1"/>
+    </xs:complexType>
+    <xs:unique name="uniqueTaskNumber">
+      <xs:selector xpath=".//d:Task"/>
+      <xs:field xpath="@number"/>
+    </xs:unique>
+  </xs:element>
+
+  <!-- ===================================================================== metadata -->
+  <xs:complexType name="MetadataType">
+    <xs:annotation><xs:documentation xml:lang="lv">Dokumenta identitāte un avots. Dati par dokumentu, nevis tā saturs.</xs:documentation></xs:annotation>
+    <xs:sequence>
+      <xs:element name="Identifier" type="IdentifierType">
+        <xs:annotation><xs:documentation xml:lang="lv">Pastāvīgs identifikators, piemēram lv-mk-deklaracija-2026-05-28.</xs:documentation></xs:annotation>
+      </xs:element>
+      <xs:element name="Title" type="NonEmptyText">
+        <xs:annotation><xs:documentation xml:lang="lv">Dokumenta nosaukums, kā rakstīts.</xs:documentation></xs:annotation>
+      </xs:element>
+      <xs:element name="Subtitle" type="NonEmptyText" minOccurs="0"/>
+      <xs:element name="DateLine" type="NonEmptyText" minOccurs="0">
+        <xs:annotation><xs:documentation xml:lang="lv">Vietas un datuma rinda, kā rakstīts (piemēram „Rīgā, 2026. gada 28. maijā”).</xs:documentation></xs:annotation>
+      </xs:element>
+      <xs:element name="Date" type="xs:date" minOccurs="0">
+        <xs:annotation><xs:documentation xml:lang="lv">Datums ISO formā, ja tas dokumentā norādīts.</xs:documentation></xs:annotation>
+      </xs:element>
+      <xs:element name="Place" type="NonEmptyText" minOccurs="0"/>
+      <xs:element name="Language" type="xs:language" fixed="lv"/>
+      <xs:element name="LegalBasis" type="NonEmptyText">
+        <xs:annotation><xs:documentation xml:lang="lv">Tiesiskais pamats, piemēram „Ministru kabineta iekārtas likums, 14. un 15. pants”.</xs:documentation></xs:annotation>
+      </xs:element>
+      <xs:element name="Source" type="SourceType"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="SourceType">
+    <xs:annotation><xs:documentation xml:lang="lv">Avota fails, no kura teksts pārnests.</xs:documentation></xs:annotation>
+    <xs:sequence>
+      <xs:element name="FileName" type="NonEmptyText"/>
+      <xs:element name="SHA256" minOccurs="0"><xs:simpleType><xs:restriction base="xs:string"><xs:pattern value="[0-9a-f]{64}"/></xs:restriction></xs:simpleType></xs:element>
+      <xs:element name="Pages" type="xs:positiveInteger" minOccurs="0"/>
+      <xs:element name="URL" type="xs:anyURI" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <!-- ===================================================================== body -->
+  <xs:complexType name="BodyType">
+    <xs:annotation><xs:documentation xml:lang="lv">Deklarācijas teksts dokumenta secībā.</xs:documentation></xs:annotation>
+    <xs:sequence>
+      <xs:element name="Section" type="SectionType" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="SectionType">
+    <xs:annotation><xs:documentation xml:lang="lv">Sadaļa vai nodaļa. Var saturēt rindkopas, sarakstus, numurētus uzdevumus un apakšsadaļas jebkurā secībā, kā dokumentā.</xs:documentation></xs:annotation>
+    <xs:sequence>
+      <xs:element name="Heading" type="NonEmptyText" minOccurs="0"/>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Paragraph" type="NonEmptyText">
+          <xs:annotation><xs:documentation xml:lang="lv">Nenumurēta rindkopa (ievads, sadaļas ievads).</xs:documentation></xs:annotation>
+        </xs:element>
+        <xs:element name="List" type="ListType"/>
+        <xs:element name="Task" type="TaskType"/>
+        <xs:element name="Section" type="SectionType"/>
+      </xs:choice>
+    </xs:sequence>
+    <xs:attribute name="id" type="xs:ID" use="required"/>
+    <xs:attribute name="kind" type="SectionKind" use="required"/>
+    <xs:attribute name="label" type="xs:string">
+      <xs:annotation><xs:documentation xml:lang="lv">Sadaļas numurs, kā rakstīts (piemēram „I”), ja tāds ir.</xs:documentation></xs:annotation>
+    </xs:attribute>
+  </xs:complexType>
+
+  <xs:simpleType name="SectionKind">
+    <xs:annotation><xs:documentation xml:lang="lv">
+      introduction = ievads; principles = valdības partneru sadarbības principi; priorities = prioritāšu kopsadaļa;
+      chapter = nodaļa vai prioritāšu sadaļa; subchapter = apakšnodaļa; other = cita.
+    </xs:documentation></xs:annotation>
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="introduction"/><xs:enumeration value="principles"/><xs:enumeration value="priorities"/>
+      <xs:enumeration value="chapter"/><xs:enumeration value="subchapter"/><xs:enumeration value="other"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:complexType name="ListType">
+    <xs:annotation><xs:documentation xml:lang="lv">Aizzīmju vai numurēts saraksts, kas nav deklarācijas uzdevums.</xs:documentation></xs:annotation>
+    <xs:sequence><xs:element name="Item" type="NonEmptyText" maxOccurs="unbounded"/></xs:sequence>
+    <xs:attribute name="style" use="required">
+      <xs:simpleType><xs:restriction base="xs:string"><xs:enumeration value="bullet"/><xs:enumeration value="numbered"/></xs:restriction></xs:simpleType>
+    </xs:attribute>
+  </xs:complexType>
+
+  <xs:complexType name="TaskType">
+    <xs:annotation><xs:documentation xml:lang="lv">Deklarācijā dotais uzdevums: numurēts punkts. Numurs ir tas pats, ko izmanto rīcības plānā.</xs:documentation></xs:annotation>
+    <xs:sequence>
+      <xs:element name="Text" type="NonEmptyText"/>
+      <xs:element name="List" type="ListType" minOccurs="0" maxOccurs="unbounded"/>
+    </xs:sequence>
+    <xs:attribute name="id" type="xs:ID" use="required"/>
+    <xs:attribute name="number" type="xs:positiveInteger" use="required"/>
+  </xs:complexType>
+
+  <!-- ===================================================================== composition -->
+  <xs:complexType name="CompositionType">
+    <xs:annotation><xs:documentation xml:lang="lv">Ministru prezidenta amata kandidāts un aicinātie ministri, kā norādīts deklarācijā (MK iekārtas likuma 14. panta pirmā daļa).</xs:documentation></xs:annotation>
+    <xs:sequence>
+      <xs:element name="PrimeMinisterCandidate" type="OfficeHolderType"/>
+      <xs:element name="InvitedMinisters">
+        <xs:complexType>
+          <xs:sequence><xs:element name="Minister" type="OfficeHolderType" maxOccurs="unbounded"/></xs:sequence>
+          <xs:attribute name="heading" type="xs:string"/>
+        </xs:complexType>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="OfficeHolderType">
+    <xs:sequence>
+      <xs:element name="Office" type="NonEmptyText"><xs:annotation><xs:documentation xml:lang="lv">Amats, kā rakstīts.</xs:documentation></xs:annotation></xs:element>
+      <xs:element name="Name" type="NonEmptyText"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <!-- ===================================================================== annex -->
+  <xs:complexType name="AnnexType">
+    <xs:annotation><xs:documentation xml:lang="lv">Pielikums, piemēram sadarbības līgums, ja tas pievienots deklarācijai.</xs:documentation></xs:annotation>
+    <xs:sequence>
+      <xs:element name="Heading" type="NonEmptyText"/>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Paragraph" type="NonEmptyText"/>
+        <xs:element name="List" type="ListType"/>
+      </xs:choice>
+    </xs:sequence>
+    <xs:attribute name="id" type="xs:ID" use="required"/>
+  </xs:complexType>
+
+  <!-- ===================================================================== simple types -->
+  <xs:simpleType name="NonEmptyText">
+    <xs:restriction base="xs:string"><xs:minLength value="1"/><xs:pattern value="[\s\S]*\S[\s\S]*"/></xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="IdentifierType">
+    <xs:restriction base="xs:string"><xs:pattern value="[a-z0-9]+(-[a-z0-9]+)*"/></xs:restriction>
+  </xs:simpleType>
+</xs:schema>

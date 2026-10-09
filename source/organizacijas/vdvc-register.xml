@@ -1,0 +1,530 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vdvcRegister xmlns="http://vdvc.gov.lv/schema/vdvc-register" version="1.0" created="2026-02-03" xml:lang="en">
+  <ministry code="01" name="">
+    <organization code="0001" nmr="90000038578" docPrefix="01-0001">
+      <name>LATVIJAS VALSTS PREZIDENTA KANCELEJA</name>
+    </organization>
+  </ministry>
+  <ministry code="02" name="">
+    <organization code="0002" nmr="90000028300" docPrefix="02-0002">
+      <name>LATVIJAS REPUBLIKAS SAEIMA</name>
+    </organization>
+  </ministry>
+  <ministry code="03" name="">
+    <organization code="0004" nmr="90000055313" docPrefix="03-0004">
+      <name>VALSTS KANCELEJA</name>
+    </organization>
+    <organization code="0006" nmr="90000028156" docPrefix="03-0006">
+      <name>VALSTS ADMINISTRĀCIJAS SKOLA</name>
+    </organization>
+  </ministry>
+  <ministry code="04" name="">
+    <organization code="0007" nmr="90001427791" docPrefix="04-0007">
+      <name>KORUPCIJAS NOVĒRŠANAS UN APKAROŠANAS BIROJS</name>
+    </organization>
+  </ministry>
+  <ministry code="05" name="">
+    <organization code="0008" nmr="90000055101" docPrefix="05-0008">
+      <name>LATVIJAS REPUBLIKAS TIESĪBSARGA BIROJS</name>
+    </organization>
+  </ministry>
+  <ministry code="08" name="">
+    <organization code="0622" nmr="90001237779" docPrefix="08-0622">
+      <name>SABIEDRĪBAS INTEGRĀCIJAS FONDS</name>
+    </organization>
+  </ministry>
+  <ministry code="09" name="">
+    <organization code="0640" nmr="90001162258" docPrefix="09-0640">
+      <name>SABIEDRISKO PAKALPOJUMU REGULĒŠANAS KOMISIJA</name>
+    </organization>
+  </ministry>
+  <ministry code="10" name="Aizsardzības Ministrija">
+    <organization code="0011" nmr="90000022632" docPrefix="10-0011">
+      <name>AIZSARDZĪBAS MINISTRIJA</name>
+    </organization>
+    <organization code="0017" nmr="90000020203" docPrefix="10-0017">
+      <name>LATVIJAS KARA MUZEJS</name>
+    </organization>
+    <organization code="0020" nmr="90000084929" docPrefix="10-0020">
+      <name>MILITĀRĀS IZLŪKOŠANAS UN DROŠĪBAS DIENESTS</name>
+    </organization>
+    <organization code="0021" nmr="90000481930" docPrefix="10-0021">
+      <name>NACIONĀLO BRUŅOTO SPĒKU MILITĀRĀ POLICIJA</name>
+    </organization>
+    <organization code="0022" nmr="90001259776" docPrefix="10-0022">
+      <name>LATVIJAS REPUBLIKAS AIZSARDZĪBAS MINISTRIJAS NACIONĀLO BRUŅOTO SPĒKU NODROŠINĀJUMA PAVĒLNIECĪBA10 S130120 002790000068801 LR AIZSARDZĪBAS MINISTRIJAS NACIONĀLO BRUŅOTO SPĒKU APVIENOTAIS ŠTĀBS</name>
+    </organization>
+    <organization code="0029" nmr="90002056972" docPrefix="10-0029">
+      <name>NACIONĀLO BRUŅOTO SPĒKU MĀCĪBU VADĪBAS PAVĒLNIECĪBAS ŠTĀBS</name>
+    </organization>
+    <organization code="0031" nmr="90000294774" docPrefix="10-0031">
+      <name>NACIONĀLO BRUŅOTO SPĒKU NODROŠINĀJUMA PAVĒLNIECĪBAS 1. REĢIONĀLAIS NODROŠINĀJUMA CENTRS10 S130120 003290000056893LATVIJAS REPUBLIKAS AIZSARDZĪBAS MINISTRIJAS NACIONĀLO BRUŅOTO SPĒKU NODROŠINĀJUMA PAVĒLNIECĪBAS 3.REĢIONĀLAIS NODROŠINĀJUMA CENTRS10 S130120 003390002065000 LATVIJAS ĢEOTELPISKĀS INFORMĀCIJAS AĢENTŪRA</name>
+    </organization>
+    <organization code="0035" nmr="90000040549" docPrefix="10-0035">
+      <name>ZEMESSARDZES ŠTĀBS</name>
+    </organization>
+    <organization code="0656" nmr="90009225180" docPrefix="10-0656">
+      <name>VALSTS AIZSARDZĪBAS MILITĀRO OBJEKTU UN IEPIRKUMU CENTRS</name>
+    </organization>
+    <organization code="0657" nmr="90009222536" docPrefix="10-0657">
+      <name>JAUNSARDZES CENTRS</name>
+    </organization>
+    <organization code="0659" nmr="90009227961" docPrefix="10-0659">
+      <name>LR AIZSARDZĪBAS MINISTRIJAS NACIONĀLO BRUŅOTO SPĒKU NODROŠINĀJUMA PAVĒLNIECĪBAS 2.REĢIONĀLAIS NODROŠINĀJUMA CENTRS10 S130120 069540900035122 VALSTS AIZSARDZĪBAS LOĢISTIKAS UN IEPIRKUMU CENTRS</name>
+    </organization>
+    <organization code="0696" nmr="40900036043" docPrefix="10-0696">
+      <name>PULKVEŽA OSKARA KALPAKA PROFESIONĀLĀ VIDUSSKOLA</name>
+    </organization>
+  </ministry>
+  <ministry code="11" name="Ārlietu Ministrija">
+    <organization code="0036" nmr="90000069065" docPrefix="11-0036">
+      <name>ĀRLIETU MINISTRIJA</name>
+    </organization>
+  </ministry>
+  <ministry code="12" name="Ekonomikas Ministrija">
+    <organization code="0038" nmr="90000086008" docPrefix="12-0038">
+      <name>EKONOMIKAS MINISTRIJA</name>
+    </organization>
+    <organization code="0039" nmr="90000069830" docPrefix="12-0039">
+      <name>CENTRĀLĀ STATISTIKAS PĀRVALDE</name>
+    </organization>
+    <organization code="0040" nmr="90000433377" docPrefix="12-0040">
+      <name>KONKURENCES PADOME</name>
+    </organization>
+    <organization code="0042" nmr="90000068854" docPrefix="12-0042">
+      <name>PATĒRĒTĀJU TIESĪBU AIZSARDZĪBAS CENTRS</name>
+    </organization>
+    <organization code="0045" nmr="90001739473" docPrefix="12-0045">
+      <name>LATVIJAS INVESTĪCIJU UN ATTĪSTĪBAS AĢENTŪRA</name>
+    </organization>
+    <organization code="0686" nmr="90010386959" docPrefix="12-0686">
+      <name>BŪVNIECĪBAS VALSTS KONTROLES BIROJS</name>
+    </organization>
+  </ministry>
+  <ministry code="13" name="Finanšu Ministrija 13/74 S130110 005190000597275 Valsts Kase">
+    <organization code="0050" nmr="90000014724" docPrefix="13-0050">
+      <name>FINANŠU MINISTRIJA 13/74 S130110 005190000597275 VALSTS KASE</name>
+    </organization>
+    <organization code="0052" nmr="90000812928" docPrefix="13-0052">
+      <name>CENTRĀLĀ FINANŠU UN LĪGUMU AĢENTŪRA</name>
+    </organization>
+    <organization code="0053" nmr="90001263305" docPrefix="13-0053">
+      <name>IEPIRKUMU UZRAUDZĪBAS BIROJS</name>
+    </organization>
+    <organization code="0054" nmr="90000425793" docPrefix="13-0054">
+      <name>IZLOŽU UN AZARTSPĒĻU UZRAUDZĪBAS INSPEKCIJA</name>
+    </organization>
+    <organization code="0056" nmr="90000069281" docPrefix="13-0056">
+      <name>VALSTS IEŅĒMUMU DIENESTS</name>
+    </organization>
+    <organization code="0639" nmr="90000050138" docPrefix="13-0639">
+      <name>VALSTS KASE (BUDŽETA MAKSĀJUMI) 13/64 S130190 068490010248231 FISKĀLĀS DISCIPLĪNAS PADOME</name>
+    </organization>
+  </ministry>
+  <ministry code="14" name="Latvijas Republikas Iekšlietu Ministrija">
+    <organization code="0087" nmr="90000282046" docPrefix="14-0087">
+      <name>LATVIJAS REPUBLIKAS IEKŠLIETU MINISTRIJA</name>
+    </organization>
+    <organization code="0088" nmr="90000289913" docPrefix="14-0088">
+      <name>IEKŠLIETU MINISTRIJAS INFORMĀCIJAS CENTRS</name>
+    </organization>
+    <organization code="0091" nmr="90000099040" docPrefix="14-0091">
+      <name>VALSTS POLICIJA</name>
+    </organization>
+    <organization code="0092" nmr="90000054712" docPrefix="14-0092">
+      <name>VALSTS DROŠĪBAS DIENESTS</name>
+    </organization>
+    <organization code="0093" nmr="90000054163" docPrefix="14-0093">
+      <name>PILSONĪBAS UN MIGRĀCIJAS LIETU PĀRVALDE</name>
+    </organization>
+    <organization code="0123" nmr="90000048203" docPrefix="14-0123">
+      <name>UGUNSDROŠĪBAS UN CIVILĀS AIZSARDZĪBAS KOLEDŽA</name>
+    </organization>
+    <organization code="0126" nmr="90000086402" docPrefix="14-0126">
+      <name>VALSTS ROBEŽSARDZE</name>
+    </organization>
+    <organization code="0136" nmr="90000014387" docPrefix="14-0136">
+      <name>VALSTS ROBEŽSARDZES KOLEDŽA</name>
+    </organization>
+    <organization code="0139" nmr="90002310861" docPrefix="14-0139">
+      <name>IZMEKLĒŠANAS ATBALSTA PĀRVALDE</name>
+    </organization>
+    <organization code="0140" nmr="90001834903" docPrefix="14-0140">
+      <name>IEKŠLIETU MINISTRIJAS VESELĪBAS UN SPORTA CENTRS</name>
+    </organization>
+    <organization code="0144" nmr="90000049834" docPrefix="14-0144">
+      <name>VALSTS UGUNSDZĒSĪBAS UN GLĀBŠANAS DIENESTS</name>
+    </organization>
+    <organization code="0637" nmr="90000072027" docPrefix="14-0637">
+      <name>VALSTS POLICIJAS KOLEDŽA</name>
+    </organization>
+    <organization code="0651" nmr="90009112024" docPrefix="14-0651">
+      <name>NODROŠINĀJUMA VALSTS AĢENTŪRA</name>
+    </organization>
+    <organization code="0688" nmr="90010643967" docPrefix="14-0688">
+      <name>IEKŠĒJĀS DROŠĪBAS BIROJS</name>
+    </organization>
+    <organization code="0693" nmr="40900025406" docPrefix="14-0693">
+      <name>FINANŠU IZLŪKOŠANAS DIENESTS</name>
+    </organization>
+  </ministry>
+  <ministry code="15" name="Izglītības Un Zinātnes Ministrija 15/62 S130110 017290000048222 Latvijas Zinātnes Padome">
+    <organization code="0170" nmr="90000022399" docPrefix="15-0170">
+      <name>IZGLĪTĪBAS UN ZINĀTNES MINISTRIJA 15/62 S130110 017290000048222 LATVIJAS ZINĀTNES PADOME</name>
+    </organization>
+    <organization code="0173" nmr="90001259032" docPrefix="15-0173">
+      <name>IZGLĪTĪBAS KVALITĀTES VALSTS DIENESTS</name>
+    </organization>
+    <organization code="0190" nmr="90000069084" docPrefix="15-0190">
+      <name>LATVIJAS SPORTA MUZEJS</name>
+    </organization>
+    <organization code="0203" nmr="90001800413" docPrefix="15-0203">
+      <name>VALSTS IZGLĪTĪBAS ATTĪSTĪBAS AĢENTŪRA</name>
+    </organization>
+    <organization code="0222" nmr="90001259598" docPrefix="15-0222">
+      <name>RĪGAS TIRDZNIECĪBAS PROFESIONĀLĀ VIDUSSKOLA</name>
+    </organization>
+    <organization code="0223" nmr="90000281996" docPrefix="15-0223">
+      <name>RĪGAS VALSTS TEHNIKUMS</name>
+    </organization>
+    <organization code="0226" nmr="90000032081" docPrefix="15-0226">
+      <name>KANDAVAS LAUKSAIMNIECĪBAS TEHNIKUMS</name>
+    </organization>
+    <organization code="0236" nmr="90000025357" docPrefix="15-0236">
+      <name>RĪGAS CELTNIECĪBAS KOLEDŽA</name>
+    </organization>
+    <organization code="0238" nmr="90000022223" docPrefix="15-0238">
+      <name>RĪGAS TEHNISKĀ KOLEDŽA</name>
+    </organization>
+    <organization code="0251" nmr="90000066069" docPrefix="15-0251">
+      <name>LATGALES INDUSTRIĀLAIS TEHNIKUMS</name>
+    </organization>
+    <organization code="0260" nmr="90000041031" docPrefix="15-0260">
+      <name>JELGAVAS TEHNIKUMS</name>
+    </organization>
+    <organization code="0262" nmr="90000035711" docPrefix="15-0262">
+      <name>KULDĪGAS TEHNOLOĢIJU UN TŪRISMA TEHNIKUMS</name>
+    </organization>
+    <organization code="0280" nmr="90001256958" docPrefix="15-0280">
+      <name>RĪGAS METĀLAPSTRĀDES PROFESIONĀLĀ VIDUSSKOLA</name>
+    </organization>
+    <organization code="0281" nmr="90000039361" docPrefix="15-0281">
+      <name>RĪGAS STILA UN MODES TEHNIKUMS</name>
+    </organization>
+    <organization code="0283" nmr="90001251999" docPrefix="15-0283">
+      <name>RĪGAS MĀKSLAS UN MEDIJU TEHNIKUMS</name>
+    </organization>
+    <organization code="0290" nmr="90000024436" docPrefix="15-0290">
+      <name>SALDUS TEHNIKUMS</name>
+    </organization>
+    <organization code="0300" nmr="90000079824" docPrefix="15-0300">
+      <name>VENTSPILS TEHNIKUMS</name>
+    </organization>
+    <organization code="0306" nmr="90000082152" docPrefix="15-0306">
+      <name>MURJĀŅU SPORTA ĢIMNĀZIJA</name>
+    </organization>
+    <organization code="0619" nmr="90001825883" docPrefix="15-0619">
+      <name>JAUNATNES STARPTAUTISKO PROGRAMMU AĢENTŪRA</name>
+    </organization>
+    <organization code="0652" nmr="90009113250" docPrefix="15-0652">
+      <name>LATVIEŠU VALODAS AĢENTŪRA</name>
+    </organization>
+    <organization code="0653" nmr="90009115938" docPrefix="15-0653">
+      <name>VALSTS IZGLĪTĪBAS SATURA CENTRS</name>
+    </organization>
+    <organization code="0664" nmr="90009516617" docPrefix="15-0664">
+      <name>LIEPĀJAS VALSTS TEHNIKUMS</name>
+    </organization>
+    <organization code="0665" nmr="90009612809" docPrefix="15-0665">
+      <name>VALMIERAS TEHNIKUMS</name>
+    </organization>
+    <organization code="0666" nmr="90009613611" docPrefix="15-0666">
+      <name>VIDZEMES TEHNOLOĢIJU UN DIZAINA TEHNIKUMS</name>
+    </organization>
+    <organization code="0667" nmr="90009611201" docPrefix="15-0667">
+      <name>SMILTENES TEHNIKUMS</name>
+    </organization>
+    <organization code="0668" nmr="90009617187" docPrefix="15-0668">
+      <name>RĒZEKNES TEHNIKUMS</name>
+    </organization>
+    <organization code="0670" nmr="90009621093" docPrefix="15-0670">
+      <name>OGRES TEHNIKUMS</name>
+    </organization>
+    <organization code="0671" nmr="90009620223" docPrefix="15-0671">
+      <name>AIZKRAUKLES PROFESIONĀLĀ VIDUSSKOLA</name>
+    </organization>
+    <organization code="0691" nmr="90011018726" docPrefix="15-0691">
+      <name>JĒKABPILS AGROBIZNESA KOLEDŽA</name>
+    </organization>
+    <organization code="0698" nmr="40900039340" docPrefix="15-0698">
+      <name>DAUGAVPILS TEHNOLOĢIJU UN TŪRISMA TEHNIKUMS</name>
+    </organization>
+  </ministry>
+  <ministry code="16" name="Zemkopības Ministrija">
+    <organization code="0317" nmr="90000064161" docPrefix="16-0317">
+      <name>ZEMKOPĪBAS MINISTRIJA</name>
+    </organization>
+    <organization code="0320" nmr="90000042982" docPrefix="16-0320">
+      <name>VALSTS AUGU AIZSARDZĪBAS DIENESTS</name>
+    </organization>
+    <organization code="0323" nmr="90000794228" docPrefix="16-0323">
+      <name>LAUKU ATBALSTA DIENESTS</name>
+    </organization>
+    <organization code="0324" nmr="90000064301" docPrefix="16-0324">
+      <name>PĀRTIKAS UN VETERINĀRAIS DIENESTS</name>
+    </organization>
+    <organization code="0362" nmr="90000057795" docPrefix="16-0362">
+      <name>VALSTS MEŽA DIENESTS</name>
+    </organization>
+    <organization code="0380" nmr="90001840100" docPrefix="16-0380">
+      <name>LAUKSAIMNIECĪBAS DATU CENTRS</name>
+    </organization>
+    <organization code="0387" nmr="90001834941" docPrefix="16-0387">
+      <name>VALSTS TEHNISKĀS UZRAUDZĪBAS AĢENTŪRA</name>
+    </organization>
+  </ministry>
+  <ministry code="17" name="Satiksmes Ministrija">
+    <organization code="0389" nmr="90000088687" docPrefix="17-0389">
+      <name>SATIKSMES MINISTRIJA</name>
+    </organization>
+  </ministry>
+  <ministry code="18" name="Labklājības Ministrija">
+    <organization code="0396" nmr="90000022064" docPrefix="18-0396">
+      <name>LABKLĀJĪBAS MINISTRIJA</name>
+    </organization>
+    <organization code="0397" nmr="90000032077" docPrefix="18-0397">
+      <name>VALSTS DARBA INSPEKCIJA</name>
+    </organization>
+    <organization code="0399" nmr="90000151859" docPrefix="18-0399">
+      <name>VESELĪBAS UN DARBSPĒJU EKSPERTĪZES ĀRSTU VALSTS KOMISIJA</name>
+    </organization>
+    <organization code="0430" nmr="90000043329" docPrefix="18-0430">
+      <name>VALSTS SOCIĀLĀS APRŪPES CENTRS LATGALE</name>
+    </organization>
+    <organization code="0437" nmr="90000063880" docPrefix="18-0437">
+      <name>VALSTS SOCIĀLĀS APRŪPES CENTRS KURZEME</name>
+    </organization>
+    <organization code="0451" nmr="90001634668" docPrefix="18-0451">
+      <name>NODARBINĀTĪBAS VALSTS AĢENTŪRA</name>
+    </organization>
+    <organization code="0453" nmr="90001669496" docPrefix="18-0453">
+      <name>VALSTS SOCIĀLĀS APDROŠINĀŠANAS AĢENTŪRA</name>
+    </organization>
+    <organization code="0454" nmr="90001790030" docPrefix="18-0454">
+      <name>SOCIĀLĀS INTEGRĀCIJAS VALSTS AĢENTŪRA</name>
+    </organization>
+    <organization code="0618" nmr="90002056949" docPrefix="18-0618">
+      <name>VALSTS BĒRNU TIESĪBU AIZSARDZĪBAS INSPEKCIJA</name>
+    </organization>
+    <organization code="0658" nmr="90009226487" docPrefix="18-0658">
+      <name>VALSTS SOCIĀLĀS APRŪPES CENTRS RĪGA</name>
+    </organization>
+    <organization code="0694" nmr="40900035103" docPrefix="18-0694">
+      <name>VALSTS SOCIĀLĀS APRŪPES CENTRS ZEMGALE</name>
+    </organization>
+    <organization code="1453" nmr="90001024113" docPrefix="18-1453">
+      <name>VSAA (BUDŽETA MAKSĀJUMI)</name>
+    </organization>
+  </ministry>
+  <ministry code="19" name="Tieslietu Ministrija">
+    <organization code="0455" nmr="90000070045" docPrefix="19-0455">
+      <name>TIESLIETU MINISTRIJA</name>
+    </organization>
+    <organization code="0456" nmr="90002069765" docPrefix="19-0456">
+      <name>JURIDISKĀS PALĪDZĪBAS ADMINISTRĀCIJA</name>
+    </organization>
+    <organization code="0458" nmr="90001672316" docPrefix="19-0458">
+      <name>TIESU ADMINISTRĀCIJA</name>
+    </organization>
+    <organization code="0459" nmr="90000355941" docPrefix="19-0459">
+      <name>VALSTS TIESU EKSPERTĪŽU BIROJS</name>
+    </organization>
+    <organization code="0460" nmr="90000463460" docPrefix="19-0460">
+      <name>VALSTS VALODAS CENTRS</name>
+    </organization>
+    <organization code="0463" nmr="90001037264" docPrefix="19-0463">
+      <name>DATU VALSTS INSPEKCIJA</name>
+    </organization>
+    <organization code="0464" nmr="90000270634" docPrefix="19-0464">
+      <name>LATVIJAS REPUBLIKAS UZŅĒMUMU REĢISTRS</name>
+    </organization>
+    <organization code="0467" nmr="90001625082" docPrefix="19-0467">
+      <name>VALSTS PROBĀCIJAS DIENESTS</name>
+    </organization>
+    <organization code="0468" nmr="90000027165" docPrefix="19-0468">
+      <name>IESLODZĪJUMA VIETU PĀRVALDE</name>
+    </organization>
+    <organization code="0485" nmr="90000030432" docPrefix="19-0485">
+      <name>VALSTS ZEMES DIENESTS</name>
+    </organization>
+    <organization code="0486" nmr="90000776612" docPrefix="19-0486">
+      <name>SATVERSMES AIZSARDZĪBAS BIROJS</name>
+    </organization>
+    <organization code="0495" nmr="90001287943" docPrefix="19-0495">
+      <name>MAKSĀTNESPĒJAS KONTROLES DIENESTS</name>
+    </organization>
+    <organization code="0617" nmr="90001870675" docPrefix="19-0617">
+      <name>UZTURLĪDZEKĻU GARANTIJU FONDA ADMINISTRĀCIJA</name>
+    </organization>
+  </ministry>
+  <ministry code="20" name="Klimata Un Enerģētikas Ministrija">
+    <organization code="0699" nmr="40900039891" docPrefix="20-0699">
+      <name>KLIMATA UN ENERĢĒTIKAS MINISTRIJA</name>
+    </organization>
+  </ministry>
+  <ministry code="21" name="Lr Vides Aizsardzības Un Reģionālās Attīstības Ministrija 21/62 S130110 050090000027926 Latvijas Nacionālais Dabas Muzejs">
+    <organization code="0496" nmr="90000028508" docPrefix="21-0496">
+      <name>LR VIDES AIZSARDZĪBAS UN REĢIONĀLĀS ATTĪSTĪBAS MINISTRIJA 21/62 S130110 050090000027926 LATVIJAS NACIONĀLAIS DABAS MUZEJS</name>
+    </organization>
+    <organization code="0502" nmr="90000628077" docPrefix="21-0502">
+      <name>VIDES PĀRRAUDZĪBAS VALSTS BIROJS</name>
+    </organization>
+    <organization code="0507" nmr="90000017078" docPrefix="21-0507">
+      <name>VALSTS VIDES DIENESTS</name>
+    </organization>
+    <organization code="0627" nmr="90001733697" docPrefix="21-0627">
+      <name>VALSTS REĢIONĀLĀS ATTĪSTĪBAS AĢENTŪRA</name>
+    </organization>
+    <organization code="0650" nmr="90009099027" docPrefix="21-0650">
+      <name>DABAS AIZSARDZĪBAS PĀRVALDE</name>
+    </organization>
+  </ministry>
+  <ministry code="22" name="Kultūras Ministrija 22/62 S130110 051790000053454 Jāzepa Mediņa Rīgas Mūzikas Vidusskola">
+    <organization code="0511" nmr="90000042963" docPrefix="22-0511">
+      <name>KULTŪRAS MINISTRIJA 22/62 S130110 051790000053454 JĀZEPA MEDIŅA RĪGAS MŪZIKAS VIDUSSKOLA</name>
+    </organization>
+    <organization code="0518" nmr="90000039272" docPrefix="22-0518">
+      <name>MIKC RĪGAS DIZAINA UN MĀKSLAS VIDUSSKOLA</name>
+    </organization>
+    <organization code="0520" nmr="90000077378" docPrefix="22-0520">
+      <name>ALFRĒDA KALNIŅA CĒSU MŪZIKAS VIDUSSKOLA</name>
+    </organization>
+    <organization code="0521" nmr="90000066001" docPrefix="22-0521">
+      <name>STAŅISLAVA BROKA DAUGAVPILS MŪZIKAS VIDUSSKOLA</name>
+    </organization>
+    <organization code="0522" nmr="90000073499" docPrefix="22-0522">
+      <name>JELGAVAS MŪZIKAS VIDUSSKOLA</name>
+    </organization>
+    <organization code="0527" nmr="90000035726" docPrefix="22-0527">
+      <name>MIKC VENTSPILS MŪZIKAS VIDUSSKOLA</name>
+    </organization>
+    <organization code="0530" nmr="90000057827" docPrefix="22-0530">
+      <name>LATVIJAS NACIONĀLĀ BIBLIOTĒKA</name>
+    </organization>
+    <organization code="0536" nmr="90001688232" docPrefix="22-0536">
+      <name>VALSTS KULTŪRKAPITĀLA FONDS</name>
+    </organization>
+    <organization code="0537" nmr="90000038351" docPrefix="22-0537">
+      <name>NACIONĀLĀ KULTŪRAS MANTOJUMA PĀRVALDE</name>
+    </organization>
+    <organization code="0544" nmr="90000012776" docPrefix="22-0544">
+      <name>ĪPAŠI AIZSARGĀJAMAIS KULTŪRAS PIEMINEKLIS - TURAIDAS MUZEJREZERVĀTS</name>
+    </organization>
+    <organization code="0547" nmr="90000022100" docPrefix="22-0547">
+      <name>NACIONĀLAIS KINO CENTRS</name>
+    </organization>
+    <organization code="0548" nmr="90000029912" docPrefix="22-0548">
+      <name>RĪGAS VĒSTURES UN KUĢNIECĪBAS MUZEJS</name>
+    </organization>
+    <organization code="0549" nmr="90000076673" docPrefix="22-0549">
+      <name>LATVIJAS NACIONĀLAIS VĒSTURES MUZEJS</name>
+    </organization>
+    <organization code="0552" nmr="90000057460" docPrefix="22-0552">
+      <name>LATVIJAS NEREDZĪGO BIBLIOTĒKA</name>
+    </organization>
+    <organization code="0553" nmr="90000049726" docPrefix="22-0553">
+      <name>LATVIJAS NACIONĀLAIS KULTŪRAS CENTRS 22/62 S130120 055690001033633 LATVIJAS NACIONĀLAIS MĀKSLAS MUZEJS</name>
+    </organization>
+    <organization code="0557" nmr="90000045601" docPrefix="22-0557">
+      <name>RUNDĀLES PILS MUZEJS</name>
+    </organization>
+    <organization code="0558" nmr="90001708717" docPrefix="22-0558">
+      <name>KULTŪRAS INFORMĀCIJAS SISTĒMU CENTRS</name>
+    </organization>
+    <organization code="0638" nmr="90000053011" docPrefix="22-0638">
+      <name>LATVIJAS ETNOGRĀFISKAIS BRĪVDABAS MUZEJS</name>
+    </organization>
+    <organization code="0654" nmr="90009175091" docPrefix="22-0654">
+      <name>RAKSTNIECĪBAS UN MŪZIKAS MUZEJS</name>
+    </organization>
+    <organization code="0655" nmr="90009175706" docPrefix="22-0655">
+      <name>MEMORIĀLO MUZEJU APVIENĪBA</name>
+    </organization>
+    <organization code="0663" nmr="90009476367" docPrefix="22-0663">
+      <name>LATVIJAS NACIONĀLAIS ARHĪVS</name>
+    </organization>
+    <organization code="0689" nmr="90010937516" docPrefix="22-0689">
+      <name>MIKC NACIONĀLĀ MĀKSLU VIDUSSKOLA</name>
+    </organization>
+    <organization code="0690" nmr="90010944679" docPrefix="22-0690">
+      <name>MIKC LIEPĀJAS MŪZIKAS, MĀKSLAS UN DIZAINA VIDUSSKOLA</name>
+    </organization>
+    <organization code="0700" nmr="40900040227" docPrefix="22-0700">
+      <name>MIKC LATGALES MŪZIKAS UN MĀKSLAS VIDUSSKOLA</name>
+    </organization>
+  </ministry>
+  <ministry code="24" name="">
+    <organization code="0560" nmr="90000031917" docPrefix="24-0560">
+      <name>LATVIJAS REPUBLIKAS VALSTS KONTROLE</name>
+    </organization>
+  </ministry>
+  <ministry code="28" name="">
+    <organization code="0561" nmr="90000068892" docPrefix="28-0561">
+      <name>LATVIJAS REPUBLIKAS AUGSTĀKĀ TIESA</name>
+    </organization>
+  </ministry>
+  <ministry code="29" name="Latvijas Republikas Veselības Ministrija">
+    <organization code="0562" nmr="90001474921" docPrefix="29-0562">
+      <name>LATVIJAS REPUBLIKAS VESELĪBAS MINISTRIJA</name>
+    </organization>
+    <organization code="0567" nmr="90000013926" docPrefix="29-0567">
+      <name>VALSTS ASINSDONORU CENTRS</name>
+    </organization>
+    <organization code="0570" nmr="90000058752" docPrefix="29-0570">
+      <name>VALSTS TIESU MEDICĪNAS EKSPERTĪZES CENTRS</name>
+    </organization>
+    <organization code="0573" nmr="90000013555" docPrefix="29-0573">
+      <name>PAULA STRADIŅA MEDICĪNAS VĒSTURES MUZEJS</name>
+    </organization>
+    <organization code="0576" nmr="90001833931" docPrefix="29-0576">
+      <name>LATVIJAS ANTIDOPINGA BIROJS</name>
+    </organization>
+    <organization code="0582" nmr="90002448818" docPrefix="29-0582">
+      <name>VESELĪBAS INSPEKCIJA</name>
+    </organization>
+    <organization code="0649" nmr="90009029104" docPrefix="29-0649">
+      <name>NEATLIEKAMĀS MEDICĪNISKĀS PALĪDZĪBAS DIENESTS</name>
+    </organization>
+    <organization code="0674" nmr="90009649337" docPrefix="29-0674">
+      <name>NACIONĀLAIS VESELĪBAS DIENESTS</name>
+    </organization>
+    <organization code="0677" nmr="90009756700" docPrefix="29-0677">
+      <name>SLIMĪBU PROFILAKSES UN KONTROLES CENTRS</name>
+    </organization>
+  </ministry>
+  <ministry code="30" name="">
+    <organization code="0583" nmr="90000268610" docPrefix="30-0583">
+      <name>LR SATVERSMES TIESA</name>
+    </organization>
+  </ministry>
+  <ministry code="32" name="">
+    <organization code="0584" nmr="90000022859" docPrefix="32-0584">
+      <name>LATVIJAS REPUBLIKAS PROKURATŪRA</name>
+    </organization>
+  </ministry>
+  <ministry code="35" name="">
+    <organization code="0585" nmr="90000028391" docPrefix="35-0585">
+      <name>CENTRĀLĀ VĒLĒŠANU KOMISIJA</name>
+    </organization>
+  </ministry>
+  <ministry code="46" name="">
+    <organization code="0697" nmr="40900037388" docPrefix="46-0697">
+      <name>SABIEDRISKO ELEKTRONISKO PLAŠSAZIŅAS LĪDZEKĻU PADOME</name>
+    </organization>
+  </ministry>
+  <ministry code="47" name="">
+    <organization code="0623" nmr="90000081852" docPrefix="47-0623">
+      <name>NACIONĀLĀ ELEKTRONISKO PLAŠSAZIŅAS LĪDZEKĻU PADOME</name>
+    </organization>
+  </ministry>
+</vdvcRegister>

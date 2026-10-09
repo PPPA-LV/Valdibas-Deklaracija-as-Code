@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Valdības deklarācijas datukopa — Organizāciju reģistrs, shēma v0.2
+  PPP Asociācija (PPPA), Country as Code. Melnraksts.
+-->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           xmlns="urn:pppa:cac:valdiba:0.2"
+           xmlns:v="urn:pppa:cac:valdiba:0.2"
+           targetNamespace="urn:pppa:cac:valdiba:0.2"
+           elementFormDefault="qualified" attributeFormDefault="unqualified" version="0.2" xml:lang="lv">
+
+  <xs:include schemaLocation="cac-valdiba-kopejie-0.2.xsd"/>
+
+  <xs:annotation>
+    <xs:documentation xml:lang="lv">
+      Valsts institūciju reģistrs — vienīgais institūciju identifikatoru (CaC ID) avots valsts pārvaldē. Uzturētājs — Valsts kanceleja.
+      Rīcības plānā un citos datos atbildīgās un līdzatbildīgās institūcijas norāda ar šī reģistra identifikatoru, nevis ar saīsinājumu:
+      saīsinājumi un nosaukumi mainās, identifikators nemainās.
+      Numerācija: SS-IIII — resors SS (2 cipari) un institūcija resorā IIII (4 cipari). Resora vadošā institūcija (ministrija, Valsts kanceleja,
+      patstāvīga institūcija) — SS-0000. Sākotnējie kodi ņemti no Valsts kases „Valsts budžeta iestāžu saraksta” (01.09.2023); turpmāk identifikatorus
+      piešķir reģistra uzturētājs neatkarīgi no gadskārtējā budžeta. Valsts kases kodi glabājas kā sasaiste pa gadiem (BudgetCode).
+      Rezervētie resori: 00 — amati un institūciju grupas; 90 — pašvaldības; 91 — valsts kapitālsabiedrības; 92 — atvasinātas publiskas personas;
+      93 — biedrības un sociālie partneri.
+      Identifikatoru nemaina un atkārtoti neizmanto. Ja institūciju pārceļ uz citu resoru vai apvieno, tai piešķir jaunu identifikatoru; vecajam norāda validTo un successor.
+    </xs:documentation>
+  </xs:annotation>
+
+  <xs:element name="OrganizationRegistry">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Metadata">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Title" type="NonEmptyText"/>
+              <xs:element name="Keeper" type="OrgRefId"><xs:annotation><xs:documentation xml:lang="lv">Reģistra uzturētājs (Valsts kanceleja).</xs:documentation></xs:annotation></xs:element>
+              <xs:element name="Source" type="SourceType" maxOccurs="unbounded"/>
+              <xs:element name="DataVersion" type="DataVersionType"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Sector" type="SectorType" maxOccurs="unbounded"/>
+        <xs:element name="Organization" type="OrganizationType" maxOccurs="unbounded"/>
+      </xs:sequence>
+      <xs:attribute name="schemaVersion" type="xs:string" use="required" fixed="0.2"/>
+    </xs:complexType>
+    <xs:key name="sectorKey"><xs:selector xpath="v:Sector"/><xs:field xpath="@code"/></xs:key>
+    <xs:key name="orgKey"><xs:selector xpath="v:Organization"/><xs:field xpath="@id"/></xs:key>
+    <xs:keyref name="orgParent" refer="orgKey"><xs:selector xpath="v:Organization"/><xs:field xpath="@parent"/></xs:keyref>
+    <xs:keyref name="orgSuccessor" refer="orgKey"><xs:selector xpath="v:Organization"/><xs:field xpath="@successor"/></xs:keyref>
+    <xs:unique name="uniqueRegNo"><xs:selector xpath="v:Organization"/><xs:field xpath="@regNo"/></xs:unique>
+    <xs:unique name="uniqueAbbreviation"><xs:selector xpath="v:Organization/v:Abbreviation"/><xs:field xpath="."/></xs:unique>
+  </xs:element>
+
+  <xs:complexType name="SectorType">
+    <xs:annotation><xs:documentation xml:lang="lv">Resors (1. līmenis): ministrija vai cita centrālā valsts institūcija ar savu kodu, piemēram 03 Ministru kabinets, 20 Klimata un enerģētikas ministrija; rezervētie 00, 90–93. Slēgta resora kodu atkārtoti neizmanto.</xs:documentation></xs:annotation>
+    <xs:simpleContent><xs:extension base="NonEmptyText">
+      <xs:attribute name="code" use="required"><xs:simpleType><xs:restriction base="xs:string"><xs:pattern value="[0-9]{2}"/></xs:restriction></xs:simpleType></xs:attribute>
+      <xs:attribute name="validTo" type="xs:date"/>
+    </xs:extension></xs:simpleContent>
+  </xs:complexType>
+
+  <xs:complexType name="OrganizationType">
+    <xs:sequence>
+      <xs:element name="Name" type="NonEmptyText"/>
+      <xs:element name="Abbreviation" type="NonEmptyText" minOccurs="0" maxOccurs="unbounded">
+        <xs:annotation><xs:documentation xml:lang="lv">Saīsinājums vai nosaukums, kā to lieto dokumentos (AizM, VK, VIAA). Ja lietoti vairāki (SM un SAM), norāda visus; pirmais ir galvenais.</xs:documentation></xs:annotation>
+      </xs:element>
+      <xs:element name="BudgetCode" minOccurs="0" maxOccurs="unbounded">
+        <xs:annotation><xs:documentation xml:lang="lv">Iestādes kods Valsts kases sarakstā (ePlāni un eTāmes) attiecīgajā gadā — sasaistei ar budžeta datiem.</xs:documentation></xs:annotation>
+        <xs:complexType><xs:simpleContent><xs:extension base="NonEmptyText"><xs:attribute name="year" type="xs:gYear" use="required"/></xs:extension></xs:simpleContent></xs:complexType>
+      </xs:element>
+      <xs:element name="FormerName" minOccurs="0" maxOccurs="unbounded">
+        <xs:complexType><xs:simpleContent><xs:extension base="NonEmptyText"><xs:attribute name="until" type="xs:date"/></xs:extension></xs:simpleContent></xs:complexType>
+      </xs:element>
+    </xs:sequence>
+    <xs:attribute name="id" type="OrgId" use="required"><xs:annotation><xs:documentation xml:lang="lv">SS-IIII; resora kods = pirmie divi cipari; resora vadošā institūcija — SS-0000.</xs:documentation></xs:annotation></xs:attribute>
+    <xs:attribute name="regNo">
+      <xs:annotation><xs:documentation xml:lang="lv">Nodokļu maksātāja reģistrācijas numurs, 11 cipari — sasaistei ar VID un Uzņēmumu reģistru. Nav amatam un institūciju grupai.</xs:documentation></xs:annotation>
+      <xs:simpleType><xs:restriction base="xs:string"><xs:pattern value="[0-9]{11}"/></xs:restriction></xs:simpleType>
+    </xs:attribute>
+    <xs:attribute name="kind" use="required">
+      <xs:annotation><xs:documentation xml:lang="lv">ministry = ministrija; pm-institution = Valsts kanceleja; subordinate = padotības iestāde; independent = neatkarīga vai konstitucionāla institūcija; office = amats (Ministru prezidents); group = institūciju grupa (visas ministrijas); municipality = pašvaldība; company = valsts kapitālsabiedrība; public-person = atvasināta publiska persona; association = biedrība vai sociālais partneris.</xs:documentation></xs:annotation>
+      <xs:simpleType><xs:restriction base="xs:string">
+        <xs:enumeration value="ministry"/><xs:enumeration value="pm-institution"/><xs:enumeration value="subordinate"/><xs:enumeration value="independent"/>
+        <xs:enumeration value="office"/><xs:enumeration value="group"/><xs:enumeration value="municipality"/><xs:enumeration value="company"/>
+        <xs:enumeration value="public-person"/><xs:enumeration value="association"/>
+      </xs:restriction></xs:simpleType>
+    </xs:attribute>
+    <xs:attribute name="parent" type="OrgRefId"><xs:annotation><xs:documentation xml:lang="lv">Augstākā institūcija (padotības iestādei — ministrija; kapitālsabiedrībai — kapitāla daļu turētājs).</xs:documentation></xs:annotation></xs:attribute>
+    <xs:attribute name="successor" type="OrgRefId"><xs:annotation><xs:documentation xml:lang="lv">Institūcija, kas turpina darbību ar jaunu identifikatoru (pārcelta uz citu resoru, apvienota).</xs:documentation></xs:annotation></xs:attribute>
+    <xs:attribute name="validFrom" type="xs:date"/>
+    <xs:attribute name="validTo" type="xs:date"/>
+  </xs:complexType>
+</xs:schema>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Valdības deklarācijas datukopa — Valdības deklarācijas rīcības plāns, shēma v0.2
+  PPP Asociācija (PPPA), Country as Code. Melnraksts.
+-->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           xmlns="urn:pppa:cac:valdiba:0.2"
+           xmlns:v="urn:pppa:cac:valdiba:0.2"
+           targetNamespace="urn:pppa:cac:valdiba:0.2"
+           elementFormDefault="qualified" attributeFormDefault="unqualified" version="0.2" xml:lang="lv">
+
+  <xs:include schemaLocation="cac-valdiba-kopejie-0.2.xsd"/>
+
+  <xs:annotation>
+    <xs:documentation xml:lang="lv">
+      Valdības rīcības plāns deklarācijas īstenošanai (Ministru kabineta iekārtas likuma 15. panta trešā daļa; Ministru kabineta kārtības ruļļa 13.–26. punkts),
+      apstiprināts ar Ministru kabineta rīkojumu. Plāns ir otrā datu kopa, kas papildina deklarāciju.
+      Sasaiste ar deklarāciju: katrs pasākums norāda deklarācijas uzdevuma identifikatoru (Measure/@task). Plāna tabulas pirmās trīs ailes —
+      deklarācijas sadaļa, uzdevuma numurs un uzdevuma teksts — netiek kopētas: tās iegūst no deklarācijas datnes pēc šī identifikatora.
+      Pasākuma teksts, darbības rezultāts, atbildīgās institūcijas un termiņš tiek pārnesti burtiski, kā apstiprināts.
+    </xs:documentation>
+  </xs:annotation>
+
+  <xs:element name="GovernmentActionPlan">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Metadata">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Title" type="NonEmptyText"/>
+              <xs:element name="Approval" type="ApprovalType" maxOccurs="unbounded">
+                <xs:annotation><xs:documentation xml:lang="lv">Ministru kabineta rīkojums, ar kuru plāns apstiprināts vai grozīts. Katrs rīkojums ir plāna versija (.vN).</xs:documentation></xs:annotation>
+              </xs:element>
+              <xs:element name="Source" type="SourceType"/>
+              <xs:element name="DataVersion" type="DataVersionType"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Measure" type="MeasureType" maxOccurs="unbounded"/>
+      </xs:sequence>
+      <xs:attribute name="id" type="ItemId" use="required"><xs:annotation><xs:documentation xml:lang="lv">Valdības ID + .rp, piemēram lv-mk-2026-05-28.rp.</xs:documentation></xs:annotation></xs:attribute>
+      <xs:attribute name="government" type="GovernmentRef" use="required"/>
+      <xs:attribute name="declaration" type="DeclarationRef" use="required"/>
+      <xs:attribute name="schemaVersion" type="xs:string" use="required" fixed="0.2"/>
+    </xs:complexType>
+    <xs:unique name="uniqueMeasureNumber">
+      <xs:selector xpath="v:Measure"/>
+      <xs:field xpath="@number"/>
+    </xs:unique>
+  </xs:element>
+
+  <xs:complexType name="ApprovalType">
+    <xs:sequence>
+      <xs:element name="Act" type="NonEmptyText"/>
+      <xs:element name="Date" type="xs:date"/>
+      <xs:element name="Protocol" type="NonEmptyText" minOccurs="0"/>
+      <xs:element name="Publication" type="NonEmptyText" minOccurs="0"/>
+      <xs:element name="URL" type="xs:anyURI" minOccurs="0" maxOccurs="unbounded"/>
+    </xs:sequence>
+    <xs:attribute name="id" type="ItemId" use="required"/>
+    <xs:attribute name="kind" use="required">
+      <xs:simpleType><xs:restriction base="xs:string"><xs:enumeration value="approval"/><xs:enumeration value="amendment"/></xs:restriction></xs:simpleType>
+    </xs:attribute>
+  </xs:complexType>
+
+  <xs:complexType name="MeasureType">
+    <xs:annotation><xs:documentation xml:lang="lv">Rīcības plāna pasākums — viena plāna tabulas rinda. id = plāna ID + .uNNN.pN, kur NNN ir uzdevuma numurs un N — pasākuma numurs uzdevumā.</xs:documentation></xs:annotation>
+    <xs:sequence>
+      <xs:element name="Text" type="NonEmptyText"><xs:annotation><xs:documentation xml:lang="lv">Aile „Rīcības plāna pasākums”, burtiski.</xs:documentation></xs:annotation></xs:element>
+      <xs:element name="Result" type="NonEmptyText"><xs:annotation><xs:documentation xml:lang="lv">Aile „Darbības rezultāts”, burtiski.</xs:documentation></xs:annotation></xs:element>
+      <xs:element name="Responsible" type="OrgText"><xs:annotation><xs:documentation xml:lang="lv">Aile „Atbildīgā institūcija”, burtiski.</xs:documentation></xs:annotation></xs:element>
+      <xs:element name="CoResponsible" type="OrgText" minOccurs="0"><xs:annotation><xs:documentation xml:lang="lv">Aile „Līdzatbildīgās institūcijas”, burtiski.</xs:documentation></xs:annotation></xs:element>
+      <xs:element name="Deadline" type="DeadlineText"><xs:annotation><xs:documentation xml:lang="lv">Aile „Izpildes termiņš”, burtiski.</xs:documentation></xs:annotation></xs:element>
+      <xs:element name="Progress" type="ProgressType" minOccurs="0" maxOccurs="unbounded"/>
+    </xs:sequence>
+    <xs:attribute name="id" type="ItemId" use="required"/>
+    <xs:attribute name="number" use="required">
+      <xs:annotation><xs:documentation xml:lang="lv">Aile „Pasākuma numurs”, kā drukāts, piemēram 1.3.</xs:documentation></xs:annotation>
+      <xs:simpleType><xs:restriction base="xs:string"><xs:pattern value="[0-9]{1,3}\.[0-9]{1,2}\.?"/></xs:restriction></xs:simpleType>
+    </xs:attribute>
+    <xs:attribute name="task" type="TaskRef" use="required">
+      <xs:annotation><xs:documentation xml:lang="lv">Deklarācijas uzdevums. Aizstāj plāna tabulas ailes „Deklarācijas sadaļa un rīcības joma”, „Deklarācijā dotā uzdevuma numurs” un „Deklarācijā dotais uzdevums”.</xs:documentation></xs:annotation>
+    </xs:attribute>
+    <xs:attribute name="funding" use="required">
+      <xs:annotation><xs:documentation xml:lang="lv">allocated = rīkojuma 1. pielikums (finansējums rasts vai nodrošināti kompensējošie pasākumi); additional = 2. pielikums (nepieciešams papildu finansējums).</xs:documentation></xs:annotation>
+      <xs:simpleType><xs:restriction base="xs:string"><xs:enumeration value="allocated"/><xs:enumeration value="additional"/></xs:restriction></xs:simpleType>
+    </xs:attribute>
+    <xs:attribute name="priority" type="xs:string">
+      <xs:annotation><xs:documentation xml:lang="lv">Aile „Prioritārie pasākumi”, burtiski, piemēram PP(AizM). Nav norādīts, ja pasākums nav prioritārs.</xs:documentation></xs:annotation>
+    </xs:attribute>
+  </xs:complexType>
+
+  <xs:complexType name="OrgText">
+    <xs:annotation><xs:documentation xml:lang="lv">Institūcijas, kā rakstīts avotā; orgs — to identifikatori organizāciju reģistrā (organizacijas.xml), piemēram 03-0000 (Valsts kanceleja), 10-0000 (Aizsardzības ministrija). Ja kādu institūciju reģistrā nevar atrast, tā paliek tikai tekstā.</xs:documentation></xs:annotation>
+    <xs:simpleContent><xs:extension base="NonEmptyText"><xs:attribute name="orgs" type="OrgRefList"/></xs:extension></xs:simpleContent>
+  </xs:complexType>
+
+  <xs:simpleType name="DateList"><xs:list itemType="xs:date"/></xs:simpleType>
+  <xs:complexType name="DeadlineText">
+    <xs:annotation><xs:documentation xml:lang="lv">Termiņš, kā rakstīts avotā; values — datumi ISO formā, ja tie norādīti.</xs:documentation></xs:annotation>
+    <xs:simpleContent><xs:extension base="NonEmptyText"><xs:attribute name="values" type="DateList"/></xs:extension></xs:simpleContent>
+  </xs:complexType>
+
+  <xs:complexType name="ProgressType">
+    <xs:annotation><xs:documentation xml:lang="lv">Informācija par pasākuma izpildi pārskata periodā (rīkojuma 8.–10. punkts; kārtības ruļļa 23.–24. punkts). id = pasākuma ID + .zGGGGMMDD.</xs:documentation></xs:annotation>
+    <xs:sequence>
+      <xs:element name="Text" type="NonEmptyText"/>
+      <xs:element name="Reason" type="NonEmptyText" minOccurs="0"><xs:annotation><xs:documentation xml:lang="lv">Iemesli, ja pasākums termiņā izpildīts daļēji vai nav izpildīts.</xs:documentation></xs:annotation></xs:element>
+    </xs:sequence>
+    <xs:attribute name="id" type="ItemId" use="required"/>
+    <xs:attribute name="period" type="xs:date" use="required"/>
+    <xs:attribute name="status" use="required">
+      <xs:simpleType><xs:restriction base="xs:string"><xs:enumeration value="done"/><xs:enumeration value="partly_done"/><xs:enumeration value="not_done"/><xs:enumeration value="in_progress"/></xs:restriction></xs:simpleType>
+    </xs:attribute>
+  </xs:complexType>
+</xs:schema>

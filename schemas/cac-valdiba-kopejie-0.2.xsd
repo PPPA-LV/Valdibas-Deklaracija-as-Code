@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Valdības deklarācijas datukopa — kopīgie tipi un valdību reģistrs, shēma v0.2
+  PPP Asociācija (PPPA), Country as Code. Melnraksts.
+  Visu v0.2 shēmu saime lieto vienu vārdtelpu un šos tipus (xs:include).
+-->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           xmlns="urn:pppa:cac:valdiba:0.2"
+           xmlns:v="urn:pppa:cac:valdiba:0.2"
+           targetNamespace="urn:pppa:cac:valdiba:0.2"
+           elementFormDefault="qualified" attributeFormDefault="unqualified" version="0.2" xml:lang="lv">
+
+  <xs:annotation>
+    <xs:documentation xml:lang="lv">
+      Kopīgie tipi visai shēmu saimei: identifikatori, organizāciju atsauces, teksts ar mašīnlasāmu vērtību, klasifikācija.
+      Šeit arī valdību reģistra saknes elements (GovernmentRegistry): datu noliktavas dimensija „Valdība”. Organizācijas — organizaciju-registrs-0.2.xsd.
+      Identifikatoru veidošanas noteikumi: docs/IDENTIFIKATORI.md.
+    </xs:documentation>
+  </xs:annotation>
+
+  <!-- ============================================================ identifikatori -->
+  <xs:simpleType name="DeclarationId">
+    <xs:annotation><xs:documentation xml:lang="lv">Deklarācijas identifikators: lv-dekl-GGGG-MM-DD[-n]. Datums = datums dokumentā; ja tā nav vai tas nav pilns — Saeimas uzticības balsojuma datums.</xs:documentation></xs:annotation>
+    <xs:restriction base="xs:ID"><xs:pattern value="lv-dekl-[0-9]{4}-[0-9]{2}-[0-9]{2}(-[2-9])?"/></xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="DeclarationRef">
+    <xs:restriction base="xs:string"><xs:pattern value="lv-dekl-[0-9]{4}-[0-9]{2}-[0-9]{2}(-[2-9])?"/></xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="GovernmentId">
+    <xs:annotation><xs:documentation xml:lang="lv">Valdības (Ministru kabineta) identifikators: lv-mk-GGGG-MM-DD[-n], kur datums ir Saeimas uzticības balsojuma datums.</xs:documentation></xs:annotation>
+    <xs:restriction base="xs:ID"><xs:pattern value="lv-mk-[0-9]{4}-[0-9]{2}-[0-9]{2}(-[2-9])?"/></xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="GovernmentRef">
+    <xs:restriction base="xs:string"><xs:pattern value="lv-mk-[0-9]{4}-[0-9]{2}-[0-9]{2}(-[2-9])?"/></xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="ItemId">
+    <xs:annotation><xs:documentation xml:lang="lv">Jebkura elementa globāli unikāls identifikators: saknes identifikators + segmenti, piemēram lv-dekl-2026-05-28.u012 vai lv-mk-2026-05-28.rp.u001.p3.</xs:documentation></xs:annotation>
+    <xs:restriction base="xs:ID"><xs:pattern value="lv-(dekl|mk)-[0-9]{4}-[0-9]{2}-[0-9]{2}(-[2-9])?(\.[a-z]{1,2}[0-9]*(-[0-9]+)*)+"/></xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="ItemRef">
+    <xs:restriction base="xs:string"><xs:pattern value="lv-(dekl|mk)-[0-9]{4}-[0-9]{2}-[0-9]{2}(-[2-9])?(\.[a-z]{1,2}[0-9]*(-[0-9]+)*)+"/></xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="TaskRef">
+    <xs:annotation><xs:documentation xml:lang="lv">Atsauce uz deklarācijas uzdevumu: lv-dekl-…​.uNNN.</xs:documentation></xs:annotation>
+    <xs:restriction base="xs:string"><xs:pattern value="lv-dekl-[0-9]{4}-[0-9]{2}-[0-9]{2}(-[2-9])?\.u[0-9]{3,4}(-[0-9]+)?"/></xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="TALietaNumber">
+    <xs:annotation><xs:documentation xml:lang="lv">TAP portāla tiesību akta lietas numurs, piemēram 26-TA-1545 (kārtības ruļļa 33. punkts).</xs:documentation></xs:annotation>
+    <xs:restriction base="xs:string"><xs:pattern value="[0-9]{2}-TA-[0-9]+"/></xs:restriction>
+  </xs:simpleType>
+
+  <!-- ============================================================ vienkāršie tipi -->
+  <xs:simpleType name="NonEmptyText">
+    <xs:restriction base="xs:string"><xs:minLength value="1"/><xs:pattern value="[\s\S]*\S[\s\S]*"/></xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="OrgId">
+    <xs:annotation><xs:documentation xml:lang="lv">Institūcijas identifikators — CaC ID — organizāciju reģistrā (organizacijas.xml): SS-IIII, kur SS — resora kods (2 cipari), IIII — institūcijas kods resorā (4 cipari).
+      Resora vadošā institūcija (ministrija, Valsts kanceleja, patstāvīga institūcija) — SS-0000, piemēram 20-0000 (Klimata un enerģētikas ministrija). Identifikatoru piešķir reģistra uzturētājs (Valsts kanceleja); to nemaina un atkārtoti neizmanto.</xs:documentation></xs:annotation>
+    <xs:restriction base="xs:string"><xs:pattern value="[0-9]{2}-[0-9]{4}"/></xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="OrgRefId">
+    <xs:restriction base="OrgId"/>
+  </xs:simpleType>
+  <xs:simpleType name="OrgRefList"><xs:list itemType="OrgRefId"/></xs:simpleType>
+  <xs:simpleType name="OrgCode">
+    <xs:annotation><xs:documentation xml:lang="lv">Organizācijas kods no reģistra (valdibas.xml), piemēram AizM, FM, VARAM, VK. VISAS = visas ministrijas.</xs:documentation></xs:annotation>
+    <xs:restriction base="xs:string"><xs:pattern value="[A-ZĀČĒĢĪĶĻŅŠŪŽ][A-Za-zĀ-ž]{0,11}"/></xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="DateValue">
+    <xs:annotation><xs:documentation xml:lang="lv">Mašīnlasāms datums vai periods: GGGG, GGGG-MM, GGGG-MM-DD vai ISO 8601 ilgums (P100D, P3M).</xs:documentation></xs:annotation>
+    <xs:restriction base="xs:string"><xs:pattern value="[0-9]{4}(-[0-9]{2}(-[0-9]{2})?)?|P[0-9]+[DWMY]"/></xs:restriction>
+  </xs:simpleType>
+
+  <!-- ============================================================ saliktie tipi -->
+  <xs:complexType name="TextWithId">
+    <xs:simpleContent><xs:extension base="NonEmptyText"><xs:attribute name="id" type="ItemId" use="required"/></xs:extension></xs:simpleContent>
+  </xs:complexType>
+
+  <xs:complexType name="DateText">
+    <xs:annotation><xs:documentation xml:lang="lv">Termiņš vai datums: teksts tā, kā rakstīts, un, ja iespējams, mašīnlasāma vērtība. Ja termiņš ir notikums, value nav.</xs:documentation></xs:annotation>
+    <xs:simpleContent><xs:extension base="NonEmptyText"><xs:attribute name="value" type="DateValue"/></xs:extension></xs:simpleContent>
+  </xs:complexType>
+
+  <xs:complexType name="OrgRef">
+    <xs:annotation><xs:documentation xml:lang="lv">Organizācija: teksts tā, kā rakstīts avotā; code — normalizēts kods no reģistra; unit — padotības iestāde, ja norādīta (piemēram FM (VNĪ)).</xs:documentation></xs:annotation>
+    <xs:simpleContent><xs:extension base="NonEmptyText">
+      <xs:attribute name="code" type="OrgCode"/>
+      <xs:attribute name="unit" type="xs:string"/>
+    </xs:extension></xs:simpleContent>
+  </xs:complexType>
+
+  <xs:complexType name="Classification">
+    <xs:annotation><xs:documentation xml:lang="lv">Klasifikācijas kods: scheme = klasifikators (piemēram tap-politikas-joma, cofog), code = kods, teksts = nosaukums.</xs:documentation></xs:annotation>
+    <xs:simpleContent><xs:extension base="xs:string">
+      <xs:attribute name="scheme" type="xs:NCName" use="required"/>
+      <xs:attribute name="code" type="xs:string" use="required"/>
+    </xs:extension></xs:simpleContent>
+  </xs:complexType>
+
+  <xs:complexType name="SourceType">
+    <xs:annotation><xs:documentation xml:lang="lv">Avota fails, no kura dati pārnesti.</xs:documentation></xs:annotation>
+    <xs:sequence>
+      <xs:element name="FileName" type="NonEmptyText"/>
+      <xs:element name="SHA256" minOccurs="0"><xs:simpleType><xs:restriction base="xs:string"><xs:pattern value="[0-9a-f]{64}"/></xs:restriction></xs:simpleType></xs:element>
+      <xs:element name="Pages" type="xs:positiveInteger" minOccurs="0"/>
+      <xs:element name="URL" type="xs:anyURI" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="DataVersionType">
+    <xs:annotation><xs:documentation xml:lang="lv">Datu (nevis politiskā satura) versija. Parakstītais teksts nemainās; versija mainās, ja labo pārnešanas kļūdu vai papildina datus. Identifikatori starp versijām nemainās.</xs:documentation></xs:annotation>
+    <xs:sequence>
+      <xs:element name="Change" minOccurs="0" maxOccurs="unbounded" type="NonEmptyText"/>
+      <xs:element name="RetiredId" minOccurs="0" maxOccurs="unbounded" type="ItemRef">
+        <xs:annotation><xs:documentation xml:lang="lv">Identifikators, kas vairs netiek lietots. To nekad neizmanto atkārtoti.</xs:documentation></xs:annotation>
+      </xs:element>
+    </xs:sequence>
+    <xs:attribute name="number" type="xs:positiveInteger" use="required"/>
+    <xs:attribute name="date" type="xs:date" use="required"/>
+    <xs:attribute name="preparedBy" type="xs:string"/>
+  </xs:complexType>
+
+  <!-- ============================================================ valdību reģistrs -->
+  <xs:element name="GovernmentRegistry">
+    <xs:annotation><xs:documentation xml:lang="lv">Valdību reģistrs (datu noliktavas dimensijas). Viena datne visām valdībām.</xs:documentation></xs:annotation>
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Government" type="GovernmentType" maxOccurs="unbounded"/>
+      </xs:sequence>
+      <xs:attribute name="schemaVersion" type="xs:string" use="required" fixed="0.2"/>
+      <xs:attribute name="dataVersion" type="xs:positiveInteger" use="required"/>
+      <xs:attribute name="date" type="xs:date" use="required"/>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:complexType name="GovernmentType">
+    <xs:annotation><xs:documentation xml:lang="lv">Valdība = Ministru kabinets, kam Saeima izteikusi uzticību. Ministru prezidenta maiņa = jauna valdība; atsevišķa ministra maiņa — tā pati valdība.</xs:documentation></xs:annotation>
+    <xs:sequence>
+      <xs:element name="Label" type="NonEmptyText"/>
+      <xs:element name="PrimeMinister" type="NonEmptyText"/>
+      <xs:element name="ConfidenceVote">
+        <xs:complexType>
+          <xs:attribute name="date" type="xs:date" use="required"/>
+          <xs:attribute name="votesFor" type="xs:nonNegativeInteger"/>
+          <xs:attribute name="votesAgainst" type="xs:nonNegativeInteger"/>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="Declaration" type="DeclarationRef" minOccurs="0"/>
+      <xs:element name="ActionPlan" type="ItemRef" minOccurs="0"/>
+      <xs:element name="TermEnd" type="DateText" minOccurs="0">
+        <xs:annotation><xs:documentation xml:lang="lv">Pilnvaru beigas (nākamās valdības apstiprināšana vai cits notikums). Rīcības plāna termiņi nedrīkst to pārsniegt (kārtības ruļļa pielikums, 9. aile).</xs:documentation></xs:annotation>
+      </xs:element>
+      <xs:element name="Note" type="NonEmptyText" minOccurs="0" maxOccurs="unbounded"/>
+    </xs:sequence>
+    <xs:attribute name="id" type="GovernmentId" use="required"/>
+  </xs:complexType>
+
+</xs:schema>
