@@ -1,5 +1,10 @@
 # Izmaiņas
 
+## 0.2.1 — 2026-10-10
+
+- Jauns deklarācijas projekts `data/lv-dekl-2026-10-10.xml` no PPPA Latvijas Nacionālās MI stratēģijas (`pppa-mis-2026-09-10`, v2.2): vīzija — ievads, īstenošanas principi — principi, pīlāri — nodaļas, mērķi — apakšnodaļas ar `Goal`, rīcības — uzdevumi `u053`–`u079` (uNNN = 052 + rīcības numurs). No `lv-dekl-2026-05-28` pārņemti `u015`, `u021`, `u039`. Teksts burtiski.
+- Rīks `tools/projekts_no_mi_strategijas.py`.
+
 ## 0.2 — 2026-10-09
 
 - ProcessGit skatītājs: `data/processgit.viewer.json` piesaista redaktoru deklarācijas, rīcības plāna un organizāciju reģistra datnēm; redaktors ProcessGit iframe ielādē datni no repozitorija (PGV_INIT, PGV_FETCH) un saistītās datnes no tās pašas mapes; lejupielādes un projekta funkcijas skatītājā paslēptas.

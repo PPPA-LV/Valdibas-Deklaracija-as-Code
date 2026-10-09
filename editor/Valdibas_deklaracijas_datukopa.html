@@ -3785,6 +3785,7 @@ function docNoteHtml(){
     return `<b>Rīcības plāns</b> · šai deklarācijai (<code>${esc(D || "—")}</code>) rīcības plāns nav pievienots.`; }
   if (cur === "draft") { const s = forkStats(M), imp = DOCS.src ? `<div class="dnact"><button class="act" type="button" data-import="1">Importēt esošo: ${esc(srcTitle(DOCS.src))}</button></div>` : "";
     return `<b>Jaunas deklarācijas projekts</b> · <code>${esc(declId(M) || "—")}</code>${M.meta.derivedFrom ? ` · importēts no <code>${esc(M.meta.derivedFrom)}</code>` : ""}${s ? ` · pārņemti ${s.taken} uzdevumi, jauni ${s.added}${s.removed != null ? `, izņemti ${s.removed}` : ""}` : ""}. Drukātais numurs mainās, ja uzdevumus pievieno, dzēš vai pārvieto; identifikators nemainās.${imp}`; }
+  if (M.meta.govStatus === "draft") return `<b>Deklarācijas projekts</b> · <code>${esc(declId(M) || "—")}</code>${M.meta.derivedFrom ? ` · uzdevumi pārņemti arī no <code>${esc(M.meta.derivedFrom)}</code>` : ""}. Drukātais numurs mainās, ja uzdevumus pievieno, dzēš vai pārvieto; identifikators nemainās.`;
   return `<b>${esc(srcTitle(M))}</b> · <code>${esc(declId(M) || "—")}</code> · parakstītais teksts. Labot tikai pārnešanas kļūdas; labojumi palielina datu versiju.`; }
 function render(focus){
   if (!M) return;

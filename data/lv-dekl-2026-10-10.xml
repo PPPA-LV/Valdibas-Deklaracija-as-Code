@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GovernmentDeclaration xmlns="urn:pppa:cac:valdiba:0.2" id="lv-dekl-2026-10-10" schemaVersion="0.2">
+  <Metadata>
+    <Title>Deklarācija par Ministru kabineta iecerēto darbību</Title>
+    <Subtitle>Projekts</Subtitle>
+    <Date>2026-10-10</Date>
+    <Place>Rīga</Place>
+    <Language>lv</Language>
+    <LegalBasis>Ministru kabineta iekārtas likums, 14. un 15. pants</LegalBasis>
+    <Government status="draft"/>
+    <DerivedFrom>lv-dekl-2026-05-28</DerivedFrom>
+    <Source>
+      <FileName>pppa-mis-2026-09-10.xml</FileName>
+      <URL>https://processgit.org/Country-as-Code/AI-Strategija/src/branch/main/data/pppa-mis-2026-09-10.xml</URL>
+    </Source>
+    <DataVersion number="1" date="2026-10-10">
+      <Change>Projekts izveidots no PPPA Latvijas Nacionālās MI stratēģijas pppa-mis-2026-09-10 (v2.2): pīlāri — nodaļas, mērķi — apakšnodaļas, rīcības r01–r27 — uzdevumi u053–u079 (uNNN = 052 + rīcības numurs).</Change>
+      <Change>No lv-dekl-2026-05-28 pārņemti atbilstošie uzdevumi u015, u021, u039 (Task/@derivedFrom).</Change>
+    </DataVersion>
+  </Metadata>
+  <Body>
+    <Section id="lv-dekl-2026-10-10.s01" kind="introduction">
+      <Paragraph>Latvijas mērķis ir kļūt par atvērtāko un uzticamāko vidi mākslīgā intelekta ieviešanai un MI ekonomikai, būtiski paaugstināt valsts un uzņēmumu efektivitāti un stiprināt tehnoloģisko neatkaribu un radītu eksportspējīgu izaugsmi.</Paragraph>
+    </Section>
+    <Section id="lv-dekl-2026-10-10.s02" kind="principles">
+      <Heading>Kā publiskā pārvalde rīkojas</Heading>
+      <Paragraph>Šie principi attiecas uz visiem trim pīlāriem un katru rīcības plāna punktu.</Paragraph>
+      <List style="bullet">
+        <Item>Ko dara institūcijas: Katra publiskās pārvaldes institūcija rīkojas, negaidot centralizētu platformu vai viena piegādātāja visaptverošu risinājumu.</Item>
+        <Item>Ko dara MI: MI atbalsta lēmumu pieņemšanu ar jēgpilnu datu analīzi un pilnībā auditējamu pierakstu. MI ne tikai automatizē, bet patiesi atbalsta lēmumu pieņēmējus.</Item>
+        <Item>Riski: MI ieviešana ietver izaicinājumus un riskus, kurus iespēju robežās jāminimizē, nesamazinot ieviešanas tempu.</Item>
+        <Item>Atbildība: Atbildīgais par publiskās pārvaldes institūcijas lēmumiem vienmēr paliek cilvēks — amatpersona, atbilstoši normatīvajiem aktiem.</Item>
+      </List>
+    </Section>
+    <Section id="lv-dekl-2026-10-10.s03" kind="priorities">
+      <Heading>Ministru kabineta iecerētās darbības prioritātes</Heading>
+      <Section id="lv-dekl-2026-10-10.s03-01" kind="chapter" label="I">
+        <Heading>Efektivitāte — Atbrīvot cilvēkus un uzņēmumus no birokrātijas</Heading>
+        <Paragraph>Ikviens iedzīvotājs un uzņēmums saņem uzticamu MI atbalstu darbam ar valsti — atļaujas, deklarācijas, reģistrācijas un iesniegumi tiek nokārtoti minūtēs, uzraudzīti, auditējami un atsaucami. Šī ir suverēnā, iekšzemes puse: tās flagmanis ir "MI Dvīnis" — verificētas Latvijas fiziskas vai juridiskas personas MI pārstāvis, kas balstās Latvijas eID (eParaksts) uzticamības enkurā un rīkojas vienīgi piešķirtās pilnvaras robežās.</Paragraph>
+        <Section id="lv-dekl-2026-10-10.s03-01-01" kind="subchapter" label="1.">
+          <Heading>Proaktīvi valsts pakalpojumi iedzīvotājiem un uzņēmumiem</Heading>
+          <Goal id="lv-dekl-2026-10-10.s03-01-01.g1">Valsts un pašvaldības sniedz publiskās pārvaldes pakalpojumus iedzīvotājiem un uzņēmumiem pēc savas iniciatīvas, negaidot pieteikumu iesniegšanu. Pabalsti, atļaujas un paziņojumi tiek nodrošināti automātiski — iedzīvotājiem un uzņēmumiem nav jāpieprasa un jāpierāda fakti, kas jau ir publiskās pārvaldes rīcībā.</Goal>
+            <Task id="lv-dekl-2026-10-10.u021" number="1" derivedFrom="lv-dekl-2026-05-28.u021">
+              <Text>Īstenosim Rīcības grupas birokrātijas mazināšanai izstrādātos pasākumus, efektivizējot valsts pārvaldi, mazinot administratīvo slogu un paātrinot lēmumu pieņemšanu.</Text>
+            </Task>
+            <Task id="lv-dekl-2026-10-10.u053" number="2">
+              <Text>Katrā institūcijā vismaz viens algoritmizēts darbības process. Katra institūcija ievieš vismaz vienu pilotprojektu, kas ietver strādājošu, algoritmizētu, auditējamu institūcijas darbības procesu, kurā tiek izmantots MI, lai sniegtu atbalstu lēmumu pieņemšanā.</Text>
+            </Task>
+            <Task id="lv-dekl-2026-10-10.u054" number="3">
+              <Text>Institūciju dokumenti satur vienotu digitālo identitāti. Katra institūcija ievieš vienotus dokumentu digitālos identifikatorus un metadatu standartus, lai dokumenti kļūst mašīnlasāmi — MI tos var atrast, izsekot, klasificēt, sasaistīt un analizēt vienas institūcijas, nozares un valsts mērogā.</Text>
+            </Task>
+            <Task id="lv-dekl-2026-10-10.u061" number="4">
+              <Text>"MI Dvīnis" — funkcionējoša pilotdemonstrācija Latvijas personām. Latvija publiski demonstrē strādājošu "MI Dvīni" — personīgu MI pārstāvi verificētai Latvijas fiziskai vai juridiskai personai, kas rīkojas tās vārdā un balstās personas eID (eParaksts) identitātē. Tas neprasa jaunu likumdošanu — L0 līmenī "MI Dvīnis" sagatavo dokumentu, persona pārskata un paraksta ar savu eID; L1 līmenī persona izsniedz mašīnlasāmu, e-parakstītu, ierobežotu un atsaucamu pilnvaru, un "MI Dvīnis" rīkojas tās robežās — katra darbība kriptogrāfiski piesaistīta personai ar pilnu izsekojamību. (Ārvalstu personu aģenti netiek veidoti kā Latvijas Dvīņi — tie verificējas savas jurisdikcijas enkurā caur uzticamības vārteju; sk. II pīlāru.)</Text>
+            </Task>
+            <Task id="lv-dekl-2026-10-10.u065" number="5">
+              <Text>Starpnozaru MI ieviešanas atbalsta komandas. MI lietpratība jādiferencē pēc lomas — vadībai, procesu īpašniekiem, iepirkumu speciālistiem, juristiem, datu pārvaldniekiem un auditoriem ir atšķirīgas vajadzības. Papildus uz noteiktu laiku ministrijās, pašvaldībās un MVU izvietojamas starpnozaru komandas, kas apvieno procesu pārstrādi, datu inženieriju, MI ieviešanu, kiberdrošību un pārmaiņu vadību — lai pilotprojekts kļūtu par operatīvu ieviešanu.</Text>
+            </Task>
+        </Section>
+        <Section id="lv-dekl-2026-10-10.s03-01-02" kind="subchapter" label="2.">
+          <Heading>Izmaksu efektivitāte un auditējami lēmumi</Heading>
+          <Goal id="lv-dekl-2026-10-10.s03-01-02.g1">Valsts un pašvaldības lēmumu pieņemšanas sagatavošanā izmanto MI, lai lēmumi tiek sagatavoti ātrāk, tiktu datos balstīti un ar pilnu izsekošanas ceļu. Lēmumu pieņēmēji strādā ar MI sagatavotu analīzi. Administratīvais slogs iedzīvotājiem un uzņēmumiem samazinās.</Goal>
+            <Task id="lv-dekl-2026-10-10.u015" number="6" derivedFrom="lv-dekl-2026-05-28.u015">
+              <Text>Lai mazinātu publisko līdzekļu izšķērdēšanas riskus, uzsāksim prioritāro valsts iepirkumu un lielāko kapitālsabiedrību iepirkumu pārskatīšanu, īpašu uzmanību pievēršot sadārdzinājumiem, līgumu grozījumiem un konkurences ierobežošanas riskiem. Uzsāksim datu publiskošanu par noslēgtajiem iepirkumu līgumiem, veiktajiem grozījumiem, līgumu summu izmaiņām, lai valdībai un sabiedrībai būtu pieejama informācija par aktuālo līgumu summām.</Text>
+            </Task>
+            <Task id="lv-dekl-2026-10-10.u055" number="7">
+              <Text>Mašīnlasāmi publiskā iepirkuma līgumi. Visi publiskie iepirkuma līgumi, kas pārsniedz Direktīvas 2014/24/ES noteiktos sliekšņus, tiek sagatavoti izmantojot mašīnlasāmu standartu. Līgumi kļūst par strukturētiem datiem, kurus var izmantot līgumu slēgšanas un izpildes uzraudzībai, izmantojot MI.</Text>
+            </Task>
+            <Task id="lv-dekl-2026-10-10.u056" number="8">
+              <Text>MI lietpratība obligāta visiem lēmumu pieņēmējiem. Visi publiskā sektora lēmumu pieņēmēji, ne tikai IT speciālisti, apgūst strukturētu MI pārvaldības apmācību. Fokuss uz spēju izprast MI darbības principus atbilstošajā jomā, validēt MI veikto analīzi un pusautomātiskos lēmumus, kas ir pilnībā auditējami.</Text>
+            </Task>
+            <Task id="lv-dekl-2026-10-10.u060" number="9">
+              <Text>Nacionāls datu katalogs MI vajadzībām. Publiskā sektora dati tiek veidoti kā nacionāls aktīvs — strukturēti un pieejami MI izstrādei DVI uzraudzībā. Nacionāls katalogs nodrošina atkārtoti izmantojamus latviešu MI komponentus starp iestādēm.</Text>
+            </Task>
+            <Task id="lv-dekl-2026-10-10.u066" number="10">
+              <Text>Koplietojama algoritmizētu publiskās pārvaldes procesu infrastruktūra. Tipveida publiskās pārvaldes procesi, noteikumi, kontroles punkti un lēmumu loģika pārvēršami strukturētā, mašīnlasāmā formā (Process-as-Code) vienotā, atkārtoti izmantojamā bibliotēkā. Tas samazina digitalizācijas izmaksas, paātrina automatizāciju un veido MI gatavu pārvaldes infrastruktūru.</Text>
+            </Task>
+            <Task id="lv-dekl-2026-10-10.u067" number="11">
+              <Text>Nacionālais MI produktivitātes rādītāju kopums. Stratēģija mērāma pēc rezultāta, nevis aktivitātes: nevis pasākumu un apmācīto skaits, bet verificēts izmaksu un cikla laika samazinājums tautsaimniecībā, atbrīvotās administratīvās stundas pārvaldē, kritisko sistēmu izvietojamība Latvijā/ES un latviešu valodas modeļu sniegums, reģistrēto sistēmu skaits ar noteiktu atbildīgo. Bāzlīnija 2026. gadā, atjaunošana ik gadu.</Text>
+            </Task>
+            <Task id="lv-dekl-2026-10-10.u069" number="12">
+              <Text>Pašvaldību un to kapitālsabiedrību MI iepirkuma atbalsta mehānisms. Pašvaldības MI iepirkumā saskaras ar sadrumstalotu tirgu, ierobežotiem resursiem un piegādātāju atkarības risku, katra risinot vienus un tos pašus jautājumus atsevišķi. Vajadzīgs koordinēts mehānisms — kopīgas iepirkuma veidnes ar algoritmiskās pārredzamības un riska prasībām, zināšanu apmaiņas platforma, iespēja apvienot iepirkumus.</Text>
+            </Task>
+            <Task id="lv-dekl-2026-10-10.u070" number="13">
+              <Text>Savietojamības prasības — obligātas ikvienā MI iepirkumā. Katrs piegādātājs ar savu formātu nozīmē atkarību, nevis kontroli. Ikvienam publiskā sektora MI risinājumam nosakāmas obligātas savietojamības prasības — atvērtas saskarnes (API), standartizētas datu struktūras un migrācijas iespēja bez piegādātāja piekrišanas.</Text>
+            </Task>
+            <Task id="lv-dekl-2026-10-10.u071" number="14">
+              <Text>Vienota valsts digitālās ekonomikas un MI platformu arhitektūra. Digitālā transformācija jāpārceļ no atsevišķiem IT projektiem uz vienotu, modulāru platformu arhitektūru: MI modeļu izmantošanas platforma, Process-as-Code slānis, federēta datu ekosistēma, API un integrāciju reģistrs, atkārtoti izmantojamu risinājumu bibliotēka un vienots drošības, auditējamības un atbilstības slānis. Sākums — 2–3 pilotprojekti, piemēram, pabalstu administrēšanā, iepirkumu analītikā vai būvniecības procesos.</Text>
+            </Task>
+        </Section>
+      </Section>
+      <Section id="lv-dekl-2026-10-10.s03-02" kind="chapter" label="II">
+        <Heading>Atvērtība — Atvērt Latviju pasaules MI biznesam</Heading>
+        <Paragraph>Latvija kļūst par ES atvērto vārteju MI aģentu ekonomikai. Eksporta produkts nav identitāte, bet atvērta uzticamības vārteja, kas pārbauda jebkura MI aģenta identitāti un pilnvaru pirms darbības pieņemšanas. Ārvalstu persona vai uzņēmums nesaņem Latvijas "MI Dvīni" — tā aģents balstās savas jurisdikcijas uzticamības enkurā (eIDAS-saskaņoti), bet caur Latvijas vārteju iegūst juridisku spēku visā ES vienotajā tirgū no Rīgas.</Paragraph>
+        <Section id="lv-dekl-2026-10-10.s03-02-01" kind="subchapter" label="3.">
+          <Heading>Atvērta MI aģentu identitātes, pilnvaru un uzticamības vārteja</Heading>
+          <Goal id="lv-dekl-2026-10-10.s03-02-01.g1">Latvija uztur atvērtu infrastruktūru, kas savieno identitāti (kas ir aģents un kam tas pieder), pilnvaru (ko aģents drīkst darīt — ierobežotu, atsaucamu, mašīnlasāmu) un uzticamības vārteju (verifikatoru, ko palaiž katra saņemošā sistēma — banka, reģistrs, pašvaldība, ERP —, pārbaudot identitāti, pilnvaru un riska klasi pirms darbības pieņemšanas). "MI Dvīnis" ir šīs infrastruktūras cilvēkam pieejamā, Latvijā enkurotā izpausme; vārteja ir eksportējamais produkts — vienīgais punkts, caur kuru jāiziet katram aģentam neatkarīgi no izdevējjurisdikcijas. Tas Latviju padara par jurisdikciju, no kuras uzticami MI aģenti var darboties Eiropā un pasaulē.</Goal>
+            <Task id="lv-dekl-2026-10-10.u064" number="15">
+              <Text>Uzticamības vārteja — pārrobežu MI aģentu verifikācija. Latvija izveido atvērtu verifikācijas vārteju, kas pārbauda MI aģenta identitāti, pilnvaru un riska klasi pirms darbības pieņemšanas. Ārvalstu aģenti uzrāda akreditācijas datus, kas enkuroti to pašu jurisdikcijas uzticamības enkurā (eIDAS-saskaņoti); vārteja tos atzīst, neprasot atkārtotu reģistrāciju Latvijā. Vienlaikus tiek noteiktas obligātas savietojamības prasības — atvērti API, standartizētas datu struktūras —, lai aģenti no dažādiem izdevējiem darbotos savstarpēji.</Text>
+            </Task>
+            <Task id="lv-dekl-2026-10-10.u059" number="16">
+              <Text>Regulatīvās "MI Smilškastes" paplašināšana. Paplašināt speciālo regulatīvo vidi jeb "MI Smilškasti" — vairāk izvērtējamo projektu, ātrāks atlases cikls, institūciju un publiskas personas kapitālsabiedrību aktīva iesaiste, piedāvājot to rīcībā esošos datus un infrastruktūru. PPPA šim mērķim attīsta AI LV Exchange (aiexchange.pppa.lv) — sadarbspējas smilškastes paplašinājumu MCP standartam.</Text>
+            </Task>
+            <Task id="lv-dekl-2026-10-10.u058" number="17">
+              <Text>Publiskās un privātās sadarbība MI ieviešanā. Publisko un privāto sadarbību izmanto MI spēju straujai veidošanai publiskajā sektorā. Privātie partneri nodrošina tehnoloģijas un zināšanas, publiskais sektors — nepieciešamos datus un regulatīvo vidi. Ne iepirkums, bet partnerība ar kopīgu atbildību par rezultātu.</Text>
+            </Task>
+            <Task id="lv-dekl-2026-10-10.u068" number="18">
+              <Text>Valsts finansēts MI risinājumu kods — publiski pieejams. Valsts finansēts programmatūras risinājums ir publisks aktīvs, ne vienas iestādes īpašums; šodien vienu un to pašu kodu apmaksā vairākkārt. Ar publisko finansējumu izstrādāts MI pirmkods — izņemot drošības un klasificētās komponentes — publicējams valsts uzturētā repozitorijā ar atvērtā koda licenci, un prasība iekļaujama standarta iepirkuma nosacījumos.</Text>
+            </Task>
+            <Task id="lv-dekl-2026-10-10.u072" number="19">
+              <Text>Atvērtā koda prioritāte valsts MI sistēmās. Eiropa vairāk nekā 80 % būtisko digitālo tehnoloģiju ir atkarīga no ārpus ES piegādātājiem. Publiskā sektora MI risinājumos nosakāma skaidra atvērtā koda prioritāte — lai valsts saglabā kontroli pār sistēmām, kas pieņem lēmumus tās vārdā, un lai vietējie izstrādātāji var uz tām būvēt.</Text>
+            </Task>
+        </Section>
+      </Section>
+      <Section id="lv-dekl-2026-10-10.s03-03" kind="chapter" label="III">
+        <Heading>Līderība — Veidot Latvijas suverēnās MI spējas un starptautisko līderību</Heading>
+        <Paragraph>Produktivitāte ir atbilde uz demogrāfisko sarukumu: MI aģenti kompensē darbaspēka iztrūkumu, dod jauniešiem iemeslu būvēt šeit, un ļauj Latvijai eksportēt savus pārvaldības un sadarbspējas standartus. Šis pīlārs apvieno kapacitāti, suverenitāti un pārvaldību, kas dara iespējamus pirmos divus pīlārus.</Paragraph>
+        <Section id="lv-dekl-2026-10-10.s03-03-01" kind="subchapter" label="4.">
+          <Heading>Sabiedrībai jaunu iespēju pavēršana</Heading>
+          <Goal id="lv-dekl-2026-10-10.s03-03-01.g1">Jauna kapacitāte izglītībā, veselībā, drošībā un uzņēmējdarbībā. MI izmantošanas mērķis nav labāka birokrātija, bet brīvāka un spējīgāka sabiedrība ar jauniem iespēju apvāršņiem. Cilvēks pievieno vērtību, MI — sniedz atbalstu.</Goal>
+            <Task id="lv-dekl-2026-10-10.u057" number="20">
+              <Text>Latvijas valsts MI spēju tehnoloģiskā neatkarība. Latvija veido savas MI spējas, lai nodrošinātu neatkarību no ārvalstu piegādātājiem.</Text>
+            </Task>
+            <Task id="lv-dekl-2026-10-10.u073" number="21">
+              <Text>Latviešu valodas MI dati kā nacionāla infrastruktūra. Latviešu valoda MI ekonomikā ir tirgus piekļuves, valsts pakalpojumu un nacionālās drošības infrastruktūra, ne tikai kultūras jautājums. Veidojams latviešu valodas MI datu kopums — tiesību ziņā sakārtoti korpusi, publiskā sektora terminoloģija, runas un dialektu dati — un neatkarīgs latviešu un latgaliešu valodas snieguma etalons.</Text>
+            </Task>
+            <Task id="lv-dekl-2026-10-10.u074" number="22">
+              <Text>Valsts mēroga sintētisko datu programma MI izstrādei. Reālu personas datu izmantošana MI izstrādē rada privātuma riskus un juridiskus šķēršļus. Valsts sintētisko datu programma ļauj uzņēmumiem ģenerēt un izmantot sintētiskus datus MI risinājumu izstrādei, testēšanai un validācijai — mazinot datu aizsardzības risku, paātrinot inovāciju un stiprinot eksportspēju.</Text>
+            </Task>
+            <Task id="lv-dekl-2026-10-10.u075" number="23">
+              <Text>MI datu centru enerģijas un izvietojuma stratēģija. Skaitļošanas jauda ir faktisks MI attīstības ierobežojums, un tas risināms digitālās, ekonomikas, klimata un enerģētikas politikas kopsakarā. Iepriekš identificējamas datu centriem piemērotas teritorijas (tīkla jauda, optika, atjaunojamā enerģija, siltumapgādes integrācija), un valsts atbalsts sasaistāms ar nosacījumiem — pārpalikuma siltuma izmantošana, vietējā nodarbinātība, rezervēta jauda Latvijas uzņēmumiem.</Text>
+            </Task>
+        </Section>
+        <Section id="lv-dekl-2026-10-10.s03-03-02" kind="subchapter" label="5.">
+          <Heading>Uzraudzība un pārvaldība</Heading>
+          <Goal id="lv-dekl-2026-10-10.s03-03-02.g1">MI stratēģija ir tik stipra, cik stipra ir tās uzraudzība: mērījums, kas parāda, vai sabiedrība uzticas; mehānisms, kas mācās no pilotprojektiem; iestāde ar reālu kapacitāti un skaidras robežas tam, ko MI drīkst izlemt patstāvīgi. Šis mērķis dara pārējos četrus pārbaudāmus.</Goal>
+            <Task id="lv-dekl-2026-10-10.u039" number="24" derivedFrom="lv-dekl-2026-05-28.u039">
+              <Text>Izstrādāsim Nacionālo mākslīgā intelekta plānu – valdība 100 dienās apstiprinās Latvijas Nacionālo MI stratēģiju ar konkrētiem mērķiem – MI izmantošana valsts pārvaldē, izglītībā un aizsardzībā.</Text>
+            </Task>
+            <Task id="lv-dekl-2026-10-10.u062" number="25">
+              <Text>MI sistēmu reģistrs. Publiskajām organizācijām izveidot un uzturēt reģistrus, kuros norādītas izmantotās MI sistēmas atbilstoši ES MI regulas Art. 49 un 71 prasībām. Reģistra ieraksti var būt publiski pieejami vai konfidenciāli, atkarībā no sistēmas riska klases un publiskošanas prasībām.</Text>
+            </Task>
+            <Task id="lv-dekl-2026-10-10.u063" number="26">
+              <Text>Vienota MI atbildīgā iestāde. Latvija šobrīd ir izvēlējusies izkliedētu MI akta uzraudzības modeli, kurā atbildība sadalīta starp VARAM, DVI, Ekonomikas ministriju/LATAK, Tiesībsargu, Latvijas Banku un vairāk nekā desmit nozaru iestādēm. Šis modelis rada risku, ka uzņēmumiem un iedzīvotājiem nav viena skaidra kontaktpunkta, un atbildība starp iestādēm var izšķīst. Aicinām izvērtēt vienotas MI atbildīgās iestādes izveidi, kas koncentrētu koordinācijas, publisko investīciju, tirgus uzraudzības un kontaktpunkta funkcijas, vienlaikus saglabājot nozaru iestāžu specializēto kompetenci konkrētu jomu sektorālajā uzraudzībā.</Text>
+            </Task>
+            <Task id="lv-dekl-2026-10-10.u076" number="27">
+              <Text>Sabiedrības uzticēšanās MI izmantošanai valsts pārvaldē — regulārs mērījums. Bez regulāras attieksmes izpētes un iedzīvotāju iesaistes pastāv risks zaudēt uzticību pat tehniski veiksmīgiem projektiem — īpaši proaktīvajiem pakalpojumiem, kur lēmumi tiek pieņemti cilvēka vārdā. Paredzams regulārs sabiedrības uzticēšanās mērījums un obligāta lietotāju iesaiste augstas ietekmes MI projektu izstrādē.</Text>
+            </Task>
+            <Task id="lv-dekl-2026-10-10.u077" number="28">
+              <Text>MI pilotprojektu izvērtēšanas un pieredzes apmaiņas mehānisms. Katra institūcija atsevišķi izmēģina MI un atkārto citu kļūdas, jo nav mehānisma, kas apkopo, kuri pilotprojekti devuši rezultātu, kuri ne un kāpēc. Tas nav datu katalogs — tas ir risinājumu snieguma izvērtējums pēc ieviešanas, dokumentējot arī neveiksmes.</Text>
+            </Task>
+            <Task id="lv-dekl-2026-10-10.u078" number="29">
+              <Text>Datu valsts inspekcijas kapacitāte MI uzraudzībai. DVI ir galvenā kompetentā iestāde personas datu aizsardzībā un augsta riska MI sistēmu uzraudzībā saskaņā ar MI aktu, bet MI jautājumiem šobrīd velta aptuveni trešdaļu viena darbinieka laika. Uzraudzības funkcija bez samērīga finansējuma un kompetences nav izpildāma.</Text>
+            </Task>
+            <Task id="lv-dekl-2026-10-10.u079" number="30">
+              <Text>Stingras kompetences robežas MI patstāvīgai darbībai. Bez skaidriem ierobežojumiem MI sistēmas var radīt sabiedrībai kaitīgus iznākumus. Nosakāmas stingras MI darbības kompetences robežas — kādus lēmumus sistēma drīkst pieņemt patstāvīgi un kur obligāta cilvēka virsvadība — un to ievērošana pārbaudāma ar testiem ekstrēmos scenārijos pirms ieviešanas.</Text>
+            </Task>
+        </Section>
+      </Section>
+    </Section>
+  </Body>
+  <Composition>
+    <PrimeMinisterCandidate><Office>Ministru prezidenta amata kandidāts</Office><Name>Nav noteikts</Name></PrimeMinisterCandidate>
+    <InvitedMinisters heading="Aicinātie ministri:">
+      <Minister><Office>Nav noteikts</Office><Name>Nav noteikts</Name></Minister>
+    </InvitedMinisters>
+  </Composition>
+</GovernmentDeclaration>

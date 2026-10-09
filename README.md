@@ -34,6 +34,7 @@ Datnes nosaukums ir objekta identifikators.
 | Datne | Saturs |
 |---|---|
 | `data/lv-dekl-2026-05-28.xml` | Deklarācija par Andra Kulberga vadītā Ministru kabineta iecerēto darbību (28.05.2026): viss teksts, 11 sadaļas, 52 uzdevumi |
+| `data/lv-dekl-2026-10-10.xml` | Jaunas valdības deklarācijas projekts (`status="draft"`): PPPA Latvijas Nacionālā MI stratēģija `pppa-mis-2026-09-10` — 3 pīlāri kā nodaļas, 5 mērķi kā apakšnodaļas, 27 rīcības kā uzdevumi `u053`–`u079`; no Kulberga deklarācijas pārņemti atbilstošie uzdevumi `u015`, `u021`, `u039` (`derivedFrom`) |
 | `data/lv-mk-2026-05-28.rp.xml` | Valdības rīcības plāns tās īstenošanai (MK rīkojums Nr. 449, 27.07.2026): 185 pasākumi 52 uzdevumiem, teksts burtiski no likumi.lv; atbildīgās institūcijas ar CaC ID |
 | `data/organizacijas.xml` | Valsts institūciju reģistrs (CaC ID): 165 valsts budžeta iestādes un 16 citas institūcijas un grupas; uzturētājs — Valsts kanceleja |
 | `data/valdibas.xml` | Valdību reģistrs: piecas valdības (2016–2026) |
@@ -57,6 +58,7 @@ ProcessGit skatītājs ielādē skatīto datni no repozitorija un saistītās da
 | `docs/IDENTIFIKATORI.md` | Identifikatoru veidošanas noteikumi |
 | `tools/validate.py` | Pārbaude: XSD, datņu nosaukumi, identifikatori, saites starp datnēm, kārtības ruļļa 18. un 20. punkts, termiņi |
 | `tools/test_validate.py` | Negatīvie testi pārbaudītājam |
+| `tools/projekts_no_mi_strategijas.py` | Veido deklarācijas projektu no MI stratēģijas XML un pārņem atbilstošos avota deklarācijas uzdevumus |
 | `tools/ricibas_plans_no_likumi.py` | Pārveido rīcības plānu no likumi.lv lapas uz XML un salīdzina plāna ailes 1–3 ar deklarāciju |
 | `tools/organizacijas_no_vdvc.py` | Izveido organizāciju reģistru no VDVC reģistra un Valsts kases saraksta |
 | `tools/ids.py` | Identifikatoru veidošana |
