@@ -37,6 +37,9 @@ Datnes nosaukums ir objekta identifikators.
 | `data/lv-mk-2026-05-28.rp.xml` | Valdības rīcības plāns tās īstenošanai (MK rīkojums Nr. 449, 27.07.2026): 185 pasākumi 52 uzdevumiem, teksts burtiski no likumi.lv; atbildīgās institūcijas ar CaC ID |
 | `data/organizacijas.xml` | Valsts institūciju reģistrs (CaC ID): 165 valsts budžeta iestādes un 16 citas institūcijas un grupas; uzturētājs — Valsts kanceleja |
 | `data/valdibas.xml` | Valdību reģistrs: piecas valdības (2016–2026) |
+| `data/processgit.viewer.json` | ProcessGit skatītāja manifests: atverot deklarāciju, rīcības plānu vai organizāciju reģistru ProcessGit, tie tiek attēloti redaktorā (`editor/`) |
+
+ProcessGit skatītājs ielādē skatīto datni no repozitorija un saistītās datnes no tās pašas mapes pēc identifikatora (deklarācija ↔ rīcības plāns ↔ organizāciju reģistrs). Pievienojot jaunu deklarāciju vai rīcības plānu, tās datnes nosaukums jāpievieno manifesta `edit_allow` sarakstam.
 
 ### Shēmas (`schemas/`)
 

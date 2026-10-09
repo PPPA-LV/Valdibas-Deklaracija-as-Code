@@ -124,6 +124,8 @@ pre.xml{background:#111418;color:#d7e1ea;border-radius:8px;padding:12px;font-siz
 .meta select{font:inherit;font-size:13px;border:1px solid var(--line);border-radius:6px;background:var(--paper);color:var(--ink2);padding:2px 6px}
 .gr{border-left:3px solid color-mix(in srgb,var(--accent) 45%,transparent);padding-left:14px;margin-left:-17px}.grl{font-family:var(--sans);font-size:11.5px;letter-spacing:.06em;text-transform:uppercase;color:var(--accent);font-weight:600}
 @media print{.ab{display:none!important}}
+.pgvbar{font-family:var(--mono);font-size:11.5px;color:var(--muted);background:var(--panel);border:1px solid var(--line);border-radius:7px;padding:3px 8px;max-width:340px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+body.pgv .docs,body.pgv .act.sw,body.pgv #more,body.pgv #bDocx,body.pgv #bOrgXml,body.pgv #bOrgXsd,body.pgv #bSchemaZip,body.pgv .cta button[data-go^="draft"]{display:none!important}
 .docs{display:flex;gap:6px;align-items:stretch;padding:0 18px 9px;flex-wrap:wrap;font-family:var(--sans)}
 .docs .dl{font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);align-self:center;margin-right:4px;font-weight:600}
 .docs button{display:flex;flex-direction:column;align-items:flex-start;text-align:left;border:1px solid var(--line);background:var(--paper);border-radius:8px;padding:4px 11px;font-size:13px;color:var(--ink2);cursor:pointer;min-width:0;max-width:100%}
@@ -229,6 +231,7 @@ body.m-org .canvas{max-width:980px}
   <div class="brand"><span class="ic">§</span>Valdības deklarācijas datukopa<small>v0.2</small></div>
   <div class="modes"><button id="mRead" class="on">Valdības deklarācija</button><button id="mPlan">Rīcības plāns</button><button id="mOrg">Organizācijas</button><button id="mSchema">Shēma</button><button id="mAbout">Par</button></div>
   <div class="acts">
+    <span class="pgvbar hidden" id="pgvbar"></span>
     <span class="status" id="status"></span>
     <button class="check" id="bCheck" title="Pārbaude un XML"><i></i><span id="checkTxt">derīgs</span></button>
     <div class="more" id="more"><button class="act" id="bMore">Fails ▾</button>
@@ -3716,9 +3719,12 @@ function blank(){
 /* reģistrs */
 const ORGS = {}, SECTORS = {}; const GOVS = [];
 /* organizāciju reģistrs: SS-IIII -> {name, abbr, kind, parent} */
-(() => { try { const d = new DOMParser().parseFromString(ORG_SRC, "application/xml").documentElement;
+let ORG_TEXT = ORG_SRC;
+function loadOrgs(text){ Object.keys(ORGS).forEach(k => delete ORGS[k]); Object.keys(SECTORS).forEach(k => delete SECTORS[k]); ORG_TEXT = text;
+  try { const d = new DOMParser().parseFromString(text, "application/xml").documentElement;
   kids(d, "Organization").forEach(o => ORGS[o.getAttribute("id")] = {name: txt(o, "Name"), abbr: kids(o, "Abbreviation").map(a => a.textContent.trim()), kind: o.getAttribute("kind"), parent: o.getAttribute("parent") || "", regNo: o.getAttribute("regNo") || "", budget: kids(o, "BudgetCode").map(b => b.getAttribute("year") + ": " + b.textContent.trim()).join(", "), former: txt(o, "FormerName")});
-  kids(d, "Sector").forEach(s => SECTORS[s.getAttribute("code")] = s.textContent.trim()); } catch (e) {} })();
+  kids(d, "Sector").forEach(s => SECTORS[s.getAttribute("code")] = s.textContent.trim()); } catch (e) {} }
+loadOrgs(ORG_SRC);
 (() => { const d = new DOMParser().parseFromString(REGISTRY, "application/xml").documentElement;
   kids(d, "Government").forEach(g => GOVS.push({id:g.getAttribute("id"), label:txt(g, "Label"), pm:txt(g, "PrimeMinister"), vote:kid(g, "ConfidenceVote").getAttribute("date"), votes:kid(g, "ConfidenceVote").getAttribute("votesFor"), decl:txt(g, "Declaration"), plan:txt(g, "ActionPlan"), notes:kids(g, "Note").map(n => n.textContent.trim())})); })();
 /* ======================================================= registry: uid -> {o, arr, parent} */
@@ -3822,14 +3828,16 @@ function refreshChips(){ computeIds(); document.querySelectorAll("#doc .idc").fo
 
 /* ======================================================= identifikatori, metadati, apskate */
 let IDS = new Map();
-const PLAN = (() => { const out = {meta:null, byTask:{}}; try {
-  const d = new DOMParser().parseFromString(PLAN_SAMPLE, "application/xml").documentElement; const ap = kid(kid(d, "Metadata"), "Approval");
+const PLAN = {meta:null, byTask:{}};
+function loadPlan(text){ const out = PLAN; out.meta = null; out.byTask = {}; try {
+  const d = new DOMParser().parseFromString(text, "application/xml").documentElement; const ap = kid(kid(d, "Metadata"), "Approval");
   out.meta = {id:d.getAttribute("id"), decl:d.getAttribute("declaration"), act: ap ? txt(ap, "Act") : "", date: ap ? txt(ap, "Date") : "", partial: d.getAttribute("completeness") === "partial"};
   kids(d, "Measure").forEach(m => { const t = m.getAttribute("task"); if (!t) return; const n = +(/\.u(\d+)/.exec(t) || [])[1];
     (out.byTask[n] = out.byTask[n] || []).push({id:m.getAttribute("id"), number:m.getAttribute("number"), text:txt(m, "Text"), summary: kid(m, "Text").getAttribute("fidelity") === "summary",
       resp:kids(m, "Responsible").map(x => x.textContent.trim()).join(", "), co:txt(m, "CoResponsible"), respOrgs:(kid(m, "Responsible") && kid(m, "Responsible").getAttribute("orgs") || "").split(/\s+/).filter(Boolean), coOrgs:(kid(m, "CoResponsible") && kid(m, "CoResponsible").getAttribute("orgs") || "").split(/\s+/).filter(Boolean), result:txt(m, "Result"), funding:m.getAttribute("funding") || "", deadline:kids(m, "Deadline").map(x => x.textContent.trim()).join("; "), priority:m.getAttribute("priority") || ""}); });
   out.meta.count = kids(d, "Measure").length; out.meta.pub = ap ? txt(ap, "Publication") : ""; out.meta.url = ap ? txt(ap, "URL") : "";
-  } catch (e) {} return out; })();
+  } catch (e) {} }
+loadPlan(PLAN_SAMPLE);
 
 function computeIds(){
   ensureSids(M);
@@ -4325,7 +4333,7 @@ function renderOrg(){
   <h2>Shēma</h2>
   <details><summary>organizaciju-registrs-0.2.xsd</summary><pre class="xml">${esc(XSD_ORG)}</pre></details>`;
   const q = $("orgQ"); q.oninput = () => { orgFilter = q.value; const pos = q.selectionStart; renderOrg(); const q2 = $("orgQ"); q2.focus(); try { q2.setSelectionRange(pos, pos); } catch (e) {} };
-  $("bOrgXml").onclick = () => download("organizacijas.xml", ORG_SRC, "application/xml");
+  $("bOrgXml").onclick = () => download("organizacijas.xml", ORG_TEXT, "application/xml");
   $("bOrgXsd").onclick = () => download("organizaciju-registrs-0.2.xsd", XSD_ORG, "application/xml");
 }
 const tile = (n, l) => `<div class="tile"><b>${n}</b><span>${l}</span></div>`;
@@ -4507,6 +4515,38 @@ document.addEventListener("keydown", e => { if ((e.ctrlKey || e.metaKey) && e.ke
 DOCS.src = prep(parseXml(SAMPLE));
 { const hs = location.hash.slice(1), dr = hs.endsWith("-projekts"), r = Object.entries(HASH).find(([, v]) => v === hs.replace(/-projekts$/, ""));
   if (dr) blankDraft(""); else { cur = "src"; M = DOCS.src; setMode(r ? r[0] : "read"); } }
+/* ======================================================= ProcessGit skatītājs (processgit.viewer.json)
+   Ja redaktors atvērts ProcessGit iframe, tas ielādē skatīto datni no repozitorija (PGV_INIT → PGV_FETCH) un attēlo to:
+   deklarāciju — cilnē „Valdības deklarācija”, rīcības plānu — „Rīcības plāns”, organizāciju reģistru — „Organizācijas”.
+   Saistītās datnes (deklarācija, rīcības plāns, organizāciju reģistrs) tiek ielādētas no tās pašas mapes pēc identifikatora. */
+function pgvFetch(url){ return new Promise((res, rej) => {
+  const tm = setTimeout(() => { removeEventListener("message", hd); rej(new Error("PGV_FETCH timeout")); }, 15000);
+  function hd(ev){ const m = ev.data; if (!m || m.type !== "PGV_FETCH_RESULT" || m.url !== url) return; clearTimeout(tm); removeEventListener("message", hd); m.ok ? res(m.text) : rej(new Error(m.error || "fetch failed")); }
+  addEventListener("message", hd); parent.postMessage({type: "PGV_FETCH", url}, "*"); }); }
+async function pgvInit(p){
+  document.body.classList.add("pgv");
+  const primary = (p && p.targets && p.targets.xml) || (p ? `${p.repoLink}/raw/branch/${p.branch}/${p.path}` : "");
+  const base = primary.replace(/[^/]*$/, ""), sib = name => base + encodeURIComponent(name);
+  const bar = $("pgvbar"); bar.classList.remove("hidden"); bar.textContent = `ProcessGit · ${p.branch || ""} · ${p.path || ""}${p.lastCommit ? " · " + p.lastCommit.slice(0, 7) : ""}`; bar.title = bar.textContent;
+  const opt = async name => { try { return await pgvFetch(sib(name)); } catch (e) { return null; } };
+  try {
+    const text = await pgvFetch(primary), root = new DOMParser().parseFromString(text, "application/xml").documentElement, kind = root.localName;
+    const orgs = await opt("organizacijas.xml"); if (orgs) loadOrgs(orgs);
+    let next = "read";
+    if (kind === "GovernmentDeclaration") {
+      DOCS.src = prep(parseXml(text)); const gov = (kid(kid(root, "Metadata"), "Government") || {getAttribute: () => ""}).getAttribute("ref");
+      const plan = gov ? await opt(gov + ".rp.xml") : null; if (plan) loadPlan(plan);
+    } else if (kind === "GovernmentActionPlan") {
+      loadPlan(text); const decl = await opt(root.getAttribute("declaration") + ".xml"); if (decl) DOCS.src = prep(parseXml(decl)); next = "plan";
+    } else if (kind === "OrganizationRegistry") { loadOrgs(text); next = "org"; }
+    else next = "about";
+    DOCS.draft = null; cur = "src"; M = DOCS.src; setMode(next); toast("Ielādēts no repozitorija: " + (p.path || ""));
+  } catch (e) { toast("Neizdevās ielādēt datni no repozitorija: " + e.message); }
+}
+if (window.parent && window.parent !== window) {
+  addEventListener("message", ev => { const m = ev.data; if (m && typeof m === "object" && m.type === "PGV_INIT") pgvInit(m.payload || {}); });
+  try { parent.postMessage({type: "PGV_READY"}, "*"); } catch (e) {}
+}
 window.deklaracija = {xml: () => toXml(M), model: () => M, declId: () => declId(M), docs: () => DOCS, cur: () => cur, use: useDoc, fork: () => startDraft(DOCS.src)};
 })();
 </script>

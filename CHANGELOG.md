@@ -2,6 +2,8 @@
 
 ## 0.2 — 2026-10-09
 
+- ProcessGit skatītājs: `data/processgit.viewer.json` piesaista redaktoru deklarācijas, rīcības plāna un organizāciju reģistra datnēm; redaktors ProcessGit iframe ielādē datni no repozitorija (PGV_INIT, PGV_FETCH) un saistītās datnes no tās pašas mapes; lejupielādes un projekta funkcijas skatītājā paslēptas.
+
 - Autoritatīvās datnes mapē `data/` (iepriekš `examples/`); datnes nosaukums = objekta identifikators (`lv-dekl-2026-05-28.xml`, `lv-mk-2026-05-28.rp.xml`); pārbaudītājs to pārbauda.
 
 - Viena vārdtelpa visai saimei: `urn:pppa:cac:valdiba:0.2`.

@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "viewers": [
+    {
+      "id": "valdibas-deklaracija",
+      "primary_pattern": "lv-dekl-*.xml",
+      "type": "html",
+      "entry": "../editor/Valdibas_deklaracijas_datukopa.html",
+      "edit_allow": ["lv-dekl-2026-05-28.xml"],
+      "targets": { "xsd": "../schemas/valdibas-deklaracija-0.2.xsd" }
+    },
+    {
+      "id": "valdibas-deklaracijas-ricibas-plans",
+      "primary_pattern": "lv-mk-*.rp.xml",
+      "type": "html",
+      "entry": "../editor/Valdibas_deklaracijas_datukopa.html",
+      "edit_allow": ["lv-mk-2026-05-28.rp.xml"],
+      "targets": { "xsd": "../schemas/valdibas-deklaracijas-ricibas-plans-0.2.xsd" }
+    },
+    {
+      "id": "organizaciju-registrs",
+      "primary_pattern": "organizacijas.xml",
+      "type": "html",
+      "entry": "../editor/Valdibas_deklaracijas_datukopa.html",
+      "edit_allow": ["organizacijas.xml"],
+      "targets": { "xsd": "../schemas/organizaciju-registrs-0.2.xsd" }
+    }
+  ]
+}
