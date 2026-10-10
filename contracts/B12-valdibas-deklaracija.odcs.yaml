@@ -1,0 +1,290 @@
+# ODCS v3 datu līgums: B12 Valdības deklarācijas
+# Ģenerēts no schemas/valdibas-deklaracija-0.2.xsd (tools/xsd_to_odcs.py, lakehouse). Shēmas daļu nelabot ar roku — labot XSD un ģenerēt no jauna.
+apiVersion: v3.0.2
+kind: DataContract
+id: urn:pppa:cac:contract:B12
+name: Valdības deklarācijas
+version: 0.2.0
+status: active
+domain: Valsts kā kods (Country as Code)
+dataProduct: Valdības deklarācijas datukopa
+tenant: PPP Asociācija (PPPA)
+description:
+  purpose: Valdības deklarācija mašīnlasāmā formā — sadaļas un uzdevumi ar pastāvīgiem identifikatoriem, uz kuriem atsaucas rīcības plāna pasākumi;
+    arī deklarāciju projekti.
+  usage: Mašīnlasāma datu apmaiņa; ielāde datu ezerā katru dienu.
+  limitations: Teksts — burtiski, kā parakstīts; projektiem (status draft) drukātais numurs var atšķirties no identifikatora.
+servers:
+- server: processgit
+  type: custom
+  format: xml
+  description: ProcessGit repozitorijs (Gitea API v1)
+  customProperties:
+  - property: url
+    value: https://processgit.org/Country-as-Code/Valdibas-Deklaracija-as-Code
+  - property: ref
+    value: main
+  - property: path
+    value: data/lv-dekl-*.xml
+  - property: schema
+    value: https://processgit.org/Country-as-Code/Valdibas-Deklaracija-as-Code/src/branch/main/schemas/valdibas-deklaracija-0.2.xsd
+schema:
+- name: GovernmentDeclaration
+  logicalType: object
+  physicalType: xml-element
+  physicalName: GovernmentDeclaration
+  description: ''
+  properties:
+  - name: id
+    logicalType: string
+    required: true
+    logicalTypeOptions:
+      pattern: lv-dekl-[0-9]{4}-[0-9]{2}-[0-9]{2}(-[2-9])?
+    description: 'Deklarācijas identifikators: lv-dekl-GGGG-MM-DD[-n]. Datums = datums dokumentā; ja tā nav vai tas nav pilns — Saeimas uzticības
+      balsojuma datums.'
+    primaryKey: true
+    unique: true
+  - name: schemaVersion
+    logicalType: string
+    required: true
+  customProperties:
+  - property: lakehouseTable
+    value: cac_bronze.pg_declaration
+  - property: lakehouseTable
+    value: cac_silver.declaration
+- name: Metadata
+  logicalType: object
+  physicalType: xml-element
+  physicalName: Metadata
+  description: ''
+  properties:
+  - name: Title
+    logicalType: string
+    required: true
+    logicalTypeOptions:
+      pattern: '[\s\S]*\S[\s\S]*'
+  - name: Subtitle
+    logicalType: string
+    required: false
+    logicalTypeOptions:
+      pattern: '[\s\S]*\S[\s\S]*'
+  - name: DateLine
+    logicalType: string
+    required: false
+    logicalTypeOptions:
+      pattern: '[\s\S]*\S[\s\S]*'
+    description: Vietas un datuma rinda, kā rakstīts.
+  - name: Date
+    logicalType: date
+    required: false
+    description: Datums dokumentā, ja tas norādīts pilnībā.
+  - name: Place
+    logicalType: string
+    required: false
+    logicalTypeOptions:
+      pattern: '[\s\S]*\S[\s\S]*'
+  - name: Language
+    logicalType: string
+    required: true
+  - name: LegalBasis
+    logicalType: string
+    required: true
+    logicalTypeOptions:
+      pattern: '[\s\S]*\S[\s\S]*'
+  - name: Government@ref
+    logicalType: string
+    required: false
+    logicalTypeOptions:
+      pattern: lv-mk-[0-9]{4}-[0-9]{2}-[0-9]{2}(-[2-9])?
+  - name: Government@status
+    logicalType: string
+    required: true
+    quality:
+    - type: library
+      rule: validValues
+      validValues:
+      - draft
+      - submitted
+      - confidence_granted
+      - rejected
+  - name: DerivedFrom
+    logicalType: string
+    required: false
+    logicalTypeOptions:
+      pattern: lv-dekl-[0-9]{4}-[0-9]{2}-[0-9]{2}(-[2-9])?
+    description: Deklarācija, no kuras izveidots šis projekts (piemēram, iepriekšējās valdības deklarācija). Uzdevumu līmenī saiti norāda Task/@derivedFrom.
+  customProperties:
+  - property: lakehouseTable
+    value: cac_bronze.pg_declaration
+- name: Section
+  logicalType: object
+  physicalType: xml-element
+  physicalName: Section
+  description: Sadaļa (prioritāte, nodaļa, apakšnodaļa). Rīcības plānā tā ir 1. aile „Deklarācijas sadaļa un rīcības joma”.
+  properties:
+  - name: id
+    logicalType: string
+    required: true
+    logicalTypeOptions:
+      pattern: lv-(dekl|mk)-[0-9]{4}-[0-9]{2}-[0-9]{2}(-[2-9])?(\.[a-z]{1,2}[0-9]*(-[0-9]+)*)+
+    description: 'Jebkura elementa globāli unikāls identifikators: saknes identifikators + segmenti, piemēram lv-dekl-2026-05-28.u012 vai lv-mk-2026-05-28.rp.u001.p3.'
+    primaryKey: true
+    unique: true
+  - name: kind
+    logicalType: string
+    required: true
+    description: introduction = ievads; principles = sadarbības principi; priorities = prioritāšu kopsadaļa; chapter = nodaļa vai prioritāte;
+      subchapter = apakšnodaļa; other = cita.
+    quality:
+    - type: library
+      rule: validValues
+      validValues:
+      - introduction
+      - principles
+      - priorities
+      - chapter
+      - subchapter
+      - other
+  - name: label
+    logicalType: string
+    required: false
+    description: Sadaļas numurs, kā rakstīts (piemēram „I”).
+  - name: Heading
+    logicalType: string
+    required: false
+    logicalTypeOptions:
+      pattern: '[\s\S]*\S[\s\S]*'
+  - name: Classification
+    logicalType: array
+    required: false
+    description: Politikas joma pēc TAP portāla klasifikatora (kārtības ruļļa 46. punkts) un/vai COFOG. Nav deklarācijas teksta daļa.
+    items:
+      logicalType: string
+  - name: Classification@scheme
+    logicalType: string
+    required: false
+  - name: Classification@code
+    logicalType: string
+    required: false
+  - name: Goal
+    logicalType: array
+    required: false
+    logicalTypeOptions:
+      pattern: '[\s\S]*\S[\s\S]*'
+    description: Sasniedzamais mērķis (MK iekārtas likuma 15. panta pirmā daļa). Tikai ja deklarācijā tas izteikts atsevišķi.
+    items:
+      logicalType: string
+  - name: Goal@id
+    logicalType: string
+    required: false
+    logicalTypeOptions:
+      pattern: lv-(dekl|mk)-[0-9]{4}-[0-9]{2}-[0-9]{2}(-[2-9])?(\.[a-z]{1,2}[0-9]*(-[0-9]+)*)+
+    description: 'Jebkura elementa globāli unikāls identifikators: saknes identifikators + segmenti, piemēram lv-dekl-2026-05-28.u012 vai lv-mk-2026-05-28.rp.u001.p3.'
+  - name: Result
+    logicalType: array
+    required: false
+    logicalTypeOptions:
+      pattern: '[\s\S]*\S[\s\S]*'
+    description: Sasniedzamais rezultāts (15. panta pirmā daļa). Tikai ja deklarācijā tas izteikts atsevišķi.
+    items:
+      logicalType: string
+  - name: Result@id
+    logicalType: string
+    required: false
+    logicalTypeOptions:
+      pattern: lv-(dekl|mk)-[0-9]{4}-[0-9]{2}-[0-9]{2}(-[2-9])?(\.[a-z]{1,2}[0-9]*(-[0-9]+)*)+
+    description: 'Jebkura elementa globāli unikāls identifikators: saknes identifikators + segmenti, piemēram lv-dekl-2026-05-28.u012 vai lv-mk-2026-05-28.rp.u001.p3.'
+  - name: Paragraph
+    logicalType: string
+    required: false
+    logicalTypeOptions:
+      pattern: '[\s\S]*\S[\s\S]*'
+    description: 'Rindkopa vai saraksta punkts. Identifikators nav obligāts: tos piešķir tikai sadaļām un uzdevumiem, uz kuriem atsaucas rīcības
+      plāns.'
+  - name: Paragraph@id
+    logicalType: string
+    required: false
+    logicalTypeOptions:
+      pattern: lv-(dekl|mk)-[0-9]{4}-[0-9]{2}-[0-9]{2}(-[2-9])?(\.[a-z]{1,2}[0-9]*(-[0-9]+)*)+
+    description: 'Jebkura elementa globāli unikāls identifikators: saknes identifikators + segmenti, piemēram lv-dekl-2026-05-28.u012 vai lv-mk-2026-05-28.rp.u001.p3.'
+  customProperties:
+  - property: lakehouseTable
+    value: cac_bronze.pg_declaration_section
+- name: Task
+  logicalType: object
+  physicalType: xml-element
+  physicalName: Task
+  description: 'Deklarācijā dotais uzdevums — galvenā vienība. Divas numerācijas: number = numurs, kā drukāts dokumentā (mainās, ja projektā uzdevumus
+    pārnumurē); id = deklarācijas ID + .uNNN — pastāvīgs identifikators, kas piešķirts, uzdevumu izveidojot, un nemainās. Iesniegtā deklarācijā
+    uNNN atbilst drukātajam numuram; projektā (Government/@status = draft) tie var atšķirties.'
+  properties:
+  - name: id
+    logicalType: string
+    required: true
+    logicalTypeOptions:
+      pattern: lv-(dekl|mk)-[0-9]{4}-[0-9]{2}-[0-9]{2}(-[2-9])?(\.[a-z]{1,2}[0-9]*(-[0-9]+)*)+
+    description: 'Jebkura elementa globāli unikāls identifikators: saknes identifikators + segmenti, piemēram lv-dekl-2026-05-28.u012 vai lv-mk-2026-05-28.rp.u001.p3.'
+    primaryKey: true
+    unique: true
+  - name: number
+    logicalType: integer
+    required: true
+  - name: derivedFrom
+    logicalType: string
+    required: false
+    logicalTypeOptions:
+      pattern: lv-dekl-[0-9]{4}-[0-9]{2}-[0-9]{2}(-[2-9])?\.u[0-9]{3,4}(-[0-9]+)?
+    description: Avota deklarācijas uzdevums, no kura šis uzdevums pārņemts. Nav norādīts, ja uzdevums ir jauns.
+  - name: Text
+    logicalType: string
+    required: true
+    logicalTypeOptions:
+      pattern: '[\s\S]*\S[\s\S]*'
+  customProperties:
+  - property: lakehouseTable
+    value: cac_bronze.pg_declaration_task
+  - property: lakehouseTable
+    value: cac_silver.declaration_task
+quality:
+- name: xsd_valid
+  type: custom
+  engine: xsd
+  implementation: schemas/valdibas-deklaracija-0.2.xsd
+  description: Datne atbilst XSD shēmai; neatbilstoša datne tiek reģistrēta kā kļūda
+  dimension: conformity
+- name: filename_is_id
+  type: custom
+  engine: cac-lakehouse
+  implementation: Path(path).stem == root/@id
+  description: Datnes nosaukums = dokumenta identifikators
+  dimension: consistency
+- name: task_id_in_declaration
+  type: custom
+  engine: cac-lakehouse
+  implementation: app.cac_processgit:task_id_in_declaration
+  description: Uzdevuma ID sākas ar deklarācijas ID
+  dimension: consistency
+slaProperties:
+- property: frequency
+  value: 1
+  unit: d
+  element: pull ingest (cron 03:30 UTC)
+- property: retention
+  value: visas versijas (git vēsture)
+team:
+- role: owner
+  name: Ministru kabinets (deklarācija); datu kopu sagatavo PPPA
+- role: data steward
+  name: PPP Asociācija (PPPA)
+support:
+- channel: issues
+  url: https://processgit.org/Country-as-Code/Valdibas-Deklaracija-as-Code/issues
+customProperties:
+- property: sourceId
+  value: B12
+- property: namespace
+  value: urn:pppa:cac:valdiba:0.2
+- property: rootElement
+  value: GovernmentDeclaration
+- property: identifiers
+  value: lv-dekl-GGGG-MM-DD; sadaļa .sNN; uzdevums .uNNN (nemainīgs); Task/@number = drukātais numurs

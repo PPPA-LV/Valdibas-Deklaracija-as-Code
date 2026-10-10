@@ -85,3 +85,9 @@ Pārbaudītājs ziņo `E` (kļūda), `W` (brīdinājums), `I` (informācija). Pa
 - Rīcības plāns ir salīdzināms arī tad, ja ailes atšķiras no pielikuma: `Metadata/Column` sasaista avota aili ar shēmas lauku.
 - Izpildes gaita ir laika rinda: viens ieraksts katrā pārskata periodā, ar pierādījumu (dokumenta numurs un datums, TA lieta).
 - Ārējie identifikatori ir saglabāti: TA lietas numurs, publikāciju sistēmas ID, NAP kodi.
+
+## Datu līgumi (ODCS)
+
+`contracts/*.odcs.yaml` — datu līgumi pēc Open Data Contract Standard v3, ģenerēti no XSD (shēma līgumā = shēma, pret kuru dati tiek validēti).
+Līgumā: objekti un lauki ar tipiem, obligātumu, šabloniem un aprakstiem no XSD; kvalitātes noteikumi; atjaunošanas biežums; turētājs.
+Datu ezers (lakehouse.weget.cc, „Valsts kā kods”) katru dienu ielādē datus kopā ar līgumu un pārbauda tos pret līgumu.

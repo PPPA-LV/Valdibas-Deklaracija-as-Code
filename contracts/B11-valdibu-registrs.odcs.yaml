@@ -1,0 +1,130 @@
+# ODCS v3 datu līgums: B11 Valdību reģistrs
+# Ģenerēts no schemas/cac-valdiba-kopejie-0.2.xsd (tools/xsd_to_odcs.py, lakehouse). Shēmas daļu nelabot ar roku — labot XSD un ģenerēt no jauna.
+apiVersion: v3.0.2
+kind: DataContract
+id: urn:pppa:cac:contract:B11
+name: Valdību reģistrs
+version: 0.2.0
+status: active
+domain: Valsts kā kods (Country as Code)
+dataProduct: Valdības deklarācijas datukopa
+tenant: PPP Asociācija (PPPA)
+description:
+  purpose: Valdības (lv-mk-GGGG-MM-DD) ar uzticības balsojuma datumu, Ministru prezidentu, deklarāciju un pilnvaru beigām.
+  usage: Mašīnlasāma datu apmaiņa; ielāde datu ezerā katru dienu.
+  limitations: ''
+servers:
+- server: processgit
+  type: custom
+  format: xml
+  description: ProcessGit repozitorijs (Gitea API v1)
+  customProperties:
+  - property: url
+    value: https://processgit.org/Country-as-Code/Valdibas-Deklaracija-as-Code
+  - property: ref
+    value: main
+  - property: path
+    value: data/valdibas.xml
+  - property: schema
+    value: https://processgit.org/Country-as-Code/Valdibas-Deklaracija-as-Code/src/branch/main/schemas/cac-valdiba-kopejie-0.2.xsd
+schema:
+- name: Government
+  logicalType: object
+  physicalType: xml-element
+  physicalName: Government
+  description: Valdība = Ministru kabinets, kam Saeima izteikusi uzticību. Ministru prezidenta maiņa = jauna valdība; atsevišķa ministra maiņa
+    — tā pati valdība.
+  properties:
+  - name: id
+    logicalType: string
+    required: true
+    logicalTypeOptions:
+      pattern: lv-mk-[0-9]{4}-[0-9]{2}-[0-9]{2}(-[2-9])?
+    description: 'Valdības (Ministru kabineta) identifikators: lv-mk-GGGG-MM-DD[-n], kur datums ir Saeimas uzticības balsojuma datums.'
+    primaryKey: true
+    unique: true
+  - name: Label
+    logicalType: string
+    required: true
+    logicalTypeOptions:
+      pattern: '[\s\S]*\S[\s\S]*'
+  - name: PrimeMinister
+    logicalType: string
+    required: true
+    logicalTypeOptions:
+      pattern: '[\s\S]*\S[\s\S]*'
+  - name: ConfidenceVote@date
+    logicalType: date
+    required: true
+  - name: ConfidenceVote@votesFor
+    logicalType: integer
+    required: false
+  - name: ConfidenceVote@votesAgainst
+    logicalType: integer
+    required: false
+  - name: Declaration
+    logicalType: string
+    required: false
+    logicalTypeOptions:
+      pattern: lv-dekl-[0-9]{4}-[0-9]{2}-[0-9]{2}(-[2-9])?
+  - name: ActionPlan
+    logicalType: string
+    required: false
+    logicalTypeOptions:
+      pattern: lv-(dekl|mk)-[0-9]{4}-[0-9]{2}-[0-9]{2}(-[2-9])?(\.[a-z]{1,2}[0-9]*(-[0-9]+)*)+
+  - name: TermEnd
+    logicalType: string
+    required: false
+    logicalTypeOptions:
+      pattern: '[\s\S]*\S[\s\S]*'
+    description: Pilnvaru beigas (nākamās valdības apstiprināšana vai cits notikums). Rīcības plāna termiņi nedrīkst to pārsniegt (kārtības ruļļa
+      pielikums, 9. aile).
+  - name: TermEnd@value
+    logicalType: string
+    required: false
+    logicalTypeOptions:
+      pattern: '[0-9]{4}(-[0-9]{2}(-[0-9]{2})?)?|P[0-9]+[DWMY]'
+    description: 'Mašīnlasāms datums vai periods: GGGG, GGGG-MM, GGGG-MM-DD vai ISO 8601 ilgums (P100D, P3M).'
+  - name: Note
+    logicalType: array
+    required: false
+    logicalTypeOptions:
+      pattern: '[\s\S]*\S[\s\S]*'
+    items:
+      logicalType: string
+  customProperties:
+  - property: lakehouseTable
+    value: cac_bronze.pg_government
+  - property: lakehouseTable
+    value: cac_silver.government
+quality:
+- name: xsd_valid
+  type: custom
+  engine: xsd
+  implementation: schemas/cac-valdiba-kopejie-0.2.xsd
+  description: Datne atbilst XSD shēmai; neatbilstoša datne tiek reģistrēta kā kļūda
+  dimension: conformity
+slaProperties:
+- property: frequency
+  value: 1
+  unit: d
+  element: pull ingest (cron 03:30 UTC)
+- property: retention
+  value: visas versijas (git vēsture)
+team:
+- role: owner
+  name: PPP Asociācija (PPPA)
+- role: data steward
+  name: PPP Asociācija (PPPA)
+support:
+- channel: issues
+  url: https://processgit.org/Country-as-Code/Valdibas-Deklaracija-as-Code/issues
+customProperties:
+- property: sourceId
+  value: B11
+- property: namespace
+  value: urn:pppa:cac:valdiba:0.2
+- property: rootElement
+  value: GovernmentRegistry
+- property: identifiers
+  value: lv-mk-GGGG-MM-DD (Saeimas uzticības balsojuma datums)
