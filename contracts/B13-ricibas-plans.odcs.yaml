@@ -216,6 +216,12 @@ quality:
   implementation: app.cac_processgit:measure_has_responsible_org
   description: Pasākumam norādīta atbildīgā institūcija ar CaC ID
   dimension: completeness
+- name: deadline_in_term
+  type: custom
+  engine: cac-lakehouse
+  implementation: app.cac_processgit:deadline_in_term
+  description: Termiņa datums ir valdības pilnvaru laikā (valdības gads … +4)
+  dimension: accuracy
 slaProperties:
 - property: frequency
   value: 1
