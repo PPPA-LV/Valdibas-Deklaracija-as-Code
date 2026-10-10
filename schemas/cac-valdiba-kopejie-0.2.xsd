@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
   Valdības deklarācijas datukopa — kopīgie tipi un valdību reģistrs, shēma v0.2
-  PPP Asociācija (PPPA), Country as Code. Melnraksts.
+  PPP Asociācija (PPPA), Valsts PirmKods. Melnraksts.
   Visu v0.2 shēmu saime lieto vienu vārdtelpu un šos tipus (xs:include).
 -->
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
@@ -54,7 +54,7 @@
     <xs:restriction base="xs:string"><xs:minLength value="1"/><xs:pattern value="[\s\S]*\S[\s\S]*"/></xs:restriction>
   </xs:simpleType>
   <xs:simpleType name="OrgId">
-    <xs:annotation><xs:documentation xml:lang="lv">Institūcijas identifikators — CaC ID — organizāciju reģistrā (organizacijas.xml): SS-IIII, kur SS — resora kods (2 cipari), IIII — institūcijas kods resorā (4 cipari).
+    <xs:annotation><xs:documentation xml:lang="lv">Institūcijas identifikators — VPK ID — organizāciju reģistrā (organizacijas.xml): SS-IIII, kur SS — resora kods (2 cipari), IIII — institūcijas kods resorā (4 cipari).
       Resora vadošā institūcija (ministrija, Valsts kanceleja, patstāvīga institūcija) — SS-0000, piemēram 20-0000 (Klimata un enerģētikas ministrija). Identifikatoru piešķir reģistra uzturētājs (Valsts kanceleja); to nemaina un atkārtoti neizmanto.</xs:documentation></xs:annotation>
     <xs:restriction base="xs:string"><xs:pattern value="[0-9]{2}-[0-9]{4}"/></xs:restriction>
   </xs:simpleType>

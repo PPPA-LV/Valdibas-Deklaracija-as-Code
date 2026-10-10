@@ -15,7 +15,7 @@ Valdībai, deklarācijai, tās sadaļām un uzdevumiem, pielikumiem un rīcības
 | Objekts | Forma | Datums | Piemērs |
 |---|---|---|---|
 | Valdība (Ministru kabinets) | `lv-mk-GGGG-MM-DD` | Saeimas uzticības balsojuma datums | `lv-mk-2026-05-28` |
-| Institūcija (CaC ID) | `SS-IIII` | — (resors + institūcija resorā; sk. 4.b) | `20-0000` (Klimata un enerģētikas ministrija), `15-0203` (VIAA) |
+| Institūcija (VPK ID) | `SS-IIII` | — (resors + institūcija resorā; sk. 4.b) | `20-0000` (Klimata un enerģētikas ministrija), `15-0203` (VIAA) |
 | Deklarācija | `lv-dekl-GGGG-MM-DD` | Datums dokumentā; ja tā nav vai tas nav pilns — uzticības balsojuma datums; ja balsojuma nav — iesniegšanas datums | `lv-dekl-2026-05-28` |
 
 - Ja vienā datumā ir divi vienāda veida objekti, otrajam pievieno `-2`, trešajam `-3` (līdz `-9`).
@@ -87,9 +87,9 @@ Uzdevumam ir divas paralēlas numerācijas:
 - Dzēsta uzdevuma identifikatoru atkārtoti neizmanto.
 - Projektā drukātais numurs un identifikators var atšķirties; pārbaudītājs to norāda kā informāciju. Iesniegtā deklarācijā (`status` nav `draft`) identifikators atbilst drukātajam numuram.
 
-## 4.b Institūcijas identifikators — CaC ID
+## 4.b Institūcijas identifikators — VPK ID
 
-CaC ID ir vienots, pastāvīgs identifikators katrai valsts institūcijai. To piešķir organizāciju reģistra (`organizacijas.xml`) uzturētājs — Valsts kanceleja. Reģistrs ir vienīgais institūciju identifikatoru avots; citās datnēs institūcijas norāda tikai ar šo identifikatoru.
+VPK ID ir vienots, pastāvīgs identifikators katrai valsts institūcijai. To piešķir organizāciju reģistra (`organizacijas.xml`) uzturētājs — Valsts kanceleja. Reģistrs ir vienīgais institūciju identifikatoru avots; citās datnēs institūcijas norāda tikai ar šo identifikatoru.
 
 | Daļa | Nozīme | Piemērs |
 |---|---|---|

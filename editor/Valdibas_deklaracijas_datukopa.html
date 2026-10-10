@@ -263,7 +263,7 @@ body.m-org .canvas{max-width:980px}
 <script type="text/xml" id="xsdCommon"><?xml version="1.0" encoding="UTF-8"?>
 <!--
   Valdības deklarācijas datukopa — kopīgie tipi un valdību reģistrs, shēma v0.2
-  PPP Asociācija (PPPA), Country as Code. Melnraksts.
+  PPP Asociācija (PPPA), Valsts PirmKods. Melnraksts.
   Visu v0.2 shēmu saime lieto vienu vārdtelpu un šos tipus (xs:include).
 -->
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
@@ -316,7 +316,7 @@ body.m-org .canvas{max-width:980px}
     <xs:restriction base="xs:string"><xs:minLength value="1"/><xs:pattern value="[\s\S]*\S[\s\S]*"/></xs:restriction>
   </xs:simpleType>
   <xs:simpleType name="OrgId">
-    <xs:annotation><xs:documentation xml:lang="lv">Institūcijas identifikators — CaC ID — organizāciju reģistrā (organizacijas.xml): SS-IIII, kur SS — resora kods (2 cipari), IIII — institūcijas kods resorā (4 cipari).
+    <xs:annotation><xs:documentation xml:lang="lv">Institūcijas identifikators — VPK ID — organizāciju reģistrā (organizacijas.xml): SS-IIII, kur SS — resora kods (2 cipari), IIII — institūcijas kods resorā (4 cipari).
       Resora vadošā institūcija (ministrija, Valsts kanceleja, patstāvīga institūcija) — SS-0000, piemēram 20-0000 (Klimata un enerģētikas ministrija). Identifikatoru piešķir reģistra uzturētājs (Valsts kanceleja); to nemaina un atkārtoti neizmanto.</xs:documentation></xs:annotation>
     <xs:restriction base="xs:string"><xs:pattern value="[0-9]{2}-[0-9]{4}"/></xs:restriction>
   </xs:simpleType>
@@ -422,7 +422,7 @@ body.m-org .canvas{max-width:980px}
 <script type="text/xml" id="xsdDecl"><?xml version="1.0" encoding="UTF-8"?>
 <!--
   Valdības deklarācijas datukopa — deklarācijas teksts (1. līmenis), shēma v0.2
-  PPP Asociācija (PPPA), Country as Code. Melnraksts.
+  PPP Asociācija (PPPA), Valsts PirmKods. Melnraksts.
 -->
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
            xmlns="urn:pppa:cac:valdiba:0.2"
@@ -592,7 +592,7 @@ body.m-org .canvas{max-width:980px}
 <script type="text/xml" id="xsdPlan"><?xml version="1.0" encoding="UTF-8"?>
 <!--
   Valdības deklarācijas datukopa — Valdības deklarācijas rīcības plāns, shēma v0.2
-  PPP Asociācija (PPPA), Country as Code. Melnraksts.
+  PPP Asociācija (PPPA), Valsts PirmKods. Melnraksts.
 -->
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
            xmlns="urn:pppa:cac:valdiba:0.2"
@@ -1584,7 +1584,7 @@ body.m-org .canvas{max-width:980px}
 <script type="text/xml" id="xsdOrg"><?xml version="1.0" encoding="UTF-8"?>
 <!--
   Valdības deklarācijas datukopa — Organizāciju reģistrs, shēma v0.2
-  PPP Asociācija (PPPA), Country as Code. Melnraksts.
+  PPP Asociācija (PPPA), Valsts PirmKods. Melnraksts.
 -->
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
            xmlns="urn:pppa:cac:valdiba:0.2"
@@ -1596,7 +1596,7 @@ body.m-org .canvas{max-width:980px}
 
   <xs:annotation>
     <xs:documentation xml:lang="lv">
-      Valsts institūciju reģistrs — vienīgais institūciju identifikatoru (CaC ID) avots valsts pārvaldē. Uzturētājs — Valsts kanceleja.
+      Valsts institūciju reģistrs — vienīgais institūciju identifikatoru (VPK ID) avots valsts pārvaldē. Uzturētājs — Valsts kanceleja.
       Rīcības plānā un citos datos atbildīgās un līdzatbildīgās institūcijas norāda ar šī reģistra identifikatoru, nevis ar saīsinājumu:
       saīsinājumi un nosaukumi mainās, identifikators nemainās.
       Numerācija: SS-IIII — resors SS (2 cipari) un institūcija resorā IIII (4 cipari). Resora vadošā institūcija (ministrija, Valsts kanceleja,
@@ -1693,7 +1693,7 @@ Valdībai, deklarācijai, tās sadaļām un uzdevumiem, pielikumiem un rīcības
 | Objekts | Forma | Datums | Piemērs |
 |---|---|---|---|
 | Valdība (Ministru kabinets) | `lv-mk-GGGG-MM-DD` | Saeimas uzticības balsojuma datums | `lv-mk-2026-05-28` |
-| Institūcija (CaC ID) | `SS-IIII` | — (resors + institūcija resorā; sk. 4.b) | `20-0000` (Klimata un enerģētikas ministrija), `15-0203` (VIAA) |
+| Institūcija (VPK ID) | `SS-IIII` | — (resors + institūcija resorā; sk. 4.b) | `20-0000` (Klimata un enerģētikas ministrija), `15-0203` (VIAA) |
 | Deklarācija | `lv-dekl-GGGG-MM-DD` | Datums dokumentā; ja tā nav vai tas nav pilns — uzticības balsojuma datums; ja balsojuma nav — iesniegšanas datums | `lv-dekl-2026-05-28` |
 
 - Ja vienā datumā ir divi vienāda veida objekti, otrajam pievieno `-2`, trešajam `-3` (līdz `-9`).
@@ -1765,9 +1765,9 @@ Uzdevumam ir divas paralēlas numerācijas:
 - Dzēsta uzdevuma identifikatoru atkārtoti neizmanto.
 - Projektā drukātais numurs un identifikators var atšķirties; pārbaudītājs to norāda kā informāciju. Iesniegtā deklarācijā (`status` nav `draft`) identifikators atbilst drukātajam numuram.
 
-## 4.b Institūcijas identifikators — CaC ID
+## 4.b Institūcijas identifikators — VPK ID
 
-CaC ID ir vienots, pastāvīgs identifikators katrai valsts institūcijai. To piešķir organizāciju reģistra (`organizacijas.xml`) uzturētājs — Valsts kanceleja. Reģistrs ir vienīgais institūciju identifikatoru avots; citās datnēs institūcijas norāda tikai ar šo identifikatoru.
+VPK ID ir vienots, pastāvīgs identifikators katrai valsts institūcijai. To piešķir organizāciju reģistra (`organizacijas.xml`) uzturētājs — Valsts kanceleja. Reģistrs ir vienīgais institūciju identifikatoru avots; citās datnēs institūcijas norāda tikai ar šo identifikatoru.
 
 | Daļa | Nozīme | Piemērs |
 |---|---|---|
@@ -3765,8 +3765,8 @@ function numHtml(o){ if (!o || !o.number) return "–"; let s = o.number + ".";
 function forkStats(m){ const f = m.meta.derivedFrom; if (!f) return null; const ts = tasksOf(m).filter(t => t.text.trim()), taken = new Set(ts.filter(t => t.from).map(t => t.from));
   const S = DOCS.src && declId(DOCS.src) === f ? tasksOf(DOCS.src).filter(t => t.text.trim()).length : null;
   return {taken: taken.size, added: ts.filter(t => !t.from).length, removed: S == null ? null : S - taken.size}; }
-/* CaC ID zīmes ar institūcijas nosaukumu */
-const cacChips = ids => " " + (ids || []).map(i => `<code class="cid" title="CaC ID ${esc(i)} — ${esc(ORGS[i] ? ORGS[i].name : "nav reģistrā")}">${esc(i)}</code>`).join(" ");
+/* VPK ID zīmes ar institūcijas nosaukumu */
+const cacChips = ids => " " + (ids || []).map(i => `<code class="cid" title="VPK ID ${esc(i)} — ${esc(ORGS[i] ? ORGS[i].name : "nav reģistrā")}">${esc(i)}</code>`).join(" ");
 /* rīcības plāna pasākumi pie uzdevuma */
 function measuresHtml(o){
   if (!o || !o.number) return "";
@@ -3884,7 +3884,7 @@ function cardHtml(k){
     row("Rīcības plāns", `<code>${esc(PLAN.meta.id)}</code> · ${esc(PLAN.meta.act)}`);
     row("Finansējums", m.funding === "additional" ? "nepieciešams papildu finansējums (2. pielikums)" : "rasts (1. pielikums)");
     row("Prioritārais pasākums", m.priority ? esc(m.priority) : "nē");
-    const orgList = ids => ids.length ? `<div class="ol">${ids.map(i => { const g = ORGS[i]; return `<div>CaC ID <code>${esc(i)}</code> ${esc(g ? g.name : "nav reģistrā")}</div>`; }).join("")}</div>` : "";
+    const orgList = ids => ids.length ? `<div class="ol">${ids.map(i => { const g = ORGS[i]; return `<div>VPK ID <code>${esc(i)}</code> ${esc(g ? g.name : "nav reģistrā")}</div>`; }).join("")}</div>` : "";
     row("Atbildīgā", esc(m.resp) + orgList(m.respOrgs)); if (m.co) row("Līdzatbildīgās", esc(m.co) + (m.coOrgs.length ? orgList(m.coOrgs) : `<div class="ol"><em>nav organizāciju reģistrā</em></div>`)); row("Termiņš", esc(m.deadline));
     row("Teksts", `burtiski, kā apstiprināts · ${m.text.length} rakstz.`);
     return `${head}${rows.join("")}<div class="foot">Identifikators = rīcības plāns (<code>rp</code>) + deklarācijas uzdevums (<code>u${pad(o.taskNo, 3)}</code>) + pasākuma numurs (<code>p${o.pos}</code>). Saite ar deklarāciju — atribūts <code>task</code>.</div>`; }
@@ -4149,7 +4149,7 @@ const STRUCT = [
   {n:"4", title:"Organizāciju reģistrs", sub:"uztur Valsts kanceleja · datu noliktavas dimensija „Organizācija”", schema:"organizaciju-registrs-0.2.xsd", tree:
    [["Valsts institūciju reģistrs", "OrganizationRegistry", "", "Viena datne visām institūcijām; uzturētājs — Valsts kanceleja.", [
      ["Resors", "Sector", "SS", "2 cipari: 03 Ministru kabinets, 20 Klimata un enerģētikas ministrija …; rezervētie 00 (amati, grupas), 90 pašvaldības, 91 kapitālsabiedrības, 92 atvasinātas publiskas personas, 93 biedrības.", null, "req"],
-     ["Institūcija", "Organization", "CaC ID: SS-IIII", "Resors + institūcija resorā; resora vadošā institūcija (ministrija) — SS-0000. Piešķir Valsts kanceleja; nemainās, ja mainās nosaukums vai saīsinājums. Reģistrācijas numurs, veids, augstākā institūcija, Valsts kases kods pa gadiem.", [
+     ["Institūcija", "Organization", "VPK ID: SS-IIII", "Resors + institūcija resorā; resora vadošā institūcija (ministrija) — SS-0000. Piešķir Valsts kanceleja; nemainās, ja mainās nosaukums vai saīsinājums. Reģistrācijas numurs, veids, augstākā institūcija, Valsts kases kods pa gadiem.", [
        ["Nosaukums", "Name", "", "Kā reģistrā.", null, "req"],
        ["Saīsinājums", "Abbreviation", "", "Kā to lieto dokumentos; var būt vairāki (SM, SAM)."],
        ["Iepriekšējais nosaukums", "FormerName", "", "Piemēram, VARAM līdz pārdēvēšanai."]], "core"]]]]}
@@ -4177,7 +4177,7 @@ function renderAbout(){
   const tile = (n, l) => `<div class="tile"><b>${n}</b><span>${l}</span></div>`;
   const govRows = GOVS.map(g => `<tr><td>${esc(g.label)}</td><td>${g.vote.split("-").reverse().join(".")}.</td><td><code>${g.id}</code></td><td><code>${g.decl}</code></td></tr>`).join("");
   $("ab").innerHTML = `
-  <p class="kicker">Country as Code · PPP Asociācija</p>
+  <p class="kicker">Valsts PirmKods · PPP Asociācija · koncepcijas demonstrācija</p>
   <h1>Valdības deklarācijas datukopa</h1>
   <p class="lead">Valdības deklarācija ir valdības svarīgākais politiskais dokuments. Datukopa to apraksta strukturētā veidā, lai deklarāciju varētu salīdzināt ar citām, sasaistīt ar rīcības plānu un izsekot, kas no apsolītā tiek darīts.</p>
   <div class="cta"><button class="act primary" data-go="src:read" type="button">Andra Kulberga vadītā Ministru kabineta deklarācija</button><button class="act" data-go="draft:edit" type="button">Jaunas deklarācijas projekts</button><button class="act" data-go="src:plan" type="button">Rīcības plāns</button><button class="act" data-go="schema" type="button">Shēmas</button></div>
@@ -4211,7 +4211,7 @@ function renderAbout(){
         <li>pašvaldības — Liepājas, Ventspils un Daugavpils pašvaldība, „pašvaldības”, „pašvaldību policijas”;</li>
         <li>sociālie partneri un nevalstiskās organizācijas — LTRK, LDDK, LPS, „NVO”, Latvijas Zvērinātu notāru padome.</li>
       </ul>
-      Nav vienota valsts institūciju reģistra ar pastāvīgiem identifikatoriem, tādēļ nav iespējams automātiski noteikt, kura institūcija atbild par pasākumu un kādi pasākumi ir katras institūcijas atbildībā. Risinājums — institūciju reģistrs ar CaC ID, ko uztur Valsts kanceleja (sadaļa „Organizācijas”).</li>
+      Nav vienota valsts institūciju reģistra ar pastāvīgiem identifikatoriem, tādēļ nav iespējams automātiski noteikt, kura institūcija atbild par pasākumu un kādi pasākumi ir katras institūcijas atbildībā. Risinājums — institūciju reģistrs ar VPK ID, ko uztur Valsts kanceleja (sadaļa „Organizācijas”).</li>
     <li><b>Termiņi daļēji nav datumi:</b> <span class="q">„Izpildes termiņš ir atkarīgs no sarunu procesa norises”</span>, <span class="q">„Pastāvīgi”</span>.</li>
     <li><b>Informāciju par izpildi iestādes iesniedz reizi mēnesī „excel formātā”</b> (rīkojuma 8. punkts) — bez kopīgiem pasākumu identifikatoriem, tādēļ pārskatus nevar automātiski sasaistīt ar plānu un deklarāciju.</li>
   </ul>
@@ -4286,11 +4286,11 @@ function renderAbout(){
     <li><b>Shēma</b> — skatīt shēmas un identifikatoru veidošanas noteikumus.</li>
     <li><b>Fails</b> — saglabāt XML datni (shēma v0.2) un eksportēt Word dokumentu.</li>
   </ul>
-  <p class="foot">PPP Asociācija (PPPA), Country as Code · shēmas v0.2, melnraksts · repozitorijs: processgit.org/Country-as-Code/Valdibas-Deklaracija-as-Code</p>`;
+  <p class="foot">PPP Asociācija (PPPA), Valsts PirmKods · PPPA koncepcijas demonstrācija, nav oficiāls valsts dokuments · shēmas v0.2, melnraksts · repozitorijs: processgit.org/Valsts-Pirmkods/Valdibas-Deklaracija-as-Code · dati VDZP: lakehouse.pppa.lv</p>`;
   $("ab").querySelectorAll("[data-go]").forEach(b => b.onclick = () => { const [d, m] = b.dataset.go.split(":"); if (m) { if (d === "draft" && !DOCS.draft) { blankDraft(); return; } cur = d; M = DOCS[d]; setMode(m); } else setMode(d); });
 }
 
-/* ======================================================= Organizācijas (CaC ID reģistrs) */
+/* ======================================================= Organizācijas (VPK ID reģistrs) */
 const KINDLV = {ministry:"ministrija", "pm-institution":"Valsts kanceleja", subordinate:"padotības iestāde", independent:"patstāvīga institūcija", office:"amats", group:"grupa", municipality:"pašvaldība", company:"kapitālsabiedrība", "public-person":"atvasināta publiska persona", association:"biedrība"};
 const NOT_IN_REGISTER = ["VDAA (7 pasākumos)", "LDVC (3)", "KVC", "LBAA", "LCRB", "LAAA", "LAS", "FLA", "BAC", "Latvijas Zvērinātu notāru padome", "„Rīcības grupa birokrātijas mazināšanai”", "„kapitāldaļu turētāji”"];
 let orgFilter = "";
@@ -4304,7 +4304,7 @@ function renderOrg(){
     rows.push(`<tr class="${i.endsWith("-0000") ? "head" : ""}"><td class="c"><code>${esc(i)}</code></td><td class="nm">${esc(o.name)}${o.former ? `<div class="k">iepriekš: ${esc(o.former)}</div>` : ""}<div class="k">${esc(KINDLV[o.kind] || o.kind)}${o.parent ? " · " + esc(o.parent) : ""}</div></td><td>${esc(o.abbr.join(", "))}</td><td class="c opt">${o.regNo ? esc(o.regNo) : (["office", "group"].includes(o.kind) ? "—" : `<span class="gap">jāpapildina</span>`)}</td><td class="c opt">${esc(o.budget.replace(/^\d+: /, ""))}</td><td class="n">${u ? `${u.r}${u.c ? ` + ${u.c}` : ""}` : ""}</td></tr>`); });
   $("org").innerHTML = `
   <h1>Valsts institūciju reģistrs</h1>
-  <p class="lead"><b>CaC ID</b> — vienots, pastāvīgs identifikators katrai valsts institūcijai. To lieto visās datu kopās: rīcības plānā, informācijā par izpildi, budžeta un citos datos.</p>
+  <p class="lead"><b>VPK ID</b> — vienots, pastāvīgs identifikators katrai valsts institūcijai. To lieto visās datu kopās: rīcības plānā, informācijā par izpildi, budžeta un citos datos.</p>
   <h2>Nepieciešamība</h2>
   <p><b>Valsts pārvaldē nav vienota institūciju reģistra ar pastāvīgiem identifikatoriem.</b> Institūcijas dokumentos tiek norādītas ar saīsinājumiem un nosaukumiem, kas mainās. Citi esošie kodi to neaizstāj:</p>
   <ul class="ul2">
@@ -4313,24 +4313,24 @@ function renderOrg(){
     <li>Valsts kases sarakstā ir tikai valsts budžeta iestādes — tajā nav pašvaldību, kapitālsabiedrību, augstskolu un sociālo partneru, kas ir atbildīgi par rīcības plāna pasākumiem.</li>
   </ul>
   <p>Ministru kabineta 2026. gada 27. jūlija rīkojumā Nr. 449 viena ministrija norādīta ar diviem saīsinājumiem („SM” un „SAM”), un vairākas institūcijas nav viennozīmīgi identificējamas. Tādēļ nav iespējams automātiski noteikt, kādi pasākumi ir katras institūcijas atbildībā.</p>
-  <p><b>Reģistru uztur Valsts kanceleja.</b> Valsts kanceleja koordinē valdības rīcības plāna izstrādi (Ministru kabineta iekārtas likuma 15. panta ceturtā daļa) un pārskatus par tā izpildi; reģistrs ir vienīgais CaC ID avots, un citās datu kopās institūcijas norāda tikai ar CaC ID.</p>
-  <h2>CaC ID uzbūve</h2>
+  <p><b>Reģistru uztur Valsts kanceleja.</b> Valsts kanceleja koordinē valdības rīcības plāna izstrādi (Ministru kabineta iekārtas likuma 15. panta ceturtā daļa) un pārskatus par tā izpildi; reģistrs ir vienīgais VPK ID avots, un citās datu kopās institūcijas norāda tikai ar VPK ID.</p>
+  <h2>VPK ID uzbūve</h2>
   <table class="tb"><tr><th>Daļa</th><th>Nozīme</th><th>Piemērs</th></tr>
     <tr><td><code>SS</code></td><td>Resors: ministrija vai cita centrālā valsts institūcija ar savu kodu</td><td><code>20</code> — Klimata un enerģētikas ministrija</td></tr>
     <tr><td><code>IIII</code></td><td>Institūcija resorā; resora vadošā institūcija — <code>0000</code></td><td><code>20-0000</code> — ministrija; <code>15-0203</code> — VIAA</td></tr></table>
   <ul class="ul2">
-    <li>Sākotnējie kodi ņemti no Valsts kases „Valsts budžeta iestāžu saraksta” (01.09.2023). Turpmāk CaC ID piešķir Valsts kanceleja neatkarīgi no gadskārtējā budžeta; Valsts kases kodi glabājas kā sasaiste pa gadiem.</li>
+    <li>Sākotnējie kodi ņemti no Valsts kases „Valsts budžeta iestāžu saraksta” (01.09.2023). Turpmāk VPK ID piešķir Valsts kanceleja neatkarīgi no gadskārtējā budžeta; Valsts kases kodi glabājas kā sasaiste pa gadiem.</li>
     <li>Rezervētie resori: <code>00</code> — amati un institūciju grupas; <code>90</code> — pašvaldības; <code>91</code> — valsts kapitālsabiedrības; <code>92</code> — atvasinātas publiskas personas; <code>93</code> — biedrības un sociālie partneri.</li>
-    <li>CaC ID nemaina un atkārtoti neizmanto. Ja institūciju pārceļ uz citu resoru vai apvieno, tai piešķir jaunu CaC ID; iepriekšējais norāda uz pēcteci.</li>
+    <li>VPK ID nemaina un atkārtoti neizmanto. Ja institūciju pārceļ uz citu resoru vai apvieno, tai piešķir jaunu VPK ID; iepriekšējais norāda uz pēcteci.</li>
     <li>Ārpus datu kopas — <code>urn:lv:gov:org:20-0000</code>.</li>
   </ul>
   <h2>Reģistrs</h2>
   <div class="tiles">${tile(n, "ieraksti")}${tile(Object.keys(SECTORS).length, "resori")}${tile(ids.filter(i => ORGS[i].kind === "ministry").length, "ministrijas")}${tile(Object.keys(use).length, "institūcijas rīcības plānā")}${tile(noReg, "bez reģistrācijas numura")}${tile(NOT_IN_REGISTER.length, "plānā minētas, bet nav reģistrā")}</div>
-  <div class="tools"><input type="search" id="orgQ" placeholder="Meklēt: CaC ID, nosaukums, saīsinājums, reģistrācijas numurs" value="${esc(orgFilter)}"><button class="act" id="bOrgXml" type="button">Lejupielādēt XML</button><button class="act" id="bOrgXsd" type="button">Shēma (XSD)</button></div>
-  <table class="tb"><tr><th>CaC ID</th><th>Nosaukums</th><th>Saīsinājums</th><th class="opt">Reģ. Nr.</th><th class="opt">Valsts kase 2023</th><th class="n">Pasākumi</th></tr>${rows.join("")}</table>
+  <div class="tools"><input type="search" id="orgQ" placeholder="Meklēt: VPK ID, nosaukums, saīsinājums, reģistrācijas numurs" value="${esc(orgFilter)}"><button class="act" id="bOrgXml" type="button">Lejupielādēt XML</button><button class="act" id="bOrgXsd" type="button">Shēma (XSD)</button></div>
+  <table class="tb"><tr><th>VPK ID</th><th>Nosaukums</th><th>Saīsinājums</th><th class="opt">Reģ. Nr.</th><th class="opt">Valsts kase 2023</th><th class="n">Pasākumi</th></tr>${rows.join("")}</table>
   <p class="small">„Pasākumi” — rīcības plāna pasākumi, kuros institūcija ir atbildīgā (+ līdzatbildīgā). Valsts budžeta iestāžu nosaukumi — kā Valsts kases sarakstā.</p>
   <h2>Rīcības plānā minētas, bet reģistrā nav</h2>
-  <p>${NOT_IN_REGISTER.map(esc).join(", ")}. Šīm institūcijām nepieciešams noskaidrot juridisko statusu un reģistrācijas numuru; pēc tam Valsts kanceleja piešķir CaC ID.</p>
+  <p>${NOT_IN_REGISTER.map(esc).join(", ")}. Šīm institūcijām nepieciešams noskaidrot juridisko statusu un reģistrācijas numuru; pēc tam Valsts kanceleja piešķir VPK ID.</p>
   <h2>Shēma</h2>
   <details><summary>organizaciju-registrs-0.2.xsd</summary><pre class="xml">${esc(XSD_ORG)}</pre></details>`;
   const q = $("orgQ"); q.oninput = () => { orgFilter = q.value; const pos = q.selectionStart; renderOrg(); const q2 = $("orgQ"); q2.focus(); try { q2.setSelectionRange(pos, pos); } catch (e) {} };
@@ -4347,7 +4347,7 @@ function renderSchema(){
   <table><tr><th>Datne</th><th>Saturs</th><th>Shēma</th><th>Piemērs</th></tr>
     <tr><td><b>Deklarācija</b></td><td>Deklarācijas teksts burtiski, kā parakstīts: sadaļas, uzdevumi, parakstītāji, pielikumi.</td><td><code>valdibas-deklaracija-0.2.xsd</code></td><td><code>lv-dekl-2026-05-28.xml</code></td></tr>
     <tr><td><b>Valdības deklarācijas rīcības plāns</b></td><td>Ministru kabineta rīkojums: pasākumi, darbības rezultāti, atbildīgās institūcijas, termiņi, izpildes gaita. Katrs pasākums norāda deklarācijas uzdevuma identifikatoru.</td><td><code>valdibas-deklaracijas-ricibas-plans-0.2.xsd</code></td><td><code>lv-mk-2026-05-28.rp.xml</code></td></tr>
-    <tr><td><b>Organizāciju reģistrs</b></td><td>Valsts institūcijas: CaC ID — SS-IIII (resors + institūcija), reģistrācijas numurs, nosaukums, saīsinājumi, resors, augstākā iestāde. Uztur Valsts kanceleja.</td><td><code>organizaciju-registrs-0.2.xsd</code></td><td><code>organizacijas.xml</code></td></tr>
+    <tr><td><b>Organizāciju reģistrs</b></td><td>Valsts institūcijas: VPK ID — SS-IIII (resors + institūcija), reģistrācijas numurs, nosaukums, saīsinājumi, resors, augstākā iestāde. Uztur Valsts kanceleja.</td><td><code>organizaciju-registrs-0.2.xsd</code></td><td><code>organizacijas.xml</code></td></tr>
     <tr><td><b>Valdību reģistrs</b></td><td>Valdības: uzticības balsojums, deklarācija, rīcības plāns, pilnvaru beigas. Šajā shēmā ir arī kopīgie tipi — identifikatoru un datumu formāts —, ko izmanto pārējās shēmas.</td><td><code>cac-valdiba-kopejie-0.2.xsd</code></td><td><code>valdibas.xml</code></td></tr></table>
   <p class="sm">Katras datnes pirmajā (saknes) elementā norādīta vārdtelpa <code>${NS}</code>: tā nosaka, ka datne atbilst shēmu 0.2 versijai. Saknes elements nosaka datnes veidu: <code>GovernmentDeclaration</code>, <code>GovernmentActionPlan</code>, <code>OrganizationRegistry</code>, <code>GovernmentRegistry</code>.</p>
   <p><button class="act primary" id="bSchemaZip" type="button">Lejupielādēt shēmas un noteikumus (ZIP)</button></p>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
   Valdības deklarācijas datukopa — Organizāciju reģistrs, shēma v0.2
-  PPP Asociācija (PPPA), Country as Code. Melnraksts.
+  PPP Asociācija (PPPA), Valsts PirmKods. Melnraksts.
 -->
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
            xmlns="urn:pppa:cac:valdiba:0.2"
@@ -13,7 +13,7 @@
 
   <xs:annotation>
     <xs:documentation xml:lang="lv">
-      Valsts institūciju reģistrs — vienīgais institūciju identifikatoru (CaC ID) avots valsts pārvaldē. Uzturētājs — Valsts kanceleja.
+      Valsts institūciju reģistrs — vienīgais institūciju identifikatoru (VPK ID) avots valsts pārvaldē. Uzturētājs — Valsts kanceleja.
       Rīcības plānā un citos datos atbildīgās un līdzatbildīgās institūcijas norāda ar šī reģistra identifikatoru, nevis ar saīsinājumu:
       saīsinājumi un nosaukumi mainās, identifikators nemainās.
       Numerācija: SS-IIII — resors SS (2 cipari) un institūcija resorā IIII (4 cipari). Resora vadošā institūcija (ministrija, Valsts kanceleja,

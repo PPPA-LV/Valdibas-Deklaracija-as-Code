@@ -1,5 +1,10 @@
 # Izmaiņas
 
+## 0.2.2 — 2026-10-10
+
+- Jauni nosaukumi: projekts **Valsts PirmKods** (iepriekš „Country as Code”), institūcijas identifikators **VPK ID** (iepriekš „CaC ID”; formāts `SS-IIII` nemainās). Mainīts redaktorā, shēmu aprakstos un `docs/IDENTIFIKATORI.md`. Vārdtelpa `urn:pppa:cac:valdiba:0.2` un shēmu datņu nosaukumi nemainās.
+- Redaktors: norāde, ka tā ir PPPA koncepcijas demonstrācija, nevis oficiāls valsts dokuments; repozitorija adrese `processgit.org/Valsts-Pirmkods/…`; saite uz VDZP (lakehouse.pppa.lv).
+
 ## 0.2.1 — 2026-10-10
 
 - Jauns deklarācijas projekts `data/lv-dekl-2026-10-10.xml` no PPPA Latvijas Nacionālās MI stratēģijas (`pppa-mis-2026-09-10`, v2.2): vīzija — ievads, īstenošanas principi — principi, pīlāri — nodaļas, mērķi — apakšnodaļas ar `Goal`, rīcības — uzdevumi `u053`–`u079` (uNNN = 052 + rīcības numurs). No `lv-dekl-2026-05-28` pārņemti `u015`, `u021`, `u039`. Teksts burtiski.
