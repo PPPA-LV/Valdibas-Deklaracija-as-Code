@@ -2,6 +2,7 @@
 
 ## 0.2.2 — 2026-10-10
 
+- Redaktors: „Jaunas deklarācijas projekts” atveras ar PPPA projektu `lv-dekl-2026-10-10` (27 uzdevumi no PPPA MI stratēģijas, 3 pārņemti no `lv-dekl-2026-05-28`), nevis tukšu projektu. Izvēlnē „Fails”: „Atjaunot: PPPA MI stratēģijas projekts”, „Jauns tukšs projekts”; importējot esošu deklarāciju, vienmēr jautā apstiprinājumu.
 - Jauni nosaukumi: projekts **Valsts PirmKods** (iepriekš „Country as Code”), institūcijas identifikators **VPK ID** (iepriekš „CaC ID”; formāts `SS-IIII` nemainās). Mainīts redaktorā, shēmu aprakstos un `docs/IDENTIFIKATORI.md`. Vārdtelpa `urn:pppa:cac:valdiba:0.2` un shēmu datņu nosaukumi nemainās.
 - Redaktors: norāde, ka tā ir PPPA koncepcijas demonstrācija, nevis oficiāls valsts dokuments; repozitorija adrese `processgit.org/Valsts-Pirmkods/…`; saite uz VDZP (lakehouse.pppa.lv).
 
